@@ -15,8 +15,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 715
-ht-degree: 100%
+source-wordcount: 717
+ht-degree: 94%
 
 ---
 
@@ -60,7 +60,7 @@ Se um visitante executar qualquer uma dessas ações, uma nova visita **não** s
 
 ## Visitas que abrangem um limite de data
 
-Uma visita conta para cada período envolvido. Por exemplo, se um visitante começar a navegar no seu site na segunda-feira às 23:45h, e enviar sua última solicitação de imagem na terça-feira à 0:10h, você verá uma visita atribuída tanto à segunda-feira quanto à terça-feira. No entanto, a métrica de visita total é desduplicada, mostrando uma única visita para o intervalo de datas do projeto.
+Uma visita conta para cada período envolvido. Por exemplo, se você tiver um visitante que começa a navegar no seu site na segunda-feira às 11h45, em seguida, envia sua última solicitação de imagem na terça-feira às 12h10, você verá uma visita atribuída tanto à segunda quanto à terça-feira. No entanto, a métrica de visita total é desduplicada, mostrando uma única visita para o intervalo de datas do projeto.
 
 ## Visitas em uma dimensão em relação ao total de visita
 

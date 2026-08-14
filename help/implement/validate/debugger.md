@@ -94,7 +94,7 @@ Navegue até a página desejada no site e clique no bookmarklet. Uma janela pop-
 
 O depurador tem várias opções disponíveis, todas personalizam como os dados são exibidos. Nenhuma dessas opções afeta a coleta de dados.
 
-* **[!UICONTROL Produtos do Experience Cloud exibidos]**: mostra ou oculta solicitações de imagem de cada produto do CX Enterprise.
+* **[!UICONTROL Produtos da Experience Cloud exibidos]**: mostra ou oculta solicitações de imagem de cada produto do CX Enterprise.
 * **[!UICONTROL Decodificação de URL]**: a URL decodifica a solicitação de imagem para corresponder ao que é exibido no relatório. A Adobe recomenda deixar essa caixa marcada.
 * **[!UICONTROL Atualização Automática]**: atualiza automaticamente a pop-up a cada poucos segundos para verificar se há mais solicitações de imagem na página. Se precisar copiar/colar o conteúdo no depurador, desative a atualização automática para que a seleção seja mantida.
 * **[!UICONTROL Formato Amigável]**: alterna o formato de exibição entre rótulos úteis e cadeias de consulta brutas em uma solicitação de imagem. Consulte [Parâmetros de consulta de coleta de dados](query-parameters.md) para obter mais informações.

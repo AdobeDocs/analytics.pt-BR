@@ -50,9 +50,9 @@ Cada regra de processamento contém as seguintes seções:
 * **Título da regra**: o rótulo da regra. Ela não afeta a lógica da regra de processamento, mas é importante para ajudar a rastrear o que a regra faz.
 * **Condição**: exibida como o texto, &quot;[!UICONTROL Se qualquer/todos os itens a seguir forem verdadeiros]&quot;. Se você não incluir uma condição, a regra sempre será executada em cada ocorrência.
 * **Ação**: se nenhuma condição existir, o texto será mostrado como, &quot;[!UICONTROL Sempre executar]&quot;. Se existir uma condição, o texto será mostrado como &quot;[!UICONTROL Faça o seguinte]&quot;. Se a condição acima for avaliada como `true`, cada ação listada nesta seção possivelmente será executada. Além da condição de uma regra, você pode _também_ anexar condições a ações individuais. As seguintes ações estão disponíveis:
-   * **[!UICONTROL Substituir valor de]**: substitui a variável desejada por outra variável, um valor estático ou um valor concatenado.
-   * **[!UICONTROL Excluir valor de]**: exclui o valor de variável desejado para essa ocorrência.
-   * **[!UICONTROL Definir evento]**: aciona o evento desejado. Normalmente, você define eventos com um valor personalizado de `1`; a definição de eventos com valores diferentes de `1` ou até mesmo a definição deles como valores definidos em variáveis de dados de contexto também é permitida.
+  * **[!UICONTROL Substituir valor de]**: substitui a variável desejada por outra variável, um valor estático ou um valor concatenado.
+  * **[!UICONTROL Excluir valor de]**: exclui o valor de variável desejado para essa ocorrência.
+  * **[!UICONTROL Definir evento]**: aciona o evento desejado. Normalmente, você define eventos com um valor personalizado de `1`; a definição de eventos com valores diferentes de `1` ou até mesmo a definição deles como valores definidos em variáveis de dados de contexto também é permitida.
 * **Ação de outra forma**: se existir uma condição, esta seção aparecerá como, &quot;[!UICONTROL Caso contrário, faça o seguinte]&quot;. Se a condição acima for avaliada como `false`, cada ação listada nesta seção possivelmente será executada. Esta seção segue as mesmas ações de regra descritas acima, incluindo a capacidade de substituir valores, excluir valores e definir eventos.
 * **Motivo**: registre quem solicitou a regra e do que ela depende. Ela não afeta a lógica da regra de processamento, mas é importante para ajudar a acompanhar por que a regra existe.
 

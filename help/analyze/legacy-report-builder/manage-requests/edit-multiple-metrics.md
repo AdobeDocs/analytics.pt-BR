@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 598
+source-wordcount: 594
 ht-degree: 6%
 
 ---
@@ -50,12 +50,12 @@ Para adicionar uma ou mais métricas
 
 Ao substituir métricas, considere as seguintes diretrizes:
 
-* Somente 1:1 substituições são permitidas. 1:many ou muitos:1 não são permitidos.
+* Somente substituições 1:1 são permitidas. 1:many ou muitos:1 não são permitidos.
 * Se a métrica selecionada não estiver presente em uma das solicitações selecionadas, a solicitação será deixada inalterada.
 * A nova métrica é colocada no mesmo local que a métrica substituída.
 
-   * **Em um Layout Dinâmico**, se uma solicitação de layout dinâmico gerar datas, visitas, visitantes, dados exclusivos diários e *visitantes* for substituída por *receitas*, o layout atualizado da solicitação será: data, visita, receita e dados exclusivos diários.
-   * **Em um Layout Personalizado**, se a métrica *visitantes* foi gerada na célula F11, o layout de solicitação atualizado mostrará *receita* na mesma célula F11.
+  * **Em um Layout Dinâmico**, se uma solicitação de layout dinâmico gerar datas, visitas, visitantes, dados exclusivos diários e *visitantes* for substituída por *receitas*, o layout atualizado da solicitação será: data, visita, receita e dados exclusivos diários.
+  * **Em um Layout Personalizado**, se a métrica *visitantes* foi gerada na célula F11, o layout de solicitação atualizado mostrará *receita* na mesma célula F11.
 
 * Se a métrica substituída tiver alguma operação aplicada a ela (média, texto pré-pendente, texto pós-pendente, micrográfico), essas operações também serão aplicadas à nova métrica.
 

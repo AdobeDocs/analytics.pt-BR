@@ -63,8 +63,8 @@ Quando um item de dimensão escapa do bucket [!UICONTROL Tráfego baixo], as ins
 * A ID do conjunto de relatórios
 * A dimensão para a qual você deseja aumentar o limite
 * O primeiro e o segundo limites desejados:
-   * O primeiro limite (classificação inicial) é definido como **2.000.000** por padrão.
-   * O segundo limite (filtragem mais agressiva) está definido como **2,100,000** por padrão.
+  * O primeiro limite (classificação inicial) é definido como **2.000.000** por padrão.
+  * O segundo limite (filtragem mais agressiva) está definido como **2,100,000** por padrão.
 
 >[!IMPORTANT]
 >
@@ -79,5 +79,5 @@ Recursos diferentes tratam valores de [!UICONTROL Tráfego baixo] de maneiras di
 * **Data Warehouse:** na maioria dos casos, não há limite para o número de valores únicos nos relatórios do Data Warehouse. Sua arquitetura exclusiva permite o relatório de qualquer número de valores únicos. No entanto, os valores [!UICONTROL Tráfego baixo] ainda podem aparecer em alguns cenários limitados. Os exemplos incluem variáveis de lista, props de lista, eVars de merchandising e dimensões detalhadas de canal de marketing.
 * **Segmentação:** se os critérios do segmento incluírem uma dimensão com um número alto de valores únicos, os valores capturados em [!UICONTROL Tráfego baixo] não serão incluídos.
 * **Classificações:** os relatórios de classificação também estão sujeitos a limites únicos. Se um item de dimensão principal de uma classificação for incluído em [!UICONTROL Tráfego baixo], o valor não será classificado.
-   * Valores de [!UICONTROL Tráfego baixo] classificados por meio do importador podem ser visualizados no Data Warehouse. <!-- AN-115871 -->
-   * Valores de [!UICONTROL Tráfego baixo] classificados por meio do construtor de regras *não podem* ser exibidos no Data Warehouse. <!-- AN-122872 -->
+  * Valores de [!UICONTROL Tráfego baixo] classificados por meio do importador podem ser visualizados no Data Warehouse. <!-- AN-115871 -->
+  * Valores de [!UICONTROL Tráfego baixo] classificados por meio do construtor de regras *não podem* ser exibidos no Data Warehouse. <!-- AN-122872 -->

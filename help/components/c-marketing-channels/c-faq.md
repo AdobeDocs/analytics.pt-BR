@@ -121,19 +121,19 @@ A seguir, um exemplo de Interno (atualização de sessão) sendo definido como c
 
 * **Os dados do Canal de marketing são coletados em tempo real**: os dados do canal de marketing são processados após a coleta de dados e são 100% permanentes. A alteração das regras de processamento não afeta os dados retroativamente.
 * **A alteração das regras de processamento não afeta imediatamente os dados de primeiro contato**: Por exemplo:
-   1. Um usuário entra por meio de seu canal de email porque ele foi configurado incorretamente e, em seguida, sai do site.
-   2. No dia seguinte, você altera a regra de processamento de email para corrigi-la.
-   3. Esse usuário volta vários dias depois por meio de uma pesquisa natural e faz uma compra.
-   4. O canal de email recebe o crédito de Primeiro contato e a pesquisa natural recebe o crédito de Último contato.
+  1. Um usuário entra por meio de seu canal de email porque ele foi configurado incorretamente e, em seguida, sai do site.
+  2. No dia seguinte, você altera a regra de processamento de email para corrigi-la.
+  3. Esse usuário volta vários dias depois por meio de uma pesquisa natural e faz uma compra.
+  4. O canal de email recebe o crédito de Primeiro contato e a pesquisa natural recebe o crédito de Último contato.
 
   Mesmo vários dias depois de alterar as regras de processamento, os dados ainda poderão ser coletados no canal de primeiro contato incorreto. Os dados do primeiro contato são continuamente coletados no canal incorreto até que o engajamento do visitante do usuário expire.
 
 A melhor maneira de corrigir essas discrepâncias é realizar uma ou ambas as ações a seguir:
 
 * **Expirar manualmente todos os períodos de engajamento do visitante**: essa configuração expira instantaneamente todos os canais de primeiro e último contato em todos os visitantes:
-   1. Acesse Ferramentas administrativas > Conjuntos de relatórios.
-   2. Passe o mouse sobre Configurações de edição de imagem > Canais de marketing > Expiração de engajamento do visitante
-   3. Clique em Expirar tudo.
-   4. Clique em OK na janela pop-up de aviso, reconhecendo que você entende o que ela fará.
+  1. Acesse Ferramentas administrativas > Conjuntos de relatórios.
+  2. Passe o mouse sobre Configurações de edição de imagem > Canais de marketing > Expiração de engajamento do visitante
+  3. Clique em Expirar tudo.
+  4. Clique em OK na janela pop-up de aviso, reconhecendo que você entende o que ela fará.
 
 * **Visualizar apenas as métricas de último contato a partir do momento em que corrigiu suas regras**: as métricas de Último contato sempre seguem o conjunto de regras atual. A visualização do momento em que você alterou as regras de processamento reflete as regras de processamento mais atuais.

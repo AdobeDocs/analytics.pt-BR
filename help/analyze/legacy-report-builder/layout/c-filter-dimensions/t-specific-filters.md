@@ -44,8 +44,8 @@ Você pode pesquisar por itens de dimensão específicos criando um filtro que c
 1. Ative uma das seguintes opções Específicas:
 
    * **De Intervalo de Células:** Permite selecionar dados de células. Você pode selecionar:
-      * **Todas as células do intervalo:** Permite mapear cada célula para o intervalo. Texto descritivo explica quantos grupos de células precisam ser selecionados. Para mapear mais de um grupo de células, pressione a tecla ctrl enquanto faz as seleções sucessivas. Se o intervalo que deve ser mapeado contiver apenas uma célula, esta será a única opção disponível
-      * **Primeira Célula do Intervalo:** Você só precisa selecionar a célula superior esquerda do intervalo e escolher uma direção para os dados. Além disso, se a solicitação tiver vários períodos, você escolhe a direção dos períodos e escolhe se deseja ignorar um número definido de células entre períodos.
+     * **Todas as células do intervalo:** Permite mapear cada célula para o intervalo. Texto descritivo explica quantos grupos de células precisam ser selecionados. Para mapear mais de um grupo de células, pressione a tecla ctrl enquanto faz as seleções sucessivas. Se o intervalo que deve ser mapeado contiver apenas uma célula, esta será a única opção disponível
+     * **Primeira Célula do Intervalo:** Você só precisa selecionar a célula superior esquerda do intervalo e escolher uma direção para os dados. Além disso, se a solicitação tiver vários períodos, você escolhe a direção dos períodos e escolhe se deseja ignorar um número definido de células entre períodos.
    * **Da Lista:** Permite selecionar dados de uma lista à qual você pode adicionar dados.
 1. Se você habilitar **[!UICONTROL A partir da lista]**, selecione quaisquer itens listados disponíveis ou clique em **[!UICONTROL Adicionar]**.
 

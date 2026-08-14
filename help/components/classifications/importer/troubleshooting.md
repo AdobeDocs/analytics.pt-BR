@@ -33,8 +33,8 @@ Os problemas mais comuns ao fazer upload de dados de classificação para a Adob
 As classificações requerem um tipo e um formato específicos de arquivo para que o upload seja feito com êxito. Caso tenha sido salvo incorretamente, retornará um erro e nenhuma linha será processada. O erro retornado frequentemente é *“A primeira coluna deve ser a chave”*, mas podem ocorrer vários outros erros. Verifique o seguinte:
 
 * **Fazer upload de uma planilha (.xlsx) em vez de um arquivo .tab ou .txt**: você pode receber a mensagem de erro *&quot;A primeira coluna deve ser a chave&quot;* ao fazer upload de arquivos de classificação em um formato incorreto. O importador de classificação não sabe como lidar com arquivos .xls ou .xlsx. Na caixa de diálogo “Salvar como” no Excel, defina o tipo correto de Salvar como:
-   * No Windows, use o formato de arquivo `Text (Tab delimited) (*.txt)`
-   * No Mac, use o formato de arquivo `Windows Formatted Text`.
+  * No Windows, use o formato de arquivo `Text (Tab delimited) (*.txt)`
+  * No Mac, use o formato de arquivo `Windows Formatted Text`.
 * **Alteração da extensão do nome do arquivo após salvá-lo como uma pasta de trabalho**: a tentativa de renomear diretamente uma extensão de arquivo gera uma pasta de trabalho inválida. Use apenas a função Salvar como do Excel ou edite as classificações em um editor de texto como o Notepad ++.
 * **Uso de extensões em letras maiúsculas**: as extensões em letras maiúsculas (como `fileupload.TXT`) não funcionam. Renomeie o arquivo com uma extensão em letras minúsculas (`fileupload.txt`).
 * **Codificação de caractere incompatível**: verifique se a codificação do upload de classificação salvo corresponde à codificação original quando o modelo foi baixado. Se você carregar um arquivo UTF-16 quando ele foi originalmente codificado em UTF-8, os uploads produzirão resultados inesperados. A Adobe recomenda fazer upload de arquivos usando UTF-8 sem marcas de ordem de byte.
@@ -50,8 +50,8 @@ Se o arquivo de upload estiver formatado corretamente, o carregador tentará imp
 * **Guias adicionais no arquivo carregado**: certas vezes, ao editar os arquivos de classificação, uma guia adicional pode ser incluída acidentalmente. Cada linha requer um número idêntico de guias para ser processada corretamente. Para verificar se há guias extras no arquivo, realce todo o texto em um editor de texto simples e verifique se nenhuma linha tem espaço extra no final.
 * **Existem valores principais duplicados no arquivo**: cada valor principal pode ter somente uma classificação por coluna. Se você tentar classificar o mesmo valor várias vezes, o importador emitirá um erro.
 * **Existem subclassificações configuradas incorretamente**: se houver subclassificações, verifique o seguinte:
-   * Todos os valores de subclassificação têm um valor de classificação principal
-   * Nenhuma subclassificação faz referência ao mesmo valor de classificação principal
+  * Todos os valores de subclassificação têm um valor de classificação principal
+  * Nenhuma subclassificação faz referência ao mesmo valor de classificação principal
 * **Incompatibilidade de coluna**: você poderá receber a mensagem de erro *&quot;A chave na linha tem muitas colunas&quot;* se houver um número inválido de colunas em uma linha específica. Por exemplo, você tem três colunas em seu upload de classificação e a variável tem apenas uma única classificação. Valide o arquivo de upload para garantir que o número de colunas não seja maior do que o número de classificações configuradas para essa variável.
 
 ## Solução de problemas de importações de FTP

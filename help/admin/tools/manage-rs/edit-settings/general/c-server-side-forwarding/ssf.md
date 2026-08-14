@@ -66,12 +66,12 @@ Na guia &quot;Resposta&quot;, verifique se a resposta contém dados do Audience 
 * O **&quot;status&quot;:&quot;SUCCESS&quot;**: você tem o módulo de Gerenciamento de público-alvo implementado, mas o encaminhamento pelo lado do servidor não foi configurado corretamente. Prossiga para a etapa 3.
 * Uma imagem **2 x 2**: você não tem encaminhamento pelo lado do servidor ou o Módulo de Gerenciamento de Público-Alvo implementado. Para corrigir isso:
 
-   * **Clientes do Adobe Audience Manager com DIL**: coordene os 2 seguintes itens em conjunto:
+  * **Clientes do Adobe Audience Manager com DIL**: coordene os 2 seguintes itens em conjunto:
 
-      1. Remova o código DIL e instale o código de página do [Módulo de Gerenciamento de Público-Alvo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=pt-BR).
-      1. Ative o encaminhamento pelo lado do servidor na interface do administrador do Analytics, conforme descrito na etapa 3. Ativar essa configuração antes de remover o código DIL duplicará os dados e criará chamadas de servidor faturadas adicionais para o Audience Manager.
+    1. Remova o código DIL e instale o código de página do [Módulo de Gerenciamento de Público-Alvo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=pt-BR).
+    1. Ative o encaminhamento pelo lado do servidor na interface do administrador do Analytics, conforme descrito na etapa 3. Ativar essa configuração antes de remover o código DIL duplicará os dados e criará chamadas de servidor faturadas adicionais para o Audience Manager.
 
-   * **Novos(as) clientes do Adobe Audience Manager**: instale o código de página do [Módulo de gerenciamento de público-alvo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=pt-BR) e avance para a etapa 3. Os dados não serão enviados ao Audience Manager até que o encaminhamento pelo lado do servidor seja ativado na etapa 3.
+  * **Novos(as) clientes do Adobe Audience Manager**: instale o código de página do [Módulo de gerenciamento de público-alvo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=pt-BR) e avance para a etapa 3. Os dados não serão enviados ao Audience Manager até que o encaminhamento pelo lado do servidor seja ativado na etapa 3.
 
 ## ![step3_icon.png imagem](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png) Verificar a implementação do encaminhamento pelo lado do servidor do conjunto de relatórios
 

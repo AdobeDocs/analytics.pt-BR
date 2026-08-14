@@ -34,7 +34,7 @@ A [dimensão](overview.md) de &quot;Referenciador&quot; relata em quais URLs os 
 
 >[!IMPORTANT]
 >
->Você deve configurar os [Filtros de URL internos](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) do conjunto de relatórios para utilizar essa dimensão. Falhas ao configurar filtros de URL internos podem incluir URLs internos ou impedir que URLs externos apareçam.
+>Você deve configurar os [filtros de URL internos](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) do conjunto de relatórios para utilizar essa dimensão. Falhas ao configurar filtros de URL internos podem incluir URLs internos ou impedir que URLs externos apareçam.
 
 O mesmo relatório pode mostrar resultados diferentes entre o Analysis Workspace e o Data Warehouse. O Analysis Workspace informa o referenciador de cada página individual, excluindo valores que correspondem a filtros internos de URL. O Data Warehouse informa somente o primeiro referenciador da visita e ignora filtros internos de URL.
 

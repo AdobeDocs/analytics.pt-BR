@@ -18,7 +18,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 318
+source-wordcount: 319
 ht-degree: 72%
 
 ---
@@ -33,7 +33,7 @@ Comece entendendo os objetivos de negócios para que você possa escolher os 5 K
 
 ## &#x200B;2. Faça a pergunta crucial
 
-Pergunte a si mesmo: se minha CEO estivesse retida em uma ilha e eu só pudesse fazer a ela cinco observações sobre a situação dos negócios, o que eu diria? Se você dissesse a ela que o tempo médio gasto em uma página era de 1:30, não a ajudaria em nada. No entanto, se você dissesse a ela que sua receita média por visita foi de US$ 2,00 e você teve dois milhões de visitas, ela teria uma indicação verdadeira do sucesso dos negócios.
+Pergunte a si mesmo: se minha CEO estivesse retida em uma ilha e eu só pudesse fazer a ela cinco observações sobre a situação dos negócios, o que eu diria? Se você dissesse a ela que o tempo médio gasto em uma página era 1:30, não a ajudaria em nada. No entanto, se você dissesse a ela que sua receita média por visita foi de US$ 2,00 e você teve dois milhões de visitas, ela teria uma indicação verdadeira do sucesso dos negócios.
 
 ## &#x200B;3. Lembre-se de quais KPIs são importantes e quais não são
 

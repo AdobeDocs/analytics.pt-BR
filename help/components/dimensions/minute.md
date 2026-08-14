@@ -20,7 +20,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 146
+source-wordcount: 147
 ht-degree: 76%
 
 ---
@@ -35,4 +35,4 @@ Essa dimensão funciona imediatamente em todas as implementações. Se um conjun
 
 ## Itens de dimensão
 
-Os itens de dimensão incluem um determinado minuto dentro do intervalo de datas de um relatório ao lado de sua data. É formatado como `HH:MM YYYY-MM-DD`. Itens de Dimension que começam com `00:00` são iguais a meia-noite nesse dia, enquanto valores que começam com `23:59` são iguais a 23h :59 para aquele dia.
+Os itens de dimensão incluem um determinado minuto dentro do intervalo de datas de um relatório ao lado de sua data. É formatado como `HH:MM YYYY-MM-DD`. Itens de Dimension que começam com `00:00` são iguais a meia-noite nesse dia, enquanto valores que começam com `23:59` são iguais a 23h59 para aquele dia.

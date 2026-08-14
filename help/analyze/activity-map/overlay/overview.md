@@ -48,14 +48,14 @@ O painel superior contém os controles básicos para a sobreposição do Activit
 Ele oferece as seguintes configurações:
 
 * **Modo de exibição Padrão/Dinâmico**: alterna entre modo de exibição padrão e modo de exibição dinâmico.
-   * Exibição padrão: mostra a sobreposição com base em dados históricos.
-   * Visualização em tempo real: mostra a sobreposição com base nos dados em tempo real. O seletor de datas muda para um menu suspenso que permite alterar a granularidade dos dados em tempo real.
+  * Exibição padrão: mostra a sobreposição com base em dados históricos.
+  * Visualização em tempo real: mostra a sobreposição com base nos dados em tempo real. O seletor de datas muda para um menu suspenso que permite alterar a granularidade dos dados em tempo real.
 * **Seletor de métrica**: permite alterar a métrica relatada pela sobreposição. Apenas [!UICONTROL Cliques de link] estarão disponíveis se você tiver a exibição em tempo real selecionada.
 * **Seletor de segmentos**: permite selecionar um [segmento](/help/components/segmentation/seg-overview.md), exibindo um subconjunto de dados dentro da sobreposição. Os segmentos não estão disponíveis na visualização em tempo real.
 * **Tipo de visualização de sobreposição**: permite que você altere como a sobreposição visualiza a classificação dos links.
-   * **[!UICONTROL Bolha]**: os links principais recebem uma bolha verde mostrando sua classificação numérica durante o período do relatório. Você pode alterar a cor da bolha em [Configurações](settings.md).
-   * **[!UICONTROL Gradiente]**: os links principais aparecem sombreados em vermelho transparente. Os links mais populares são o vermelho mais escuro. Você pode alterar a cor do gradiente em [Configurações](settings.md).
-   * **[!UICONTROL Desativado]**: Desabilitar sobreposições de links.
+  * **[!UICONTROL Bolha]**: os links principais recebem uma bolha verde mostrando sua classificação numérica durante o período do relatório. Você pode alterar a cor da bolha em [Configurações](settings.md).
+  * **[!UICONTROL Gradiente]**: os links principais aparecem sombreados em vermelho transparente. Os links mais populares são o vermelho mais escuro. Você pode alterar a cor do gradiente em [Configurações](settings.md).
+  * **[!UICONTROL Desativado]**: Desabilitar sobreposições de links.
 * **Seletor de datas**: permite alterar o período do relatório.
 
 O cabeçalho desse painel contém as seguintes configurações:
@@ -63,11 +63,11 @@ O cabeçalho desse painel contém as seguintes configurações:
 * **Expandir/recolher o painel superior**: alterna o painel superior para mostrar as configurações na horizontal ou na vertical (ícone de seta dupla).
 * **[!UICONTROL Alternar detalhes da página]**: mostrar ou ocultar o painel inferior (ícone de olho).
 * **[!UICONTROL Mostrar configurações]**: abre um menu para configurações que você pode alterar (ícone de engrenagem):
-   * **[!UICONTROL Configurações]**: abre as [Configurações](settings.md) da extensão.
-   * **[!UICONTROL Ajuda]**: abre a documentação para o Experience League (esta página).
-   * **[!UICONTROL Comunidade Adobe]**: abre a [comunidade Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=pt).
-   * **[!UICONTROL Sobre]**: exibe a versão da extensão.
-   * **[!UICONTROL Logout]**: encerra sua sessão da extensão, exigindo que você entre novamente.
+  * **[!UICONTROL Configurações]**: abre as [Configurações](settings.md) da extensão.
+  * **[!UICONTROL Ajuda]**: abre a documentação para o Experience League (esta página).
+  * **[!UICONTROL Comunidade Adobe]**: abre a [comunidade Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=pt).
+  * **[!UICONTROL Sobre]**: exibe a versão da extensão.
+  * **[!UICONTROL Logout]**: encerra sua sessão da extensão, exigindo que você entre novamente.
 * **[!UICONTROL Sair do Activity Map]**: fecha todas as sobreposições da extensão (ícone X).
 
 ## Sobreposição de página

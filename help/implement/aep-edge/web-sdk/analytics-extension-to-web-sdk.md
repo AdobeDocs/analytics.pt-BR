@@ -141,9 +141,9 @@ As etapas acima se aplicam apenas às regras que definem valores. As etapas a se
    * [!UICONTROL Tipo de ação]: [!UICONTROL Enviar evento]
 1. À direita, altere as configurações da ação para o seguinte:
    * [!UICONTROL Tipo]: Para `s.t()`, use **[!UICONTROL Exibições de Página de Detalhes da Página da Web]**. Para `s.tl()`, use **[!UICONTROL Cliques de Link de Interação na Web]**. Se você usar [`s.tl()`](../../vars/functions/tl-method.md), também deverá incluir os seguintes campos no objeto de dados. Estes campos estão listados em [!UICONTROL Propriedades adicionais] ao executar a configuração da ação [!UICONTROL Atualizar variável]:
-      * [Nome do link](../../vars/functions/tl-method.md)
-      * [Tipo de link](../../vars/functions/tl-method.md)
-      * [URL de link](../../vars/config-vars/linkurl.md)
+     * [Nome do link](../../vars/functions/tl-method.md)
+     * [Tipo de link](../../vars/functions/tl-method.md)
+     * [URL de link](../../vars/config-vars/linkurl.md)
 1. Selecione **[!UICONTROL Manter alterações]**.
 1. Repita essas etapas para cada configuração de ação que usa o Adobe Analytics para enviar um beacon.
 

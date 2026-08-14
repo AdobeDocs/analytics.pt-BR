@@ -62,10 +62,10 @@ Como Administrador, você pode
 * Use qualquer evento personalizado, evento de carrinho de compras ou instância.
 * Visualize até 2 horas de dados históricos em tempo real e modifique essa configuração:
 
-   * Últimos 15 minutos: granularidade de 1 minuto
-   * Últimos 30 minutos: granularidade de 1 minuto
-   * Última hora: granularidade de 2 minutos
-   * Últimas 2 horas: granularidade de 4 minutos
+  * Últimos 15 minutos: granularidade de 1 minuto
+  * Últimos 30 minutos: granularidade de 1 minuto
+  * Última hora: granularidade de 2 minutos
+  * Últimas 2 horas: granularidade de 4 minutos
 
 * Compare, por exemplo, os valores da semana passada com os valores do ano passado (bem como com o total de hoje).
 

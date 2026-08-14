@@ -94,7 +94,7 @@ Para configurar eventos bem-sucedidos:
    |---------|----------|---------|
    | [!UICONTROL **Visível em qualquer lugar**] | <ul><li>Analysis Workspace</li><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> | N/D |
    | [!UICONTROL **Construtores**] | <ul><li>Construtor de segmentos</li><li>Criador de métricas calculada</li><li>Analysis Workspace</li></ul> |  |
-   | [!UICONTROL **Oculto em qualquer lugar**] | N/D | <ul><li>Analysis Workspace</li><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> |
+   | [!UICONTROL **Oculto em qualquer lugar**] | N/A | <ul><li>Analysis Workspace</li><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> |
 
 1. Na coluna [!UICONTROL **Descrição**], marque a caixa de seleção e forneça uma descrição.
 1. Na coluna [!UICONTROL **Gravação de evento único**], marque a caixa de seleção e escolha no menu suspenso se deseja sempre gravar o evento.

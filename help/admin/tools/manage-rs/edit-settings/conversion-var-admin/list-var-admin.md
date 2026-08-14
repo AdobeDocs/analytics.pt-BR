@@ -39,15 +39,15 @@ Crie e configure variáveis de lista para usar em relatórios. Defina os valores
 * **[!UICONTROL Delimitador de Valor]**: o caractere usado para separar valores dentro da variável de lista. Normalmente, esses são caracteres como vírgulas, dois pontos, barras verticais ou algo semelhante. Caracteres multibyte não são suportados como delimitadores em variáveis de lista.
 
 * **[!UICONTROL Expira após]**: semelhante à expiração do eVar, este campo determina a quantidade de tempo que pode ocorrer entre a variável de lista e o evento de conversão para que eles sejam relacionados.
-   * **Em um nível de exibição de página ou visita**: eventos bem-sucedidos além da exibição de página ou visita não seriam vinculados a nenhum valor na variável de lista.
-   * **Com base em um período de tempo, como dia, semana, mês etc**: eventos bem-sucedidos além do período de tempo especificado não seriam vinculados a nenhum valor na variável de lista. Um número personalizado de dias também pode ser definido.
-   * **Eventos de conversão específicos**: qualquer outro evento bem-sucedido que for acionado após o evento específico designado não será vinculado a nenhum valor na variável de lista.
-   * **Nunca**: qualquer quantidade de tempo pode passar entre a variável de lista e o evento bem-sucedido.
+  * **Em um nível de exibição de página ou visita**: eventos bem-sucedidos além da exibição de página ou visita não seriam vinculados a nenhum valor na variável de lista.
+  * **Com base em um período de tempo, como dia, semana, mês etc**: eventos bem-sucedidos além do período de tempo especificado não seriam vinculados a nenhum valor na variável de lista. Um número personalizado de dias também pode ser definido.
+  * **Eventos de conversão específicos**: qualquer outro evento bem-sucedido que for acionado após o evento específico designado não será vinculado a nenhum valor na variável de lista.
+  * **Nunca**: qualquer quantidade de tempo pode passar entre a variável de lista e o evento bem-sucedido.
 
 * **[!UICONTROL Alocação]**: essa configuração determina como os eventos bem-sucedidos dividem crédito entre valores:
-   * **Completa**: todos os valores de variável definidos antes da expiração da variável obtêm crédito total para eventos bem-sucedidos.
-   * **Linear**: todos os valores de variável anteriores à expiração da variável obtêm crédito dividido para eventos de conversão.
-   * Os valores de variáveis nunca são substituídos, mas adicionados aos valores que recebem crédito por eventos bem-sucedidos.
+  * **Completa**: todos os valores de variável definidos antes da expiração da variável obtêm crédito total para eventos bem-sucedidos.
+  * **Linear**: todos os valores de variável anteriores à expiração da variável obtêm crédito dividido para eventos de conversão.
+  * Os valores de variáveis nunca são substituídos, mas adicionados aos valores que recebem crédito por eventos bem-sucedidos.
 
 * **[!UICONTROL Descrição]**: uma descrição de como sua organização usa a variável de lista.
 

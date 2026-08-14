@@ -58,9 +58,9 @@ Outros itens que devem ser considerados:
 * Se você tiver vários conjuntos de relatórios sendo iniciados ou aumentando, cujo total corresponda aos números listados acima, o lead time se aplica como a soma do tráfego esperado para cada um deles.
 * Tenha as seguintes informações disponíveis para enviar uma alteração de tráfego:
 
-   * ID do conjunto de relatórios
-   * Estimativa de ocorrências por dia
-   * Data de ativação
+  * ID do conjunto de relatórios
+  * Estimativa de ocorrências por dia
+  * Data de ativação
 
 * Os Alertas do cliente também são necessários quando o tráfego diminuir ou um conjunto de relatórios for descontinuado.
 

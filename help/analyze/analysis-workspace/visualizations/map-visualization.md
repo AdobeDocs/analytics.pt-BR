@@ -110,9 +110,9 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizaç
    * **Compare** duas ou mais visualizações de mapa no mesmo projeto, colocando-as lado a lado.
    * **Mostrar comparações período por período (como, ano por ano)**:
 
-      * Mostrar números negativos: por exemplo, se você estiver plotando uma métrica ano a ano, o mapa poderá mostrar -33% sobre Nova York.
-      * Com métricas do tipo *porcentagem*, o agrupamento calcula a média das porcentagens.
-      * Um esquema de cor verde/vermelho: Positivo/Negativo
+     * Mostrar números negativos: por exemplo, se você estiver plotando uma métrica ano a ano, o mapa poderá mostrar -33% sobre Nova York.
+     * Com métricas do tipo *porcentagem*, o agrupamento calcula a média das porcentagens.
+     * Um esquema de cor verde/vermelho: Positivo/Negativo
 
    * **Gire** o mapa em 2D ou 3D mantendo a tecla [!UICONTROL Ctrl] pressionada e movendo o mapa.
 

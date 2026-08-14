@@ -223,13 +223,13 @@ Data de lançamento: **12 de abril de 2018**
 
 Data de lançamento: **29 de março de 2018**
 
-Re-compilação da API de visitante 3.1.0 (AN-159524), que inclui as correções de erros: (CORE-11390, CORE-10634)
+Reempacotamento da API de visitante 3.1.0 (AN-159524), que inclui as correções de erros: (CORE-11390, CORE-10634)
 
 ## Versão 2.8.0
 
 Data de lançamento: **15 de março de 2018**
 
-Re-compilação da API de visitante 3.1.0 (AN-159524), que inclui as correções de erros: (CORE-11390, CORE-10634)
+Reempacotamento da API de visitante 3.1.0 (AN-159524), que inclui as correções de erros: (CORE-11390, CORE-10634)
 
 * Compilar VAPI v3.1 com AppMeasurement v2.8. (AN-158353)
 * Refatore a criação do ponto de extremidade da coleção de dados para facilitar o compartilhamento. (AN-156647)

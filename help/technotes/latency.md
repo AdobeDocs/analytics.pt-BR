@@ -58,10 +58,10 @@ Há várias estratégias para impedir a latência ou reduzir o tempo de recupera
 * **Notifique a Adobe sobre picos de tráfego esperados:** embora seja impossível antecipar cada pico de tráfego no site, pode haver casos em que você espera receber um aumento significativo no tráfego. Os exemplos incluem um período de um feriado particularmente bem-sucedido ou pouco depois de promover uma grande campanha. Nesses casos, a Adobe fornece uma maneira de sua organização nos informar sobre os aumentos de tráfego esperados possibilitando a alocação de recursos de processamento adicionais para seu conjunto de relatórios. Consulte [Agendar um pico de tráfego](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md) no guia do usuário de Administração para saber como notificar a Adobe sobre aumento de tráfego.
 * **Considere processar a carga ao ativar novos recursos:** alguns recursos requerem mais processamento do que outros. Quanto mais recursos estiverem ativados em um conjunto de relatórios, mais difícil será a recuperação da latência. Ao ativar recursos em um conjunto de relatórios, lembre-se dos seguintes recursos que aumentam a quantidade de dados a serem processados:
 
-   * Implementação de mais de 20 eventos na mesma página
-   * Regras VISTA complexas
-   * Mais de 20 valores na variável products
-   * Serialização de eventos
+  * Implementação de mais de 20 eventos na mesma página
+  * Regras VISTA complexas
+  * Mais de 20 valores na variável products
+  * Serialização de eventos
 
 * Habilitar a Filtragem de bot IAB: a [Filtragem de bot](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) pode reduzir bastante a latência se o conjunto de relatórios for frequentado por bots ou crawlers. É recomendado usar a lista de bot IAB, já que é atualizada e mantida pelo [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Um usuário pode personalizar suas próprias regras de bot para complementar as da IAB.
 

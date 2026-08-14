@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
 source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
-source-wordcount: '1680'
-ht-degree: 91%
+source-wordcount: '1671'
+ht-degree: 92%
 
 ---
 
@@ -54,7 +54,7 @@ A lista de projetos ➋ exibe todos os projetos que você possui e que foram com
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | Selecione ![Star](/help/assets/icons/Star.svg) para adicionar ou ![StarOutline](/help/assets/icons/StarOutline.svg) para remover um projeto dos favoritos. |
 | **[!UICONTROL Título e descrição]** | Para editar o projeto, selecione o link do título, que abrirá o [projeto do Workspace](/help/analyze/analysis-workspace/home.md). Projetos compartilhados com você são indicados com ![Compartilhar](/help/assets/icons/ShareAlt.svg). Selecione ![InfoOutline](/help/assets/icons/InfoOutline.svg) para exibir um menu pop-up com mais detalhes sobre o projeto. Selecione ![Mais](/help/assets/icons/More.svg) para abrir um menu de contexto com ações. Consulte [Ações](#actions) para mais detalhes. |
 | **[!UICONTROL Tipo]** | Um projeto do Workspace, uma pasta ![FolderUser](/help/assets/icons/FolderUser.svg) ou um [cartão de pontuação móvel](/help/analyze/mobile-app/home.md). |
-| **[!UICONTROL Tags]** | As tags aplicadas ao projeto.  |
+| **[!UICONTROL Tags]** | As tags aplicadas ao projeto. |
 | **[!UICONTROL Programado]** | Se um projeto está agendado para ser enviado por email aos destinatários. As opções são ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Ativado]** ou ![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Desativado]**. Consulte [Enviar dados do projeto a outras pessoas](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). |
 | **[!UICONTROL Link compartilhado (qualquer pessoa)]** | Se um projeto é compartilhado com alguém, mesmo com pessoas que não tenham acesso ao Analysis Workspace. As opções são ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Ativo]** ou ![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Inativo]**. Consulte [Compartilhar um projeto com qualquer pessoa (sem necessidade de logon)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required) em [Compartilhar projetos](/help/analyze/analysis-workspace/curate-share/share-projects.md) para mais informações. |
 | **[!UICONTROL Função do projeto]** | A sua função no projeto. As opções são: editar, duplicar e exibir. Consulte [Funções do projeto](/help/analyze/analysis-workspace/curate-share/curate.md) para mais informações. |
@@ -157,6 +157,6 @@ Se o espaço for limitado para exibir os filtros individuais, você verá **[!UI
 
 * Para remover um filtro:
 
-   1. Use **[!UICONTROL *x *filtros]**![ChevronDown](/help/assets/icons/ChevronDown.svg) para abrir um menu de contexto com os tipos de filtro e os filtros individuais.
-   1. Selecione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para remover um filtro.
+  1. Use **[!UICONTROL *x *filtros]**![ChevronDown](/help/assets/icons/ChevronDown.svg) para abrir um menu de contexto com os tipos de filtro e os filtros individuais.
+  1. Selecione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para remover um filtro.
 

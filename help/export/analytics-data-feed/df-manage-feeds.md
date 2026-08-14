@@ -177,12 +177,12 @@ Para ajustar as colunas visíveis na tabela:
    * **Destino**: o local onde o arquivo é colocado.
    * **Proprietário**: a conta do usuário que criou o feed.
    * **Status**: o status do feed.
-      * Ativo: o feed é operacional.
-      * Aprovação pendente: em algumas circunstâncias, um feed requer a aprovação da Adobe antes de começar a gerar processos.
-      * Excluído: o feed é excluído.
-      * Concluído: o feed terminou de ser processado. Um feed concluído pode ser editado, suspenso ou cancelado.
-      * Pendente: o feed é criado, mas ainda não está ativo. Os feeds permanecem nesse estado por um curto período de transição.
-      * Inativo: equivalente a um estado &quot;pausado&quot; ou &quot;em espera&quot;. Para obter informações sobre o que acontece com feeds de preenchimento retroativo e feeds em tempo real quando um feed inativo é reativado, consulte [Ativar um feed de dados](#activate-a-data-feed).
+     * Ativo: o feed é operacional.
+     * Aprovação pendente: em algumas circunstâncias, um feed requer a aprovação da Adobe antes de começar a gerar processos.
+     * Excluído: o feed é excluído.
+     * Concluído: o feed terminou de ser processado. Um feed concluído pode ser editado, suspenso ou cancelado.
+     * Pendente: o feed é criado, mas ainda não está ativo. Os feeds permanecem nesse estado por um curto período de transição.
+     * Inativo: equivalente a um estado &quot;pausado&quot; ou &quot;em espera&quot;. Para obter informações sobre o que acontece com feeds de preenchimento retroativo e feeds em tempo real quando um feed inativo é reativado, consulte [Ativar um feed de dados](#activate-a-data-feed).
    * **Última modificação**: a data em que o feed foi modificado pela última vez. A data e a hora são mostradas no fuso horário do conjunto de relatórios com deslocamento GMT.
    * **Data de início**: a data do primeiro trabalho para este feed. A data e a hora são mostradas no fuso horário do conjunto de relatórios com deslocamento GMT.
    * **Data de término**: a data do último trabalho para este feed. Os feeds de dados em andamento não têm uma data final.

@@ -41,7 +41,7 @@ Tabela de pesquisa para determinar o tipo de uma ocorrência com base no valor d
 | `31` | `76` | Início de mídia |
 | `32` | `77` | Atualizações de mídia (sem processamento de outras variáveis) |
 | `33` | `78` | Atualizações de mídia (com processamento de outras variáveis) |
-| `40` | `80` | Survey |
+| `40` | `80` | Pesquisa |
 | `50` | `50` | Início da mídia de streaming |
 | `51` | `51` | Fechamento da mídia de streaming |
 | `52` | `52` | Navegação da mídia de streaming |

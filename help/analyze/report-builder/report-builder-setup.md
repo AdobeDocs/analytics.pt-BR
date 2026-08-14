@@ -44,9 +44,9 @@ O Report Builder para Adobe Analytics é compatível com os seguintes sistemas o
 
   Todos os usuários [!DNL Excel] da área de trabalho do Windows devem instalar o Microsoft Edge Webview2 para usar o suplemento. Para instalar o controlador:
 
-   1. Vá para <https://aka.ms/webview2installer>.
-   1. Selecione e baixe o instalador autônomo Evergreen.
-   1. Siga o assistente de instalação.
+  1. Vá para <https://aka.ms/webview2installer>.
+  1. Selecione e baixe o instalador autônomo Evergreen.
+  1. Siga o assistente de instalação.
 
 ### Web Office
 

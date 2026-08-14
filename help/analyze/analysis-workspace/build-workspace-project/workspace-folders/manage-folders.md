@@ -34,14 +34,14 @@ Para renomear pastas no espaço de trabalho:
 
 * Selecione a pasta que deseja renomear na [lista de projetos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
 
-   1. Selecione **[!UICONTROL Renomear]** nas [ações](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponíveis no menu de contexto ![Mais](/help/assets/icons/More.svg) da pasta selecionada ou na barra de ação azul.
-   1. Na caixa de diálogo **[!UICONTROL Renomear: *nome da pasta *]**, digite um novo nome e selecione&#x200B;**[!UICONTROL Salvar &#x200B;]**.
+  1. Selecione **[!UICONTROL Renomear]** nas [ações](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponíveis no menu de contexto ![Mais](/help/assets/icons/More.svg) da pasta selecionada ou na barra de ação azul.
+  1. Na caixa de diálogo **[!UICONTROL Renomear: *nome da pasta *]**, digite um novo nome e selecione&#x200B;**[!UICONTROL Salvar &#x200B;]**.
 
 * Dentro da pasta que deseja renomear.
 
-   1. Selecione **[!UICONTROL Renomear pasta]** em ![Mais](/help/assets/icons/More.svg) na [área do título](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
+  1. Selecione **[!UICONTROL Renomear pasta]** em ![Mais](/help/assets/icons/More.svg) na [área do título](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. Na caixa de diálogo **[!UICONTROL Renomear: *nome da pasta *]**, digite um novo nome e selecione&#x200B;**[!UICONTROL Salvar &#x200B;]**.
+  1. Na caixa de diálogo **[!UICONTROL Renomear: *nome da pasta *]**, digite um novo nome e selecione&#x200B;**[!UICONTROL Salvar &#x200B;]**.
 
 
 ## Mover pastas
@@ -52,18 +52,18 @@ Para mover pastas no espaço de trabalho:
 
 * Selecione uma pasta que deseja mover na [lista de projetos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
 
-   1. Selecione **[!UICONTROL Mover para]** nas [ações](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponíveis no menu de contexto ![Mais](/help/assets/icons/More.svg) da pasta selecionada ou na barra de ação azul.
-   1. Na caixa de diálogo **[!UICONTROL Selecionar Pasta]**, selecione uma pasta no menu suspenso **[!UICONTROL Pasta]** para onde mover a pasta.
+  1. Selecione **[!UICONTROL Mover para]** nas [ações](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponíveis no menu de contexto ![Mais](/help/assets/icons/More.svg) da pasta selecionada ou na barra de ação azul.
+  1. Na caixa de diálogo **[!UICONTROL Selecionar Pasta]**, selecione uma pasta no menu suspenso **[!UICONTROL Pasta]** para onde mover a pasta.
 
-   1. Selecione **[!UICONTROL Mover]**.
+  1. Selecione **[!UICONTROL Mover]**.
 
 * Dentro da pasta que deseja mover.
 
-   1. Selecione **[!UICONTROL Mover pasta]** em ![Mais](/help/assets/icons/More.svg) na [área do título](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
+  1. Selecione **[!UICONTROL Mover pasta]** em ![Mais](/help/assets/icons/More.svg) na [área do título](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. Na caixa de diálogo **[!UICONTROL Selecionar Pasta]**, selecione uma pasta no menu suspenso **[!UICONTROL Pasta]** para onde mover a pasta.
+  1. Na caixa de diálogo **[!UICONTROL Selecionar Pasta]**, selecione uma pasta no menu suspenso **[!UICONTROL Pasta]** para onde mover a pasta.
 
-   1. Selecione **[!UICONTROL Mover]**.
+  1. Selecione **[!UICONTROL Mover]**.
 
 
 ## Excluir pastas
@@ -79,15 +79,15 @@ Para excluir pastas no espaço de trabalho,
 
 * Selecione uma ou mais pastas que deseja excluir na [lista de projetos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
 
-   1. Selecione **[!UICONTROL Excluir]** nas [ações](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponíveis no menu de contexto ![Mais](/help/assets/icons/More.svg) da pasta selecionada ou na barra de ação azul.
+  1. Selecione **[!UICONTROL Excluir]** nas [ações](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponíveis no menu de contexto ![Mais](/help/assets/icons/More.svg) da pasta selecionada ou na barra de ação azul.
 
-   1. Na **[!UICONTROL Tem certeza?]** , selecione **[!UICONTROL OK]** para excluir as pastas.
+  1. Na **[!UICONTROL Tem certeza?]** , selecione **[!UICONTROL OK]** para excluir as pastas.
 
 * Dentro da pasta que deseja excluir.
 
-   1. Selecione **[!UICONTROL Excluir pasta]** em ![Mais](/help/assets/icons/More.svg) na [área do título](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
+  1. Selecione **[!UICONTROL Excluir pasta]** em ![Mais](/help/assets/icons/More.svg) na [área do título](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. Na pasta **[!UICONTROL Excluir *nome*?]** , selecione **[!UICONTROL OK]**.
+  1. Na pasta **[!UICONTROL Excluir *nome*?]** , selecione **[!UICONTROL OK]**.
 
 
 <!-- 

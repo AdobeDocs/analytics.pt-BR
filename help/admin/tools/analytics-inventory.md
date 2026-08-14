@@ -48,13 +48,13 @@ O objetivo do inventário do Analytics é ajudá-lo a responder às seguintes pe
 
 * Depois de determinar qual ativo precisa ser migrado:
 
-   * Você deve realizar alguma limpeza de ativos antes desta atualização?
+  * Você deve realizar alguma limpeza de ativos antes desta atualização?
 
-   * Você deve fazer alguma consolidação de ativos como parte do processo?
+  * Você deve fazer alguma consolidação de ativos como parte do processo?
 
-   * Qual deve ser a sequência de atualização para seus ativos?
+  * Qual deve ser a sequência de atualização para seus ativos?
 
-   * Quais conjuntos de relatórios você deve atualizar primeiro ou último?
+  * Quais conjuntos de relatórios você deve atualizar primeiro ou último?
 
 ## Permissões
 
