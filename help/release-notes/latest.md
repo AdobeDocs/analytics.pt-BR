@@ -24,10 +24,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 70623a9f205e0d80ace66691277f7fe47d4683ad
+source-git-commit: 2258ee4b539ec7ce7366c427fede2c5b8483db7f
 workflow-type: tm+mt
-source-wordcount: 1167
-ht-degree: 46%
+source-wordcount: 1246
+ht-degree: 43%
 
 ---
 
@@ -43,6 +43,7 @@ Essas notas de versão abrangem o período de agosto de 2026. As versões do Ado
 | ----------- | ---------- | ---- |
 | **Extensão do Activity Map: atualização da interface** <br/>A extensão de sobreposição do Activity Map tem uma aparência atualizada, juntamente com melhorias subjacentes que oferecem suporte a aprimoramentos futuros.<p>Para obter informações sobre a extensão de sobreposição do Activity Map, consulte [interface de extensão do Activity Map](/help/analyze/activity-map/overlay/overview.md).</p> | | 5 de agosto de 2026<p>(Planejado originalmente para o final de julho)</p> |
 | **Aprimoramentos na tela de Jornada**<br> Os seguintes aprimoramentos na tela de Jornada estão disponíveis:<ul><li>Compare a jornada a um intervalo de tempo anterior. Compare a jornada atual com a jornada 4 semanas antes, 2 trimestres antes, 1 ano antes ou com um intervalo de datas personalizado.</li><li>Para um nó selecionado, mostre os itens de dimensão principais que vêm após o nó selecionado em qualquer ponto da jornada. Use-a quando o nó selecionado for o evento principal na análise e você quiser ver o que as pessoas fazem em qualquer ponto depois.<p>Anteriormente, somente os nós imediatos principais podiam ser exibidos antes ou depois do nó selecionado. </p></li><li>Alterar a forma e o estilo das setas entre os nós. Arraste as setas entre os nós para alterar a forma (curvatura) da seta e clique com o botão direito do mouse em uma seta para alterar seu estilo para qualquer um dos seguintes: sólido, tracejado, pontilhado, tracejado-ponto ou animado.</li></ul><p></p>Para  mais informações, consulte [Configurar uma visualização da tela de jornada](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md). | | 18 de agosto de 2026 |
+| **Limitar segmentos ao intervalo de datas do relatório**<br/> Os dados em um relatório do Workspace podem se estender além do intervalo de datas do relatório quando um segmento inclui componentes de intervalo de datas.<p>Uma nova opção está disponível e permite limitar os resultados ao intervalo de datas do relatório, independentemente de quaisquer componentes de data incluídos no segmento. <p>Essa opção está disponível ao criar ou modificar um segmento cujo contêiner de nível superior é Visitante.</p><p>Para obter mais informações, consulte [Criar segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md#components).</p> | 26 de agosto de 2026 | 9 de setembro de 2026 |
 | **Referência de canais de marketing da API do Analytics**<br/> Use a referência de canais de marketing da API do Adobe Analytics 2.0 para recuperar informações de canais de marketing do Analytics. Consulte a [Referência de canais de marketing da API do Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/apis/marketing-channels). | | 1 de agosto de 2026 |
 | **manual de ponto de extremidade de canais de marketing da API do Analytics**<br/> O manual de ponto de extremidade de canais de marketing da API do Adobe Analytics 2.0 fornece instruções e exemplos para usar o ponto de extremidade. Consulte o [Guia de endpoint de canais de marketing da API do Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/marketing-channels). | | 1 de agosto de 2026 |
 | **Perguntas frequentes sobre clientes com API EOL do Analytics 1.4**<br/> As perguntas frequentes sobre clientes com API EOL do Analytics 1.4 fornecem informações sobre o desenvolvimento recente da API 2.0 para ajudar os clientes que deixam as APIs 1.4. | | 10 de agosto de 2026 |
