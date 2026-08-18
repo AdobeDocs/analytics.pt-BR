@@ -3,10 +3,10 @@ description: Entenda como configurar uma visualização da tela de jornada.
 title: Configurar a visualização de uma tela de jornada
 feature: Visualizations
 role: User, Admin
-source-git-commit: 9f5b9cdd90892f7efa65f09831daaf307e16c7d7
+source-git-commit: 0af08348796361b4da5361debe7f54dc24595ad8
 workflow-type: tm+mt
-source-wordcount: '5926'
-ht-degree: 88%
+source-wordcount: '6557'
+ht-degree: 78%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo documenta a visualização da tela de Jornada no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Consulte [Configurar uma visualização da tela de Jornada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) para a versão _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;deste artigo._
+_Este artigo documenta a visualização da tela de Jornada no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Consulte [Configurar uma visualização da tela de Jornada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) para a versão _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -115,8 +115,9 @@ Para definir as configurações da visualização de Tela de jornada:
    |---------|----------|
    | [!UICONTROL **Valor percentual**] | O valor percentual mostrado em cada nó da jornada.<p>![valor percentual](assets/journey-canvas-percentage.png)</p> <p>Considere o seguinte ao configurar os valores percentuais mostrados nos nós da jornada:</p><ul><li>Um percentual é mostrado em cada nó para a métrica principal. Um percentual também é mostrado para a métrica secundária, se uma estiver configurada. (Para obter mais informações sobre as configurações de métrica primária e secundária, consulte [Começar a criar uma visualização de Tela de jornada](#begin-building-a-journey-canvas-visualization).)</li><li>As porcentagens incluem todas as pessoas ou sessões incluídas no conjunto de relatórios dentro do intervalo de datas do painel. A utilização de _pessoas_ ou _sessões_ depende da configuração do container. (Para obter mais informações sobre a configuração do container, consulte [Começar a criar uma visualização de Tela de jornada](#begin-building-a-journey-canvas-visualization).)</li></ul> <p>Escolha entre as seguintes opções:</p> <ul><li>[!UICONTROL **Percentual do nó inicial**]: calcula os percentuais exibidos em cada nó em relação ao nó inicial. Os percentuais se baseiam nas métricas principal e secundária selecionadas. <p>Um _nó inicial_ é um nó que não tem nós conectados anteriores a ele.</p><p>Uma jornada pode conter vários nós iniciais. No entanto, [!UICONTROL **Percentual do total**] será usado se a jornada tiver 2 ou mais nós iniciais que levam a um nó comum. Se quiser usar [!UICONTROL **Percentual do nó inicial**], atualize a jornada para que cada nó na jornada possa ser rastreado até um único nó inicial.</p></li><li>[!UICONTROL **Percentual do nó anterior**]: calcula os percentuais exibidos em cada nó em relação ao nó anterior. Os percentuais se baseiam nas métricas principal e secundária selecionadas.</li><li>[!UICONTROL **Percentual do total**]: calcula as porcentagens exibidas em cada nó em relação a todos os dados no conjunto de relatórios. Os percentuais se baseiam nas métricas principal e secundária selecionadas.</li></ul> |
    | [!UICONTROL **Configurações de seta**] | As setas que aparecem entre os nós na Tela de jornada podem ser configuradas para mostrar rótulos e valores personalizados. <p>![configurações de seta](assets/journey-canvas-arrow-settings.png)</p><p>_Rótulos_ são nomes personalizados que você pode adicionar às telas de Jornada, conforme descrito em [Adicionar ou atualizar um rótulo em uma seta](#add-or-update-a-label-on-an-arrow).</li></ol><p>_Valores_ são os números e percentuais que aparecem nas setas e indicam as pessoas ou sessões que passaram de um nó para outro na jornada. (Em outras palavras, aqueles que não desistiram da jornada em uma determinada etapa.) </p><p>As seguintes opções estão disponíveis:</p><ul><li>[!UICONTROL **Nenhum rótulo**]: nenhum rótulo é mostrado nas setas da jornada. </br> Essa opção só estará disponível se a jornada tiver sido modificada no </li><li>[!UICONTROL **Somente rótulos**]: os rótulos são mostrados nas setas da jornada.</li></ul> |
+   | [!UICONTROL **Comparar com**] | O intervalo de datas usado para comparar os dados de jornada atuais com um período anterior. Você pode escolher qualquer um dos seguintes intervalos de datas para comparação:<ul><li>**[!UICONTROL 4 semanas antes]**</li><li>**[!UICONTROL 2 trimestres antes]**</li><li>**[!UICONTROL 1 ano antes]**</li><li>**[!UICONTROL Intervalo de datas personalizado]**</li></ul><p>Quando você seleciona um intervalo de datas de comparação, cada nó na jornada mostra a alteração percentual entre o intervalo de datas atual e o intervalo de datas de comparação selecionado, com base na métrica principal. Isso permite identificar se a jornada está tendo um desempenho melhor ou pior em comparação a um período anterior.</p> |
    | [!UICONTROL **Mostrar fallout**] | Os dados de fallout mostram o percentual e o número de usuários que saem em cada etapa da jornada. Os dados de fallout se baseiam na métrica associada às configurações do container da jornada; não se baseiam na métrica principal ou secundária. <p>![fallout](assets/journey-canvas-fallout.png)</p><p>Por padrão, o container é _Pessoa_, portanto, a métrica usada para os dados de fallout é _Pessoas_. Se o container for alterado para _Sessão_, a métrica usada para os dados de fallout será _Sessões_, e assim por diante.</p><p>Por exemplo, com _Pessoa_ como a configuração do container, o fallout mostra o percentual e o número de pessoas em cada nó da jornada que nunca chegaram a nenhum dos próximos nós imediatos. Ela pode ter executado outras ações no site, mas não atendeu aos critérios definidos por nenhum dos nós que se seguem imediatamente.</p> <p>Para obter mais informações sobre a configuração do container da Tela de jornada, consulte [Começar a criar uma visualização da Tela de jornada](#begin-building-a-journey-canvas-visualization). |
-   | **Controles de zoom** | Os seguintes controles de zoom estão disponíveis no canto superior direito da tela:<ul><li>**Aumentar zoom** ![ícone aumentar zoom](assets/zoom-in-icon.png): amplia áreas específicas da visualização.<p>Também é possível usar os controles do mouse, como o pinçamento em um trackpad.</li><li>**Reduzir zoom** ![ícone reduzir zoom](assets/zoom-out-icon.png): reduz a visualização para permitir mais espaço na tela.<p>Também é possível usar os controles do mouse, como o pinçamento em um trackpad.</p></li><li>**Ajustar tela** ![ícone ajustar tela](assets/fill-screen-icon.png): ajusta as configurações atuais de zoom e panorâmica para preencher a tela com a visualização completa.</li></ul><p>Para percorrer a tela após aumentar ou diminuir o zoom, clique com o mouse e arraste até o local desejado.</p> |
+   | **Controles** | Os seguintes controles estão disponíveis no canto superior direito da tela:<ul><li>**Ajustar tela** ![ícone ajustar tela](assets/fill-screen-icon.png): ajusta as configurações atuais de zoom e panorâmica para preencher a tela com a visualização completa.</li><li>**Organizar** ![ícone organizar](assets/organize.svg): reorganiza os nós para minimizar setas cruzadas e otimizar o espaçamento, com base nas conexões do nó. </li><li>**Aumentar zoom** ![ícone aumentar zoom](assets/zoom-in-icon.png): amplia áreas específicas da visualização.<p>Também é possível usar os controles do mouse, como o pinçamento em um trackpad.</li><li>**Reduzir zoom** ![ícone reduzir zoom](assets/zoom-out-icon.png): reduz a visualização para permitir mais espaço na tela.<p>Também é possível usar os controles do mouse, como o pinçamento em um trackpad.</p></li></ul><p>Para percorrer a tela após aumentar ou diminuir o zoom, clique com o mouse e arraste até o local desejado.</p> |
 
 1. Continuar com [Adicionar nós](#add-nodes).
 
@@ -175,7 +176,7 @@ Você cria nós das seguintes maneiras: arrastando componentes do Espaço de tra
 
 ### Mostrar os nós principais com base nos nós existentes
 
-Você pode mostrar automaticamente os principais nós imediatos com base nos nós que já estão na tela. Você pode adicionar os nós principais à Tela de jornada ou visualizá-los em uma tabela de forma livre.
+Você pode mostrar automaticamente os principais nós imediatos ou eventuais com base nos nós que já estão na tela. Você pode adicionar os nós principais à Tela de jornada ou visualizá-los em uma tabela de forma livre.
 
 A Tela de jornada usa a métrica principal ao determinar quais nós serão mostrados.
 
@@ -187,13 +188,19 @@ Essa opção está disponível para os seguintes objetos na tela:
 
 #### Mostrar os nós principais após um nó existente
 
-Você pode selecionar um nó e mostrar os itens de dimensão principais que vêm imediatamente após ele na jornada. Você pode adicionar os três principais itens de dimensão à Tela de jornada como nós separados, ou pode visualizar todos os itens de dimensão principais em uma tabela de forma livre.
+Você pode selecionar um nó e mostrar os principais itens de dimensão imediatos ou eventuais que vêm imediatamente após ele na jornada. Você pode adicionar os três principais itens de dimensão à Tela de jornada como nós separados, ou pode visualizar todos os itens de dimensão principais em uma tabela de forma livre.
 
 1. Clique com o botão direito do mouse no nó onde deseja mostrar os itens de dimensão principais que vêm depois dele na jornada.
 
    O nó não pode ter nenhum nó existente saindo dele na jornada.
 
 1. Selecione [!UICONTROL **Mostrar nós principais após este nó**].
+
+1. Selecione se deseja mostrar os itens de dimensão que vêm imediatamente ou eventualmente após o nó selecionado:
+
+   * [!UICONTROL **Imediatamente após**]: mostra os itens de dimensão principais que vêm diretamente após o nó selecionado. Use-a quando quiser saber o que ocorreu imediatamente após determinada etapa na jornada. Por exemplo, você pode ver qual página as pessoas visitam imediatamente após visitar determinada página de produto.
+
+   * [!UICONTROL **Eventualmente após**]: mostra os itens de dimensão principais que vêm após o nó selecionado em qualquer ponto da jornada, não necessariamente a próxima etapa. Use-a quando o nó selecionado for o evento principal na análise e você quiser ver o que as pessoas fazem em qualquer ponto depois. Por exemplo, após uma compra, é possível ver as principais páginas que as pessoas tendem a visitar em qualquer ponto posterior da jornada.
 
 1. Selecione onde deseja mostrar os itens de dimensão:
 
@@ -207,13 +214,19 @@ Você pode selecionar um nó e mostrar os itens de dimensão principais que vêm
 
 #### Mostrar os nós principais antes de um nó existente
 
-Você pode selecionar um nó e mostrar os itens de dimensão principais que vêm imediatamente antes dele na jornada. Você pode adicionar os três principais itens de dimensão à Tela de jornada como nós separados, ou pode visualizar todos os itens de dimensão principais em uma tabela de forma livre.
+Você pode selecionar um nó e mostrar os principais itens de dimensão imediatos ou eventuais que vêm imediatamente antes dele na jornada. Você pode adicionar os três principais itens de dimensão à Tela de jornada como nós separados, ou pode visualizar todos os itens de dimensão principais em uma tabela de forma livre.
 
 1. Clique com o botão direito do mouse no nó onde deseja mostrar os itens de dimensão principais que vêm antes dele na jornada.
 
    Este nó não pode ter nós existentes entrando nele na jornada.
 
 1. Selecione [!UICONTROL **Mostrar nós principais antes deste nó**].
+
+1. Selecione se deseja mostrar itens de dimensão que vêm imediatamente ou eventualmente antes do nó selecionado:
+
+   * [!UICONTROL **Imediatamente antes**]: mostra os itens de dimensão principais que vêm diretamente antes do nó selecionado. Use-a quando quiser saber o que ocorreu imediatamente antes de uma determinada etapa na jornada. Por exemplo, você pode ver qual página as pessoas visitam imediatamente antes de visitar determinada página de produto.
+
+   * [!UICONTROL **Eventualmente antes de**]: mostra os itens de dimensão principais que vêm antes do nó selecionado em qualquer ponto da jornada, não necessariamente a etapa anterior. Use-a quando o nó selecionado for o evento principal na análise e você quiser ver o que as pessoas fizeram em qualquer ponto até ele. Por exemplo, antes de uma compra, é possível ver as principais páginas que as pessoas visitaram em qualquer ponto anterior da jornada.
 
 1. Selecione onde deseja mostrar os itens de dimensão:
 
@@ -287,7 +300,9 @@ Você pode executar qualquer um dos seguintes procedimentos para combinar nós n
 
 * No painel esquerdo, arraste vários componentes simultaneamente para uma área em branco da tela enquanto mantém pressionada a tecla Shift.
 
-<!-- * On the canvas, select the nodes that you want to combine, right-click one of the selected nodes, then select **Combine**. Is there a limit on how many you can combine? -->
+* Na tela, selecione os nós que deseja combinar, clique com o botão direito do mouse em um dos nós selecionados e selecione **Combinar nós**. Há um limite para o número que você pode combinar?
+
+  Para selecionar vários nós, mantenha pressionada a tecla Command (no Mac) ou Ctrl (no Windows).
 
 #### Lógica ao combinar nós
 
@@ -295,7 +310,7 @@ A lógica aplicada aos nós quando combinados varia de acordo com os tipos de co
 
 >[!TIP]
 >
->Você pode visualizar a lógica de um nó combinado clicando com o botão direito do mouse no nó e selecionando [!UICONTROL **Criar segmento a partir do nó**]. A lógica é mostrada na seção [!UICONTROL **Definição**].
+>Você pode visualizar a lógica de um nó combinado selecionando o ícone de informações ou a seta suspensa no nó.
 
 
 | Tipos de componentes a serem combinados | Lógica (operador) usada |
@@ -307,6 +322,12 @@ A lógica aplicada aos nós quando combinados varia de acordo com os tipos de co
 | Dimension + Métrica, Intervalo de datas ou Segmento | Unido com AND |
 | Intervalo de datas + Métrica, Segmento ou Dimensão | Unido com AND |
 | Segmento + Métrica, Intervalo de datas ou Dimensão | Unido com AND |
+
+#### Separar componentes de nós combinados
+
+Você pode dividir os componentes incluídos em um nó combinado em seus próprios nós separados:
+
+1. Clique com o botão direito do mouse no nó que deseja dividir e selecione [!UICONTROL **Separar componentes em nós**].
 
 ### Conectar nós
 
@@ -323,6 +344,8 @@ Os nós são conectados por uma seta. A direção e a largura da seta têm signi
 * **Largura**: indica o volume percentual de um nó para outro
 
   ![Direção e largura da seta](assets/journey-canvas-arrow-width.png)
+
+Quando uma jornada do Journey Optimizer contém vários caminhos entre os mesmos dois nós (por exemplo, condições diferentes que levam à mesma próxima etapa), cada caminho é exibido como uma seta separada.
 
 #### Lógica ao conectar nós
 
@@ -602,6 +625,39 @@ Para incluir novamente um nó excluído na jornada:
 1. Em uma visualização da tela de Jornada, clique com o botão direito do mouse no nó excluído.
 
 1. Selecione [!UICONTROL **Remover exclusão de jornada**].
+
+### Alterar a forma e o estilo das setas entre nós
+
+É possível alterar a curvatura e o estilo das setas entre os nós em uma jornada.
+
+#### Alterar a curvatura de uma seta
+
+Para alterar a curvatura de uma seta na tela de Jornada:
+
+1. Em uma visualização da tela de Jornada, arraste uma seta entre dois nós.
+
+Para redefinir uma seta de volta para sua posição padrão:
+
+1. Clique com o botão direito do mouse na seta que deseja redefinir.
+
+1. Selecione [!UICONTROL **Redefinir posição da seta**].
+
+   Se houver várias setas entre os mesmos dois nós, todas as setas entre esses nós serão redefinidas para suas posições padrão.
+
+#### Alterar o estilo de uma seta
+
+Para alterar o estilo de uma seta na tela de Jornada:
+
+1. Em uma visualização da tela de Jornada, clique com o botão direito do mouse na seta entre os dois nós cujo estilo você deseja alterar.
+
+1. Selecione [!UICONTROL **Alterar estilo da seta**] e selecione um dos seguintes estilos:
+
+   * [!UICONTROL **Sólido**]
+   * [!UICONTROL **Tracejado**]
+   * [!UICONTROL **Pontilhado**]
+   * [!UICONTROL **Traço-ponto**]
+   * [!UICONTROL **Animado**]
+
 
 ### Excluir setas entre nós
 
