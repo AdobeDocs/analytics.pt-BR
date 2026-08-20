@@ -2,13 +2,11 @@
 title: Análise de sub-ocorrências
 description: Saiba como a análise de sub-ocorrência permite filtrar produtos individuais em uma ocorrência no Adobe Analytics, eliminando a sangria de atribuição nos relatórios de produtos.
 feature: Segmentation
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: 0168cf33d647c5edb367094d57ad9ea3ee253844
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+source-git-commit: 21f7902e034a998be1f5cc6a1ea19bff5f12584d
 workflow-type: tm+mt
-source-wordcount: 576
+source-wordcount: 600
 ht-degree: 0%
 
 ---
@@ -23,7 +21,9 @@ Na análise de sub-ocorrência do Adobe Analytics, aplica-se especificamente à 
 
 No Adobe Analytics, a [variável Produtos](/help/components/dimensions/product.md) pode capturar vários produtos em uma única ocorrência. Sem a análise de subocorrência, a segmentação em um atributo de produto retorna todas as ocorrências em que qualquer produto em uma ocorrência corresponde ao atributo de produto. O resultado é atribuição incorreta e métricas de receita infladas. A análise de sub-ocorrência atribui o escopo do filtro a linhas de produtos individuais em uma ocorrência e resolve esses problemas.
 
-Na análise de sub-ocorrência, a lógica de exclusão se comporta de forma diferente da exclusão no nível de ocorrência padrão em relação à variável Products. Quando você exclui atributos de produto no contêiner [!UICONTROL Produtos], o segmento retorna ocorrências que **têm produtos**, mas não correspondem aos seus critérios de exclusão. O segmento não retorna ocorrências sem produtos.
+Na análise de sub-ocorrência, a lógica de exclusão se comporta de forma diferente da exclusão no nível de ocorrência padrão em relação à variável Products. Quando você exclui atributos de produto no contêiner [!UICONTROL Produtos], o segmento retorna ocorrências que **têm produtos**, mas não correspondem aos seus critérios de exclusão.
+
+No Adobe Analytics, cada ocorrência tem itens de lista de produtos mesmo que a ocorrência não tenha uma ID do produto. Como resultado, a lógica de exclusão da análise de sub-ocorrência retornará ocorrências sem produtos.
 
 ## Exemplo
 
@@ -39,7 +39,8 @@ No construtor de segmentação ou como parte de um **[!UICONTROL Segmento rápid
 
 ![Painel que mostra a segmentação no nível de ocorrência para homens da categoria de produto](./assets/product-category-segmentation-hits.png)
 
-Como resultado, todos os pedidos contendo pelo menos um **[!UICONTROL Homens]** **[!UICONTROL Varejo: categoria de produto de moda]** são considerados, e a receita de outros produtos nesses pedidos é incluída na métrica **[!UICONTROL Receita online]**.Quando você relata as categorias, todos os outros valores para **[!UICONTROL Varejo: categoria de produto de moda]** são relatados como parte de um pedido que incluía um produto com a **[!UICONTROL Varejo]** **[!UICONTROL Categoria de produto de moda]**.
+Como resultado, todos os pedidos contendo pelo menos um **[!UICONTROL Homens]** **[!UICONTROL Varejo: categoria de produto de moda]** são considerados, e a receita de outros produtos nesses pedidos é incluída na métrica **[!UICONTROL Receita online]**.
+Quando você relata as categorias, todos os outros valores para **[!UICONTROL Varejo: categoria de produto de moda]** são relatados como parte de um pedido que incluía um produto com a **[!UICONTROL Varejo]** **[!UICONTROL Categoria de produto de moda]**.
 
 >[!TAB Análise de sub-ocorrência]
 
@@ -47,7 +48,8 @@ No construtor de segmentação ou como parte de um **[!UICONTROL Segmento rápid
 
 ![Painel que mostra a segmentação no nível de sub-ocorrência para homens da categoria de produto](./assets/product-category-segmentation-sub-hits.png)
 
-Como resultado, todos os pedidos contendo pelo menos **[!UICONTROL Homens]** **[!UICONTROL Varejo: Categoria de Produto de Moda]** são considerados, e somente a receita de produtos pertencentes à **[!UICONTROL Homens]** **[!UICONTROL Varejo: Categoria de Produto de Moda]** são incluídos na métrica **[!UICONTROL Receita Online]**.Quando você cria relatórios sobre categorias, somente os **[!UICONTROL Homens]** **[!UICONTROL Varejo: Categoria de Produto de Moda]** são relatados.
+Como resultado, todos os pedidos contendo pelo menos **[!UICONTROL Homens]** **[!UICONTROL Varejo: Categoria de Produto de Moda]** são considerados, e somente a receita de produtos pertencentes à **[!UICONTROL Homens]** **[!UICONTROL Varejo: Categoria de Produto de Moda]** são incluídos na métrica **[!UICONTROL Receita Online]**.
+Quando você cria relatórios sobre categorias, somente os **[!UICONTROL Homens]** **[!UICONTROL Varejo: Categoria de Produto de Moda]** são relatados.
 
 >[!TAB Análise de sub-ocorrência (excluir)]
 
