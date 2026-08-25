@@ -4,24 +4,15 @@ title: Formatos de arquivo do conjunto de classificações
 feature: Classifications
 exl-id: f3d429be-99d5-449e-952e-56043b109411
 TQID: https://experienceleague.adobe.com/-4pIa7Kqe0sEJkhwiVanaN90xkI8jg0U3-1qEWxRiwM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: e992d880-33bc-4949-a648-aa7d410276cd
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: e992d880-33bc-4949-a648-aa7d410276cdid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: bffce151c74eda5cf27b838e184b0ae9e81f6cd8
 workflow-type: tm+mt
-source-wordcount: 1110
-ht-degree: 1%
+source-wordcount: 1169
+ht-degree: 2%
 
 ---
 
@@ -38,7 +29,8 @@ Os conjuntos de classificações são compatíveis com os seguintes formatos de 
 
 * **JSON**: arquivos de Anotação de Objeto do JavaScript com dados estruturados
 * **CSV**: arquivos de valores separados por vírgulas
-* **TSV ou TAB**: arquivos de valores separados por tabulação
+* **TSV**: arquivos de valores separados por tabulação
+* **TAB**: arquivos de valores separados por tabulação com a extensão `.tab` (somente carregamento do navegador; não suportado pela API)
 
 ## Requisitos gerais de arquivo
 
@@ -63,12 +55,12 @@ Cada objeto JSON deve conter:
 * `key` (obrigatório): o identificador exclusivo do registro de classificação
 * `data` (obrigatório para atualizações): um objeto contendo nomes de colunas de classificação e seus valores
 * `action` (opcional): a ação a ser executada. Os valores compatíveis incluem:
-   * `update` (a ação padrão, quando nenhuma ação é especificada)
-   * `delete-field`
-   * `delete-key`
+  * `update` (a ação padrão, quando nenhuma ação é especificada)
+  * `delete-field`
+  * `delete-key`
 * `enc` (opcional): especificação de codificação de dados. Os valores compatíveis incluem:
-   * `utf8` ou `UTF8` (padrão)
-   * `latin1` ou `LATIN1`
+  * `utf8` ou `UTF8` (padrão)
+  * `latin1` ou `LATIN1`
 
 Todos os nomes de campos JSON (`key`, `data`, `action`, `enc`) diferenciam maiúsculas de minúsculas e devem ser minúsculas.
 
@@ -167,6 +159,10 @@ product456,,~empty~,~empty~,79.99
 +++
 
 +++ Detalhes dos formatos TSV e TAB
+
+>[!NOTE]
+>
+>Arquivos com a extensão `.tab` só têm suporte para carregamentos de navegador. A [API de Classificações](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) não aceita o tipo de arquivo `.tab`, mesmo se o conteúdo do arquivo for separado por tabulação. Para carregamentos de API, use a extensão `.tsv` (ou `.json` ou `.csv`).
 
 Os arquivos TSV (Valores separados por tabulação) e TAB usam caracteres de tabulação para separar campos de dados de classificação.
 
