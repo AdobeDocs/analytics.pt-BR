@@ -18,10 +18,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: bffce151c74eda5cf27b838e184b0ae9e81f6cd8
 workflow-type: tm+mt
-source-wordcount: 1110
-ht-degree: 1%
+source-wordcount: 1169
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,8 @@ Os conjuntos de classificações são compatíveis com os seguintes formatos de 
 
 * **JSON**: arquivos de Anotação de Objeto do JavaScript com dados estruturados
 * **CSV**: arquivos de valores separados por vírgulas
-* **TSV ou TAB**: arquivos de valores separados por tabulação
+* **TSV**: arquivos de valores separados por tabulação
+* **TAB**: arquivos de valores separados por tabulação com a extensão `.tab` (somente carregamento do navegador; não suportado pela API)
 
 ## Requisitos gerais de arquivo
 
@@ -63,12 +64,12 @@ Cada objeto JSON deve conter:
 * `key` (obrigatório): o identificador exclusivo do registro de classificação
 * `data` (obrigatório para atualizações): um objeto contendo nomes de colunas de classificação e seus valores
 * `action` (opcional): a ação a ser executada. Os valores compatíveis incluem:
-   * `update` (a ação padrão, quando nenhuma ação é especificada)
-   * `delete-field`
-   * `delete-key`
+  * `update` (a ação padrão, quando nenhuma ação é especificada)
+  * `delete-field`
+  * `delete-key`
 * `enc` (opcional): especificação de codificação de dados. Os valores compatíveis incluem:
-   * `utf8` ou `UTF8` (padrão)
-   * `latin1` ou `LATIN1`
+  * `utf8` ou `UTF8` (padrão)
+  * `latin1` ou `LATIN1`
 
 Todos os nomes de campos JSON (`key`, `data`, `action`, `enc`) diferenciam maiúsculas de minúsculas e devem ser minúsculas.
 
@@ -167,6 +168,10 @@ product456,,~empty~,~empty~,79.99
 +++
 
 +++ Detalhes dos formatos TSV e TAB
+
+>[!NOTE]
+>
+>Arquivos com a extensão `.tab` só têm suporte para carregamentos de navegador. A [API de Classificações](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) não aceita o tipo de arquivo `.tab`, mesmo se o conteúdo do arquivo for separado por tabulação. Para carregamentos de API, use a extensão `.tsv` (ou `.json` ou `.csv`).
 
 Os arquivos TSV (Valores separados por tabulação) e TAB usam caracteres de tabulação para separar campos de dados de classificação.
 
