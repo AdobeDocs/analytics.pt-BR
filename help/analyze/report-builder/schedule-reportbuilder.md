@@ -7,34 +7,30 @@ type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
 TQID: https://experienceleague.adobe.com/57Kc6Mgv1-HwWIEjxYj-zEjJSSIqHMxn5-KHxAeVsUQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 69d0c283625c9146b6dd9659353f0b4ae0a0f35b
 workflow-type: tm+mt
-source-wordcount: 908
-ht-degree: 26%
+source-wordcount: 964
+ht-degree: 23%
 
 ---
 
 # Agendar pastas de trabalho compartilhando por email
 
->[!NOTE]
->
->Além de agendar pastas de trabalho para compartilhamento por email, conforme descrito nesta seção, você pode agendar pastas de trabalho para serem exportadas para destinos na nuvem, conforme descrito em [Agendar pastas de trabalho para exportação para destinos na nuvem](/help/analyze/report-builder/report-builder-export.md).
-
 Depois de salvar a pasta de trabalho e concluir a análise, é possível compartilhar facilmente a pasta de trabalho com outras pessoas em sua equipe usando o recurso de programação. O recurso Programação permite criar um uma programação que atualiza automaticamente os dados na pasta de trabalho e envia por email o arquivo .xlsx da pasta de trabalho do Excel como um anexo para o público-alvo especificado em uma data e hora específicas. Configurar uma programação fornece atualizações regulares aos recipients automaticamente. Você também pode usar o recurso de programação para enviar a pasta de trabalho uma vez sem programar atualizações automáticas.
 
 Você pode criar várias programações para uma única pasta de trabalho. Por exemplo, você pode enviar uma pasta de trabalho para sua equipe diariamente e enviar a pasta de trabalho para seu gerente uma vez por semana criando duas programações diferentes.
 
-O recurso Programação também permite que você configure a proteção por senha para uma pasta de trabalho e edite pastas de trabalho previamente programadas.
+Além de agendar pastas de trabalho para compartilhamento por email, conforme descrito nesta seção, você pode agendar pastas de trabalho para serem exportadas para destinos na nuvem, conforme descrito em [Agendar pastas de trabalho para exportação para destinos na nuvem](/help/analyze/report-builder/report-builder-export.md).
 
+O recurso Agendar também permite configurar a proteção por senha para uma pasta de trabalho e editar a programação de pastas de trabalho agendadas anteriormente.
+
+>[!NOTE]
+>
+>Um agendamento envia a versão da pasta de trabalho que existia quando você criou o agendamento. Posteriormente, se você alterar e salvar a pasta de trabalho, a programação existente não selecionará essas alterações e continuará a enviar a versão original. Para distribuir uma pasta de trabalho atualizada, crie um novo agendamento depois de salvar as alterações.
 
 >[!BEGINSHADEBOX]
 
