@@ -13,10 +13,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: dda36e5bfc02d3a17f6f58449e6a925a882002ec
 workflow-type: tm+mt
-source-wordcount: 717
-ht-degree: 94%
+source-wordcount: 716
+ht-degree: 92%
 
 ---
 
@@ -68,4 +68,4 @@ Visitas no contexto de uma dimensão (por exemplo, [canal de marketing](../dimen
 
 ## Visitas - todos os visitantes no Data Warehouse
 
-A métrica &quot;Visitas - Todos os visitantes&quot; está disponível no Data Warehouse, além da métrica &quot;Visitas&quot;. A métrica &quot;Visitas - Todos os visitantes&quot; é comparável à métrica &quot;Visitas&quot; em outras ferramentas do Analytics. A métrica &quot;Visitas&quot; no Data Warehouse exclui visitantes que não têm cookies persistentes. A Adobe recomenda usar &quot;Visitas - Todos os visitantes&quot; em solicitações do Data Warehouse em que as visitas são desejadas como uma métrica.
+A métrica &quot;Visitas - Todos os visitantes&quot; está disponível na Data Warehouse em vez da métrica &quot;Visitas&quot;. A métrica &quot;Visitas - Todos os visitantes&quot; é comparável à métrica &quot;Visitas&quot; em outras ferramentas do Analytics. A métrica &quot;Visitas&quot; no Data Warehouse exclui visitantes que não têm cookies persistentes. A Adobe recomenda usar &quot;Visitas - Todos os visitantes&quot; em solicitações do Data Warehouse em que as visitas são desejadas como uma métrica.
