@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 69d0c283625c9146b6dd9659353f0b4ae0a0f35b
 workflow-type: tm+mt
-source-wordcount: 1263
-ht-degree: 33%
+source-wordcount: 1297
+ht-degree: 32%
 
 ---
 
@@ -53,10 +53,6 @@ Use o processo a seguir ao exportar pastas de trabalho do Report Builder para a 
 ![O processo de exportação descrito nas etapas 1 a 4.](assets/report-builder-export-process.png)
 
 ## Exportar um relatório do Report Builder
-
->[!NOTE]
->
->Antes de exportar os dados conforme descrito nesta seção, saiba mais sobre o [processo de exportação](#understand-the-export-process) na seção acima.
 
 Para exportar relatórios do Report Builder:
 
@@ -99,6 +95,9 @@ Para exportar relatórios do Report Builder:
 
    Os dados são enviados à conta da nuvem especificada com a frequência especificada.
 
+>[!NOTE]
+>
+>Um agendamento exporta a versão da pasta de trabalho que existia quando você criou o agendamento. Posteriormente, se você alterar e salvar a pasta de trabalho, a programação existente não selecionará essas alterações e continuará a exportar a versão original. Para exportar uma pasta de trabalho atualizada, crie um novo agendamento depois de salvar as alterações.
 
 ## Vantagens de exportar para a nuvem
 
