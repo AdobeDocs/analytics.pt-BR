@@ -15,10 +15,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9f587a20e5c6f62fce6ed599f3a5dfb27d1bf0da
+source-git-commit: 31fb96e33bec21fd80b5ccaf2d46f607c25d880d
 workflow-type: tm+mt
 source-wordcount: 2164
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -155,7 +155,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
       >[!NOTE]
       >
-      >Contas de email podem ser usadas apenas com [Feeds de dados](/help/export/analytics-data-feed/create-feed.md). (Contas de email não são compatíveis com o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou [Conjuntos de classificações](/help/components/classifications/sets/overview.md)).
+      >Contas de email podem ser usadas somente com o Data Warehouse. (Contas de email sem suporte com [Feeds de dados](/help/export/analytics-data-feed/create-feed.md) ou [Conjuntos de classificação](/help/components/classifications/sets/overview.md)).
 
       Para configurar uma conta do Azure RBAC, especifique as seguintes informações:
 
