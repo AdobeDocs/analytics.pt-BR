@@ -4,17 +4,10 @@ description: Saiba o que são dimensões e como elas são usadas no Adobe Analyt
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 TQID: https://experienceleague.adobe.com/WypIneraYlrSyIpXv3UQWIFn42A-Dxi0SxeJ2VbeubQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 436
@@ -52,7 +45,7 @@ As seguintes dimensões foram removidas. A maioria eram relatórios do Reports &
 * **Versão do JavaScript**: relatou a versão do JavaScript para a qual o navegador do visitante deu suporte. Uma dimensão herdada que não é mais coletada.
 * **Próxima página**: uma dimensão de definição de caminho que mostra a próxima página que um visitante visualizou. Use a [Visualização de fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) no Analysis Workspace para as dimensões de definição de caminho atuais.
 * **Página anterior**: uma dimensão de definição de caminho que mostra a página anterior que um visitante visualizou. Use a [Visualização de fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) no Analysis Workspace para as dimensões de definição de caminho atuais.
-* **Fuso Horário**: o fuso horário do visitante, derivado do deslocamento do carimbo de data/hora nas solicitações de imagem do AppMeasurement. O Web SDK coleta fuso horário usando [`placeContext`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/commands/configure/context).
+* **Fuso Horário**: o fuso horário do visitante, derivado do deslocamento do carimbo de data/hora nas solicitações de imagem do AppMeasurement. O Web SDK coleta fuso horário usando [`placeContext`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/context).
 * **Domínio de nível superior**: o domínio de nível superior do ponto de acesso do visitante. Um relatório herdado do Reports &amp; Analytics; use a dimensão [Domínio](domain.md).
 * **Número de Página da Visita**: o número de página em uma visita. Um relatório herdado do Reports &amp; Analytics; use a dimensão [Profundidade da ocorrência](hit-depth.md).
 * **Estado do Visitante**: relatou o estado dos EUA a partir da variável `s.state`. Foi removido em favor da dimensão [Estados dos EUA](us-states.md), que usa geosegmentação.

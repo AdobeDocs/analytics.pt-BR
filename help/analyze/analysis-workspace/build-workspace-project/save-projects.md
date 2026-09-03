@@ -5,14 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 TQID: https://experienceleague.adobe.com/pw-VxFevFMNZ25B4-7KzpIasfnhELjtG-5k3FV2CxQk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
 workflow-type: tm+mt
 source-wordcount: 860
@@ -46,15 +41,15 @@ Para salvar um projeto manualmente, com o projeto aberto no Analysis Workspace, 
 
   ![Salvar projeto](assets/save-project.png)
 
-   1. Especifique o seguinte:
+  1. Especifique o seguinte:
 
-      * **[!UICONTROL Nome]** (obrigatório). nome do projeto.
-      * **[!UICONTROL Descrição]**. Uma descrição do projeto.
-      * **[!UICONTROL Tags]**. Pesquise tags no campo [!UICONTROL *Pesquisar tags*] ou adicione novas tags usando **[!UICONTROL ENTER]**.
-      * **[!UICONTROL Pasta]**. Selecione uma pasta no menu suspenso [!UICONTROL *Selecionar uma pasta*]. Se você não especificar uma pasta, o projeto será salvo na pasta atual na qual você criou um novo projeto.
-      * **[!UICONTROL Notas de versão]**. Adicionar notas de versão na área de texto *Adicionar notas*.
+     * **[!UICONTROL Nome]** (obrigatório). nome do projeto.
+     * **[!UICONTROL Descrição]**. Uma descrição do projeto.
+     * **[!UICONTROL Tags]**. Pesquise tags no campo [!UICONTROL *Pesquisar tags*] ou adicione novas tags usando **[!UICONTROL ENTER]**.
+     * **[!UICONTROL Pasta]**. Selecione uma pasta no menu suspenso [!UICONTROL *Selecionar uma pasta*]. Se você não especificar uma pasta, o projeto será salvo na pasta atual na qual você criou um novo projeto.
+     * **[!UICONTROL Notas de versão]**. Adicionar notas de versão na área de texto *Adicionar notas*.
 
-   1. Selecione **[!UICONTROL Salvar]** para salvar o projeto.
+  1. Selecione **[!UICONTROL Salvar]** para salvar o projeto.
 
   Salvar o projeto salva uma versão do projeto que é armazenada por 90 dias.
 
@@ -62,8 +57,8 @@ Para salvar um projeto manualmente, com o projeto aberto no Analysis Workspace, 
 
   ![Salvar projeto compartilhado](assets/save-project-shared.png)
 
-   * Clique em **[!UICONTROL Salvar]** para salvar o projeto.
-   * Clique em **[!UICONTROL Salvar como]** para salvar o projeto como um projeto duplicado com um novo nome.
+  * Clique em **[!UICONTROL Salvar]** para salvar o projeto.
+  * Clique em **[!UICONTROL Salvar como]** para salvar o projeto como um projeto duplicado com um novo nome.
 
 
 * **[!UICONTROL Salvar com notas]**
@@ -72,8 +67,8 @@ Para salvar um projeto manualmente, com o projeto aberto no Analysis Workspace, 
 
   Ao salvar o projeto, adicione notas sobre o que foi alterado nele. Na caixa de diálogo Salvar notas de versão:
 
-   1. Insira suas **[!UICONTROL Notas de versão]** na área de texto **[!UICONTROL Adicionar notas]**.
-   1. Selecione **[!UICONTROL Salvar]**.
+  1. Insira suas **[!UICONTROL Notas de versão]** na área de texto **[!UICONTROL Adicionar notas]**.
+  1. Selecione **[!UICONTROL Salvar]**.
 
   As notas são armazenadas com a versão do projeto e ficam disponíveis quando você [abre uma versão anterior](open-projects.md#open-previous-version) do projeto. Uma versão salva com notas é armazenada automaticamente por um ano.
 
@@ -83,15 +78,15 @@ Para salvar um projeto manualmente, com o projeto aberto no Analysis Workspace, 
 
   Crie uma duplicata do seu projeto com um novo nome. A caixa de diálogo Salvar como será exibida.
 
-   1. Especifique o seguinte:
+  1. Especifique o seguinte:
 
-      * **[!UICONTROL Nome]** (obrigatório). nome do projeto.
-      * **[!UICONTROL Descrição]**. Uma descrição do projeto.
-      * **[!UICONTROL Tags]**. Pesquise tags no campo [!UICONTROL *Pesquisar tags*] ou adicione novas tags usando **[!UICONTROL ENTER]**.
-      * **[!UICONTROL Pasta]**. Selecione uma pasta no menu suspenso [!UICONTROL *Selecionar uma pasta*]. Se você não especificar uma pasta, o projeto será salvo na pasta atual na qual você criou um novo projeto.
-      * **[!UICONTROL Notas de versão]**. Adicionar notas de versão na área de texto *Adicionar notas*.
+     * **[!UICONTROL Nome]** (obrigatório). nome do projeto.
+     * **[!UICONTROL Descrição]**. Uma descrição do projeto.
+     * **[!UICONTROL Tags]**. Pesquise tags no campo [!UICONTROL *Pesquisar tags*] ou adicione novas tags usando **[!UICONTROL ENTER]**.
+     * **[!UICONTROL Pasta]**. Selecione uma pasta no menu suspenso [!UICONTROL *Selecionar uma pasta*]. Se você não especificar uma pasta, o projeto será salvo na pasta atual na qual você criou um novo projeto.
+     * **[!UICONTROL Notas de versão]**. Adicionar notas de versão na área de texto *Adicionar notas*.
 
-   1. Selecione **[!UICONTROL Salvar]** para salvar o projeto.
+  1. Selecione **[!UICONTROL Salvar]** para salvar o projeto.
 
   Você pode salvar o projeto em uma pasta diferente. O projeto original não será afetado.
 

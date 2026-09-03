@@ -5,14 +5,10 @@ feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
 autotag-review: '2026-05-19T13:32:36.907Z'
 TQID: 'https://experienceleague.adobe.com/AeGIKH9eB-OcGqN9iSpMRRtBLFiCU2eNdmQtiK7g9gU'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-subfeature_v2:
-  - id: fe0a7292-80bc-407a-b456-64170267d1cc
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2: id: fe0a7292-80bc-407a-b456-64170267d1cc
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
 source-wordcount: 552
@@ -45,8 +41,8 @@ A tabela consiste nas seguintes colunas:
 - Para pesquisar sua conta publicitária usando o campo de pesquisa ![Pesquisa](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg).
 - Para selecionar contas ativas na tabela, marque **[!UICONTROL Contas ativas]**.
 - Para definir quais colunas serão mostradas para a tabela, selecione ![Configurações de coluna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). <br/>Na caixa de diálogo **[!UICONTROL Personalizar tabela]**:
-   - Selecione as colunas que deseja mostrar.
-   - Selecione **[!UICONTROL Aplicar]**.
+  - Selecione as colunas que deseja mostrar.
+  - Selecione **[!UICONTROL Aplicar]**.
 
 Ao selecionar uma ou mais contas publicitárias, uma barra de ação azul, com base no status das contas selecionadas, permite ![Editar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Renomear]**, ![Atualizar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Mapear Conjuntos de Relatórios]**, ![Reproduzir](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL Ativar]** ou ![Pausar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL Pausar]** suas contas publicitárias.
 

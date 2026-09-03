@@ -6,18 +6,10 @@ feature: Report Builder
 role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
 TQID: https://experienceleague.adobe.com/al9ySg7-3MCg-NZgdci4bDs4B9jNzpdBxlgBTrew2Hs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 1471
@@ -50,8 +42,8 @@ O problema ocorre ao abrir uma pasta de trabalho ARB v5.1 com a solicitação de
 O Report Builder exige autenticação para criar solicitações de dados dos seus conjuntos de relatórios. Às vezes, ocorrem questões ao fazer logon no Report Builder, dependendo de suas configurações no [!DNL Analytics] ou na sua rede.
 
 * **Empresa de Logon Inválida**: este erro geralmente ocorre quando a empresa de logon é inserida incorretamente ou se houver problemas de atividade de rede. Faça o seguinte:
-   * Verifique a ortografia da empresa de logon para garantir que não haja um erro de digitação ou um espaço incorreto.
-   * Faça logon no Analytics com a mesma empresa de logon para garantir que esteja correto. Se não conseguir fazer logon com essas credenciais, entre em contato com um dos administradores do de sua organização para obter a empresa de logon correta.
+  * Verifique a ortografia da empresa de logon para garantir que não haja um erro de digitação ou um espaço incorreto.
+  * Faça logon no Analytics com a mesma empresa de logon para garantir que esteja correto. Se não conseguir fazer logon com essas credenciais, entre em contato com um dos administradores do de sua organização para obter a empresa de logon correta.
 * **Firewall**: o Report Builder usa as portas 80 e 443. Assegure que essas portas estejam permitidas no firewall de sua organização. Consulte também Endereços IP internos da Adobe para obter exclusões adicionais de firewall.
 
 ## Recomendações para solicitações de otimização {#section_33EF919255BF46CD97105D8ACB43573F}
@@ -96,11 +88,11 @@ Esta seção inclui uma lista de exemplos de mensagens de erro que podem ocorrer
 * **Saia da Célula do Excel onde está o foco antes de usar este recurso.**: Se você estiver no *modo de edição* em uma célula do Excel e clicar em um dos ícones do Report Builder, esta mensagem de erro será exibida. O modo de edição em uma célula do Excel significa que a célula está selecionada e o cursor aparece dentro dela. Você também está no modo de edição em uma célula do Excel quando digita diretamente na barra de [!UICONTROL Fórmula] ou na [!UICONTROL Caixa de Nome] na parte superior do Excel.
 * **O intervalo selecionado faz interseção com o intervalo de outra solicitação. Altere sua seleção.**: se você já tiver mapeado um conjunto de células para a planilha, este erro será exibido.
 * **Reparos na pasta de trabalho (Registros removidos: Fórmula de /xl/calcChain.xml parte)**: às vezes, as fórmulas de uma pasta de trabalho são corrompidas ao salvar ou transferir. Quando o arquivo é aberto, o Excel tenta executar essas fórmulas e falha. Você pode resolver esse problema removendo `calcChain.xml` da planilha, forçando o Excel a atualizar seus cálculos de fórmula.
-   1. Renomeie a extensão de arquivo da pasta de trabalho de `.xlsx` para `.zip`.
-   2. Descompacte o conteúdo e abra a pasta `/xl/`.
-   3. Excluir `calcChain.xml`.
-   4. Volte a compactar o conteúdo e altere a extensão de arquivo para `.xlsx`.
-   5. Abra a pasta de trabalho no Excel e atualize todas as solicitações do Report Builder.
+  1. Renomeie a extensão de arquivo da pasta de trabalho de `.xlsx` para `.zip`.
+  2. Descompacte o conteúdo e abra a pasta `/xl/`.
+  3. Excluir `calcChain.xml`.
+  4. Volte a compactar o conteúdo e altere a extensão de arquivo para `.xlsx`.
+  5. Abra a pasta de trabalho no Excel e atualize todas as solicitações do Report Builder.
 * **As células do Excel associadas aos filtros de entrada ou ao intervalo de saída podem ter sido excluídas**: o Report Builder usa Nomes do Excel para anexar solicitações de dados a células. Se você excluir Nomes do Excel do Gerenciador de nomes, esse erro poderá ser exibido. As solicitações não poderão ser recuperadas se os Nomes do Excel forem excluídos. Se a pasta de trabalho foi agendada, você pode baixar uma cópia do Gerenciador de programação ou abrir cópias entregues anteriormente da pasta de trabalho.
 
 ## Registrar solicitações

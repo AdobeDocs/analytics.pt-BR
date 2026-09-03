@@ -4,18 +4,10 @@ description: Uma página agregada de dimensões e métricas de tempo gasto.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 TQID: https://experienceleague.adobe.com/kooM00bX8ASPWbIIf7wOO-rwcFEqxGt7DefLea5BC6E
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1659
@@ -46,7 +38,7 @@ Várias [!UICONTROL &#39;tempo gasto&#39;] [métricas](overview.md) e dimensões
 | [[!UICONTROL Tempo gasto por visita - granular]](../dimensions/time-spent-per-visit.md) | O tempo total gasto durante a visita, truncado no segundo mais próximo e aplicado a cada ocorrência que fez parte da visita. Esta é uma dimensão em nível de visitas. | Analysis Workspace |
 | [[!UICONTROL Tempo gasto por visita - sementado]](../dimensions/time-spent-per-visit.md) | A dimensão granular é classificada em 9 intervalos diferentes. Esta é uma dimensão em nível de visitas. Os intervalos incluem:<ul><li>Menos de um minuto</li><li>1-5 minutos</li><li>5-10 minutos</li><li>10-30 minutos</li><li>30 a 60 minutos</li><li>1 a 2 horas</li><li>2 a 5 horas</li><li>5 a 10 horas</li><li>10 a 15 horas</li></ul>**Observação**: não poderá haver turnos maiores que esses, pois uma visita expira após 12 horas de atividade. | Analysis Workspace, Report Builder |
 | [[!UICONTROL Tempo gasto na página - granular]](../dimensions/time-spent-on-page.md) | O tempo total gasto em cada ocorrência, truncado no segundo mais próximo. É uma dimensão em nível de ocorrência e inclui exibições de página e eventos de link. Apesar do nome, não está limitado à dimensão &quot;página&quot;. | Analysis Workspace |
-| [[!UICONTROL Tempo gasto na página - segmentado]](../dimensions/time-spent-on-page.md) | A dimensão granular é classificada em 10 intervalos diferentes; no entanto, a dimensão classificada conta apenas exibições de página (e exclui eventos de link). Esta é uma dimensão em nível de ocorrência. Os intervalos incluem:<ul><li>menos de 15 segundos</li><li>de 15 a 29 segundos</li><li>de 30 a 59 segundos</li><li>de 1 a 3 minutos</li><li>de 3 a 5 minutos</li><li>de 5 a 10 minutos</li><li>de 10 a 15 minutos</li><li>de 15 a 20 minutos</li><li>de 20 a 30 minutos</li><li>mais de 30 minutos</li></ul> | Analysis Workspace |
+| [[!UICONTROL Tempo gasto na página - segmentado]](../dimensions/time-spent-on-page.md) | A dimensão granular é classificada em 10 intervalos diferentes; no entanto, a dimensão classificada conta apenas exibições de página (e exclui eventos de link). Esta é uma dimensão em nível de ocorrência. Os intervalos incluem:<ul><li>menos de 15 segundos</li><li>15 a 29 minutos</li><li>30 a 59 minutos</li><li>de 1 a 3 minutos</li><li>de 3 a 5 minutos</li><li>de 5 a 10 minutos</li><li>de 10 a 15 minutos</li><li>de 15 a 20 minutos</li><li>de 20 a 30 minutos</li><li>mais de 30 minutos</li></ul> | Analysis Workspace |
 
 ## Como o tempo gasto é calculado
 
@@ -170,6 +162,6 @@ Algumas observações adicionais em apoio ao exemplo:
 
 * Uma &quot;sequência&quot; é um conjunto consecutivo de ocorrências em que uma determinada variável contém o mesmo valor (seja por definição, expansão para a frente ou persistente). Por exemplo, prop1 &quot;A&quot; tem duas sequências: ocorrências 1 e 2 e ocorrência 6. Os valores na última ocorrência da visita não iniciam uma nova sequência porque a última ocorrência não tem tempo gasto. Tempo médio gasto no site usa sequências no denominador.
 
-   * Para calcular apenas o tempo gasto, as props são &quot;expandidas para a frente&quot; a partir das ocorrências de página para ocorrências de link subsequentes, conforme mostrado acima para prop1 na ocorrência 2. Isso permite que o valor definido para prop1 na ocorrência 1 (&quot;A&quot;) acumule o tempo gasto na ocorrência 2.
+  * Para calcular apenas o tempo gasto, as props são &quot;expandidas para a frente&quot; a partir das ocorrências de página para ocorrências de link subsequentes, conforme mostrado acima para prop1 na ocorrência 2. Isso permite que o valor definido para prop1 na ocorrência 1 (&quot;A&quot;) acumule o tempo gasto na ocorrência 2.
 
-   * As eVars acumulam o Tempo gasto em qualquer ocorrência em que a eVar estiver definida ou mantida. A persistência de eVar é definida pelas configurações de eVar no Analytics > Administração.
+  * As eVars acumulam o Tempo gasto em qualquer ocorrência em que a eVar estiver definida ou mantida. A persistência de eVar é definida pelas configurações de eVar no Analytics > Administração.

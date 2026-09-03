@@ -4,15 +4,10 @@ description: A exportação de FTP oferece mais flexibilidade com downloads de c
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
 TQID: https://experienceleague.adobe.com/KKnG0DlET8t0Lp5kecZ7C-d9zyUx71nQ6FI8NleDirU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 632
@@ -30,10 +25,10 @@ Considere os seguintes problemas ao aplicar filtros de dados:
 
 * É possível usar curingas ao definir o filtro de dados. Use um asterisco `*` para corresponder a zero ou mais caracteres e um ponto de interrogação `?` para corresponder exatamente a um caractere. Use `?*` para corresponder um ou mais caracteres
 * Normalmente, ao aplicar ambos os tipos de filtros de dados a um download, somente as linhas que correspondem a ambas as regras são baixadas. No entanto, as seguintes exceções se aplicam:
-   * Se Linhas com coluna vazia = Todas as colunas, então todas as colunas, exceto a coluna especificada na primeira regra, são verificadas para confirmar se estão vazias. Essa exceção garante que a ferramenta baixe qualquer linha com uma coluna que corresponda à primeira regra que também tenha todas as outras colunas vazias.
-   * Ao baixar linhas de dados com base em colunas vazias, todas as colunas, exceto as especificadas na primeira regra, são verificadas para confirmar se estão vazias.
-   * Se a mesma coluna for especificada para ambas as regras de filtro (é quase impossível atender a ambos os critérios), apenas as linhas que correspondem à primeira regra serão baixadas.
-   * Exportações de FTP têm um limite de 30 colunas.
+  * Se Linhas com coluna vazia = Todas as colunas, então todas as colunas, exceto a coluna especificada na primeira regra, são verificadas para confirmar se estão vazias. Essa exceção garante que a ferramenta baixe qualquer linha com uma coluna que corresponda à primeira regra que também tenha todas as outras colunas vazias.
+  * Ao baixar linhas de dados com base em colunas vazias, todas as colunas, exceto as especificadas na primeira regra, são verificadas para confirmar se estão vazias.
+  * Se a mesma coluna for especificada para ambas as regras de filtro (é quase impossível atender a ambos os critérios), apenas as linhas que correspondem à primeira regra serão baixadas.
+  * Exportações de FTP têm um limite de 30 colunas.
 
 ## Exportar classificações usando FTP
 

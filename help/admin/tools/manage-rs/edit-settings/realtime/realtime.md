@@ -4,19 +4,10 @@ title: Relatórios em Tempo real
 feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
 TQID: https://experienceleague.adobe.com/SqFAddRYrXCrQyB-LjgsaLWoEQXMLc7hkdgcAcgUdsM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 611
@@ -51,10 +42,10 @@ Como Administrador, você pode
 * Use qualquer evento personalizado, evento de carrinho de compras ou instância.
 * Visualize até 2 horas de dados históricos em tempo real e modifique essa configuração:
 
-   * Últimos 15 minutos: granularidade de 1 minuto
-   * Últimos 30 minutos: granularidade de 1 minuto
-   * Última hora: granularidade de 2 minutos
-   * Últimas 2 horas: granularidade de 4 minutos
+  * Últimos 15 minutos: granularidade de 1 minuto
+  * Últimos 30 minutos: granularidade de 1 minuto
+  * Última hora: granularidade de 2 minutos
+  * Últimas 2 horas: granularidade de 4 minutos
 
 * Compare, por exemplo, os valores da semana passada com os valores do ano passado (bem como com o total de hoje).
 

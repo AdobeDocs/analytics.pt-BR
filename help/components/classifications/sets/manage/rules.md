@@ -4,14 +4,10 @@ description: Saiba como usar regras de conjuntos de classificação para definir
 feature: Classifications
 exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
 TQID: 'https://experienceleague.adobe.com/GWzXfm7S6KD4k6CG-yElJesnQzhfCAcCwNZII0zQ1HM'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1692
@@ -37,21 +33,21 @@ Para definir um conjunto de regras para um conjunto de classificações:
 
    * Se você estiver acessando a interface **[!UICONTROL Regras]** pela primeira vez para um conjunto de classificação ou decidir até o momento continuar a usar a interface herdada do construtor de regras, será exibida uma caixa de diálogo que permite selecionar como começar. As opções são:
 
-      * **Migrar regras existentes**. Importe as regras de classificação atuais e continue a trabalhar com essas regras na nova interface. As regras existentes são preservadas e convertidas no novo formato.
-         * Selecione **[!UICONTROL Migrar regras]** para continuar.
-         * Na caixa de diálogo **[!UICONTROL Confirmar migração]**, leia as implicações da migração.
-            * Selecione **[!UICONTROL Migrar regras]** para confirmar a migração. Após a conclusão da migração, use a [Interface do conjunto de regras](#rule-set-interface) para criar novas regras e editar as regras migradas existentes.
-            * Selecione **[!UICONTROL Cancelar]** para cancelar a migração
+     * **Migrar regras existentes**. Importe as regras de classificação atuais e continue a trabalhar com essas regras na nova interface. As regras existentes são preservadas e convertidas no novo formato.
+       * Selecione **[!UICONTROL Migrar regras]** para continuar.
+       * Na caixa de diálogo **[!UICONTROL Confirmar migração]**, leia as implicações da migração.
+         * Selecione **[!UICONTROL Migrar regras]** para confirmar a migração. Após a conclusão da migração, use a [Interface do conjunto de regras](#rule-set-interface) para criar novas regras e editar as regras migradas existentes.
+         * Selecione **[!UICONTROL Cancelar]** para cancelar a migração
 
-      * **Iniciar novo**. Crie novas regras de classificação do zero usando o novo construtor de regras. Selecione essa opção se desejar reprojetar a lógica de classificação ou começar a usar novas regras de classificação.
-         * Selecione **[!UICONTROL Criar novas regras]** para continuar.
-         * Na caixa de diálogo **[!UICONTROL Confirmar reinício]**, leia as implicações de um novo início.
-            * Selecione **[!UICONTROL Iniciar novo]** para confirmar uma nova inicialização e descartar todas as regras existentes. Use a [Interface do conjunto de regras](#rule-set-interface) para criar novas regras.
-            * Selecione **[!UICONTROL Cancelar]** para cancelar.
+     * **Iniciar novo**. Crie novas regras de classificação do zero usando o novo construtor de regras. Selecione essa opção se desejar reprojetar a lógica de classificação ou começar a usar novas regras de classificação.
+       * Selecione **[!UICONTROL Criar novas regras]** para continuar.
+       * Na caixa de diálogo **[!UICONTROL Confirmar reinício]**, leia as implicações de um novo início.
+         * Selecione **[!UICONTROL Iniciar novo]** para confirmar uma nova inicialização e descartar todas as regras existentes. Use a [Interface do conjunto de regras](#rule-set-interface) para criar novas regras.
+         * Selecione **[!UICONTROL Cancelar]** para cancelar.
 
 
-      * **Usar interface herdada**. Continue a usar a interface anterior do construtor de regras. Você pode migrar para a nova experiência a qualquer momento quando estiver pronto.
-         * Selecione **[!UICONTROL Ir para a interface herdada]** para continuar. Você é direcionado para a interface herdada **[!UICONTROL Construtor de regras de classificação]**.
+     * **Usar interface herdada**. Continue a usar a interface anterior do construtor de regras. Você pode migrar para a nova experiência a qualquer momento quando estiver pronto.
+       * Selecione **[!UICONTROL Ir para a interface herdada]** para continuar. Você é direcionado para a interface herdada **[!UICONTROL Construtor de regras de classificação]**.
 
    * Se já tiver migrado regras ou criado novas regras para um conjunto de classificações, você acabará diretamente na interface do Conjunto de regras.
 

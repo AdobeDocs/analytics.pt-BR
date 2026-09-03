@@ -5,8 +5,8 @@ feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
 source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 6%
+source-wordcount: '240'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ Este artigo explica um exemplo mais complexo de uma métrica calculada. Essas m�
 1. Selecione a métrica **[!UICONTROL Pedidos online]** dos componentes de **[!UICONTROL Métricas]** e arraste a métrica para a área **[!UICONTROL Definição]**.
 
    1. Selecione ![Configuração](/help/assets/icons/Setting.svg) para a métrica.
-   1. Selecione **[!UICONTROL Usar modelo de atribuição não padrão]**.
+   1. Clique em **[!UICONTROL Usar modelo de atribuição não padrão]**.
    1. Ajuste o modelo de atribuição no **[!UICONTROL Modelo de atribuição de coluna]**.
       1. Selecione **[!UICONTROL Personalizado]** para **[!UICONTROL Modelo]**. Defina **[!UICONTROL Iniciante]** para `0`, **[!UICONTROL Reprodutor]** para `100` e **[!UICONTROL Mais próximo]** para `0`.
       1. Selecione **[!UICONTROL Visitante]** para **[!UICONTROL Contêiner]**.
@@ -41,4 +41,4 @@ Para usar a métrica calculada:
 
 1. (Opcional) Compartilhe a métrica com outros usuários em sua organização, conforme descrito em [Compartilhar métricas calculadas](/help/components/calculated-metrics/workflow/cm-sharing.md).
 
-Esse é um jeito fácil de averiguar quais Canais de marketing assistiram em impulsionar pedidos. Como alternativa, em uma tabela de forma livre, você pode selecionar qualquer métrica e, no menu de contexto, ajustar o modelo de atribuição diretamente da tabela.
+Essa é uma maneira fácil de saber quais Canais de marketing auxiliaram na criação de pedidos. Como alternativa, em uma tabela de forma livre, você pode selecionar qualquer métrica e, no menu de contexto, ajustar o modelo de atribuição diretamente da tabela.

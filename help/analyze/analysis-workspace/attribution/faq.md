@@ -5,19 +5,13 @@ feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
 TQID: 'https://experienceleague.adobe.com/2rsPhh5Y-Fxf8fvG4skU59bO72FM2x7Zdecwh1sVVsY'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 1210
+source-wordcount: 1214
 ht-degree: 71%
 
 ---
@@ -37,8 +31,8 @@ O item de linha “Nenhum” é um item “catch-all” (global) que representa 
 
 Algumas métricas baseadas em visitas, como [Entradas](/help/components/metrics/entries.md) ou [Taxa de rejeição](/help/components/metrics/bounce-rate.md), podem atribuir dados a um período anterior à data inicial do intervalo da janela de relatórios. Essa situação se deve aos modelos de atribuição que usam uma janela de pesquisa, que determina a aparência da atribuição anterior para conceder crédito por métricas. O cenário mais comum é quando as visitas abrangem a meia-noite. Por exemplo:
 
-1. Um usuário visita sua página inicial às 23h:55 do dia 7 de setembro.
-1. Eles visitam várias páginas, a última às 12:05 AM de 8 de setembro.
+1. Um usuário visita sua página inicial às 23h55 do dia 7 de setembro.
+1. Eles visitam várias páginas, a última às 12h05 do dia 8 de setembro.
 1. Uma semana depois, você executa um relatório de tendências diárias com o intervalo de datas de 8 a 14 de setembro.
 
 Métricas baseadas em ocorrências, como [Visualizações de página](/help/components/metrics/page-views.md), produziriam a saída esperada; a tendência diária dos dados é de 8 a 14 de setembro. No entanto, as métricas baseadas em visitas também mostrariam a visita acima em 7 de setembro. A entrada atribuída à visita ocorreu em 7 de setembro, e a janela de pesquisa por padrão é de 1° a 31 de setembro.
@@ -47,8 +41,8 @@ A taxa de rejeição sempre mostra 0% em 7 de setembro neste exemplo. Essa métr
 
 Considere outro exemplo semelhante. A única diferença entre o exemplo a seguir e o acima são as datas:
 
-1. Um usuário visita sua página inicial às 23h:55 do dia 31 de agosto.
-1. Eles visitam várias páginas, a última às 12:05 AM de 1º de setembro.
+1. Um usuário visita sua página inicial às 23h55 do dia 31 de agosto.
+1. Eles visitam várias páginas, a última às 12h05 do dia 1° de setembro.
 1. Uma semana depois, você executa um relatório de tendência diária com intervalo de datas de 1° a 7 de setembro.
 
 Neste exemplo, Entradas e Taxa de rejeição não exibiriam dados de 31 de agosto. A janela de pesquisa e a janela de relatórios iniciam no dia 1° de setembro, portanto os dados não podem ser atribuídos a partir do dia 31 de agosto.

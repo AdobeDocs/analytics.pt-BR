@@ -4,19 +4,11 @@ title: Tipo de métrica e atribuição
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 TQID: https://experienceleague.adobe.com/ZfZZhXUrpGIzpfmIatSmbRAy1UJ-B6dDmZDeC1YSMjU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 615
@@ -42,16 +34,16 @@ Você pode configurar o tipo de métrica e o [modelo de atribuição](#attributi
 
    * Especifique a **[!UICONTROL atribuição]**.
 
-      1. Você também pode:
+     1. Você também pode:
 
-         * Desabilitar a opção **[!UICONTROL Usar modelo de atribuição não padrão]** para usar o modelo de atribuição de coluna padrão, que é Último contato, com uma janela de pesquisa de 30 dias.
-         * Habilitar a opçã o **[!UICONTROL Usar modelo de atribuição não padrão]**. Na caixa de diálogo **[!UICONTROL Modelo de atribuição de coluna]**,
+        * Desabilitar a opção **[!UICONTROL Usar modelo de atribuição não padrão]** para usar o modelo de atribuição de coluna padrão, que é Último contato, com uma janela de pesquisa de 30 dias.
+        * Habilitar a opçã o **[!UICONTROL Usar modelo de atribuição não padrão]**. Na caixa de diálogo **[!UICONTROL Modelo de atribuição de coluna]**,
 
-            * Selecione um **[!UICONTROL Modelo]** nos [modelos de atribuição](#attribution-models).
-            * Selecione um **[!UICONTROL Container]** nas opções de [container](#container).
-            * Selecione uma **[!UICONTROL Janela de retrospectiva]** nas opções da [janela de retrospectiva](#lookback-window). Se você selecionar **[!UICONTROL Hora personalizada]**, poderá definir o período em **[!UICONTROL Minuto(s)]** até **[!UICONTROL Trimestre(s)]**.
+          * Selecione um **[!UICONTROL Modelo]** nos [modelos de atribuição](#attribution-models).
+          * Selecione um **[!UICONTROL Container]** nas opções de [container](#container).
+          * Selecione uma **[!UICONTROL Janela de retrospectiva]** nas opções da [janela de retrospectiva](#lookback-window). Se você selecionar **[!UICONTROL Hora personalizada]**, poderá definir o período em **[!UICONTROL Minuto(s)]** até **[!UICONTROL Trimestre(s)]**.
 
-      1. Selecione **[!UICONTROL Aplicar]** para aplicar o modelo de atribuição não padrão. Selecione Cancelar para cancelar.
+     1. Selecione **[!UICONTROL Aplicar]** para aplicar o modelo de atribuição não padrão. Selecione Cancelar para cancelar.
 
      Se você já tiver definido um modelo de atribuição não padrão, selecione **[!UICONTROL Editar]** para modificar a seleção.
 
@@ -158,7 +150,7 @@ Consulte [Exemplo](#example) para ver um exemplo de uso de um modelo de atribu
 {{attribution-container}}
 
 
-## Janela de retrospectiva {#lookback-winwow}
+## Janela de pesquisa {#lookback-winwow}
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"

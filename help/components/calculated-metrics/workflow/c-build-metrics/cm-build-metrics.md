@@ -4,20 +4,13 @@ title: Criar métricas
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
 TQID: https://experienceleague.adobe.com/ds8aD51DynOEJ7uYZ5Id-kTng2JPN4nZYuMTaKj-ZvE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1489
+source-wordcount: 1495
 ht-degree: 99%
 
 ---
@@ -135,22 +128,22 @@ Use o conceito de um container de segmento para criar uma [métrica segmentada]
 
 * Para adicionar um container de segmento a partir de uma dimensão:
 
-   1. Arraste e solte um componente ![Dimensões](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimensões]** do painel de componentes para **[!UICONTROL Arraste e solte métricas, dimensões, itens de dimensão, segmentos e/ou funções aqui]**. Você pode usar a ![Pesquisa](/help/assets/icons/Search.svg) na barra de componentes para procurar componentes específicos.
-   1. No pop-up **[!UICONTROL Criar segmento a partir da dimensão]**, defina a condição para o segmento. Selecione um valor na lista de operadores ou insira um valor. Por exemplo, **[!UICONTROL Mês]** **[!UICONTROL é igual a]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
-   1. Selecione **[!UICONTROL Concluído]**. Um container de segmento é adicionado à **[!UICONTROL Definição]**.
+  1. Arraste e solte um componente ![Dimensões](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimensões]** do painel de componentes para **[!UICONTROL Arraste e solte métricas, dimensões, itens de dimensão, segmentos e/ou funções aqui]**. Você pode usar a ![Pesquisa](/help/assets/icons/Search.svg) na barra de componentes para procurar componentes específicos.
+  1. No pop-up **[!UICONTROL Criar segmento a partir da dimensão]**, defina a condição para o segmento. Selecione um valor na lista de operadores ou insira um valor. Por exemplo, **[!UICONTROL Mês]** **[!UICONTROL é igual a]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
+  1. Selecione **[!UICONTROL Concluído]**. Um container de segmento é adicionado à **[!UICONTROL Definição]**.
 
 
 * Para adicionar um container de segmento a partir de um segmento, é possível usar:
 
-   * Arraste e solte um componente ![Segmentação](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmentos]** do painel de componentes para **[!UICONTROL Arraste e solte métricas, dimensões, itens de dimensão, segmentos e/ou funções aqui]**. Você pode usar a ![Pesquisa](/help/assets/icons/Search.svg) na barra de componentes para pesquisar segmentos específicos.
-Isso adiciona automaticamente um container de segmento à **[!UICONTROL Definição]** usando o nome do segmento.
+  * Arraste e solte um componente ![Segmentação](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmentos]** do painel de componentes para **[!UICONTROL Arraste e solte métricas, dimensões, itens de dimensão, segmentos e/ou funções aqui]**. Você pode usar a ![Pesquisa](/help/assets/icons/Search.svg) na barra de componentes para pesquisar segmentos específicos.
+    Isso adiciona automaticamente um container de segmento à **[!UICONTROL Definição]** usando o nome do segmento.
 
-   * Arraste e solte um componente de ![Segmentação](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmento]** do painel de componentes em um container genérico. O container será transformado em um container de segmento.
+  * Arraste e solte um componente de ![Segmentação](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmento]** do painel de componentes em um container genérico. O container será transformado em um container de segmento.
 
-   * Selecione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Adicionar]** de dentro de um container:
+  * Selecione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Adicionar]** de dentro de um container:
 
-      1. Selecione **[!UICONTROL Segmento]**. Um container de segmento é adicionado à **[!UICONTROL Definição]**.
-      1. No novo container de segmento, selecione um segmento no menu suspenso [!UICONTROL *Selecionar...*].
+    1. Selecione **[!UICONTROL Segmento]**. Um container de segmento é adicionado à **[!UICONTROL Definição]**.
+    1. No novo container de segmento, selecione um segmento no menu suspenso [!UICONTROL *Selecionar...*].
 
   >[!TIP]
   >
@@ -170,13 +163,13 @@ Para adicionar um container de função, é possível usar:
 
 * Arrastar e soltar:
 
-   1. Arraste e solte um componente ![Função](/help/assets/icons/Effect.svg) **[!UICONTROL Funções]** do painel de componentes para **[!UICONTROL Arraste e solte métricas, dimensões, itens de dimensão, segmentos e/ou funções aqui]**. Você pode usar a ![Pesquisa](/help/assets/icons/Search.svg) na barra de componentes para procurar funções específicas.
-   1. Automaticamente, um container de função é adicionado à **[!UICONTROL Definição]** usando o nome da função.
+  1. Arraste e solte um componente ![Função](/help/assets/icons/Effect.svg) **[!UICONTROL Funções]** do painel de componentes para **[!UICONTROL Arraste e solte métricas, dimensões, itens de dimensão, segmentos e/ou funções aqui]**. Você pode usar a ![Pesquisa](/help/assets/icons/Search.svg) na barra de componentes para procurar funções específicas.
+  1. Automaticamente, um container de função é adicionado à **[!UICONTROL Definição]** usando o nome da função.
 
 * Selecione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Adicionar]** em um container:
 
-   1. Selecione **[!UICONTROL Função]**.
-   1. No container, selecione uma função no menu suspenso [!UICONTROL *Selecionar...*].
+  1. Selecione **[!UICONTROL Função]**.
+  1. No container, selecione uma função no menu suspenso [!UICONTROL *Selecionar...*].
 
 O container de função recebe o nome do componente de função. Por exemplo, ![Função](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT (metric)]**. Selecione ![InfoOutline](/help/assets/icons/InfoOutline.svg) para exibir uma janela pop-up com detalhes sobre a função. Escolha **[!UICONTROL Saiba mais]** para obter mais informações sobre a função.
 
@@ -198,7 +191,7 @@ Para excluir um container, selecione ![Fechar](/help/assets/icons/Close.svg) no 
 >[!MORELIKETHIS]
 >
 >[Usar funções](cm-using-functions.md)
->[Segmentos &#x200B;](/help/components/segmentation/seg-overview.md)
+>[Segmentos ](/help/components/segmentation/seg-overview.md)
 >
 
 

@@ -6,27 +6,11 @@ solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
 TQID: https://experienceleague.adobe.com/8KQR--atWQyHnqEpiphe7-hGz-WNgOeOsbCLcTKPn-o
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1354
@@ -65,7 +49,7 @@ As seguintes opções de configuração estão disponíveis atualmente para conj
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Iniciando uma nova visita com o evento](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Iniciando uma nova visita com o evento](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -100,12 +84,12 @@ As seguintes dimensões e métricas não são compatíveis com o Processamento d
 Veja abaixo uma lista das dimensões e métricas afetadas, dependendo das configurações de Processamento de tempo do relatório selecionadas:
 
 * Se &quot;Impedir ocorrências em segundo plano de iniciar uma nova visita&quot; estiver habilitado, as seguintes alterações ocorrerão. Consulte [Sessões sensíveis ao contexto](vrs-mobile-visit-processing.md) para obter mais informações.
-   * [**Rejeições**](/help/components/metrics/bounces.md) / [**Taxa de Rejeição:**](/help/components/metrics/bounce-rate.md) ocorrências em segundo plano que não são seguidas por uma ocorrência em primeiro plano não são consideradas uma rejeição e não contribuem para a taxa de rejeição.
-   * [**Tempo gasto em segundos por visita:**](/help/components/metrics/time-spent-per-visit.md) somente visitas que incluem ocorrências em primeiro plano contribuem para essa métrica.
-   * **Tempo gasto por visita:** somente visitas que incluem ocorrências em primeiro plano contribuem para essa métrica.
-   * [**Métrica de entrada**](/help/components/metrics/entries.md) / [**Métrica de saída:**](/help/components/metrics/exits.md) somente entradas e saídas de visitas com ocorrências em primeiro plano aparecem nesta dimensão.
-   * [**Dimensão de entrada**](/help/components/dimensions/entry-dimensions.md) / [**Dimensões de saída:**](/help/components/dimensions/exit-dimensions.md) somente entradas e saídas de visitas com ocorrências em primeiro plano aparecem nesta dimensão.
-   * [**Métrica de visitantes únicos:**](/help/components/metrics/unique-visitors.md) visitantes únicos não incluem visitantes que tiveram somente ocorrências em segundo plano no intervalo de datas do relatório.
+  * [**Rejeições**](/help/components/metrics/bounces.md) / [**Taxa de Rejeição:**](/help/components/metrics/bounce-rate.md) ocorrências em segundo plano que não são seguidas por uma ocorrência em primeiro plano não são consideradas uma rejeição e não contribuem para a taxa de rejeição.
+  * [**Tempo gasto em segundos por visita:**](/help/components/metrics/time-spent-per-visit.md) somente visitas que incluem ocorrências em primeiro plano contribuem para essa métrica.
+  * **Tempo gasto por visita:** somente visitas que incluem ocorrências em primeiro plano contribuem para essa métrica.
+  * [**Métrica de entrada**](/help/components/metrics/entries.md) / [**Métrica de saída:**](/help/components/metrics/exits.md) somente entradas e saídas de visitas com ocorrências em primeiro plano aparecem nesta dimensão.
+  * [**Dimensão de entrada**](/help/components/dimensions/entry-dimensions.md) / [**Dimensões de saída:**](/help/components/dimensions/exit-dimensions.md) somente entradas e saídas de visitas com ocorrências em primeiro plano aparecem nesta dimensão.
+  * [**Métrica de visitantes únicos:**](/help/components/metrics/unique-visitors.md) visitantes únicos não incluem visitantes que tiveram somente ocorrências em segundo plano no intervalo de datas do relatório.
 * [**Visitas:**](/help/components/metrics/visits.md) as visitas refletem as configurações do conjunto de relatórios virtual, que podem ser diferentes do conjunto de relatório base.
 * **Eventos serializados com IDs de evento:** os eventos que usam Serialização de eventos com uma ID de evento só são desduplicados para eventos que ocorrem dentro do intervalo de datas do relatório para um visitante. Esses eventos não são desduplicados em todas as datas ou visitantes globalmente, devido à janela de datas Processamento de tempo do relatório.
 * **Compras** / [**Receita**](/help/components/metrics/revenue.md) / [**Pedidos**](/help/components/metrics/orders.md) / [**Unidades:**](/help/components/metrics/units.md) quando a ID de compra é usada, essas métricas são apenas desduplicadas para as IDs de compra duplicadas que ocorrem dentro do intervalo de datas do relatório para um visitante, em vez de em todas as datas ou visitantes globalmente, devido à janela de datas do Processamento de tempo de relatório.

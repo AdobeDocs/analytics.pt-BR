@@ -4,37 +4,11 @@ description: Glossário do Adobe Analytics, que define termos comuns usados.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
 TQID: https://experienceleague.adobe.com/oitS6AHTds1O1jHjb193r6ruHWlIYMhXwDP-Z7M0Gr0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-  - id: c67272a6-888e-425e-9e97-a87304637eed
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-  - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
-  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c67272a6-888e-425e-9e97-a87304637eedid: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: e9cb007b-c8b7-4975-bc81-11a788c535faid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60bid: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 2638
@@ -48,8 +22,8 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 
 * **Activity Map:** um plug-in de navegador que mostra quais áreas do site foram mais clicadas. Consulte [Activity Map](/help/analyze/activity-map/overview.md) no guia do usuário Analisar.
 * **Admin Console:** pode se referir a:
-   * Ferramentas administrativas herdadas, onde as configurações do conjunto de relatórios no Adobe Analytics são gerenciadas. Em versões anteriores do Adobe Analytics, as permissões de usuário também eram gerenciadas aqui. Consulte [Ferramentas administrativas](/help/admin/tools/c-admin-tools.md) no guia do usuário Administração.
-   * O Admin Console da Adobe, onde o acesso ao produto é provisionado e as permissões do usuário são gerenciadas. Consulte [Admin Console](/help/admin/admin-console/home.md) no guia do usuário Administração.
+  * Ferramentas administrativas herdadas, onde as configurações do conjunto de relatórios no Adobe Analytics são gerenciadas. Em versões anteriores do Adobe Analytics, as permissões de usuário também eram gerenciadas aqui. Consulte [Ferramentas administrativas](/help/admin/tools/c-admin-tools.md) no guia do usuário Administração.
+  * O Admin Console da Adobe, onde o acesso ao produto é provisionado e as permissões do usuário são gerenciadas. Consulte [Admin Console](/help/admin/admin-console/home.md) no guia do usuário Administração.
 * **Alocação:** se uma variável de conversão encontrar mais de um valor durante uma visita, a configuração de alocação da variável determinará qual valor será mantido. Consulte [Variáveis de conversão](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) no guia do usuário Administração.
 * **Analysis Workspace:** solução de navegador para desenvolvimento de projetos de análise avançados e personalizados, bem como para democratização de insights. Consulte [visão geral do Analysis Workspace](/help/analyze/analysis-workspace/home.md) no Guia de ferramentas do Analytics.
 * **Anomalia:** é detectada com modelagem estatística para que encontre automaticamente tendências inesperadas em seus dados. O modelo analisa métricas e determina um limite inferior, um limite superior e o intervalo esperado de valores. Consulte [Detecção de anomalias](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) no Guia de ferramentas do Analytics.
@@ -59,12 +33,12 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Rejeição:** uma visita que consiste em uma única ocorrência. Consulte [Rejeições](/help/components/metrics/bounces.md) no guia do usuário Componentes. Consulte também Acesso único.
 * **Métrica calculada:** permite a combinação de métricas, funções estatísticas e fórmulas existentes para uso no relatório. Consulte [Métricas calculadas](/help/components/calculated-metrics/cm-overview.md) no guia do usuário Componentes.
 * **Campanha:** pode se referir a:
-   * A variável Campanha, que preenche a dimensão Código de rastreamento. Consulte [Campanha](../implement/vars/page-vars/campaign.md) no guia de usuário Implementar.
-   * Uma classificação padrão da dimensão Código de rastreamento, criada automaticamente para todos os conjuntos de relatórios.
-   * Adobe Campaign, parte do Adobe CX Enterprise. Mais informações em [Adobe.com](https://www.adobe.com/br/marketing/campaign.html).
+  * A variável Campanha, que preenche a dimensão Código de rastreamento. Consulte [Campanha](../implement/vars/page-vars/campaign.md) no guia de usuário Implementar.
+  * Uma classificação padrão da dimensão Código de rastreamento, criada automaticamente para todos os conjuntos de relatórios.
+  * Adobe Campaign, parte do Adobe CX Enterprise. Mais informações em [Adobe.com](https://www.adobe.com/br/marketing/campaign.html).
 * **Canal:** pode se referir a:
-   * A variável Canal, que preenche a dimensão Seções do site. Consulte [Variáveis de página](/help/implement/vars/page-vars/page-variables.md) no guia do usuário Implementar.
-   * Canais de marketing, um componente que ajuda a entender como os usuários chegam ao seu site. Consulte [Canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) no guia do usuário Componentes.
+  * A variável Canal, que preenche a dimensão Seções do site. Consulte [Variáveis de página](/help/implement/vars/page-vars/page-variables.md) no guia do usuário Implementar.
+  * Canais de marketing, um componente que ajuda a entender como os usuários chegam ao seu site. Consulte [Canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) no guia do usuário Componentes.
 * **Classificação:** um recurso no Adobe Analytics que permite o agrupamento de itens de dimensão. Consulte [Classificações](/help/components/classifications/classifications-overview.md) no guia do usuário Componentes.
 * **Clickmap:** não é mais usado. Um plug-in de navegador herdado que mostra quais áreas do site foram mais clicadas. Esta ferramenta foi removida em favor do Activity Map.
 * **Feed de sequência de cliques:** consulte Feed de dados.
@@ -95,8 +69,8 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Hit:** uma única solicitação de imagem enviada para os servidores de coleta de dados da Adobe. Exibições de página e links personalizados podem ser chamados de hits.
 * **Solicitação de imagem:** uma imagem de pixel 1x1 transparente usada para comunicação com os servidores de coleta de dados da Adobe. Um site solicita esta imagem invisível com uma longa string de consulta contendo dados; a Adobe retorna a imagem invisível e analisa a string de consulta recebida.
 * **Insight:** pode se referir a:
-   * O nome anterior do Data Workbench.
-   * Custom Insight, um nome histórico para variável de tráfego personalizada.
+  * O nome anterior do Data Workbench.
+  * Custom Insight, um nome histórico para variável de tráfego personalizada.
 * **KPI:** abreviação do indicador principal de desempenho. Métricas que ajudam uma empresa a entender o desempenho de seu site. Cada organização tem KPIs diferentes que medem diferentes aspectos de seus negócios. Consulte [Criar um documento de design de solução](/help/implement/prepare/solution-design.md) no guia do usuário Implementar.
 * **Latência:** o atraso entre quando os dados são coletados e quando estão disponíveis nos relatórios. A latência típica em um conjunto de relatórios é de 30 a 90 minutos. Consulte [Latência](/help/technotes/latency.md) no guia do usuário do Technotes.
 * **Launch:** não é mais usado como termo. O antigo nome abreviado de tags na Adobe Experience Platform, a solução de implementação atual da Adobe. Consulte [Visão geral de tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR) no guia do usuário da Adobe Experience Platform.
@@ -116,8 +90,8 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Persistência:** um conceito abstrato para variáveis de conversão que permite a vinculação entre um valor variável e um evento que ocorre em hits separados. Consulte também Expiração.
 * **Chamada do servidor primário:** nome alternativo para solicitação de imagem ou hit, usado principalmente no contexto de marcação e cobrança de vários conjuntos. Quando o mesmo hit é enviado para vários conjuntos de relatórios, o primeiro conjunto de relatórios é uma chamada de servidor primário enquanto o restante são chamadas de servidor secundário. Esta regra se aplica a todos os tipos de hits, incluindo exibição de página e rastreamento de link. Consulte também Chamadas de servidor secundário.
 * **Regras de processamento:** pode se referir a:
-   * Regras de processamento, uma forma de alterar a coleta de dados usando determinadas regras no Admin Console. Consulte [Regras de Processamento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) no guia do usuário Administração
-   * Regras de processamento de canal de marketing, um conjunto de regras que determina a qual canal de marketing um hit pertence. Consulte [Regras de Processamento do canal de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) no guia do usuário Administração
+  * Regras de processamento, uma forma de alterar a coleta de dados usando determinadas regras no Admin Console. Consulte [Regras de Processamento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) no guia do usuário Administração
+  * Regras de processamento de canal de marketing, um conjunto de regras que determina a qual canal de marketing um hit pertence. Consulte [Regras de Processamento do canal de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) no guia do usuário Administração
 * **Prop:** consulte Variável de tráfego.
 * **Relatório classificado:** um formato de relatório que normalmente segue uma dimensão com uma métrica. Esse tipo de relatório permite que você veja os principais itens, como as páginas mais visualizadas do site. Consulte também Relatório de tendências.
 * **Tempo real:** exibe as variáveis configuradas assim que são coletadas com pouca ou nenhuma latência. Consulte [Relatórios em tempo real](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) no guia do usuário Administração
