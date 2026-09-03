@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 429
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -47,8 +47,8 @@ Verifique cada um dos seguintes itens para garantir que os componentes do Activi
 * **Versão do AppMeasurement**: o Activity Map tem suporte na v1.6 e posterior. Muitos problemas de caso de borda são resolvidos ao atualizar para a versão estável mais recente do AppMeasurement.
 * **Módulo do Activity Map**: verifique se o módulo `AppMeasurement_Module_Activity_Map` está presente no arquivo `AppMeasurement.js`. Se sua implementação usar o Adobe Experience Platform para coletar dados, verifique se **[!UICONTROL Habilitar ClickMap]** está marcado ao configurar a extensão do Analytics em **[!UICONTROL Rastreamento de link]**.
 * **O `s_sq` cookie**: o Activity Map depende do cookie `s_sq` para a coleta de dados.
-   * Verifique se a variável `cookieDomainPeriods` está definida corretamente, especialmente para domínios regionais como `*.co.uk` ou `*.co.jp`.
-   * Verifique se a variável `linkInternalFilters` está definida com os valores desejados. Se um link clicado não corresponder aos filtros internos, a Activity Map o considerará um link de saída e não coletará dados.
+  * Verifique se a variável `cookieDomainPeriods` está definida corretamente, especialmente para domínios regionais como `*.co.uk` ou `*.co.jp`.
+  * Verifique se a variável `linkInternalFilters` está definida com os valores desejados. Se um link clicado não corresponder aos filtros internos, a Activity Map o considerará um link de saída e não coletará dados.
 * **Sobreposição do Activity Map em execução**: o AppMeasurement não rastreia dados de cliques da sua página da Web quando a sobreposição do Activity Map está habilitada.
 
 Exibe os parâmetros do navegador que não são compatíveis com a utilização do Activity Map. A Adobe recomenda desabilitar essas configurações.

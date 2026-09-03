@@ -79,22 +79,22 @@ A função `manageVars` usa os seguintes argumentos:
 
 * **`cb`** (obrigatório, string): o nome de uma função de retorno de chamada que o plug-in usa para manipular as variáveis do Analytics. Você pode usar uma função da Adobe como `cleanStr` ou sua própria função personalizada.
 * **`l`** (opcional, string): uma lista delimitada por vírgulas de variáveis do Analytics que você deseja manipular. O padrão é ter TODAS as variáveis do Adobe Analytics quando não definidas, o que inclui:
-   * `pageName`
-   * `purchaseID`
-   * `channel`
-   * `server`
-   * `pageType`
-   * `campaign`
-   * `state`
-   * `zip`
-   * `events`
-   * `products`
-   * `transactionID`
-   * Todas as props
-   * Todas as eVars
-   * Todas as variáveis de hierarquia
-   * Todas as variáveis de lista
-   * Todas as variáveis de dados de contexto
+  * `pageName`
+  * `purchaseID`
+  * `channel`
+  * `server`
+  * `pageType`
+  * `campaign`
+  * `state`
+  * `zip`
+  * `events`
+  * `products`
+  * `transactionID`
+  * Todas as props
+  * Todas as eVars
+  * Todas as variáveis de hierarquia
+  * Todas as variáveis de lista
+  * Todas as variáveis de dados de contexto
 * **`Il`** (opcional, booleano): defina como `false` se você deseja *excluir* a lista de variáveis declaradas no argumento `l` em vez de incluí-las. O padrão é `true`.
 
 Chamar essa função não retorna nada. Em vez disso, altera os valores das variáveis do Analytics com base na função de retorno de chamada desejada.

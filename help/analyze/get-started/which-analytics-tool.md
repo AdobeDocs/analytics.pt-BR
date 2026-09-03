@@ -70,8 +70,8 @@ As **[classificações](/help/components/classifications/classifications-overvie
 
 * Quando há dados offline que você deseja gravar permanentemente no Adobe Analytics.
 * Opções:
-   * Resumo: uploads de dados simples, por dia ou dimensões limitadas.
-   * ID da transação: uploads de dados que conectam um terminal online a dados offline e associam totalmente os dados importados a um instantâneo de visitante capturado online (por exemplo, os pedidos são concluídos online e devolvidos offline).
+  * Resumo: uploads de dados simples, por dia ou dimensões limitadas.
+  * ID da transação: uploads de dados que conectam um terminal online a dados offline e associam totalmente os dados importados a um instantâneo de visitante capturado online (por exemplo, os pedidos são concluídos online e devolvidos offline).
 
 As **[integrações do Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)** devem ser usadas:
 

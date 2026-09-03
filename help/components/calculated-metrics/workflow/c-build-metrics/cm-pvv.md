@@ -5,8 +5,8 @@ feature: Calculated Metrics
 exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
 source-git-commit: 0fbd80070051286f999af8eec9100f617cc498d5
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 17%
+source-wordcount: '227'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ As informações a seguir explicam como criar uma métrica simples de *Exibiçõ
 1. Nomeie a métrica `Page Views per Visit` ou algo semelhante.
 1. Forneça à métrica uma **[!UICONTROL Descrição]** simples para mostrar para que a métrica é usada.
 1. Selecione o **[!UICONTROL Formato]** correto. Para este exemplo, escolha **[!UICONTROL Decimal]**.
-1. Decida quantas casas decimais o relatório deve exibir.
+1. Decida quantas casas decimais você deseja que o relatório mostre.
 1. No menu suspenso **[!UICONTROL Mostrar tendência ascendente como]**, selecione ▲ **[!UICONTROL Bom (Verde)]**.
 1. Adicione uma **[!UICONTROL tag]** para organizar suas métricas.
 1. Para esta métrica calculada, arraste primeiro as **[!UICONTROL Exibições de página]** dos componentes de **[!UICONTROL Métricas]** para a seção **[!UICONTROL Definição]** da tela.

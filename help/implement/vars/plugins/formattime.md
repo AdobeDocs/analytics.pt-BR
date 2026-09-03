@@ -79,10 +79,10 @@ A função `formatTime` usa os seguintes argumentos:
 
 * **`ns`** (obrigatório, número inteiro): o número de segundos a ser convertido ou formatado
 * **`tf`** (opcional, string): o tipo de formato em que os segundos devem ser retornados; o padrão é segundos
-   * Defina como `"d"` se desejar tempo em dias (arredondado para o referencial de 1/4 de dia que estiver mais próximo, por padrão)
-   * Defina como `"h"` se desejar tempo em horas (arredondado para o referencial de 1/4 de hora que estiver mais próximo, por padrão)
-   * Defina como `"m"` se desejar tempo em minutos (arredondado para o referencial de 1/2 minuto que estiver mais próximo, por padrão)
-   * Defina como `"s"` se desejar tempo em segundos (arredondado para o referencial de 5 segundos que estiver mais próximo, por padrão)
+  * Defina como `"d"` se desejar tempo em dias (arredondado para o referencial de 1/4 de dia que estiver mais próximo, por padrão)
+  * Defina como `"h"` se desejar tempo em horas (arredondado para o referencial de 1/4 de hora que estiver mais próximo, por padrão)
+  * Defina como `"m"` se desejar tempo em minutos (arredondado para o referencial de 1/2 minuto que estiver mais próximo, por padrão)
+  * Defina como `"s"` se desejar tempo em segundos (arredondado para o referencial de 5 segundos que estiver mais próximo, por padrão)
 * **`bml`** (opcional, número): a quantidade de tempo dos referenciais de arredondamento. Padrões para os referenciais listados no argumento `tf`
 
 A função retorna o número de segundos formatados usando a unidade especificada no argumento `tf`. Se o argumento `tf` não estiver definido:

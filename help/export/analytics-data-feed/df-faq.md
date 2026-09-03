@@ -16,7 +16,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 1496
+source-wordcount: 1508
 ht-degree: 68%
 
 ---
@@ -87,11 +87,11 @@ Para preenchimentos retroativos com mais de 10 dias, a Adobe recomenda usar a gr
 
 ## Qual é o impacto do horário de verão nos feeds de dados por hora? {#dst}
 
-Em alguns fusos horários, a hora será alterada duas vezes por ano devido às definições do horário de verão. Os feeds de dados seguem o fuso horário em que o conjunto de relatórios é configurado. Se o fuso horário do conjunto de relatórios não seguir o horário de verão, a entrega do arquivo continuará normalmente como qualquer outro dia. Se o fuso horário do conjunto de relatórios seguir o horário de verão, a entrega do arquivo será alterada para a hora em que ocorreu a alteração de horário (normalmente às 2:00 AM).
+Em alguns fusos horários, a hora será alterada duas vezes por ano devido às definições do horário de verão. Os feeds de dados seguem o fuso horário em que o conjunto de relatórios é configurado. Se o fuso horário do conjunto de relatórios não seguir o horário de verão, a entrega do arquivo continuará normalmente como qualquer outro dia. Se o fuso horário do conjunto de relatórios seguir o horário de verão, a entrega do arquivo será alterada para a hora em que ocorreu a alteração de horário (normalmente às 2h).
 
-Ao fazer as transições de horário padrão -> horário de verão (primavera em diante), você receberá 23 arquivos. O horário ignorado na transição do horário de verão é omitido. Por exemplo, se a transição ocorrer às 2:00 AM, você obterá um arquivo por 1:00 hora e um arquivo por 3:00 hora. Não há arquivo 2:00 porque, no horário padrão 2:00, ele se torna o horário de verão 3:00.
+Ao fazer as transições de horário padrão -> horário de verão (primavera em diante), você receberá 23 arquivos. O horário ignorado na transição do horário de verão é omitido. Por exemplo, se a transição ocorrer às 2h, você obterá um arquivo à 1h e outro às 3h. Não haverá arquivo às 2h, visto que o horário padrão de 2h torna-se o horário de verão de 3h.
 
-Ao fazer as transições de horário de verão -> horário padrão (fallback), você receberá 24 arquivos. Contudo, o horário de transição incluirá o equivalente a horas de dados. Por exemplo, se a transição ocorrer às 2:00 AM, o arquivo para 1:00 será atrasado em uma hora, mas conterá os dados para duas horas. Ele contém dados do horário de verão de 1:00 a 2:00 do horário padrão (que teria sido 3:00 do horário de verão). O próximo arquivo começa em 2:00 STD.
+Ao fazer as transições de horário de verão -> horário padrão (fallback), você receberá 24 arquivos. Contudo, o horário de transição incluirá o equivalente a horas de dados. Por exemplo, se a transição ocorrer às 2h, o arquivo para 1h será atrasado em uma hora, mas conterá os dados para duas horas. Ele contém os dados do horário de verão de 1h às 2h do horário padrão (que teria sido 3h do horário de verão). O próximo arquivo começa às 2:00 do horário padrão.
 
 ## Como o Analytics lida com falhas de transferência de FTP? {#ftp-failure}
 

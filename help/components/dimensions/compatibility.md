@@ -306,7 +306,7 @@ O Adobe Social foi descontinuado.
 
 ### Integração Nielsen
 
-Para obter mais informações sobre como implementar esta integração, consulte a [Extensão Nielsen](https://exchange.adobe.com/apps/ec/101361) no Adobe Exchange.
+Para obter mais informações sobre como implementar esta integração, consulte a [Extensão do Nielsen](https://exchange.adobe.com/apps/ec/101361) na Adobe Exchange.
 
 | Nome da dimensão (visível na interface do usuário do Analytics) | Dimension ID (usada em solicitações de API) |
 |--- |--- |
@@ -315,7 +315,7 @@ Para obter mais informações sobre como implementar esta integração, consulte
 | Segmento B Nielsen | `nielsensegmentb` |
 | Segmento A Nielsen | `nielsensegmenta` |
 | ID de conteúdo Nielsen | `nielsencontentid` |
-| Ativo/programa Nielsen | `nielsenasset` |
+| Ativo/programa do Nielsen | `nielsenasset` |
 | VCID Nielsen | `nielsenvcid` |
 | Opção de não participação do Nielsen | `nielsenoptout` |
 | ID do cliente Nielsen + VCID | `nielsenclientidvcid` |

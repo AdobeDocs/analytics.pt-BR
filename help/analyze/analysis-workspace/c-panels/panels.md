@@ -27,8 +27,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 2858
-ht-degree: 40%
+source-wordcount: 2861
+ht-degree: 41%
 
 ---
 
@@ -158,12 +158,12 @@ Também é possível selecionar uma **[!UICONTROL predefinição]** no menu susp
 
      É possível selecionar o texto entre parênteses (por exemplo, **[!UICONTROL início fixo - rolagem diária]**) para estender o painel e especificar detalhes para **[!UICONTROL Início]** e **[!UICONTROL Fim]**.
 
-      1. Selecione **[!UICONTROL Início de]**, **[!UICONTROL Fim de]** ou **[!UICONTROL Dia fixo]**.
-      1. Ao selecionar **[!UICONTROL Início de]** ou **[!UICONTROL Fim de]**, você pode criar uma expressão completa. Por exemplo: **[!UICONTROL Fim do]** **[!UICONTROL ano atual]** **[!UICONTROL mais]** `1` **[!UICONTROL dia]**. Escolha o valor apropriado para cada parte individual da expressão.
-         * Selecione um valor para o atual. Por exemplo, **[!UICONTROL ano atual]**.
-         * Selecione um valor para o cálculo adicional. Por exemplo, **[!UICONTROL mais]**.
-         * Após definir um cálculo adicional, especifique um valor. Por exemplo, `1`.
-         * Depois de especificar um cálculo adicional, selecione o período a ser usado para o cálculo. Por exemplo, **[!UICONTROL dia]**.
+     1. Selecione **[!UICONTROL Início de]**, **[!UICONTROL Fim de]** ou **[!UICONTROL Dia fixo]**.
+     1. Ao selecionar **[!UICONTROL Início de]** ou **[!UICONTROL Fim de]**, você pode criar uma expressão completa. Por exemplo: **[!UICONTROL Fim do]** **[!UICONTROL ano atual]** **[!UICONTROL mais]** `1` **[!UICONTROL dia]**. Escolha o valor apropriado para cada parte individual da expressão.
+        * Selecione um valor para o atual. Por exemplo, **[!UICONTROL ano atual]**.
+        * Selecione um valor para o cálculo adicional. Por exemplo, **[!UICONTROL mais]**.
+        * Após definir um cálculo adicional, especifique um valor. Por exemplo, `1`.
+        * Depois de especificar um cálculo adicional, selecione o período a ser usado para o cálculo. Por exemplo, **[!UICONTROL dia]**.
 
      Selecione **[!UICONTROL Ocultar detalhes]** para ocultar os detalhes do cálculo de datas contínuas.
 
@@ -195,14 +195,14 @@ Para adicionar ou substituir segmentos ou detalhamentos (rápidos):
    ![Adicionar ou substituir na zona de destino](assets/add-or-replace-to-drop-zone.png)
 
    * Solte a seleção para criar os seguintes componentes:
-      * [Segmentar](#segment) para qualquer componente de segmento que você soltar ❷.
-      * [Segmento rápido](#quick-segment) para quaisquer componentes que não sejam de segmentos (intervalos de datas, métricas, dimensões, itens de dimensão) nos quais você solta ❸.
+     * [Segmentar](#segment) para qualquer componente de segmento que você soltar ❷.
+     * [Segmento rápido](#quick-segment) para quaisquer componentes que não sejam de segmentos (intervalos de datas, métricas, dimensões, itens de dimensão) nos quais você solta ❸.
    * Solte a seleção **enquanto mantém pressionada** (shift) para criar os seguintes componentes:
-      * Segmento estático [menu suspenso](#drop-down-menu) com itens para filtrar para os segmentos selecionados que você solta ❹.
-      * Segmento estático [menu suspenso](#drop-down-menu) com itens para filtrar para os intervalos de datas selecionados que você solta ❺.
-      * Segmento estático [menu suspenso](#drop-down-menu) com itens para filtrar para as métricas selecionadas que você solta ❻.
-      * Segmento estático [menu suspenso](#drop-down-menu) ou detalhamento [menu suspenso](#drop-down-menu) com itens para filtrar ou detalhar para a dimensão selecionada *itens* que você solta ❼.
-      * Segmento dinâmico [menu suspenso](#drop-down-menu) ou detalhamento [menu suspenso](#drop-down-menu) com itens para filtrar ou detalhar para as dimensões selecionadas nas quais você solta ❽.
+     * Segmento estático [menu suspenso](#drop-down-menu) com itens para filtrar para os segmentos selecionados que você solta ❹.
+     * Segmento estático [menu suspenso](#drop-down-menu) com itens para filtrar para os intervalos de datas selecionados que você solta ❺.
+     * Segmento estático [menu suspenso](#drop-down-menu) com itens para filtrar para as métricas selecionadas que você solta ❻.
+     * Segmento estático [menu suspenso](#drop-down-menu) ou detalhamento [menu suspenso](#drop-down-menu) com itens para filtrar ou detalhar para a dimensão selecionada *itens* que você solta ❼.
+     * Segmento dinâmico [menu suspenso](#drop-down-menu) ou detalhamento [menu suspenso](#drop-down-menu) com itens para filtrar ou detalhar para as dimensões selecionadas nas quais você solta ❽.
 
 
 ### Segmento

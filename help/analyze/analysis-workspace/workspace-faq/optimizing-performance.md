@@ -32,7 +32,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 2539
+source-wordcount: 2547
 ht-degree: 41%
 
 ---
@@ -84,7 +84,7 @@ Os fatores de projeto incluem:
 
 | Fator | Definição | Otimização |
 | --- | --- | --- |
-| Número de solicitações | O número total de solicitações feitas ao Adobe para recuperar dados exibidos no projeto. As queries incluem solicitações classificadas para tabelas, detecção de anomalias, linhas cintilantes, componentes mostrados no painel esquerdo e muito mais. Esse valor exclui painéis e visualizações recolhidos. A orientação é 100. | Sempre que possível simplifique o projeto dividindo dados em vários projetos que atendem a uma finalidade específica ou a um grupo de participantes. Use tags para organizar projetos em temas e use [links diretos](/help/analyze/analysis-workspace/curate-share/shareable-links.md) para criar um sumário interno, de modo que as partes interessadas possam encontrar mais facilmente o que precisam. |
+| Número de solicitações | O número total de solicitações feitas ao Adobe para recuperar dados exibidos no projeto. As consultas incluem solicitações classificadas para tabelas, detecção de anomalias, linhas cintilantes, componentes mostrados no painel esquerdo e muito mais. Esse valor exclui painéis e visualizações recolhidos. A orientação é 100. | Sempre que possível simplifique o projeto dividindo dados em vários projetos que atendem a uma finalidade específica ou a um grupo de participantes. Use tags para organizar projetos em temas e use [links diretos](/help/analyze/analysis-workspace/curate-share/shareable-links.md) para criar um sumário interno, de modo que as partes interessadas possam encontrar mais facilmente o que precisam. |
 | Painéis expandidos (do total de painéis) | O número de painéis expandidos do número total de painéis no projeto. A orientação é 5. | Depois de seguir as etapas para simplificar o projeto, recolha os painéis no projeto que você não precisa visualizar quando carregado. Quando o projeto é aberto, somente os painéis expandidos são processados. Os painéis recolhidos não são processados até que o usuário os expanda. |
 | Visualizações expandidas (do total de visualizações) | O número de tabelas expandidas e visualizações do total no projeto, incluindo fontes de dados ocultas. A orientação é 15. | Depois de seguir as etapas para simplificar o projeto, recolha as visualizações no projeto que não precisam ser visualizadas quando carregadas. Priorize os recursos visuais mais importantes para o consumidor do relatório e separe os recursos visuais de suporte em um painel ou projeto separado e mais detalhado, se necessário. |
 | Número de células de forma livre | O número total de células da tabela de forma livre no projeto, calculado por linhas * colunas em todas as tabelas. Esse valor excluiu fontes de dados ocultas. A orientação é 4000. | Reduza o número de colunas na tabela somente para os pontos de dados mais relevantes. Reduza o número de linhas na tabela ajustando o número de linhas exibidas, aplicando um filtro de tabela ou aplicando um segmento. |

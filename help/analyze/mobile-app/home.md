@@ -34,11 +34,11 @@ Para saber mais sobre os [!UICONTROL painéis] do Adobe Analytics, consulte os s
 
 * [Recursos do curador](/help/analyze/mobile-app/curator.md): ajuda curadores de dados a configurar cartões de pontuação para seus usuários executivos em [!UICONTROL painéis]. Os curadores podem ser administradores organizacionais ou pessoas em outras funções responsáveis pela configuração dos Scorecards:
 
-   * [Criar cartões de pontuação](/help/analyze/mobile-app/create-scorecard.md)
-   * [Auxiliar executivos com a configuração e utilização do aplicativo](/help/analyze/mobile-app/set-up-execs.md)
-   * Para assistir a uma visão geral em vídeo da experiência de curadoria, consulte o [Contrutor de cartões de pontuação dos painéis do Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=pt-BR).
+  * [Criar cartões de pontuação](/help/analyze/mobile-app/create-scorecard.md)
+  * [Auxiliar executivos com a configuração e utilização do aplicativo](/help/analyze/mobile-app/set-up-execs.md)
+  * Para assistir a uma visão geral em vídeo da experiência de curadoria, consulte o [Contrutor de cartões de pontuação dos painéis do Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=pt-BR).
 
 
 * [Guia de início rápido do usuário executivo](/help/analyze/mobile-app/executive.md): este guia tem como objetivo ajudar usuários executivos a ler e interpretar Scorecards nos [!UICONTROL painéis]. O aplicativo permite que os usuários executivos visualizem uma ampla renderização de dados importantes resumidos de maneira rápida e fácil em seus próprios dispositivos móveis.
 
-   * Para ver um vídeo que destaca essas informações, consulte a [Eperiência no aplicativo dos painéis do Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html?lang=pt-BR).
+  * Para ver um vídeo que destaca essas informações, consulte a [Eperiência no aplicativo dos painéis do Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html?lang=pt-BR).

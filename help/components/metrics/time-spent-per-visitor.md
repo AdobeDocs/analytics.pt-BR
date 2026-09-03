@@ -33,6 +33,6 @@ Essa métrica utiliza a fórmula [`Total seconds spent`](total-seconds-spent.md)
 
 ## Porcentagens acima de 100%
 
-Essa métrica frequentemente contém porcentagens acima de 100%. O denominador é o tempo gasto por visitante na dimensão inteira, e o numerador é o tempo gasto por visitante no item de dimensão. Se o tempo gasto por visitante na dimensão inteira for menor que o tempo gasto por visitante em um determinado item de dimensão, você verá porcentagens acima de 100%. A classificação de relatórios classificados por essa métrica mostra valores de tempo gasto por visitante com anomalias, o que geralmente não é útil. A Adobe recomenda classificar por outra métrica, como [Visitas](visits.md), em relatórios classificados.
+Essa métrica frequentemente contém porcentagens acima de 100%. O denominador é o tempo gasto por visitante na dimensão inteira, e o numerador é o tempo gasto por visitante no item de dimensão. Se o tempo gasto por visitante na dimensão inteira for menor que o tempo gasto por visitante em um determinado item de dimensão, você verá porcentagens acima de 100%. Ordenar relatórios classificados por essa métrica mostra valores de tempo gasto por visitante com anomalias, o que geralmente não é útil. A Adobe recomenda classificar por outra métrica, como [Visitas](visits.md), em relatórios classificados.
 
 Consulte [Visão geral do tempo gasto](time-spent.md) para obter mais informações gerais sobre o tempo gasto.

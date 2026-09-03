@@ -166,11 +166,11 @@ Ao exibir a tabela, considere o seguinte:
 
 * Você pode pesquisar ou filtrar a lista de conexões:
 
-   * Use o campo de pesquisa para procurar uma conexão específica. Comece a digitar o nome ou ID da conexão e a lista de conexões será atualizada conforme você digita.
+  * Use o campo de pesquisa para procurar uma conexão específica. Comece a digitar o nome ou ID da conexão e a lista de conexões será atualizada conforme você digita.
 
-   * Selecione o ícone [!UICONTROL **Filtro**] ![Ícone Filtro](assets/filter-icon.png) para expandir a lista de opções de filtro. Você pode filtrar por [!UICONTROL **Status**], [!UICONTROL **Complexidade**], [!UICONTROL **Aplicativo**], [!UICONTROL **Usuário**] ou [!UICONTROL **Projeto**].
+  * Selecione o ícone [!UICONTROL **Filtro**] ![Ícone Filtro](assets/filter-icon.png) para expandir a lista de opções de filtro. Você pode filtrar por [!UICONTROL **Status**], [!UICONTROL **Complexidade**], [!UICONTROL **Aplicativo**], [!UICONTROL **Usuário**] ou [!UICONTROL **Projeto**].
 
-   * Você pode selecionar [!UICONTROL **Ocultar gráficos**] para mostrar apenas a tabela.
+  * Você pode selecionar [!UICONTROL **Ocultar gráficos**] para mostrar apenas a tabela.
 
 ![guias de tabela](assets/report-activity-tabs.png)
 
@@ -205,7 +205,7 @@ Ao selecionar a guia [!UICONTROL **Usuário**], as seguintes colunas ficam disp
 | [!UICONTROL **Número de solicitações**] | O número de solicitações iniciadas pelo usuário. |
 | [!UICONTROL **Número de projetos**] | O número de projetos associados ao usuário. <!-- ??? --> |
 | [!UICONTROL **Aplicativo**] | Os aplicativos compatíveis com o [!UICONTROL Gerenciador de Atividades de relatórios] são: <ul><li>Interface do Analysis Workspace</li><li>Projetos agendados do Espaço de trabalho.</li><li>Report Builder</li><li>Interfaces do construtor: segmento, métricas calculadas, anotações, públicos-alvos etc.</li><li>Chamadas de API da API 1.4 ou 2.0</li><li>Alertas</li><li>Links para compartilhar com qualquer pessoa</li><li>Qualquer outro aplicativo que consulte o mecanismo de relatórios do Analytics</li></ul> |
-| [!UICONTROL **Complexidade média**] | A média de complexidade das solicitações iniciadas pelo usuário. <p>Nem todas as solicitações exigem o mesmo tempo para serem processadas. A complexidade da solicitação pode ajudar a fornecer uma ideia geral sobre o tempo necessário para processar a solicitação.</p><p>O valor desta coluna é baseado em uma pontuação determinada pelos valores das seguintes colunas:</p><ul><li>[!UICONTROL **Média de limites mensais**]</li><li>[!UICONTROL **Média de colunas**]</li><li>[!UICONTROL **Média de segmentos**]</li></ul> |
+| [!UICONTROL **Complexidade média**] | A complexidade média das solicitações iniciadas pelo usuário. <p>Nem todas as solicitações exigem o mesmo tempo para serem processadas. A complexidade da solicitação pode ajudar a fornecer uma ideia geral sobre o tempo necessário para processar a solicitação.</p><p>O valor desta coluna é baseado em uma pontuação determinada pelos valores das seguintes colunas:</p><ul><li>[!UICONTROL **Média de limites mensais**]</li><li>[!UICONTROL **Média de colunas**]</li><li>[!UICONTROL **Média de segmentos**]</li></ul> |
 | [!UICONTROL **Média de limites mensais**] | O número médio de meses incluídos nas solicitações. Mais limites mensais aumentam a complexidade da solicitação. |
 | [!UICONTROL **Média de colunas**] | O número médio de métricas e detalhamentos nas solicitações incluídas. Mais colunas aumentam a complexidade da solicitação. |
 | [!UICONTROL **Média de segmentos**] | O número médio de segmentos aplicados às solicitações incluídas. Mais segmentos aumentam a complexidade da solicitação. |
@@ -222,7 +222,7 @@ Ao selecionar a guia [!UICONTROL **Projeto**], as seguintes colunas ficam dispo
 | [!UICONTROL **Número de solicitações**] | O número de solicitações associadas ao projeto. |
 | [!UICONTROL **Número de usuários**] | O número de usuários associados ao projeto. <!-- ??? --> |
 | [!UICONTROL **Aplicativo**] | Os aplicativos compatíveis com o [!UICONTROL Gerenciador de Atividades de relatórios] são: <ul><li>Interface do Analysis Workspace</li><li>Projetos agendados do Espaço de trabalho.</li><li>Report Builder</li><li>Interfaces do construtor: segmento, métricas calculadas, anotações, públicos-alvos etc.</li><li>Chamadas de API da API 1.4 ou 2.0</li><li>Alertas</li><li>Links para compartilhar com qualquer pessoa</li><li>Qualquer outro aplicativo que consulte o mecanismo de relatórios do Analytics</li></ul> |
-| [!UICONTROL **Complexidade média**] | A média de complexidade das solicitações incluídas no projeto. <p>Nem todas as solicitações exigem o mesmo tempo para serem processadas. A complexidade da solicitação pode ajudar a fornecer uma ideia geral sobre o tempo necessário para processar a solicitação.</p><p>O valor desta coluna é baseado em uma pontuação determinada pelos valores das seguintes colunas:</p><ul><li>[!UICONTROL **Média de limites mensais**]</li><li>[!UICONTROL **Média de colunas**]</li><li>[!UICONTROL **Média de segmentos**]</li></ul> |
+| [!UICONTROL **Complexidade média**] | A complexidade média das solicitações incluídas no projeto. <p>Nem todas as solicitações exigem o mesmo tempo para serem processadas. A complexidade da solicitação pode ajudar a fornecer uma ideia geral sobre o tempo necessário para processar a solicitação.</p><p>O valor desta coluna é baseado em uma pontuação determinada pelos valores das seguintes colunas:</p><ul><li>[!UICONTROL **Média de limites mensais**]</li><li>[!UICONTROL **Média de colunas**]</li><li>[!UICONTROL **Média de segmentos**]</li></ul> |
 | [!UICONTROL **Média de limites mensais**] | O número médio de meses incluídos nas solicitações. Mais limites mensais aumentam a complexidade da solicitação. |
 | [!UICONTROL **Média de colunas**] | O número médio de métricas e detalhamentos nas solicitações incluídas. Mais colunas aumentam a complexidade da solicitação. |
 | [!UICONTROL **Média de segmentos**] | O número médio de segmentos aplicados às solicitações incluídas. Mais segmentos aumentam a complexidade da solicitação. |
@@ -239,7 +239,7 @@ Ao selecionar a guia [!UICONTROL **Aplicativo**], as seguintes colunas ficam dis
 | [!UICONTROL **Número de solicitações**] | O número de solicitações associadas ao aplicativo. |
 | [!UICONTROL **Número de usuários**] | O número de usuários associados ao aplicativo. <!--???--> |
 | [!UICONTROL **Número de projetos**] | O número de projetos associados ao aplicativo. <!--???--> |
-| [!UICONTROL **Complexidade média**] | A média de complexidade das solicitações associadas ao aplicativo. <p>Nem todas as solicitações exigem o mesmo tempo para serem processadas. A complexidade da solicitação pode ajudar a fornecer uma ideia geral sobre o tempo necessário para processar a solicitação.</p><p>O valor desta coluna é baseado em uma pontuação determinada pelos valores das seguintes colunas:</p>O valor desta coluna é baseado em uma pontuação determinada pelos valores das seguintes colunas:<ul><li>[!UICONTROL **Média de limites mensais**]</li><li>[!UICONTROL **Média de colunas**]</li><li>[!UICONTROL **Média de segmentos**]</li></ul> |
+| [!UICONTROL **Complexidade média**] | A complexidade média das solicitações associadas ao aplicativo. <p>Nem todas as solicitações exigem o mesmo tempo para serem processadas. A complexidade da solicitação pode ajudar a fornecer uma ideia geral sobre o tempo necessário para processar a solicitação.</p><p>O valor desta coluna é baseado em uma pontuação determinada pelos valores das seguintes colunas:</p>O valor desta coluna é baseado em uma pontuação determinada pelos valores das seguintes colunas:<ul><li>[!UICONTROL **Média de limites mensais**]</li><li>[!UICONTROL **Média de colunas**]</li><li>[!UICONTROL **Média de segmentos**]</li></ul> |
 | [!UICONTROL **Média de limites mensais**] | O número médio de meses incluídos nas solicitações. Mais limites mensais aumentam a complexidade da solicitação. |
 | [!UICONTROL **Média de colunas**] | O número médio de métricas e detalhamentos nas solicitações incluídas. Mais colunas aumentam a complexidade da solicitação. |
 | [!UICONTROL **Média de segmentos**] | O número médio de segmentos aplicados às solicitações incluídas. Mais segmentos aumentam a complexidade da solicitação. |

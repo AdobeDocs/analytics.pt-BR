@@ -23,7 +23,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1298
+source-wordcount: 1299
 ht-degree: 11%
 
 ---
@@ -142,7 +142,7 @@ Não, elas não estão incluídas no relatório de Canais de marketing.
 
 +++ Quando os dados de pesquisa são transferidos para o Analytics? 
 
-Os dados de pesquisa são extraídos dos mecanismos de pesquisa por volta das 6h00 (06:00) no fuso horário de seu data center do Analytics. Nesse momento os dados do AMO são coletados e inseridos no conjunto de relatórios. Em seguida, são convertidos para o fuso horário do conjunto de relatórios como parte da inserção de dados no Analytics.
+Os dados de pesquisa são extraídos dos mecanismos de pesquisa por volta das 6h00 no fuso horário de seu data center do Analytics. Nesse momento os dados do AMO são coletados e inseridos no conjunto de relatórios. Em seguida, são convertidos para o fuso horário do conjunto de relatórios como parte da inserção de dados no Analytics.
 
 +++
 

@@ -30,10 +30,10 @@ Considere os seguintes problemas ao aplicar filtros de dados:
 
 * É possível usar curingas ao definir o filtro de dados. Use um asterisco `*` para corresponder a zero ou mais caracteres e um ponto de interrogação `?` para corresponder exatamente a um caractere. Use `?*` para corresponder um ou mais caracteres
 * Normalmente, ao aplicar ambos os tipos de filtros de dados a um download, somente as linhas que correspondem a ambas as regras são baixadas. No entanto, as seguintes exceções se aplicam:
-   * Se Linhas com coluna vazia = Todas as colunas, então todas as colunas, exceto a coluna especificada na primeira regra, são verificadas para confirmar se estão vazias. Essa exceção garante que a ferramenta baixe qualquer linha com uma coluna que corresponda à primeira regra que também tenha todas as outras colunas vazias.
-   * Ao baixar linhas de dados com base em colunas vazias, todas as colunas, exceto as especificadas na primeira regra, são verificadas para confirmar se estão vazias.
-   * Se a mesma coluna for especificada para ambas as regras de filtro (é quase impossível atender a ambos os critérios), apenas as linhas que correspondem à primeira regra serão baixadas.
-   * Exportações de FTP têm um limite de 30 colunas.
+  * Se Linhas com coluna vazia = Todas as colunas, então todas as colunas, exceto a coluna especificada na primeira regra, são verificadas para confirmar se estão vazias. Essa exceção garante que a ferramenta baixe qualquer linha com uma coluna que corresponda à primeira regra que também tenha todas as outras colunas vazias.
+  * Ao baixar linhas de dados com base em colunas vazias, todas as colunas, exceto as especificadas na primeira regra, são verificadas para confirmar se estão vazias.
+  * Se a mesma coluna for especificada para ambas as regras de filtro (é quase impossível atender a ambos os critérios), apenas as linhas que correspondem à primeira regra serão baixadas.
+  * Exportações de FTP têm um limite de 30 colunas.
 
 ## Exportar classificações usando FTP
 

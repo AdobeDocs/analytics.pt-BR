@@ -40,8 +40,8 @@ Quando habilitado, o AppMeasurement usa o seguinte processo para enviar dados pa
 * Ao compilar uma solicitação de imagem, um parâmetro de string de consulta de carimbo de data e hora é incluído.
 * Se o dispositivo não conseguir acessar os servidores de coleta de dados da Adobe, a ocorrência será armazenada localmente no dispositivo.
 * Durante cada ocorrência subsequente, o AppMeasurement tenta enviar uma solicitação de imagem para a Adobe.
-   * Se não conseguir acessar os servidores de coleta de dados da Adobe, a ocorrência será adicionada à fila no dispositivo.
-   * Se conseguir acessar os servidores de coleta de dados da Adobe, a ocorrência e a fila de ocorrências de quando o dispositivo estava offline serão enviadas.
+  * Se não conseguir acessar os servidores de coleta de dados da Adobe, a ocorrência será adicionada à fila no dispositivo.
+  * Se conseguir acessar os servidores de coleta de dados da Adobe, a ocorrência e a fila de ocorrências de quando o dispositivo estava offline serão enviadas.
 
 ## Rastreamento offline usando o Web SDK
 

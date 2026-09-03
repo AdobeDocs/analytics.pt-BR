@@ -92,6 +92,6 @@ Como havia uma única sequência na dimensão de detalhamento, ela usa um denomi
 
 ## Porcentagens acima de 100%
 
-Essa métrica frequentemente contém porcentagens acima de 100%. O denominador é o tempo médio da dimensão inteira no site, e o numerador é o tempo médio do item de dimensão no site. Se o tempo médio de toda a dimensão no site for menor que o tempo médio de um determinado item de dimensão no site, você verá percentuais acima de 100%. A classificação de relatórios classificados por essa métrica mostra o tempo médio da anomalia nos valores do site, que normalmente não é importante. A Adobe recomenda classificar por outra métrica, como [Visitas](visits.md), em relatórios classificados.
+Essa métrica frequentemente contém porcentagens acima de 100%. O denominador é o tempo médio da dimensão inteira no site, e o numerador é o tempo médio do item de dimensão no site. Se o tempo médio de toda a dimensão no site for menor que o tempo médio de um determinado item de dimensão no site, você verá percentuais acima de 100%. Ordenar relatórios classificados por essa métrica mostra o tempo médio da anomalia nos valores do site, que normalmente não é importante. A Adobe recomenda classificar por outra métrica, como [Visitas](visits.md), em relatórios classificados.
 
 Consulte [Visão geral do tempo gasto](time-spent.md) para obter mais informações gerais sobre o tempo gasto.

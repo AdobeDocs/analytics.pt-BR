@@ -42,16 +42,16 @@ Você pode configurar o tipo de métrica e o [modelo de atribuição](#attributi
 
    * Especifique a **[!UICONTROL atribuição]**.
 
-      1. Você também pode:
+     1. Você também pode:
 
-         * Desabilitar a opção **[!UICONTROL Usar modelo de atribuição não padrão]** para usar o modelo de atribuição de coluna padrão, que é Último contato, com uma janela de pesquisa de 30 dias.
-         * Habilitar a opçã o **[!UICONTROL Usar modelo de atribuição não padrão]**. Na caixa de diálogo **[!UICONTROL Modelo de atribuição de coluna]**,
+        * Desabilitar a opção **[!UICONTROL Usar modelo de atribuição não padrão]** para usar o modelo de atribuição de coluna padrão, que é Último contato, com uma janela de pesquisa de 30 dias.
+        * Habilitar a opçã o **[!UICONTROL Usar modelo de atribuição não padrão]**. Na caixa de diálogo **[!UICONTROL Modelo de atribuição de coluna]**,
 
-            * Selecione um **[!UICONTROL Modelo]** nos [modelos de atribuição](#attribution-models).
-            * Selecione um **[!UICONTROL Container]** nas opções de [container](#container).
-            * Selecione uma **[!UICONTROL Janela de retrospectiva]** nas opções da [janela de retrospectiva](#lookback-window). Se você selecionar **[!UICONTROL Hora personalizada]**, poderá definir o período em **[!UICONTROL Minuto(s)]** até **[!UICONTROL Trimestre(s)]**.
+          * Selecione um **[!UICONTROL Modelo]** nos [modelos de atribuição](#attribution-models).
+          * Selecione um **[!UICONTROL Container]** nas opções de [container](#container).
+          * Selecione uma **[!UICONTROL Janela de retrospectiva]** nas opções da [janela de retrospectiva](#lookback-window). Se você selecionar **[!UICONTROL Hora personalizada]**, poderá definir o período em **[!UICONTROL Minuto(s)]** até **[!UICONTROL Trimestre(s)]**.
 
-      1. Selecione **[!UICONTROL Aplicar]** para aplicar o modelo de atribuição não padrão. Selecione Cancelar para cancelar.
+     1. Selecione **[!UICONTROL Aplicar]** para aplicar o modelo de atribuição não padrão. Selecione Cancelar para cancelar.
 
      Se você já tiver definido um modelo de atribuição não padrão, selecione **[!UICONTROL Editar]** para modificar a seleção.
 
@@ -158,7 +158,7 @@ Consulte [Exemplo](#example) para ver um exemplo de uso de um modelo de atribu
 {{attribution-container}}
 
 
-## Janela de retrospectiva {#lookback-winwow}
+## Janela de pesquisa {#lookback-winwow}
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"

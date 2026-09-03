@@ -84,7 +84,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar se
 1. Selecione **[!UICONTROL Adicionar]** para criar um novo segmento.
    ![Publicar CX Enterprise](assets/publish-ec.png)
 1. Forneça um título e uma descrição para o segmento. Esses campos são obrigatórios antes de salvar o segmento.
-1. Na seção **[!UICONTROL Publicação do Experience Cloud]**, selecione a opção **[!UICONTROL Publicar este segmento no Experience Cloud (para *conjunto de relatórios*)]**.
+1. Na seção **[!UICONTROL Publicação da Experience Cloud]**, selecione a opção **[!UICONTROL Publicar este segmento na Experience Cloud (para *conjunto de relatórios*)]**.
 
    >[!IMPORTANT]
    >
@@ -166,7 +166,7 @@ No Adobe Audience Manager, a lista de visitantes com ECIDs para um determinado s
 
 ## Exibir o segmento em [!DNL Adobe Target]
 
-O **[!UICONTROL Publicar este segmento no Experience Cloud]** permite que o segmento fique disponível na biblioteca de público-alvo personalizada do Adobe Target. Um segmento criado no Analytics ou no Audience Manager pode ser usado em atividades no Target. Por exemplo, é possível criar atividades de campanha baseadas nas métricas de conversão do Analytics e nos segmentos de público-alvo criados no Analytics.
+O **[!UICONTROL Publicar este segmento na Experience Cloud]** permite que o segmento fique disponível na biblioteca de público-alvo personalizada do Adobe Target. Um segmento criado no Analytics ou no Audience Manager pode ser usado em atividades no Target. Por exemplo, é possível criar atividades de campanha baseadas nas métricas de conversão do Analytics e nos segmentos de público-alvo criados no Analytics.
 
 No Adobe Target:
 

@@ -38,11 +38,11 @@ Para editar as configurações de um conjunto de classificações:
    1. Adicione uma ou mais **[!UICONTROL Marcas (opcional)]** ao conjunto de classificações. Selecione uma marca existente do menu suspenso **[!UICONTROL Marcas]** ou insira uma nova marca. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) para remover uma marca.
    1. Na seção **[!UICONTROL Notificações do trabalho]**, selecione quem você deseja notificar sobre falha ou sucesso dos trabalhos do conjunto de classificações.
       * Para notificar os usuários sobre uma falha:
-         1. habilitar **[!UICONTROL Notificar sobre falha]**.
-         1. Especifique um ou mais endereços de email separados por vírgula em **[!UICONTROL Destinatários de email com falha]**.
+        1. habilitar **[!UICONTROL Notificar sobre falha]**.
+        1. Especifique um ou mais endereços de email separados por vírgula em **[!UICONTROL Destinatários de email com falha]**.
       * Para notificar os usuários sobre sucesso:
-         1. Habilitar **[!UICONTROL Notificar sobre êxito]**.
-         1. Especifique um ou mais endereços de email separados por vírgula em **[!UICONTROL Destinatários do email de êxito]**.
+        1. Habilitar **[!UICONTROL Notificar sobre êxito]**.
+        1. Especifique um ou mais endereços de email separados por vírgula em **[!UICONTROL Destinatários do email de êxito]**.
    1. Edite as **[!UICONTROL Assinaturas]**.
       * Você pode definir várias combinações do **[!UICONTROL Conjunto de relatórios]** e do **[!UICONTROL Dimension]** para um conjunto de classificações.
       * Selecione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para excluir uma combinação do **[!UICONTROL Conjunto de Relatórios]** e do **[!UICONTROL Key Dimension]**.

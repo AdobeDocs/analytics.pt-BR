@@ -107,9 +107,9 @@ As implementações que preenchem muitas variáveis com valores longos às vezes
 * **Usar regras de processamento**: as [as regras de processamento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) podem copiar valores de uma variável para outra. Esse método evita que você defina o mesmo valor em várias variáveis. Por exemplo:
 
   Sempre executar:<br>
-Substituir valor de prop1 por eVar1<br>
-Substituir o valor de eVar2 pela eVar1<br>
-Substituir valor de prop2 por eVar1<br>
+  Substituir valor de prop1 por eVar1<br>
+  Substituir o valor de eVar2 pela eVar1<br>
+  Substituir valor de prop2 por eVar1<br>
 
   Em seguida, defina a eVar 1 na sua implementação:
 

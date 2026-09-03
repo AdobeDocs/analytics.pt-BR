@@ -28,9 +28,9 @@ Este capítulo explica os conceitos que você precisa entender sobre permissões
 
 * Permissões
 
-   * [Perfis de produto para o Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md)
-   * [Permissões de perfil de produto para Ferramentas de conjuntos de relatórios](/help/admin/admin-console/permissions/report-suite-tools.md)
-   * [Permissões de perfil de produto para as Ferramentas do Analytics](/help/admin/admin-console/permissions/analytics-tools.md)
+  * [Perfis de produto para o Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md)
+  * [Permissões de perfil de produto para Ferramentas de conjuntos de relatórios](/help/admin/admin-console/permissions/report-suite-tools.md)
+  * [Permissões de perfil de produto para as Ferramentas do Analytics](/help/admin/admin-console/permissions/analytics-tools.md)
 
 ## Adicionar um administrador no Adobe Analytics
 

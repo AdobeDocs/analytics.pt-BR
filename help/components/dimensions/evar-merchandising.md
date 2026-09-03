@@ -64,9 +64,9 @@ A métrica [Instâncias](../metrics/instances.md) não é recomendada para usar 
 
 * Para variáveis de merchandising que utilizam sintaxe de produto, as instâncias não são aumentadas.
 * Para variáveis de merchandising que utilizam a sintaxe de variável de conversão, as instâncias são contabilizadas cada vez que a eVar é definida. No entanto, ela atribui ao item de dimensão `"None"` a menos que os seguintes casos aconteçam na mesma ocorrência:
-   * A eVar de merchandising é definida com um valor.
-   * A variável `products` é definida com um valor.
-   * Um evento de vinculação é configurado.
+  * A eVar de merchandising é definida com um valor.
+  * A variável `products` é definida com um valor.
+  * Um evento de vinculação é configurado.
 
 ```js
 // This merchandising eVar uses conversion variable syntax, and counts an instance.

@@ -46,7 +46,7 @@ ht-degree: 49%
    * **Por conjunto de relatórios:** agrupa a exibição de solicitações por conjunto de relatórios.
    * **Por segmento**: agrupa as solicitações com base no nome do segmento.
 
-      * **Escolher segmento**: exibe se não existem segmentos para as solicitações. Para adicionar segmentos, clique em **[!UICONTROL Editar grupo]** e selecione um segmento no painel [!UICONTROL Editar grupo].
+     * **Escolher segmento**: exibe se não existem segmentos para as solicitações. Para adicionar segmentos, clique em **[!UICONTROL Editar grupo]** e selecione um segmento no painel [!UICONTROL Editar grupo].
 
    * **Por métrica:** Consulte [Editar métricas em várias solicitações](/help/analyze/legacy-report-builder/manage-requests/edit-multiple-metrics.md).
 

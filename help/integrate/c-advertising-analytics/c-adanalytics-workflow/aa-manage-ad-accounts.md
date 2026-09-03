@@ -45,8 +45,8 @@ A tabela consiste nas seguintes colunas:
 - Para pesquisar sua conta publicitária usando o campo de pesquisa ![Pesquisa](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg).
 - Para selecionar contas ativas na tabela, marque **[!UICONTROL Contas ativas]**.
 - Para definir quais colunas serão mostradas para a tabela, selecione ![Configurações de coluna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). <br/>Na caixa de diálogo **[!UICONTROL Personalizar tabela]**:
-   - Selecione as colunas que deseja mostrar.
-   - Selecione **[!UICONTROL Aplicar]**.
+  - Selecione as colunas que deseja mostrar.
+  - Selecione **[!UICONTROL Aplicar]**.
 
 Ao selecionar uma ou mais contas publicitárias, uma barra de ação azul, com base no status das contas selecionadas, permite ![Editar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Renomear]**, ![Atualizar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Mapear Conjuntos de Relatórios]**, ![Reproduzir](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL Ativar]** ou ![Pausar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL Pausar]** suas contas publicitárias.
 
