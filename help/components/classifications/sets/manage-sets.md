@@ -4,10 +4,15 @@ description: Gerenciar conjuntos de classificações no Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
 TQID: https://experienceleague.adobe.com/qSpr-B-e-VdROnw3ngLDcoWqsLgiUDz7GRniffxOM2c
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 621
@@ -73,7 +78,7 @@ Ao selecionar um ou mais conjuntos de classificações na lista de conjuntos de 
 | ![Renomear](/help/assets/icons/Rename.svg) | **[!UICONTROL Renomear]** | Renomear um conjunto de classificações.<br/>Na caixa de diálogo **[!UICONTROL Renomear: _conjunto de classificações_]**, digite um novo nome e selecione **[!UICONTROL Renomear]**. |
 | ![Mesclar](/help/assets/icons/Merge.svg) | **[!UICONTROL Consolidar]** | [Consolidar conjuntos de classificações](/help/components/classifications/sets/consolidations/manage.md). |
 | ![Excluir](/help/assets/icons/Delete.svg) | **[!UICONTROL Excluir]** | Excluir um conjunto de classificações.<br/>O **[!UICONTROL Excluir _conjunto de classificações_?]** será exibida. A exclusão de um conjunto de classificações não pode ser desfeita. Qualquer projeto ou consolidação agendada que use esse conjunto de classificações continuará a usar a definição desse conjunto de classificações até que você salve novamente os projetos agendados ou revalide as consolidações agendadas. Selecione **[!UICONTROL Excluir]** para excluir o conjunto de classificações. |
-| ![Rótulo](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Marcar o conjunto de classificações.<br/>Na caixa de diálogo **[!UICONTROL Marca: _conjunto de classificações_]**, selecione uma ou mais marcas no menu suspenso **[!UICONTROL Marcas]**para adicionar marcas. Ou insira uma ou mais tags novas. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) para remover uma marca. <br/>Selecione **[!UICONTROL Salvar]**para salvar as marcas. |
+| ![Rótulo](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Marcar o conjunto de classificações.<br/>Na caixa de diálogo **[!UICONTROL Marca: _conjunto de classificações_]**, selecione uma ou mais marcas no menu suspenso **[!UICONTROL Marcas]**&#x200B;para adicionar marcas. Ou insira uma ou mais tags novas. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) para remover uma marca. <br/>Selecione **[!UICONTROL Salvar]**&#x200B;para salvar as marcas. |
 
 
 ### Painel de filtro
