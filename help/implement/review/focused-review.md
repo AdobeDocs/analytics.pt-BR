@@ -62,7 +62,7 @@ Avalie a situação e faça um plano para corrigir os dados. Em seguida, faça a
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisar a implementação](https://video.tv.adobe.com/v/328340?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisar a implementação](https://video.tv.adobe.com/v/3440174?captions=por_br&quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
