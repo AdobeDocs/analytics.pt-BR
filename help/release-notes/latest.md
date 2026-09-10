@@ -2,7 +2,6 @@
 title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
-hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -25,16 +24,16 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 51114adeba5f93fb4dce32e9e5f949f7afb4ba7b
+source-git-commit: 01c0296a102b323ea067b2459f79969d507dc744
 workflow-type: tm+mt
-source-wordcount: 1096
-ht-degree: 47%
+source-wordcount: 1117
+ht-degree: 46%
 
 ---
 
 # Notas de versão atuais do Adobe Analytics (setembro de 2026)
 
-**Última atualização**: 8 de setembro de 2026
+**Última atualização**: 9 de setembro de 2026
 
 Essas notas de versão abordam o período de lançamento de setembro de 2026. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Dessa forma, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
@@ -44,24 +43,23 @@ Essas notas de versão abordam o período de lançamento de setembro de 2026. As
 | ----------- | ---------- | ---- |
 | **Limitar segmentos ao intervalo de datas do relatório**<br/> Os dados em um relatório do Workspace podem se estender além do intervalo de datas do relatório quando um segmento inclui componentes de intervalo de datas.<p>Uma nova opção está disponível e permite limitar os resultados ao intervalo de datas do relatório, independentemente de quaisquer componentes de data incluídos no segmento.</p><p>Essa opção está disponível ao criar ou modificar um segmento cujo contêiner de nível superior é Visitante.</p><p>Para obter mais informações, consulte [Criar segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md#components).</p> | 26 de agosto de 2026 | 9 de setembro de 2026 |
 | **Atualizações da detecção de bot**<br/> Ao usar a Coleção de dados da Edge com o Web SDK, as seguintes atualizações de detecção de bot estão disponíveis:<ul><li>Agora é possível criar regras de detecção de bot para identificar exceções no tráfego que, de outra forma, seriam tratadas como geradas por bot. As regras atuais e futuras continuarão a ser padronizadas para marcar o tráfego correspondente como gerado por bot.</li><li>Agora as regras de bot personalizadas são executadas antes das regras de detecção de bot IAB. Essa alteração não afeta as pontuações de bot, mas os nomes de regra de bot associados a um evento podem ser alterados.</li></ul><p>Observação: essa atualização se aplica somente às implementações da Coleta de dados do Edge que usam o Web SDK. Isso não se aplica a bibliotecas mais antigas, como a AppMeasurement.</p><p>(Link para a documentação a seguir).</p> | | Início de setembro de 2026 |
-| **Integração com o Adobe Brand Visibility**<br/> Conecte o Adobe Brand Visibility aos dados do Adobe Analytics de sua organização para que você possa medir como a descoberta orientada por IA se traduz em envolvimento real com o site e em resultados comerciais.<p>(Link para a documentação a seguir).</p> | | Setembro de 2026 |
 | **Atualizações da API dos conjuntos de classificação**<br/> A documentação da API dos conjuntos de classificação agora inclui informações atualizadas de parâmetro e ponto de extremidade para configurar solicitações de API dos conjuntos de classificação.<p>Para obter mais informações, consulte o [manual de ponto de extremidade de classificações](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/).</p> | 5 de setembro de 2026 | 30 de setembro de 2026 |
 | **Orientação para a codificação de date itemId nos guias do relatório da API 2.0**<br/> Os guias do relatório de tendência de data da API do Adobe Analytics 2.0 agora incluem novas seções que explicam como os parâmetros e valores da data `itemId` são codificados. Isso pode ajudá-lo a configurar e migrar para os serviços de API 2.0 a partir das APIs 1.4 que foram descontinuadas.<p>Para obter mais informações, consulte o [guia de relatório de KPI](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi) e o [guia de relatório avançado](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced).</p> | 5 de setembro de 2026 | 30 de setembro de 2026 |
 
 ### Correções no Adobe Analytics
 
-**Activity Map**: AN-488579, AN-487247
-**Analysis Workspace**: AN-487374, AN-487119, AN-468907, AN-468810, AN-468363, AN-468096, AN-467414, AN-466986, AN-466982, AN-465073, AN-463571, AN-462373
-**Classificações**: AN-490825, AN-490802, AN-490549, AN-490472, AN-487782, AN-487286, AN-486531, AN-478859, AN-469929, AN-469033, AN-468944, AN-468827, AN-468592, AN-468326, AN-467115, AN-466995, AN-465636, AN-465616, AN-465380, AN-464911, AN-464338, AN-463677, AN-462729, AN-462577, AN-461040, AN-459316
-**Feeds de dados e Data Warehouse**: AN-487624, AN-487287, AN-479923, AN-479166, AN-479109, AN-468483
+**Activity Map**: AN-488579, AN-487247, AN-491828
+**Analysis Workspace**: AN-487374, AN-487119, AN-468907, AN-468810, AN-468363, AN-468096, AN-467414, AN-466986, AN-466982, AN-465073, AN-463571, AN-462373, AN-492801, AN-488821, AN-488452, AN-486517, AN-478930, AN-468325
+**Classificações**: AN-490825, AN-490802, AN-490549, AN-490472, AN-487782, AN-487286, AN-486531, AN-478859, AN-469929, AN-469033, AN-468944, AN-468827, AN-468592, AN-468326, AN-467115, AN-466995, AN-465636, AN-465616, AN-465380, AN-464911, AN-464338, AN-463677, AN-462729, AN-462577, AN-461040, AN-459316, AN-490072, AN-487100
+**Feeds de dados e Data Warehouse**: AN-487624, AN-487287, AN-479923, AN-479166, AN-479109, AN-468483, AN-493406, AN-492167, AN-333098
 **Migração**:
-**Exportações**: AN-467131
-**Report Builder**: AN-487486, AN-478944, AN-470036, AN-468589, AN-468436, AN-456747, AN-456700, AN-442695
+**Exportações**: AN-467131, AN-469034, AN-447252
+**Report Builder**: AN-487486, AN-478944, AN-470036, AN-468589, AN-468436, AN-456747, AN-456700, AN-442695, AN-492330, AN-490564, AN-468293, AN-460921
 **Relatórios**: AN-468621, AN-465383, AN-463924
-**Conjuntos de relatórios**: AN-468484, AN-468460, AN-465385
-**Relatórios agendados**:
-**Segmentação**: AN-486561
-**Outros**: AN-488549, AN-467426, AN-465265, AN-464645, AN-459714, AN-459323, AN-454514
+**Conjuntos de relatórios**: AN-468484, AN-468460, AN-465385, AN-463216
+**Relatórios agendados**: AN-479157
+**Segmentação**: AN-486561, AN-278260
+**Outros**: AN-488549, AN-467426, AN-465265, AN-464645, AN-459714, AN-459323, AN-454514, AN-487288, AN-470023, AN-469601, AN-320799, AN-316708, AN-309317, AN-266652
 
 ### Avisos de fim da vida útil (EOL) {#eol}
 
