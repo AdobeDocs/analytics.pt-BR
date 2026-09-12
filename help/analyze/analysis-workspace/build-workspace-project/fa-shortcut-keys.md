@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 89%
+source-wordcount: 488
+ht-degree: 78%
 
 ---
 
@@ -91,6 +91,17 @@ Observe que é possível usar os seguintes símbolos do teclado:
 | --- | --- | --- |
 | Mover painel para cima | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *alt + ctrl + up *]** |
 | Mover painel para baixo | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *alt + ctrl + down *]** |
+
+## Redimensionar ações de painel ou visualização
+
+| Ação | Atalho do Mac | Atalho do Windows |
+| --- | --- | --- |
+| Redimensionar mais largo | **[!UICONTROL *cmd + opt + shift + right *]** | **[!UICONTROL *ctrl + alt + shift + right *]** |
+| Redimensionar mais estreito | **[!UICONTROL *cmd + opt + shift + left *]** | **[!UICONTROL *ctrl + alt + shift + left *]** |
+| Redimensionar para mais alto | **[!UICONTROL *cmd + opt + shift + down *]** | **[!UICONTROL *ctrl + alt + shift + down *]** |
+| Redimensionamento mais curto | **[!UICONTROL *cmd + opt + shift + up *]** | **[!UICONTROL *ctrl + alt + shift + up *]** |
+
+A largura é redimensionada em etapas de uma coluna de grade e a altura é redimensionada em etapas de uma célula de grade (aproximadamente 25 pixels).
 
 ## Ações de democratização
 
