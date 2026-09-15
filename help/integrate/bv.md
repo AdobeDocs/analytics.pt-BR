@@ -29,7 +29,7 @@ A IA se tornou um canal de descoberta principal. Os agentes do Large Language Mo
 >
 >Como parte dessa integração, algum processamento temporário de dados do Brand Visibility ocorre nos Estados Unidos. Os dados são armazenados na região designada conforme configurado em seu contrato do Adobe Analytics.
 
-Se você usar o Customer Jornada Analytics, uma integração de entrada separada e mais avançada fornecerá os mesmos dados de tráfego de CDN subjacentes no Customer Journey Analytics por meio da Adobe Experience Platform. Essa integração está disponível hoje. Consulte [integração do Brand Visibility com o Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv). Se você tiver o Customer Journey Analytics, revise essa integração primeiro, pois ela expõe mais campos e oferece suporte ao agrupamento de dados do Brand Visibility com outros conjuntos de dados. A integração do Analytics descrita neste guia foi projetada para clientes que usam o Adobe Analytics sem ter acesso ou uma licença do Customer Journey Analytics.
+Se você usar o Customer Jornada Analytics, uma integração de entrada separada e mais avançada fornecerá os mesmos dados de tráfego de CDN subjacentes no Customer Journey Analytics por meio da Adobe Experience Platform. Essa integração está disponível hoje. Consulte [integração do Brand Visibility com o Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/integrations/bv). Se você tiver o Customer Journey Analytics, revise essa integração primeiro, pois ela expõe mais campos e oferece suporte ao agrupamento de dados do Brand Visibility com outros conjuntos de dados. A integração do Analytics descrita neste guia foi projetada para clientes que usam o Adobe Analytics sem ter acesso ou uma licença do Customer Journey Analytics.
 
 
 ## Casos de uso
@@ -74,7 +74,7 @@ O conector de entrada do Adobe Analytics é configurado por conjunto de relatór
 >
 >O Encaminhamento de Log BYOCDN fornece os dados de solicitação de CDN do lado do servidor usados para análise de tráfego de agente. Os dados não dependem da execução das tags JavaScript em um navegador. Sem o feed de log CDN necessário, o conector não terá dados de tráfego para trazer para o conjunto de relatórios.
 >
->Consulte [Referência de encaminhamento de log BYOCDN](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview) para obter mais informações.
+>Consulte [Referência de encaminhamento de log BYOCDN](https://experienceleague.adobe.com/pt-br/docs/brand-visibility/using/log-forwarding/log-forwarding-overview) para obter mais informações.
 
 
 >[!IMPORTANT]
@@ -232,8 +232,8 @@ Consulte os seguintes problemas e como solucioná-los.
 
 >[!MORELIKETHIS]
 >
->[Referência de integração do Brand Visibility /LLMO](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv)
->[Referência de encaminhamento de log BYOCDN](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
+>[Referência de integração do Brand Visibility /LLMO](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/integrations/bv)
+>[Referência de encaminhamento de log BYOCDN](https://experienceleague.adobe.com/pt-br/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
 
 &#x200B;---
 
@@ -253,4 +253,4 @@ Esta seção é para revisão interna e deve ser removida antes da publicação.
 
 ## Integração de saída
 
-Este guia aborda somente a integração do Brand Visibility de entrada, que adiciona dados de tráfego de bot e agente automatizado a um conjunto de relatórios do Analytics. A documentação de integração publicada também descreve uma direção de saída, na qual os dados de desempenho do Analytics são disponibilizados para o Brand Visibility dentro do produto do Brand Visibility. Essa direção está fora do escopo deste guia. Consulte a [documentação do Brand Visibility](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/adobe-analytics-integration) para obter mais informações sobre a integração de saída.
+Este guia aborda somente a integração do Brand Visibility de entrada, que adiciona dados de tráfego de bot e agente automatizado a um conjunto de relatórios do Analytics. A documentação de integração publicada também descreve uma direção de saída, na qual os dados de desempenho do Analytics são disponibilizados para o Brand Visibility dentro do produto do Brand Visibility. Essa direção está fora do escopo deste guia. Consulte a [documentação do Brand Visibility](https://experienceleague.adobe.com/pt-br/docs/brand-visibility/using/resources/adobe-analytics-integration) para obter mais informações sobre a integração de saída.
