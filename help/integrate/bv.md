@@ -106,10 +106,10 @@ A integração de entrada do CJA é criada em um conjunto de dados mais amplo de
 
 #### Limitações importantes
 
-- Nenhuma ID de visitante, ECID, visita ou dados de usuário único são incluídos. São dados de resumo agregados, não vinculados a visitantes.
-- As variáveis reservadas não oferecem suporte às configurações de tipo de alocação ou expiração, pois não estão vinculadas a um visitante.
-- Os dados não podem ser unidos a outros conjuntos de dados ou dimensões do Analytics da mesma maneira que no Customer Journey Analytics.
-- Use a métrica **Solicitações** para medir o volume de tráfego de bot e agente. Não o use alternadamente com métricas baseadas em visitas ou ocorrências em outro lugar no conjunto de relatórios.
+&#x200B;- Nenhuma ID de visitante, ECID, visita ou dados de usuário único são incluídos. São dados de resumo agregados, não vinculados a visitantes.
+&#x200B;- As variáveis reservadas não oferecem suporte às configurações de tipo de alocação ou expiração, pois não estão vinculadas a um visitante.
+&#x200B;- Os dados não podem ser unidos a outros conjuntos de dados ou dimensões do Analytics da mesma maneira que no Customer Journey Analytics.
+&#x200B;- Use a métrica **Solicitações** para medir o volume de tráfego de bot e agente. Não o use alternadamente com métricas baseadas em visitas ou ocorrências em outro lugar no conjunto de relatórios.
 
 O conjunto exato de campos disponíveis deve ser confirmado em relação à configuração de variável do conjunto de relatórios depois que o conector for ativado.
 
@@ -135,10 +135,10 @@ A instalação e a configuração do conector de entrada vieram com responsabili
 
 Confirme o seguinte antes de habilitar o conector:
 
-- Você concluiu a integração do Adobe Brand Visibility para o site que deseja conectar.
-- O encaminhamento de log BYOCDN está configurado e confirmado para esse site (consulte [pré-requisitos](#inbound-integration)).
-- Os dados são exibidos no painel Tráfego do Adobe Brand Visibility Agentic desse site.
-- Você sabe a qual conjunto de relatórios deseja conectar o site.
+&#x200B;- Você concluiu a integração do Adobe Brand Visibility para o site que deseja conectar.
+&#x200B;- O encaminhamento de log BYOCDN está configurado e confirmado para esse site (consulte [pré-requisitos](#inbound-integration)).
+&#x200B;- Os dados são exibidos no painel Tráfego do Adobe Brand Visibility Agentic desse site.
+&#x200B;- Você sabe a qual conjunto de relatórios deseja conectar o site.
 
 Cada site do Adobe Brand Visibility se conecta a exatamente um conjunto de relatórios. Se quiser trazer dados de mais de um site do Brand Visibility, conecte cada site a um conjunto de relatórios separado.
 
@@ -235,20 +235,20 @@ Consulte os seguintes problemas e como solucioná-los.
 >[Referência de integração do Brand Visibility /LLMO](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv)
 >[Referência de encaminhamento de log BYOCDN](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
 
----
+&#x200B;---
 
 ## Notas de redação para documentos (não para publicação)
 
 Esta seção é para revisão interna e deve ser removida antes da publicação.
 
-- **Source da verdade usada:** nomes de campo, lista de variáveis reservadas e fluxo de trabalho do Gerenciador de Conjunto de Relatórios são provenientes de [AN-468884](https://jira.corp.adobe.com/browse/AN-468884) (David Wardell, status Novo a partir de 28/08/2026), que é mais atual e mais específico do que a solicitação de documentação original [AN-449989](https://jira.corp.adobe.com/browse/AN-449989) (Rob In der Maur, status Novo). A cópia da página para as telas Provisionamento/Desprovisionamento incorpora os refinamentos de texto da revisão interna 2026-08-28 (`2026-08-28-an468884-abv-report-suite-ui-review.md`), que substituiu a abreviação &quot;ABV&quot; do tíquete bruto por &quot;Adobe Brand Visibility&quot; no texto voltado para o cliente.
-- **Discrepância do conjunto de campos a ser reconciliada antes da publicação:** A lista de dimensões original do AN-449989 era Host, URL/Caminho da Página, Provedor CDN, Agente do Usuário e Tipo de Bot LLM, com uma única métrica de Contagem de Solicitações Agenciais. A lista real de variáveis reservadas do AN-468884 é URL, Tipo de bot, Agente do usuário, Status e Referenciador, com um único evento de Solicitações. O Host e o Provedor CDN não estão presentes como variáveis reservadas separadas em AN-468884; o Status é novo. Este rascunho segue AN-468884 como autoritativo de acordo com o ticket eng, mas os dois devem ser reconciliados com Aaron Kern / David Wardell antes que isso seja finalizado, já que os nomes de campo que os clientes veem podem não corresponder ao que as equipes de conta descreveram usando o idioma AN-449989 mais antigo.
-- **Ainda não confirmado, não declarar como fato na versão publicada:**
-  - Data exata de disponibilidade geral. O AN-431416 tem o FixVersion H2 2026 (janela de versão 2026-11-30) e está com status Executar em 1 de setembro de 2026; o AN-468884 (a implementação da variável reservada) e o AN-449989 (este documento) ainda são novos. Não publique até que o eng envie.
-  - Se o tipo de alocação/tipo de expiração será totalmente suprimido nas evars reservadas na produção. A revisão de 28/08/2026 sinalizou que um conjunto de relatórios de teste atualmente mostra essas evars com Alocação definida como &quot;Mais recente (último)&quot;, que pode ser um padrão que precisa ser limpo, em vez de comportamento final confirmado.
-  - O endpoint da API LLMO para listar sites ABV por organização IMS (preenche a lista suspensa Seleção de sites) e a API de desprovisionamento/desativação ainda estavam pendentes de Joe Bass a partir do comentário do tíquete 2026-08-26.
-  - A comparação exata de contagem de campo do CJA. O ticket original do AN-449989 alega que o CJA tem &quot;9 dimensões adicionais&quot; e &quot;5 métricas adicionais&quot;, mas várias dessas (Compartimento de sessão do LLM, Contagem de sessão exclusiva do LLM, Contagem de duplicação de solicitação do LLM) não foram confirmadas no grupo de campos `cdn-requests-summary` entregue a partir da revisão de 2026-06-18. Esse rascunho evita intencionalmente citar contagens específicas na comparação do CJA por esse motivo.
-  - A cadência de sincronização para esse caminho AA é declarada aqui como por hora, correspondendo ao idioma do tíquete AN-468884 (&quot;executar sincronizações por hora&quot; / &quot;processo de sincronização por hora&quot;). Isso não foi validado de forma independente em relação ao comportamento das Fontes de dados de produção do AA da maneira como a cadência do CJA era.
+&#x200B;- **Source da verdade usada:** nomes de campo, lista de variáveis reservadas e fluxo de trabalho do Gerenciador de Conjunto de Relatórios são provenientes de [AN-468884](https://jira.corp.adobe.com/browse/AN-468884) (David Wardell, status Novo a partir de 28/08/2026), que é mais atual e mais específico do que a solicitação de documentação original [AN-449989](https://jira.corp.adobe.com/browse/AN-449989) (Rob In der Maur, status Novo). A cópia da página para as telas Provisionamento/Desprovisionamento incorpora os refinamentos de texto da revisão interna 2026-08-28 (`2026-08-28-an468884-abv-report-suite-ui-review.md`), que substituiu a abreviação &quot;ABV&quot; do tíquete bruto por &quot;Adobe Brand Visibility&quot; no texto voltado para o cliente.
+&#x200B;- **Discrepância do conjunto de campos a ser reconciliada antes da publicação:** A lista de dimensões original do AN-449989 era Host, URL/Caminho da Página, Provedor CDN, Agente do Usuário e Tipo de Bot LLM, com uma única métrica de Contagem de Solicitações Agenciais. A lista real de variáveis reservadas do AN-468884 é URL, Tipo de bot, Agente do usuário, Status e Referenciador, com um único evento de Solicitações. O Host e o Provedor CDN não estão presentes como variáveis reservadas separadas em AN-468884; o Status é novo. Este rascunho segue AN-468884 como autoritativo de acordo com o ticket eng, mas os dois devem ser reconciliados com Aaron Kern / David Wardell antes que isso seja finalizado, já que os nomes de campo que os clientes veem podem não corresponder ao que as equipes de conta descreveram usando o idioma AN-449989 mais antigo.
+&#x200B;- **Ainda não confirmado, não declarar como fato na versão publicada:**
+  &#x200B;- Data exata de disponibilidade geral. O AN-431416 tem o FixVersion H2 2026 (janela de versão 2026-11-30) e está com status Executar em 1 de setembro de 2026; o AN-468884 (a implementação da variável reservada) e o AN-449989 (este documento) ainda são novos. Não publique até que o eng envie.
+  &#x200B;- Se o tipo de alocação/tipo de expiração será totalmente suprimido nas evars reservadas na produção. A revisão de 28/08/2026 sinalizou que um conjunto de relatórios de teste atualmente mostra essas evars com Alocação definida como &quot;Mais recente (último)&quot;, que pode ser um padrão que precisa ser limpo, em vez de comportamento final confirmado.
+  &#x200B;- O endpoint da API LLMO para listar sites ABV por organização IMS (preenche a lista suspensa Seleção de sites) e a API de desprovisionamento/desativação ainda estavam pendentes de Joe Bass a partir do comentário do tíquete 2026-08-26.
+  &#x200B;- A comparação exata de contagem de campo do CJA. O ticket original do AN-449989 alega que o CJA tem &quot;9 dimensões adicionais&quot; e &quot;5 métricas adicionais&quot;, mas várias dessas (Compartimento de sessão do LLM, Contagem de sessão exclusiva do LLM, Contagem de duplicação de solicitação do LLM) não foram confirmadas no grupo de campos `cdn-requests-summary` entregue a partir da revisão de 2026-06-18. Esse rascunho evita intencionalmente citar contagens específicas na comparação do CJA por esse motivo.
+  &#x200B;- A cadência de sincronização para esse caminho AA é declarada aqui como por hora, correspondendo ao idioma do tíquete AN-468884 (&quot;executar sincronizações por hora&quot; / &quot;processo de sincronização por hora&quot;). Isso não foi validado de forma independente em relação ao comportamento das Fontes de dados de produção do AA da maneira como a cadência do CJA era.
 
 
 ## Integração de saída
