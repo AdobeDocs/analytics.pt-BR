@@ -6,26 +6,33 @@ exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
 TQID: 'https://experienceleague.adobe.com/GWzXfm7S6KD4k6CG-yElJesnQzhfCAcCwNZII0zQ1HM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+    internal-label: Data classifications
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Implementation
+source-git-commit: f502a9ffc4d68ed8fc6011366a16c73ac12d0ebc
 workflow-type: tm+mt
-source-wordcount: 1692
+source-wordcount: '1694'
 ht-degree: 13%
-
 ---
-
 # Regras de conjuntos de classificação
 
-As regras são usadas para oferecer suporte a classificações automáticas em cenários nos quais a dimensão principal é alterada constantemente. A atualização de classificações por meio do [upload](/help/components/classifications/sets/manage/schema.md#upload) ou da [automação](/help/components/classifications/sets/manage/schema.md#automate) torna-se um processo complicado ou atrasa a classificação adequada para novos valores de dimensão. Por exemplo, campanhas internas, códigos de rastreamento ou SKUs de produtos.
+As regras são usadas para oferecer suporte a classificações automáticas em cenários nos quais a dimensão principal é alterada constantemente. A atualização de classificações por meio do [upload](/help/components/classifications/sets/manage/schema.md#upload) ou da [automação](/help/components/classifications/sets/manage/schema.md#automate) torna-se um processo complicado ou carece de classificação adequada para novos valores de dimensão. Por exemplo, campanhas internas, códigos de rastreamento ou SKUs de produtos.
 
 A dimensão deve conter valores que permitam aplicar uma ou mais regras para que você possa derivar dados de classificação dos valores da dimensão.
 
 É possível definir as regras no contexto de um conjunto de classificação. Esse contexto implica que as regras são aplicadas (quando ativadas) a todos os conjuntos de relatórios e combinações de dimensões principais que estão inscritos no conjunto de classificações. Essa implementação é diferente de como o construtor de regras de classificação herdado funciona. No Construtor de regras de classificação, é possível definir uma ou mais regras como parte de um conjunto de regras separadamente e, em seguida, associar o conjunto de regras a um ou mais conjuntos de relatórios. Na nova interface, as regras no conjunto de classificações também são chamadas de conjunto de regras. No entanto, os conjuntos de regras são definidos na mesma interface em que você configura outros atributos do conjunto de classificações.
+
+>[!IMPORTANT]
+>
+>O contexto diferente que o novo construtor de regras usa implica que as subclassificações são avaliadas em relação ao valor da coluna de classificação principal imediata, e não em relação ao valor da dimensão raiz original.
+
 
 
 Para definir um conjunto de regras para um conjunto de classificações:
@@ -35,7 +42,7 @@ Para definir um conjunto de regras para um conjunto de classificações:
 1. No gerenciador **[!UICONTROL Conjuntos de classificações]**, selecione o conjunto de classificações para o qual deseja definir as regras.
 1. Na caixa de diálogo **[!UICONTROL Conjunto de classificações: _nome do conjunto de classificações_]**, selecione a guia **[!UICONTROL Regras]**.
 
-   * Se você estiver acessando a interface **[!UICONTROL Regras]** pela primeira vez para um conjunto de classificação ou decidir até o momento continuar a usar a interface herdada do construtor de regras, será exibida uma caixa de diálogo que permite selecionar como começar. As opções são:
+   * Se você estiver acessando a interface **[!UICONTROL Regras]** pela primeira vez ou se estiver usando o construtor herdado, uma caixa de diálogo será exibida para ajudá-lo a começar. As opções são:
 
      * **Migrar regras existentes**. Importe as regras de classificação atuais e continue a trabalhar com essas regras na nova interface. As regras existentes são preservadas e convertidas no novo formato.
        * Selecione **[!UICONTROL Migrar regras]** para continuar.
@@ -168,7 +175,7 @@ Digite um valor para **[!UICONTROL Contém]**. Por exemplo: `Winter`.
 
 #### Caso de uso
 
-Você deseja definir uma regra para atribuir `Winter Sale` como um valor à classificação **[!UICONTROL Type]** quando o valor da dimensão principal Campanha Interna contiver com `Winter` (por exemplo: `fb:Winter:FY2024`).
+Você deseja definir uma regra para atribuir `Winter Sale` como um valor à classificação **[!UICONTROL Type]** quando o valor da dimensão principal Campanha Interna contiver `Winter` (por exemplo: `fb:Winter:FY2024`).
 
 
 >[!BEGINTABS]
@@ -228,7 +235,7 @@ Insira um valor para **[!UICONTROL Expressão regular]**. Por exemplo: `^(.+)\:(
 
 #### Caso de uso
 
-Você deseja definir uma regra para atribuir valores às classificações **[!UICONTROL Canal]**, **[!UICONTROL Tipo]** e **[!UICONTROL Ano]** aplicando a expressão regular `^(.+)\:(.+)\:FY(.+)$` e usando grupos de correspondência (`$1`, `$2` e `$3`) aos valores da dimensão principal Campanha Interna.
+Defina uma regra para atribuir valores às classificações **[!UICONTROL Channel]**, **[!UICONTROL Type]** e **[!UICONTROL Year]** aplicando a expressão regular `^(.+)\:(.+)\:FY(.+)$` e usando grupos de correspondência (`$1`, `$2` e `$3`) à dimensão de chave da Campanha Interna.
 
 >[!BEGINTABS]
 
@@ -315,7 +322,7 @@ A última regra determina o valor da classificação se:
 * Um valor de dimensão principal corresponde a várias regras.
 * O conjunto de regras contém regras com a mesma operação **[!UICONTROL Definir Classificação]**.
 
-Portanto, você deve classificar a operação **[!UICONTROL Definir Classificação]** mais importante como parte da última regra em seu conjunto de regras.
+Classifique a operação **[!UICONTROL Definir Classificação]** mais importante como parte da última regra do seu conjunto de regras.
 
 Se você criar várias regras que não compartilham a mesma operação **[!UICONTROL Definir Classificação]**, a ordem de processamento não será importante.
 
