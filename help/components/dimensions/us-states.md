@@ -6,34 +6,52 @@ exl-id: d4506e59-c1ff-4348-912d-c1ad73278f56
 TQID: https://experienceleague.adobe.com/YLZIz1-J-LVvases2X1AgNxQR1eTtqoeDoxFVCg2MV4
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 385
-ht-degree: 77%
-
+source-wordcount: '426'
+ht-degree: 64%
 ---
-
 # Estado dos EUA
 
 A [dimensão](overview.md) de &#39;estado dos EUA&#39; informa o estado do visitante nos Estados Unidos da América. É semelhante à dimensão [Regiões](regions.md), exceto que essa dimensão é específica dos Estados Unidos. O uso dessa dimensão é valioso se você quiser informações mais granulares que [países](countries.md), mas não tão granulares quanto [cidades](cities.md).
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão faz referência às regras de pesquisa internas da Adobe. O valor de pesquisa se baseia no endereço IP enviado com a ocorrência. A Adobe faz parceria com a [Digital Element](https://www.digitalelement.com/pt-pt/) para manter pesquisas entre o endereço IP e o país.
+O Adobe deriva essa dimensão do lado do servidor do endereço IP do visitante, comparando-a com uma tabela de pesquisa interna. A Adobe faz parceria com [Digital Element](https://www.digitalelement.com/pt-pt/) para manter pesquisas entre o endereço IP e o estado dos EUA. Não há variável a ser definida.
+
+| Propriedade | Valor |
+| --- | --- |
+| **Variável do AppMeasurement** | Nenhum (derivado do endereço IP do visitante) |
+| **Web SDK / campo XDM** | Nenhum (derivado do endereço IP do visitante) |
+| **Parâmetro de consulta** | N/D |
+| **Marca XML** | N/D |
+| **Limite de bytes** | N/D |
+| **Persistência** | N/D |
 
 * Para implementações do AppMeasurement, essa dimensão funciona imediatamente.
 * Para implementações do Web SDK, habilite a [!UICONTROL Pesquisa Geográfica] ao [configurar uma sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=pt-br).

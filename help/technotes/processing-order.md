@@ -6,26 +6,35 @@ feature: Data Configuration and Collection
 TQID: https://experienceleague.adobe.com/ypuneLG7mM63J7ag12IqSmizbCENs-akL-QfF-P9nVM
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 1106
-ht-degree: 37%
-
+source-wordcount: '1103'
+ht-degree: 36%
 ---
-
 # Ordem de processamento dos dados no Adobe Analytics
 
 A Adobe oferece várias maneiras de alterar ou manipular dados antes de serem exibidos nos relatórios. Esta página mostra a ordem em que vários recursos do Adobe Analytics processam dados. Você pode usar esta lista para solucionar problemas de inconsistência de dados ou determinar o melhor recurso a ser usado quando os ajustes de dados forem necessários.
@@ -39,9 +48,9 @@ Antes de os dados serem enviados para a Adobe, eles normalmente são compilados 
 * **AppMeasurement**: um arquivo JavaScript hospedado em seu site e referenciado em cada página. Os dados são enviados diretamente para o Adobe Analytics.
 * **SDK da Web da Adobe Experience Platform**: um arquivo JavaScript hospedado em seu site e referenciado em cada página. Os dados são enviados para o Adobe Experience Platform Edge Network.
 * **Marcas na Coleção de Dados da Adobe Experience Platform**: um arquivo JavaScript referenciado em cada página, contendo regras criadas na interface da Coleção de Dados. A extensão do Adobe Analytics oferece uma maneira mais fácil de implementar o AppMeasurement. A extensão Web SDK oferece uma maneira mais fácil de implementar o SDK da Web.
-* **API**: o AppMeasurement e o Edge Network oferecem métodos programáticos para enviar dados para o Adobe. A AppMeasurement oferece a [API de Inserção de Dados](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) e a [API de Inserção de Dados em Massa](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/); a Edge Network oferece a [API de coleção de dados](https://developer.adobe.com/data-collection-apis/docs/).
+* **API**: o AppMeasurement e o Edge Network oferecem métodos programáticos para enviar dados para o Adobe. A AppMeasurement oferece a [API de Inserção de Dados](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/) e a [API de Inserção de Dados em Massa](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/); a Edge Network oferece a [API de coleção de dados](https://developer.adobe.com/data-collection-apis/docs/).
 
-Se você enviar dados para a Edge Network, poderá configurá-los para encaminhá-los para a Adobe Analytics (bem como para muitas outras soluções Adobe CX Enterprise). Independentemente do método de implementação, os dados de hit coletados chegam aos servidores de processamento da Adobe Analytics em um formato que pode ser analisado.
+Se você enviar dados para a Edge Network, poderá configurá-los para encaminhá-los para a Adobe Analytics (bem como para muitas outras soluções da Adobe CX Enterprise). Independentemente do método de implementação, os dados de hit coletados chegam aos servidores de processamento da Adobe Analytics em um formato que pode ser analisado.
 
 ## Pré-processamento na coleção do Adobe Analytics
 
@@ -83,7 +92,7 @@ Até o momento, determinada ocorrência não tem conhecimento ou contexto de oco
 1. **ID da Transação**: se a ocorrência contiver um novo valor [`transactionID`](/help/implement/vars/page-vars/transactionid.md), um &quot;instantâneo&quot; de todos os valores com suporte será armazenado. Quando o upload de uma fonte de dados contém uma ID de transação correspondente, todos os valores com suporte desse instantâneo são incluídos nessa linha da fonte de dados.
 1. [**Ofuscação de IP (remover IP)**](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md): se o conjunto de relatórios estiver configurado para ofuscar completamente um endereço IP, essa ofuscação se aplica aqui após a conclusão de todo o processamento.
 
-Nesse ponto, a ocorrência individual é registrada nas tabelas de dados do conjunto de relatórios. Após o intervalo de [latência](latency.md) padrão, está disponível no relatório.
+Nesse ponto, o hit individual é registrado nas tabelas de dados do conjunto de relatórios. Após o intervalo de [latência](latency.md) padrão, está disponível no relatório.
 
 ## Alteração de dados após o processamento
 

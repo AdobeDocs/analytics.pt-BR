@@ -6,39 +6,57 @@ exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 TQID: https://experienceleague.adobe.com/id82CsXfjfKjzNiM36Ny97bcZ8a-TR7QDq5-mx7xP7w
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 854
-ht-degree: 100%
-
+source-wordcount: '892'
+ht-degree: 93%
 ---
-
 # eVar
+
+>[!BEGINSHADEBOX]
 
 *Esta página de ajuda descreve como as eVars funcionam como uma [dimensão](overview.md). Para obter informações sobre como implementar eVars, consulte [eVars](/help/implement/vars/page-vars/evar.md) no guia de usuário Implementar.*
 
+>[!ENDSHADEBOX]
+
 eVars são [dimensões](overview.md) personalizadas que você pode usar como quiser. Se você tiver um [documento de design de solução](/help/implement/prepare/solution-design.md), a maioria das dimensões específicas da sua organização acabam sendo [!UICONTROL eVars].
 
-Por padrão, as eVars persistem além da ocorrência em que estão definidas. Consulte as seções [Como as eVars funcionam](#how-evars-work) e [Como as eVars se vinculam às métricas](#how-evars-tie-to-metrics) abaixo para obter detalhes sobre como a persistência da eVar funciona na arquitetura da Adobe. Você pode habilitar, desabilitar ou personalizar a expiração e a alocação em [Variáveis de conversão](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) em [!UICONTROL Configurações do conjunto de relatórios]. A imagem a seguir mostra um exemplo de definições de eVar na interface de variáveis de conversão:
+Por padrão, as eVars persistem além do hit em que estão definidas. Consulte as seções [Como as eVars funcionam](#how-evars-work) e [Como as eVars se vinculam às métricas](#how-evars-tie-to-metrics) abaixo para obter detalhes sobre como a persistência da eVar funciona na arquitetura da Adobe. Você pode habilitar, desabilitar ou personalizar a expiração e a alocação em [Variáveis de conversão](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) em [!UICONTROL Configurações do conjunto de relatórios]. A imagem a seguir mostra um exemplo de definições de eVar na interface de variáveis de conversão:
 
 ![Exemplos de eVar](assets/evars-sample.png)
 
@@ -48,9 +66,16 @@ O uso de maiúsculas ou minúsculas nos relatórios depende do primeiro valor en
 
 ## Preencher eVars com dados
 
-Cada eVar coleta dados da [`v1` - `v250` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. Por exemplo, o parâmetro da sequência de consulta `v1` coleta dados para eVar1, enquanto o parâmetro da sequência de consulta `v222` coleta dados para eVar222.
+Defina eVars explicitamente na implementação. Os valores persistem e vinculam às métricas com base na alocação e expiração — consulte [Como as eVars funcionam](#how-evars-work) abaixo.
 
-O AppMeasurement, que compila variáveis JavaScript em uma solicitação de imagem para coleta de dados, usa as variáveis `eVar1` - `eVar250`. Consulte [eVar](/help/implement/vars/page-vars/evar.md) no guia Implementar usuário para obter diretrizes de implementação.
+| Propriedade | Valor |
+| --- | --- |
+| **Variável do AppMeasurement** | [`eVar1` - `eVar250`](/help/implement/vars/page-vars/evar.md) |
+| **Web SDK / campo XDM** | [`xdm._experience.analytics.customDimensions.eVars.eVar1` - `eVar250`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) |
+| **Parâmetro de consulta** | [`v1` - `v250`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Marca XML** | [`<eVar1>` - `<eVar250>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Limite de bytes** | 255 bytes |
+| **Persistência** | Configurável |
 
 ## Itens de dimensão
 
@@ -58,7 +83,7 @@ Como as eVars contêm strings personalizadas na implementação, sua organizaç�
 
 ## Como funcionam as eVars
 
-Ao enviar dados para o Adobe Analytics, os servidores de coleta de dados traduzem a ocorrência em uma única linha de dados com centenas de colunas. Duas colunas são dedicadas a cada eVar; um para coleta direta de dados e outro para valores persistentes.
+Ao enviar dados para o Adobe Analytics, os servidores de coleta de dados traduzem o hit em uma única linha de dados com centenas de colunas. Duas colunas são dedicadas a cada eVar; um para coleta direta de dados e outro para valores persistentes.
 
 * Uma coluna padrão contém dados enviados para a Adobe a partir da solicitação de imagem.
 * Uma coluna &quot;pós&quot; contém dados persistentes, que dependem da expiração e da alocação da eVar.
@@ -84,9 +109,9 @@ Uma versão simplificada dos dados brutos seria semelhante ao seguinte:
 | `examplevisitor_987` | `Checkout` | | `cats` | `scCheckout` |
 | `examplevisitor_987` | `Purchase confirmation` | | `cats` | `purchase` |
 
-* A coluna `visitor_id` vincula ocorrências ao mesmo visitante. Nos dados brutos reais, os valores concatenados de `visid_high` e `visid_low` determinam a ID do visitante.
+* A coluna `visitor_id` vincula hits ao mesmo visitante. Nos dados brutos reais, os valores concatenados de `visid_high` e `visid_low` determinam a ID do visitante.
 * A coluna `pagename` preenche a dimensão Páginas.
-* A coluna `evar` determina as ocorrências quando eVar1 foi explicitamente definida.
+* A coluna `evar` determina os hits quando eVar1 foi explicitamente definida.
 * O `post_evar1` carrega o valor anterior, dependendo da alocação e do conjunto de expiração da variável nas configurações do conjunto de relatórios.
 * A coluna `event_list` contém todos os dados de métrica. Neste exemplo, `event1` é &quot;Pesquisas&quot; e os outros eventos são métricas padrão do carrinho de compras. Nos dados brutos reais, o `event_list` contém um conjunto de números delimitados por vírgulas com uma tabela de pesquisa que vincula esses números a uma métrica.
 
@@ -119,7 +144,7 @@ Você pode alterar a alocação e a expiração da eVar em [Variáveis de conver
 A Adobe recomenda o uso de eVars na maioria dos casos, com suporte do seguinte:
 
 * As eVars têm um limite de 255 bytes nos relatórios. As Props têm um limite de 100 bytes.
-* As props, por padrão, não persistem além da ocorrência às quais que estão definidas. As eVars têm expiração personalizada, permitindo determinar quando uma eVar não mais recebe incremento por um evento subsequente. No entanto, se você usar a opção [reportar processamento de tempo](/help/components/vrs/vrs-report-time-processing.md), props e eVars poderão usar um modelo de atribuição personalizado.
+* As props, por padrão, não persistem além do hit em que estão definidas. As eVars têm expiração personalizada, permitindo determinar quando uma eVar não mais recebe incremento por um evento subsequente. No entanto, se você usar a opção [reportar processamento de tempo](/help/components/vrs/vrs-report-time-processing.md), props e eVars poderão usar um modelo de atribuição personalizado.
 * A Adobe aceita até 250 eVars e apenas 75 props.
 
 Consulte [prop](prop.md) para obter mais comparações entre props e eVars.

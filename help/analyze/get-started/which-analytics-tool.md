@@ -6,34 +6,50 @@ exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 TQID: https://experienceleague.adobe.com/xk485fKU7Q2DeZIYaTtN-a4JKnyVamAygW03z7ffAOk
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 1175
-ht-degree: 66%
-
+source-wordcount: '1172'
+ht-degree: 65%
 ---
-
 # Qual ferramenta do Adobe Analytics devo usar?
 
 Esta página de ajuda contém casos de uso recomendados para cada ferramenta do Adobe Analytics. As ferramentas devem ser consideradas na ordem em que são listadas. Se determinada ferramenta não atender à necessidade, passe para a próxima para consideração.
@@ -43,7 +59,7 @@ Para obter mais informações sobre comparações de produtos do Adobe Analytics
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparação das ferramentas](https://video.tv.adobe.com/v/30585?captions=por_br&quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparação das ferramentas](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -77,7 +93,7 @@ As **[integrações do Adobe Exchange](https://www.adobeexchange.com/experiencec
 
 * Ao ter contato com um provedor terceirizado que criou uma conexão que oferece suporte ao Adobe Analytics. Em geral, os aplicativos de integração incorporam dados a nível de resumo no Adobe Analytics de modo permanente e automático, regularmente.
 
-**[API de inserção de dados em massa](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
+**[API de inserção de dados em massa](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)**
 
 * A API de inserção de dados em massa aceita arquivos formatados em CSV que contêm dados de evento, um evento por linha. A Adobe recomenda usar a API de inserção em massa para qualquer implementação que exija codificação do lado do servidor ou que não possa usar o AppMeasurement ou o SDK da web para coleta de dados.
 
@@ -87,7 +103,7 @@ A **[API de inserção de dados (legado)](/help/import/c-data-insertion-api/c-da
 
 **[Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=pt-BR)** devem ser usados:
 
-* Se você capturar os dados de clientes de empresas em um banco de dados de gerenciamento de relacionamento com o cliente (CRM) e quiser fazer upload dos dados para o CX Enterprise.
+* Se você capturar os dados de clientes de empresas em um banco de dados de gerenciamento de relacionamento com o cliente (CRM) e quiser fazer upload dos dados para a CX Enterprise.
 * Se quiser usar os dados do CRM para uma análise mais profunda no Analytics ou como critério de direcionamento no Adobe Target.
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)** deve ser usada:
@@ -123,7 +139,7 @@ As **[APIs de relatórios](https://www.adobe.io/apis/experiencecloud/analytics/d
 
 * **Totalmente processado**: quando quiser dados com muitos recursos (incluindo visitas, visitantes e segmentos). Esses são dados resumidos típicos da interface do usuário do Analytics, disponíveis em ~30 a 90 minutos. Pode ser usado por meio do Report Builder.
 * **Tempo real**: quando quiser exibir algumas métricas e dimensões com segundos de latência. São dados limitados, parcialmente processados e resumidos que estão disponíveis em aproximadamente 30 segundos. Inclui algoritmos exclusivos dos mais populares, ganhadores e perdedores. Pode ser usado por meio do Report Builder.
-* **[!UICONTROL Livestream]**: quando quiser um fluxo de dados a nível de ocorrência, parcialmente processado do Analytics em segundos de coleção. São dados parcialmente processados, disponíveis em ~30 segundos. Disponível somente para o Analytics Premium. Exige alguma maneira de visualizar os dados, normalmente por meio de um contrato dos Serviços de engenharia.
+* **[!UICONTROL Livestream]**: quando quiser um fluxo de dados a nível de hit e parcialmente processados do Analytics em segundos de coleção. São dados parcialmente processados, disponíveis em ~30 segundos. Disponível somente para o Analytics Premium. Exige alguma maneira de visualizar os dados, normalmente por meio de um contrato dos Serviços de engenharia.
 
 ## Soluções personalizadas {#custom-solutions}
 

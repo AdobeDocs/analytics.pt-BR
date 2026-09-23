@@ -6,26 +6,35 @@ exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
 TQID: https://experienceleague.adobe.com/0S2WzNRJrtOa9ZPTg5cmbwxMLJE5tI6Qa3GtZs6GqKc
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 232
-ht-degree: 73%
-
+source-wordcount: '276'
+ht-degree: 48%
 ---
-
 # Páginas não encontradas
 
+>[!BEGINSHADEBOX]
+
 *Esta página de ajuda descreve como a dimensão &quot;Páginas não encontradas&quot; funciona como uma [dimensão](overview.md). Consulte a página de métricas [Páginas não encontradas](../metrics/pages-not-found.md) para obter informações sobre como ela funciona como uma métrica.*
+
+>[!ENDSHADEBOX]
 
 A dimensão “Páginas não encontradas” exibe URLs que continham um erro. Essa dimensão é útil quando você deseja diminuir o número de erros que os visitantes recebem no site.
 
@@ -38,7 +47,16 @@ A dimensão “Páginas não encontradas” exibe URLs que continham um erro. Es
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão recupera dados de [`pageType` e das `g` sequências de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. Se a sequência de consulta `pageType` for igual a `errorPage`, a sequência de consulta `g` (URL da página) será registrada. O AppMeasurement coleta esses dados usando a variável [`pageType`](/help/implement/vars/page-vars/pagetype.md). Se a variável `pageType` não estiver definida ou programada como algo diferente de `errorPage`, nenhum dado para essa dimensão será coletado.
+O AppMeasurement coleta esses dados usando a variável [`pageType`](/help/implement/vars/page-vars/pagetype.md). Quando `pageType` está definido como `errorPage`, a URL da página da ocorrência é registrada como um item de dimensão. Se a variável `pageType` não estiver definida ou estiver definida com qualquer outro valor, nenhum dado para essa dimensão será coletado.
+
+| Propriedade | Valor |
+| --- | --- |
+| **Variável do AppMeasurement** | [`pageType`](/help/implement/vars/page-vars/pagetype.md) |
+| **Web SDK / campo XDM** | [`web.webPageDetails.isErrorPage`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Parâmetro de consulta** | [`pageType`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Marca XML** | [`<pageType>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Limite de bytes** | N/D |
+| **Persistência** | Hit |
 
 ## Itens de dimensão
 

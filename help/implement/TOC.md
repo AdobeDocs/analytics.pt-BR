@@ -4,13 +4,11 @@ audience: all
 user-guide-title: Guia de implementação do Analytics
 breadcrumb-title: Guia de Implementação
 user-guide-description: Conheça maneiras de implementar o Adobe Analytics. Personalize quais dados são coletados para aproveitar ao máximo os dados do Analytics.
-source-git-commit: 7e4350148d6418ea5697e40fc0a6e39776725168
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 97%
-
+source-wordcount: '444'
+ht-degree: 96%
 ---
-
 
 # Guia de implementação do Adobe Analytics {#implementation}
 
@@ -128,6 +126,7 @@ ht-degree: 97%
   + [Utilização do SDK da Web (Alloy)](id/alloy.md)
   + [Utilização da extensão do Analytics](id/analytics-extension.md)
   + [Utilização do AppMeasurement](id/appmeasurement.md)
+  + [Uso da API de inserção de dados](id/data-insertion.md)
   + [Migração para o Serviço de ID do Visitante](id/migration.md)
   + [Rastrear os tipos de implementação](id/cross-type-implementation.md)
 + Preparação para implementar o Adobe Analytics {#prepare}
@@ -176,7 +175,6 @@ ht-degree: 97%
     + [Solução de problemas do Código H](js/h-code/troubleshooting.md)
   + [Solução de problemas do AppMeasurement](js/troubleshooting.md)
 + Implementar o Analytics em outras plataformas {#other}
-  + [Implementar o Analytics usando solicitações de imagem codificadas](other/hardcoded.md)
   + [Implementar o Analytics no Ajax](other/ajax.md)
   + [Implementar o Analytics no AMP](other/amp.md)
   + [Implementar o Analytics em assistentes digitais](other/digital-assistants.md)
@@ -187,7 +185,6 @@ ht-degree: 97%
   + [Fluxo de trabalho de rastreamento de campanha](use-cases/campaign-tracking.md)
 + Validar a sua implementação {#validate}
   + [Depurador herdado](validate/debugger.md)
-  + [Parâmetros de consulta para coleta de dados](validate/query-parameters.md)
   + [Monitores de pacote](validate/packet-monitor.md)
   + [Colisões de hash](validate/hash-collisions.md)
 + [Perguntas frequentes](faq.md)

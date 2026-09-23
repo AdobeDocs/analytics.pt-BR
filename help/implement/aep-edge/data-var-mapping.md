@@ -7,23 +7,28 @@ exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
 TQID: https://experienceleague.adobe.com/FQRTVL9KrCQktNMhpqXo0f2VSrEm2mcCNL6IAmvtrko
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 626
-ht-degree: 78%
-
+source-wordcount: '636'
+ht-degree: 77%
 ---
-
 # Mapeamento de campo do objeto de dados para o Adobe Analytics
 
 A tabela a seguir mostra o campo do objeto de dados que o Adobe Experience Platform Edge Network mapeia automaticamente para o Adobe Analytics. Se você usar esses caminhos de campo de objeto de dados, nenhuma configuração adicional será necessária para enviar dados para o Adobe Analytics.
@@ -34,7 +39,7 @@ Recomenda-se o uso desses campos caso você pretenda utilizar o Customer Journey
 
 A maioria dos campos de objeto de dados nesta tabela corresponde a um [campo XDM mapeado](xdm-var-mapping.md). Durante a assimilação do Adobe Analytics, os valores são mapeados primeiro do XDM para as variáveis do Analytics. Os campos de objeto de dados reconhecidos são mapeados e substituem quaisquer valores definidos anteriormente quando eles são mapeados para a mesma variável do Analytics. Por exemplo, se `data.__adobe.analytics.events` estiver presente, ele substituirá todo o conjunto de eventos que de outra forma seriam derivados do XDM. Os eventos não são combinados em ambas as fontes. Uma cadeia de caracteres vazia (`""`) em um campo de objeto de dados deixa em branco sua variável do Analytics mapeada para a ocorrência, mesmo se o campo XDM correspondente contiver um valor.
 
-Alguns campos de objetos de dados também oferecem suporte ao respectivo [Valor do parâmetro de consulta](../validate/query-parameters.md) como valores abreviados. Você pode usar campos padrão de objetos de dados e campos abreviados de objetos de dados alternadamente, desde que cada um deles seja para variáveis exclusivas. Evite definir um campo de objeto de dados padrão e seu respectivo campo de objeto de dados abreviado ao mesmo tempo. A Adobe não pode garantir qual campo tem prioridade.
+Alguns campos de objetos de dados também oferecem suporte ao respectivo [Valor do parâmetro de consulta](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference) como valores abreviados. Você pode usar campos padrão de objetos de dados e campos abreviados de objetos de dados alternadamente, desde que cada um deles seja para variáveis exclusivas. Evite definir um campo de objeto de dados padrão e seu respectivo campo de objeto de dados abreviado ao mesmo tempo. A Adobe não pode garantir qual campo tem prioridade.
 
 ## Mapeamento de campos de objetos de dados
 

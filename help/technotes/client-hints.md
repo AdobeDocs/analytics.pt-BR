@@ -7,25 +7,33 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/0dV7b-gqSjMC-4anyH9dTzXCiv4Yfi1tKijaDQw2dSE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Customer journeys
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 1283
-ht-degree: 78%
-
+source-wordcount: '1278'
+ht-degree: 76%
 ---
-
 # Visão geral e perguntas frequentes sobre dicas do cliente
 
 As dicas do cliente são informações individuais sobre o dispositivo de um usuário. Elas são fornecidas por navegadores Chromium, como o Google Chrome e Microsoft Edge. Nesses navegadores, as dicas do cliente substituirão gradualmente o usuário-agente como a fonte de informações do dispositivo. O Adobe Analytics atualizará seu processo de pesquisa de dispositivo para usar dicas do cliente além do usuário-agente para determinar as informações do dispositivo.
@@ -58,7 +66,7 @@ As dicas de baixa entropia são fornecidas automaticamente pelo navegador e assi
 
 Para ambas as bibliotecas, a coleção de dicas de alta entropia é **desativada por padrão**.
 
-Para dados enviados por API, como a [API de inserção de dados](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) ou a [API de inserção de dados em massa](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), as dicas devem ser incluídas explicitamente na carga. Consulte a documentação respectiva para obter mais detalhes.
+Para dados enviados por API, como a [API de inserção de dados](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/) ou a [API de inserção de dados em massa](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/), as dicas devem ser incluídas explicitamente na carga. Consulte a documentação respectiva para obter mais detalhes.
 
 +++
 
@@ -152,7 +160,7 @@ Não. As dicas do cliente só podem ser coletadas por meio de uma conexão HTTP 
 
 +++**Como faço para incluir dados de dicas do cliente ao usar o envio da API?**
 
-Consulte a documentação para incluí-los por meio da [API de inserção de dados em massa](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/).
+Consulte a documentação para incluí-los por meio da [API de inserção de dados em massa](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format/).
 
 +++
 

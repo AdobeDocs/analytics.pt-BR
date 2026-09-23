@@ -6,25 +6,32 @@ feature: Dimensions
 TQID: https://experienceleague.adobe.com/lJn65s1JtcJf7WobPEeouvwlk7G5qd8XtgxvGLY-zu8
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 218
-ht-degree: 7%
-
+source-wordcount: '253'
+ht-degree: 11%
 ---
-
 # Nome do bot
 
 A [dimensão](overview.md) de &#39;Nome de bot&#39; mostra os nomes de bots que foram detectados usando as [Regras de bot](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md). Essas regras podem ser regras IAB padrão ou regras de bot personalizadas configuradas pela organização. É útil nos casos em que você deseja saber mais sobre quais bots estão visitando seu site ou quais bots geram mais tráfego.
@@ -43,6 +50,15 @@ Usar qualquer outra dimensão ou métrica com essa dimensão não retorna dados.
 ## Preencher esta dimensão com dados
 
 Se você tiver habilitado [Regras de bot](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md), esta dimensão coletará dados automaticamente. Se você ainda não tiver habilitado as [!UICONTROL Regras de bot], esta dimensão não aparecerá no Analysis Workspace.
+
+| Propriedade | Valor |
+| --- | --- |
+| **Variável do AppMeasurement** | Nenhum (derivado de regras de detecção de bot) |
+| **Web SDK / campo XDM** | Nenhum (derivado de regras de detecção de bot) |
+| **Parâmetro de consulta** | N/D |
+| **Marca XML** | N/D |
+| **Limite de bytes** | N/D |
+| **Persistência** | N/D |
 
 ## Itens de dimensão
 

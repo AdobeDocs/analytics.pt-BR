@@ -7,31 +7,37 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/1fooxiu-eZGsWtpSQ-illBbooJveqzPIEvEHevc-ukM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 444
-ht-degree: 82%
-
+source-wordcount: '454'
+ht-degree: 80%
 ---
-
 # Variáveis dinâmicas
 
 As variáveis dinâmicas permitem copiar valores de uma variável para outra sem aumentar a duração da solicitação de imagem. Elas são úteis quando é necessário capturar os mesmos dados em muitas variáveis.
 
 Nas versões anteriores do Analytics, a duração da solicitação de imagem era importante para evitar dados truncados. As melhorias no AppMeasurement permitem strings de consulta de solicitação de imagem muito mais longas, de modo que as variáveis dinâmicas normalmente não são necessárias.
 
-As variáveis dinâmicas suportam strings de consulta como parâmetro ou cabeçalhos HTTP em uma solicitação de imagem. Consulte [Parâmetros de consulta de coleta de dados](../../validate/query-parameters.md) para obter uma lista completa dos parâmetros disponíveis para referência. Consulte [Campos padrão de solicitação](https://pt.wikipedia.org/wiki/Lista_de_campos_de_cabeçalho_HTTP) na Wikipedia para obter uma lista completa dos campos de solicitação HTTP disponíveis para referência.
+As variáveis dinâmicas suportam strings de consulta como parâmetro ou cabeçalhos HTTP em uma solicitação de imagem. Consulte [Parâmetros de consulta de coleta de dados](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference) para obter uma lista completa dos parâmetros disponíveis para referência. Consulte [Campos padrão de solicitação](https://pt.wikipedia.org/wiki/Lista_de_campos_de_cabeçalho_HTTP) na Wikipedia para obter uma lista completa dos campos de solicitação HTTP disponíveis para referência.
 
 Quando a Adobe reconhece um prefixo de variável dinâmica, ela copia automaticamente a string de consulta ou o valor do cabeçalho HTTP no conjunto de relatórios. Essa ação ocorre antes de qualquer outro processamento, incluindo regras de processamento e regras VISTA.
 

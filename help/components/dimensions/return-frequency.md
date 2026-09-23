@@ -6,26 +6,31 @@ exl-id: 8ec31e17-a57d-416f-b471-c2c37a98d134
 TQID: https://experienceleague.adobe.com/k0H7kOCgrBRY3cZckPXaJ9UgLBPTYWHxKT8gzeMQjcI
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 267
-ht-degree: 94%
-
+source-wordcount: '282'
+ht-degree: 76%
 ---
-
 # Frequência de retorno
 
-A [dimensão](overview.md) de &#39;Frequência de retorno&#39; mostra o tempo decorrido entre as visitas de visitantes recorrentes. Quando um visitante retorna ao seu site, a Adobe verifica há quanto tempo a visita anterior foi realizada e classifica a ocorrência no item de dimensão apropriado. Essa dimensão é importante para ajudar a medir o apelo de seu site e a relevância para os visitantes ao longo do tempo. Também pode ajudar a identificar o impacto do conteúdo e das promoções do site nos visitantes.
+A [dimensão](overview.md) de &#39;Frequência de retorno&#39; mostra o tempo decorrido entre as visitas de visitantes recorrentes. Quando um visitante retorna ao seu site, a Adobe verifica há quanto tempo a visita anterior foi realizada e classifica o hit no item de dimensão apropriado. Essa dimensão é importante para ajudar a medir o apelo de seu site e a relevância para os visitantes ao longo do tempo. Também pode ajudar a identificar o impacto do conteúdo e das promoções do site nos visitantes.
 
 >[!TIP]
 >
@@ -33,9 +38,16 @@ A [dimensão](overview.md) de &#39;Frequência de retorno&#39; mostra o tempo de
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão funciona imediatamente em todas as implementações. Se um conjunto de relatórios tiver dados, essa dimensão funcionará.
+O Adobe calcula essa dimensão no lado do servidor comparando a visita atual com a visita anterior do visitante. Não há variável a ser definida; isso funciona imediatamente em todas as implementações.
 
-Os dados para essa dimensão são definidos na primeira ocorrência da visita e persistem para toda a visita. O valor não pode mudar no meio da visita.
+| Propriedade | Valor |
+| --- | --- |
+| **Variável do AppMeasurement** | Nenhum (calculado pela Adobe) |
+| **Web SDK / campo XDM** | Nenhum (calculado pela Adobe) |
+| **Parâmetro de consulta** | N/D |
+| **Marca XML** | N/D |
+| **Limite de bytes** | N/D |
+| **Persistência** | Visita |
 
 ## Itens de dimensão
 

@@ -8,22 +8,26 @@ exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
 TQID: https://experienceleague.adobe.com/A5HaPb0TghRKVykJ9V2UMJ0mlsYElLkCyBwxzTd6VII
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 159
-ht-degree: 8%
-
+source-wordcount: '196'
+ht-degree: 11%
 ---
-
 # Link do Activity Map
 
 O &#39;Link do Activity Map&#39; [dimensão](overview.md) exibe os links mais populares que foram clicados. É possível usar essa dimensão para comparar quais links do site são mais usados, independentemente de onde os links foram clicados.
@@ -31,6 +35,15 @@ O &#39;Link do Activity Map&#39; [dimensão](overview.md) exibe os links mais po
 ## Preencher esta dimensão com dados
 
 Esta dimensão recupera dados da [Variável de dados de contexto](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.link`. Se sua implementação usa o [Activity Map](/help/analyze/activity-map/overview.md), esta variável de dados de contexto coleta dados automaticamente quando os links são clicados.
+
+| Propriedade | Valor |
+| --- | --- |
+| **Variável do AppMeasurement** | Nenhum (coletado pelo módulo [Activity Map](/help/analyze/activity-map/overview.md)) |
+| **Web SDK / campo XDM** | Nenhum (coletado pelo módulo [Activity Map](/help/analyze/activity-map/overview.md)) |
+| **Parâmetro de consulta** | N/D |
+| **Marca XML** | N/D |
+| **Limite de bytes** | 255 bytes |
+| **Persistência** | N/D |
 
 Para um determinado link que foi clicado, o Activity Map pesquisa o seguinte (em ordem):
 

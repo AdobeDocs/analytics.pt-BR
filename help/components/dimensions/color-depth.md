@@ -6,33 +6,50 @@ exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
 TQID: https://experienceleague.adobe.com/JLxm06wch2r7RslhdKx-gFLBLhMSXuWkb-0EYM7nT5s
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 228
-ht-degree: 94%
-
+source-wordcount: '255'
+ht-degree: 52%
 ---
-
 # Intensidade de cor
 
 A [dimensão](overview.md) de &#39;Intensidade de cor&#39; relata quantas cores o dispositivo aceita. Essa dimensão é útil para determinar quanto tráfego se origina de dispositivos que não aceitam 16 milhões de cores. Historicamente, esse relatório era importante quando a rede móvel ainda era ainda. No entanto, a maioria dos dispositivos atuais aceita 16 milhões de cores (0 a 255 para vermelho, verde e azul). <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão faz referência a uma tabela de pesquisa que traduz o valor de bits para um formato mais legível. Ele coleta dados da [`c` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement usa a variável `screen.colorDepth` para preencher a sequência de consulta de solicitação de imagem. Se você utilizar o AppMeasurement (por meio de tags na Adobe Experience Platform ), essa dimensão funcionará automaticamente. Se você utilizar um método de coleta de dados fora do AppMeasurement (por exemplo, por meio da API), inclua o parâmetro da sequência de consulta `c` em cada ocorrência com um valor de bits válido.
+A intensidade de cor é coletada automaticamente, no lado do cliente, da propriedade `screen.colorDepth` do navegador, que o Adobe traduz por meio de uma tabela de pesquisa em um formato legível. Funciona imediatamente em qualquer implementação do AppMeasurement ou da Web SDK (tags) — não há variável para definir. Se você coletar dados fora do AppMeasurement ou da Web SDK (por exemplo, por meio da API), envie um valor de bit válido em cada ocorrência.
+
+| Propriedade | Valor |
+| --- | --- |
+| **Variável do AppMeasurement** | Nenhum (coletado automaticamente) |
+| **Web SDK / campo XDM** | Nenhum (coletado automaticamente) |
+| **Parâmetro de consulta** | [`c`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Marca XML** | [`<colorDepth>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Limite de bytes** | 20 bytes |
+| **Persistência** | N/D |
 
 ## Itens de dimensão
 

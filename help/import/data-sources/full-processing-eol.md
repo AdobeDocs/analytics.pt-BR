@@ -7,29 +7,37 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/3NSbjRWl0GsomjsEXo8XczQ1RWOPGpqW4OM2YeUo3Wk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+    internal-label: Data sources
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 414
-ht-degree: 8%
-
+source-wordcount: '410'
+ht-degree: 5%
 ---
-
 # Fim da vida útil do processamento completo de fontes de dados
 
-Historicamente, as fontes de dados de processamento completo permitiram que as organizações enviassem dados de nível de ocorrência para a Adobe Analytics. Esses dados eram processados da mesma forma que os dados coletados por meios tradicionais de coleta de dados, como o AppMeasurement. Em 2020, o Adobe lançou a [API de inserção de dados em massa](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), que executa as mesmas funções das fontes de dados de processamento completo, mas com recursos adicionais. Esta página fornece detalhes sobre a funcionalidade adicional fornecida pela API de inserção de dados em massa e descreve as diferenças nos formatos de arquivo.
+Historicamente, as fontes de dados de processamento completo permitiram que as organizações enviassem dados de nível de ocorrência para a Adobe Analytics. Esses dados eram processados da mesma forma que os dados coletados por meios tradicionais de coleta de dados, como o AppMeasurement. Em 2020, o Adobe lançou a [API de inserção de dados em massa](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/), que executa as mesmas funções das fontes de dados de processamento completo, mas com recursos adicionais. Esta página fornece detalhes sobre a funcionalidade adicional fornecida pela API de inserção de dados em massa e descreve as diferenças nos formatos de arquivo.
 
 Em 25 de março de 2021, o Adobe impediu a criação de novas conexões de fontes de dados de processamento completo. Em 31 de janeiro de 2022, todos os serviços de dados de processamento completo foram desativados.
 
@@ -39,7 +47,7 @@ Em 25 de março de 2021, o Adobe impediu a criação de novas conexões de fonte
 * A inserção de dados em massa tem recursos de validação de dados e tratamento de erros, removendo parte do trabalho administrativo de envio de dados de ocorrência.
 * A inserção de dados em massa é compatível com vários métodos de identificação de ID de visitante.
 * A inserção de dados em massa tem alguns campos obrigatórios adicionais: Uma coluna de identificação de visitante, um `pageName` (ou equivalente a link), `reportSuiteID`, `timestamp` e `userAgent`.
-* Para garantir a continuidade do visitante e a atribuição, a inserção de dados em massa requer que as linhas nos arquivos sejam classificadas em ordem cronológica. Consulte [Grupos de visitantes](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/visitor-groups/) para saber mais sobre a ordem da atividade do visitante em todos os arquivos.
+* Para garantir a continuidade do visitante e a atribuição, a inserção de dados em massa requer que as linhas nos arquivos sejam classificadas em ordem cronológica. Consulte [Grupos de visitantes](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups/) para saber mais sobre a ordem da atividade do visitante em todos os arquivos.
 * A inserção de dados em massa requer que os arquivos sejam compactados em .csv no formato .gzip.
 * O BDIA usa `timestamp` em vez de `date`.
 
@@ -50,7 +58,7 @@ As seguintes variáveis foram introduzidas na inserção de dados em massa, que 
 * **`aamlh`**: dica de localização do Adobe Audience Manager.
 * **`contextData.key`**: [Variáveis de dados de contexto](/help/implement/vars/page-vars/contextdata.md).
 * **`customerID`**: variáveis do Serviço de ID de Visitante. Inclui o `id`, `authState` e `isMCSeed`.
-* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=pt-BR) variáveis. Inclui `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` e `wow64`.
+* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) variáveis. Inclui `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` e `wow64`.
 * **`ipaddress`**: A dimensão [Endereço IP](/help/components/dimensions/ip-address.md).
 * **`language`**: A dimensão [Idioma](/help/components/dimensions/language.md).
 * **`list1`** - **`list3`**: [Listar variáveis](/help/implement/vars/page-vars/list.md).
