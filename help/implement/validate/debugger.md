@@ -7,31 +7,38 @@ role: Admin, Developer, Leader, User
 TQID: 'https://experienceleague.adobe.com/UzZipOHP99eBzygkSajbyuPsWsRM-MvfVf5Myv2CSmA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 681
-ht-degree: 75%
-
+source-wordcount: '691'
+ht-degree: 74%
 ---
-
 # Depurador herdado
 
 >[!IMPORTANT]
 >
 >Essa ferramenta de depuração não será mais mantida. Em vez disso, a Adobe recomenda usar a [Extensão Chrome do Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/pt-br/docs/experience-platform/debugger/home).
 
-O [!UICONTROL Depurador herdado] inspeciona as marcas da maioria dos serviços do Adobe CX Enterprise. Usar o depurador permite ver quais dados são enviados para a Adobe em qualquer página do site. Use essas informações para solucionar problemas ou validar a implementação de sua organização.
+O [!UICONTROL Depurador herdado] inspeciona as marcas da maioria dos serviços da Adobe CX Enterprise. Usar o depurador permite ver quais dados são enviados para a Adobe em qualquer página do site. Use essas informações para solucionar problemas ou validar a implementação de sua organização.
 
 ## Instalação do Debugger herdado
 
@@ -94,9 +101,9 @@ Navegue até a página desejada no site e clique no bookmarklet. Uma janela pop-
 
 O depurador tem várias opções disponíveis, todas personalizam como os dados são exibidos. Nenhuma dessas opções afeta a coleta de dados.
 
-* **[!UICONTROL Produtos da Experience Cloud exibidos]**: mostra ou oculta solicitações de imagem de cada produto do CX Enterprise.
+* **[!UICONTROL Produtos da Experience Cloud exibidos]**: mostra ou oculta solicitações de imagem de cada produto da CX Enterprise.
 * **[!UICONTROL Decodificação de URL]**: a URL decodifica a solicitação de imagem para corresponder ao que é exibido no relatório. A Adobe recomenda deixar essa caixa marcada.
 * **[!UICONTROL Atualização Automática]**: atualiza automaticamente a pop-up a cada poucos segundos para verificar se há mais solicitações de imagem na página. Se precisar copiar/colar o conteúdo no depurador, desative a atualização automática para que a seleção seja mantida.
-* **[!UICONTROL Formato Amigável]**: alterna o formato de exibição entre rótulos úteis e cadeias de consulta brutas em uma solicitação de imagem. Consulte [Parâmetros de consulta de coleta de dados](query-parameters.md) para obter mais informações.
+* **[!UICONTROL Formato Amigável]**: alterna o formato de exibição entre rótulos úteis e cadeias de consulta brutas em uma solicitação de imagem. Consulte [Parâmetros de consulta de coleta de dados](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference) para obter mais informações.
 
 Para salvar as opções de exibição padrão do depurador, clique com o botão direito do mouse no link &quot;Adobe Debugger&quot;, no canto superior direito, e copie o endereço do link. Edite o bookmarklet do depurador atual e cole o trecho de código atualizado no campo URL.

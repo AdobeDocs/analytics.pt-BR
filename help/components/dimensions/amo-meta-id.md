@@ -6,25 +6,39 @@ exl-id: c1def73a-51b9-46bf-9dc7-0fbd46fd6e17
 TQID: 'https://experienceleague.adobe.com/3J-pLiOz4QwUewRSmEFsJCg0v-PbEmksUzGKOI0hHoA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Reporting
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 176
-ht-degree: 3%
-
+source-wordcount: '238'
+ht-degree: 7%
 ---
-
 # ID de clique de anúncios do AMO Meta
 
 A **[!UICONTROL ID de Clique do AMO Meta Ads]** é um identificador de clique de anúncio usado em integrações do Adobe Advertising. A dimensão é criada automaticamente ao habilitar a integração do [Analytics para Advertising](https://experienceleague.adobe.com/pt-br/docs/advertising/integrations/analytics/overview). É útil principalmente como um identificador de rastreamento bruto em vez de uma dimensão de relatório legível.
 
 ## Preencher esta dimensão com dados
+
+Esta dimensão é preenchida automaticamente pela integração do [Analytics for Advertising](https://experienceleague.adobe.com/pt-br/docs/advertising/integrations/analytics/overview); não há variável para definir.
+
+| Propriedade | Valor |
+| --- | --- |
+| **Variável do AppMeasurement** | Nenhum (preenchido pela integração do Adobe Advertising) |
+| **Web SDK / campo XDM** | Nenhum (preenchido pela integração do Adobe Advertising) |
+| **Parâmetro de consulta** | N/D |
+| **Marca XML** | N/D |
+| **Limite de bytes** | N/D |
+| **Persistência** | N/D |
 
 Essa dimensão coleta seus valores de várias maneiras:
 

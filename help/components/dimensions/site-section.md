@@ -6,23 +6,28 @@ exl-id: 349bace0-4596-4b4c-bf29-6cd8866c246b
 TQID: https://experienceleague.adobe.com/fZwN-24--98XULDEgHR-5dcIsiYXspaSOsv1t-M0iys
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 139
-ht-degree: 90%
-
+source-wordcount: '179'
+ht-degree: 66%
 ---
-
 # Seção do site
 
 A [dimensão](overview.md) de &#39;Seção do site&#39; lista os nomes das seções do site. Para sites grandes, é útil agrupar páginas em seções. Essa dimensão é útil para ver as seções de site com melhor desempenho ou as mais exibidas.
@@ -31,7 +36,16 @@ Essa dimensão está relacionada às dimensões [Página](page.md) e [Servidor](
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão recupera dados da [`ch` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement coleta esses dados usando a variável [`channel`](/help/implement/vars/page-vars/channel.md).
+O AppMeasurement coleta esses dados usando a variável [`channel`](/help/implement/vars/page-vars/channel.md).
+
+| Propriedade | Valor |
+| --- | --- |
+| **Variável do AppMeasurement** | [`channel`](/help/implement/vars/page-vars/channel.md) |
+| **Web SDK / campo XDM** | [`web.webPageDetails.siteSection`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Parâmetro de consulta** | [`ch`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Marca XML** | [`<channel>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Limite de bytes** | 100 bytes |
+| **Persistência** | Hit |
 
 ## Itens de dimensão
 

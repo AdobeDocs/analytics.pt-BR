@@ -6,28 +6,45 @@ exl-id: 90642896-43dd-4ac0-bfb8-7fe34c0e0302
 TQID: 'https://experienceleague.adobe.com/SzHWYAzd9iYcd5AU86TVL6Bfca4UsuijV141jBuS0y8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Personalization
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 793
-ht-degree: 2%
-
+source-wordcount: '855'
+ht-degree: 3%
 ---
-
 # ID do AMO
 
 A **[!UICONTROL ID do AMO]** é uma coleção de identificadores concatenados usados em integrações do Adobe Advertising. Os valores armazenados nessa dimensão são organizados automaticamente em dimensões de classificação separadas e mais legíveis para uso nos relatórios do Analytics. A dimensão é criada automaticamente ao habilitar a integração do [Analytics para Advertising](https://experienceleague.adobe.com/pt-br/docs/advertising/integrations/analytics/overview).
 
 ## Preencher esta dimensão com dados
+
+Esta dimensão é preenchida automaticamente pela integração do [Analytics for Advertising](https://experienceleague.adobe.com/pt-br/docs/advertising/integrations/analytics/overview); não há variável para definir.
+
+| Propriedade | Valor |
+| --- | --- |
+| **Variável do AppMeasurement** | Nenhum (preenchido pela integração do Adobe Advertising) |
+| **Web SDK / campo XDM** | Nenhum (preenchido pela integração do Adobe Advertising) |
+| **Parâmetro de consulta** | N/D |
+| **Marca XML** | N/D |
+| **Limite de bytes** | N/D |
+| **Persistência** | N/D |
 
 Essa dimensão coleta seus valores de várias maneiras:
 

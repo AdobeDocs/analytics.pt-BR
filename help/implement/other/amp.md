@@ -7,28 +7,38 @@ role: Developer
 TQID: https://experienceleague.adobe.com/lEnXPmYFhMOlvL-au9C-MtGiKY5b84ojYska3urtH1M
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
+    internal-label: CX Enterprise integration
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 939
-ht-degree: 66%
-
+source-wordcount: '949'
+ht-degree: 65%
 ---
-
 # Implementação com AMP
 
 O [AMP](https://amp.dev) é uma estrutura HTML de código aberto que fornece uma maneira simples de criar páginas da Web rápidas e com carregamento leve.
@@ -62,7 +72,7 @@ Considere os prós e os contras para que você possa escolher o melhor método d
 
 ## Método 1: usar a marca `<amp-analytics>` com o modelo `"adobeanalytics"`
 
-O modelo de rastreamento `"adobeanalytics"` usa a tag HTML `<amp-analytics>` para criar uma solicitação de rastreamento diretamente. Especifique as solicitações de ocorrência que são acionadas em eventos de página específicos, como a página se tornando visível ou em um clique. Eventos de clique podem ser personalizados para se aplicarem a certas IDs de elemento ou classes ao especificar um seletor. É possível carregar o modelo ao adicionar `type="adobeanalytics"` à tag amp-analytics.
+O modelo de rastreamento `"adobeanalytics"` usa a tag HTML `<amp-analytics>` para criar uma solicitação de rastreamento diretamente. Especifique as solicitações de hit que são acionadas em eventos de página específicos, como a página se tornando visível ou em um clique. Eventos de clique podem ser personalizados para se aplicarem a certas IDs de elemento ou classes ao especificar um seletor. É possível carregar o modelo ao adicionar `type="adobeanalytics"` à tag amp-analytics.
 
 No código de exemplo a seguir, há dois disparadores definidos: `pageLoad` e `click`. O acionador `pageLoad` é executado quando o documento se torna visível e inclui a variável `pageName`, conforme definido na seção `vars`. O segundo acionador `click` é acionado ao clicar em um botão. A variável `eVar1` está definida para este evento com o valor `button clicked`.
 
@@ -101,7 +111,7 @@ A marca `<amp-analytics>` oferece suporte a substituições de variáveis, para 
 
 >[!NOTE]
 >
->As solicitações de imagem enviadas ao Adobe usando esse método não incluem dados para muitos relatórios padrão (por exemplo, navegador, tamanho de tela ou referenciador). Se desejar incluir essas informações nas ocorrências, verifique se elas foram incluídas como parte da cadeia de caracteres de consulta da solicitação de imagem. Consulte [Parâmetros de consulta de coleta de dados](../validate/query-parameters.md) para obter uma lista completa de parâmetros de consulta de solicitações de imagem e suas variáveis associadas.
+>As solicitações de imagem enviadas ao Adobe usando esse método não incluem dados para muitos relatórios padrão (por exemplo, navegador, tamanho de tela ou referenciador). Se desejar incluir essas informações nas ocorrências, verifique se elas foram incluídas como parte da cadeia de caracteres de consulta da solicitação de imagem. Consulte [Parâmetros de consulta de coleta de dados](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference) para obter uma lista completa de parâmetros de consulta de solicitações de imagem e suas variáveis associadas.
 
 A Adobe identifica visitantes usando uma função AMP integrada e define o cookie `adobe_amp_id`. Essa ID de visitante é exclusiva de qualquer outra ID definida pelo Adobe Analytics. Um visitante único diferente é contado para cada CDN do qual um visitante recupera o conteúdo, o que pode aumentar a contagem de visitantes únicos. É altamente recomendado usar um conjunto de relatórios separado para páginas AMP devido à forma como o AMP identifica visitantes únicos. O Serviço de ID de visitante da Adobe não é compatível.
 

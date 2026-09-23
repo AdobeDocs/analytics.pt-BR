@@ -6,27 +6,36 @@ exl-id: bf63112d-7d20-4e35-9a59-5be21135ae51
 TQID: https://experienceleague.adobe.com/Ou6-B5pFx-ku9H2iEqLN0Ly6-t01CzQUODo0poMk8Bs
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 342
-ht-degree: 3%
-
+source-wordcount: '368'
+ht-degree: 5%
 ---
-
 # Consentimento da plataforma de publicidade
 
 A [dimensão](overview.md) de &#39;Consentimento da Plataforma de Anúncio&#39; exibe se o consentimento é coletado para enviar dados a provedores de publicidade de terceiros, como Google, Meta e outros.
@@ -37,16 +46,16 @@ No futuro, essa dimensão poderá ser usada para aceitar a codificação de info
 
 ## Preencher esta dimensão com dados
 
-Esta dimensão coleta dados das [Variáveis de dados de contexto](/help/implement/vars/page-vars/contextdata.md) a seguir
+Esta dimensão coleta dados da [variável de dados de contexto](/help/implement/vars/page-vars/contextdata.md) `contextData.['adConsent']`. Preencha essa variável com os valores relevantes do campo de consentimento da Google: `ad_user_data` (primeiro caractere) e `ad_personalization` (segundo caractere). Consulte [Consentimento na referência à API do Google Ads](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent) para obter mais informações.
 
-* `contextData.['adConsent']`
-
-Preencha a variável de dados de contexto com valores relevantes para os campos de consentimento do Google
-
-* `ad_user_data` (primeiro caractere) e
-* `ad_personalization` (segundo caractere).
-
-Consulte [Consentimento na referência à API do Google Ads](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent) para obter mais informações.
+| Propriedade | Valor |
+| --- | --- |
+| **Variável do AppMeasurement** | Nenhum (definido por meio da variável de dados de contexto `adConsent`) |
+| **Web SDK / campo XDM** | Nenhum |
+| **Parâmetro de consulta** | N/D |
+| **Marca XML** | N/D |
+| **Limite de bytes** | 100 bytes |
+| **Persistência** | Hit |
 
 Os valores possíveis para cada um desses campos podem ser:
 

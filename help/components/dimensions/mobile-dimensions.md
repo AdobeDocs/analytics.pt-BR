@@ -6,33 +6,47 @@ exl-id: fa460888-513d-4d14-93b1-33d308e0758a
 TQID: https://experienceleague.adobe.com/X80x0MIx5gd16J20VU37fNSExDO2NSXPrHR8EKqsMqw
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: c77ba355-6681-41fe-b719-563d3f507fdb
+    internal-label: Mobile SDK
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 961
+source-wordcount: '961'
 ht-degree: 95%
-
 ---
-
 # Dimensões de pesquisa móvel
+
+>[!BEGINSHADEBOX]
 
 *Esta página faz referência às propriedades dos dispositivos móveis que acessam o site. Consulte [Dimensões do ciclo de vida móvel](lifecycle-dimensions.md) ou [Métricas do ciclo de vida móvel](../metrics/lifecycle-metrics.md) para rastrear em um aplicativo móvel.*
 
-As [dimensões](overview.md) de pesquisa móvel fornecem insights sobre as propriedades dos dispositivos móveis que visitam o site. Essas propriedades se baseiam no agente de usuário e no endereço IP da ocorrência. Utilize essas dimensões para entender melhor quais recursos são compatíveis com um dispositivo móvel.
+>[!ENDSHADEBOX]
+
+As [dimensões](overview.md) de pesquisa móvel fornecem insights sobre as propriedades dos dispositivos móveis que visitam o site. Essas propriedades se baseiam no agente de usuário e no endereço IP do hit. Utilize essas dimensões para entender melhor quais recursos são compatíveis com um dispositivo móvel.
 
 ## Preencher essas dimensões com dados
 
@@ -52,7 +66,7 @@ A disponibilidade dessas dimensões depende do tipo de implementação:
 >
 >Os itens de dimensão rotulados `"None"` são dispositivos não móveis. Se desejar um relatório que inclua apenas dispositivos móveis, arraste a dimensão “Dispositivo móvel” para a área de segmento da tela do Workspace.
 
-* **[!UICONTROL Suporte de áudio para dispositivo móvel]**: determina os formatos de arquivo que o dispositivo pode reproduzir. Os valores de exemplo incluem `"MP3"`, `"AAC"` e `"MIDI Monophonic"`. Os valores nessa dimensão não são mutuamente exclusivos; uma única ocorrência pode atribuir a vários itens de dimensão.
+* **[!UICONTROL Suporte de áudio para dispositivo móvel]**: determina os formatos de arquivo que o dispositivo pode reproduzir. Os valores de exemplo incluem `"MP3"`, `"AAC"` e `"MIDI Monophonic"`. Os valores nessa dimensão não são mutuamente exclusivos; um único hit pode atribuir a vários itens de dimensão.
 * **[!UICONTROL Operadora de celular]**: o telefone ou o provedor de dados do dispositivo. Os valores de exemplo incluem `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` e `"Verizon"`.
 * **[!UICONTROL Intensidade de cor do dispositivo móvel]**: a profundidade de cor do dispositivo móvel, em bits.
 * **[!UICONTROL Suporte a cookies para dispositivo móvel]**: determina se o dispositivo móvel aceita cookies. Esta dimensão não indica se o navegador aceita cookies. Os itens de dimensão incluem `"Supported"`, `"Not supported"` e `"Unknown"`.
@@ -60,7 +74,7 @@ A disponibilidade dessas dimensões depende do tipo de implementação:
 * **[!UICONTROL Número do dispositivo móvel]**: determina se o dispositivo móvel transmite seu número. Essa dimensão não fornece o número do dispositivo móvel. Os itens de dimensão incluem `"Supported"`, `"Not supported"` e `"Unknown"`.
 * **[!UICONTROL Tipo de dispositivo móvel]**: o tipo do dispositivo móvel. Os valores de exemplo incluem `"Mobile phone"`, `"Tablet"`, `"Media player"` e `"Gaming console"`.
 * **[!UICONTROL DRM móvel]**: o tipo de DRM que o dispositivo móvel aceita. Os valores de exemplo incluem `"DRM OMA forward"`, `"DRM OMA combined delivery"` e `"DRM OMA separate delivery"`.
-* **[!UICONTROL Suporte a imagens móveis]**: os tipos de imagens compatíveis com o dispositivo móvel. Os valores de exemplo incluem `"PNG"`, `"JPEG"` e `"GIF 87"`. Os valores nessa dimensão não são mutuamente exclusivos; uma única ocorrência pode atribuir a vários itens de dimensão.
+* **[!UICONTROL Suporte a imagens móveis]**: os tipos de imagens compatíveis com o dispositivo móvel. Os valores de exemplo incluem `"PNG"`, `"JPEG"` e `"GIF 87"`. Os valores nessa dimensão não são mutuamente exclusivos; um único hit pode atribuir a vários itens de dimensão.
 * **[!UICONTROL Serviços de informações para dispositivo móvel]**: os tipos de serviços de notícias aceitos pelo dispositivo. Dispositivos mais novos normalmente não relatam essas informações.
 * **[!UICONTROL VM Java para dispositivo móvel]**: as versões do Java compatíveis com o dispositivo.
 * **[!UICONTROL Decoração de correspondência para dispositivo móvel]**: determina se o dispositivo é compatível com o [Decome](https://en.wikipedia.org/wiki/Decome), um recurso popularizado em dispositivos japoneses.
@@ -74,7 +88,7 @@ A disponibilidade dessas dimensões depende do tipo de implementação:
 * **[!UICONTROL Altura da tela do dispositivo móvel]**: a altura da tela, em pixels. iPhones sempre relatam `"480"` devido à incapacidade de determinar a versão do dispositivo iPhone. Consulte a seção abaixo sobre como determinar a versão do iPhone.
 * **[!UICONTROL Tamanho da tela do dispositivo móvel]**: as dimensões completas do dispositivo móvel em pixels. O tamanho de tela relatado não indica a orientação do dispositivo. Independentemente da orientação da tela, cada dispositivo tem uma resolução de tela fixa no relatório. Esse tamanho é baseado em pesquisas que determinam qual orientação é mais provável. É possível ver tamanhos como `"768x1024"` e `"1024x768"` no mesmo relatório, onde cada tamanho representa um ou mais dispositivos diferentes.
 * **[!UICONTROL Largura da tela do dispositivo móvel]**: a largura da tela, em pixels.
-* **[!UICONTROL Suporte de vídeo para dispositivo móvel]**: os formatos de arquivo de vídeo e os codecs aceitos pelo dispositivo móvel. Existem vários itens de dimensão para diferentes codecs de arquivos MP4 e 3GPP. Os valores nessa dimensão não são mutuamente exclusivos; uma única ocorrência pode atribuir a vários itens de dimensão.
+* **[!UICONTROL Suporte de vídeo para dispositivo móvel]**: os formatos de arquivo de vídeo e os codecs aceitos pelo dispositivo móvel. Existem vários itens de dimensão para diferentes codecs de arquivos MP4 e 3GPP. Os valores nessa dimensão não são mutuamente exclusivos; um único hit pode atribuir a vários itens de dimensão.
 
 ## Separação do iPhone por modelo ou versão
 

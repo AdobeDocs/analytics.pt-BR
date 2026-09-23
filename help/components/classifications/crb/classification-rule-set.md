@@ -6,25 +6,32 @@ exl-id: 5c118541-d143-4947-b693-514d7042abe6
 TQID: https://experienceleague.adobe.com/wTH0I-JNEs-qu9DfgPVQCc6H9QMwoxoxqIFP-06QQpc
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 407
+source-wordcount: '407'
 ht-degree: 49%
-
 ---
-
 # Conjuntos de regras de classificação (herdados)
 
 {{classification-rulebuilder-deprecation}}
 
+>[!BEGINSHADEBOX]
+
 *Esta página explica os conjuntos de regras de classificação como parte do [Construtor de regras de classificação](classification-rule-builder.md). Consulte [Conjuntos de classificação](../sets/overview.md) para obter o método atual de classificação de dados no Adobe Analytics.*
+
+>[!ENDSHADEBOX]
 
 Um conjunto de regras é um grupo de regras de classificação para uma variável específica. Aplique uma variável ao conjunto de regras. Se quiser criar vários conjuntos de regras para uma variável, aplique cada conjunto de regras a vários conjuntos de relatórios.
 

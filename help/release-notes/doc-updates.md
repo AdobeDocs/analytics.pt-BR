@@ -8,36 +8,55 @@ mini-toc-levels: 3
 TQID: 'https://experienceleague.adobe.com/RcTXvvuMyMIv63XhCXgJd8aWpzLtxQwtXBkz6X6nFM8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: b7156124-d291-4de4-ac0c-ed17d8078449
+    internal-label: AI Tools
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+    internal-label: Release notes
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
+    internal-label: Insights
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 7447
-ht-degree: 93%
-
+source-wordcount: '7484'
+ht-degree: 92%
 ---
-
 # Atualizações de documentação técnica do Adobe Analytics
 
 Atualizações de conteúdo do conjunto de documentação do Adobe Analytics desde janeiro de 2019.
@@ -53,10 +72,11 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | --- | --- |
 | **setembro de 2026** | |
 | Novas ações de atalho de redimensionamento | Os novos atalhos de teclado do Analysis Workspace agora permitem [redimensionar um painel ou uma visualização](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions) de modo mais amplo, mais estreito, mais alto ou mais curto. |
+| [APIs de coleta de dados do Adobe Analytics](https://developer.adobe.com/analytics-collection-apis/) | Novo repositório de desenvolvedores que agrega e moderniza as estratégias de coleta de dados do Adobe Analytics sem o uso de AppMeasurement ou tags. |
 | **agosto de 2026** | |
 | Adição de novas ferramentas de IA conversacional à dimensão Tipo de referenciador | A dimensão &quot;Tipo de referenciador&quot; agora inclui as [ferramentas de IA de conversação](/help/components/dimensions/referrer-type.md#conversational-ai-tools) adicionais na tabela de pesquisa que a Adobe usa:<ul><li>`https://duck.ai`</li><li>`https://you.com`</li></ul> |
 | **junho de 2026** | |
-| Atualização da referência da sequência de consulta | Revisões significativas em [Parâmetros de consulta de coleta de dados](/help/implement/validate/query-parameters.md). |
+| Atualização da referência da sequência de consulta | Revisões significativas em [Parâmetros de consulta de coleta de dados](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference). |
 | Segmentos no Data Warehouse | Atualização da [compatibilidade de segmento do Data Warehouse](/help/export/data-warehouse/segment-compatibility.md). |
 | Guia do GA para AA substituído | O guia do GA para AA fazia referência ao Universal Analytics, que foi encerrado em 2023. Um novo guia o substituiu, [Transição do Google Analytics 4 para o Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
 | **Maio de 2026** | |
@@ -348,7 +368,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 18 de junho de 2020 | Nova documentação sobre [Funções de projeto](/help/analyze/analysis-workspace/curate-share/share-projects.md) para projetos compartilhados do Espaço de trabalho. Ao compartilhar um projeto do Espaço de trabalho, você pode colocar recipients em uma das três funções do projeto, dependendo da experiência do projeto que você deseja que eles tenham: Editar, Duplicar e Visualizar. |
 | 18 de junho de 2020 | Nova documentação sobre [Coedição de projetos no Espaço de trabalho](/help/analyze/analysis-workspace/curate-share/share-projects.md). Destinatários adicionados à função “Pode editar” podem salvar um projeto que foi compartilhado com eles. Isso se estende a administradores e não administradores. |
 | **Maio de 2020** |  |
-| 31 de maio de 2020 | Nova documentação sobre [API de inserção de dados em massa](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
+| 31 de maio de 2020 | Nova documentação sobre [API de inserção de dados em massa](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/) |
 | 21 de maio de 2020 | Nova documentação para [painéis do Adobe Analytics](/help/analyze/mobile-app/home.md) |
 | 21 de maio de 2020 | Nova documentação sobre [melhorias de acessibilidade](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md) para o Analysis Workspace, incluindo navegação aprimorada do teclado, contraste de cores e suporte ao leitor de tela. |
 | **Abril de 2020** |  |

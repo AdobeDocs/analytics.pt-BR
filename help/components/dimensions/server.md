@@ -6,23 +6,28 @@ exl-id: c2454c0d-497e-46f8-8569-7d0517097cab
 TQID: https://experienceleague.adobe.com/BDVwwy3jCtHrcWLy2nOHVnDRbFiAoR-EeOzp-35XjBs
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 136
-ht-degree: 92%
-
+source-wordcount: '183'
+ht-degree: 61%
 ---
-
 # Servidor
 
 A [dimensão](overview.md) &#39;Servidor&#39; geralmente lista o nome de host do site. Para conjuntos de relatórios que combinam vários domínios ou subdomínios, essa dimensão é útil para analisar quais domínios ou subdomínios têm o melhor desempenho.
@@ -31,7 +36,16 @@ Essa dimensão está relacionada às dimensões [Página](page.md) e [Seções d
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão recupera dados da [`server` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement coleta esses dados usando a variável [`server`](/help/implement/vars/page-vars/server.md).
+A AppMeasurement coleta esses dados usando a variável [`server`](/help/implement/vars/page-vars/server.md), que é funcionalmente idêntica a uma prop.
+
+| Propriedade | Valor |
+| --- | --- |
+| **Variável do AppMeasurement** | [`server`](/help/implement/vars/page-vars/server.md) |
+| **Web SDK / campo XDM** | [`web.webPageDetails.server`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Parâmetro de consulta** | [`server`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Marca XML** | [`<server>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Limite de bytes** | 100 bytes |
+| **Persistência** | Hit |
 
 ## Itens de dimensão
 

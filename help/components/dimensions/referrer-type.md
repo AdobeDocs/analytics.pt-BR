@@ -6,36 +6,51 @@ exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
 TQID: 'https://experienceleague.adobe.com/KPTS2iWls0V8I2gI0xcH1V89w0stZyVq6jWdQyEyrLY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: b7156124-d291-4de4-ac0c-ed17d8078449
+    internal-label: AI Tools
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 5a76fa85cdcc109ee92d6116d30510841a4c6ab1
+    internal-label: Admin
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 502
-ht-degree: 88%
-
+source-wordcount: '542'
+ht-degree: 76%
 ---
-
 # Tipo de referenciador
 
 A [dimensão](overview.md) de &quot;Tipo de referenciador&quot; informa em quais canais genéricos os visitantes clicaram para acessar seu site. A Adobe mantém regras para cada item de dimensão, ao contrário dos [canais de marketing](marketing-channel.md), em que a própria organização mantém regras para cada canal.
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão faz referência a várias tabelas de pesquisa internas da Adobe. Cada valor se baseia no [referenciador](referrer.md) da ocorrência, que depende dos [Filtros de URL internos](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md). Verifique se a dimensão do referenciador e os filtros de URL internos estão configurados corretamente.
+O Adobe deriva essa dimensão do [referenciador](referrer.md) de cada ocorrência, comparando-a com várias tabelas de pesquisa internas do Adobe. Não há variável a ser definida. Como cada valor depende do referenciador, verifique se a dimensão do referenciador e os [filtros internos de URL](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) estão configurados corretamente.
+
+| Propriedade | Valor |
+| --- | --- |
+| **Variável do AppMeasurement** | Nenhum (derivado do referenciador) |
+| **Web SDK / campo XDM** | Nenhum (derivado do referenciador) |
+| **Parâmetro de consulta** | N/D |
+| **Marca XML** | N/D |
+| **Limite de bytes** | N/D |
+| **Persistência** | N/D |
 
 ## Itens de dimensão
 
-Os itens de dimensão incluem o tipo de referenciador da ocorrência. Valores específicos incluem:
+Os itens de dimensão incluem o tipo de referenciador do hit. Valores específicos incluem:
 
-* **Digitado/Marcado**: não existem dados do referenciador para a ocorrência.
+* **Digitado/Marcado**: não existem dados do referenciador para o hit.
 * **Mecanismos de pesquisa**: o referenciador veio de um mecanismo de pesquisa reconhecido que inclui uma sequência de consulta de palavra-chave.
 * **Ferramentas de IA de conversa**: o referenciador veio de uma ferramenta de IA de conversa reconhecida.
 * **Redes sociais:**: os dados do referenciador pertenciam a uma rede social reconhecida pela Adobe.
