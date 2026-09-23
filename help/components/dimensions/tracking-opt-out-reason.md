@@ -42,13 +42,13 @@ ht-degree: 13%
 
 >[!ENDSHADEBOX]
 
-A dimensão &quot;Motivo da desativação do rastreamento&quot; atua como uma visualização dos dados que seriam excluídos se as Configurações de privacidade fossem ativadas. Essa dimensão é usada principalmente para determinar se sua implementação será afetada negativamente se você tiver ativado as [Configurações de privacidade](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html) nas Configurações do conjunto de relatórios.
+A dimensão &quot;Motivo da desativação do rastreamento&quot; atua como uma visualização dos dados que seriam excluídos se as Configurações de privacidade fossem ativadas. Essa dimensão é usada principalmente para determinar se sua implementação será afetada negativamente se você tiver ativado as [Configurações de privacidade](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=pt-BR) nas Configurações do conjunto de relatórios.
 
 As implementações típicas veem 1% ou menos do tráfego geral do conjunto de relatórios nessa dimensão se as Configurações de privacidade ainda não tiverem sido ativadas. Porcentagens maiores que 1% de todo o tráfego sugerem um possível problema de implementação que impede o AppMeasurement de definir cookies próprios.
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão funciona imediatamente em todas as implementações que ainda não ativaram as [Configurações de privacidade](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html). Se sua organização já tiver habilitado a configuração **[!UICONTROL Remover usuários que bloquearam todos os cookies]** para navegadores de desktop e móveis, esta dimensão não conterá dados.
+Essa dimensão funciona imediatamente em todas as implementações que ainda não ativaram as [Configurações de privacidade](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=pt-BR). Se sua organização já tiver habilitado a configuração **[!UICONTROL Remover usuários que bloquearam todos os cookies]** para navegadores de desktop e móveis, esta dimensão não conterá dados.
 
 | Propriedade | Valor |
 | --- | --- |

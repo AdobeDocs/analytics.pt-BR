@@ -43,7 +43,7 @@ Esta dimensão faz referência à categoria do produto na variável [`products`]
 | Propriedade | Valor |
 | --- | --- |
 | **Variável do AppMeasurement** | [`products`](/help/implement/vars/page-vars/products.md) |
-| **Web SDK / campo XDM** | [`productListItems[].productCategories[].categoryID`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) |
+| **Web SDK / campo XDM** | [`productListItems[].productCategories[].categoryID`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/event/commerce-details) |
 | **Parâmetro de consulta** | [`products`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Marca XML** | [`<products>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite de bytes** | 100 bytes |
