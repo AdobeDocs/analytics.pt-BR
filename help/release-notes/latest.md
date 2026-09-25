@@ -6,31 +6,44 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+    internal-label: Release notes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6d07329547684e8bee712628a53092eb34e0141a
+    internal-label: Privacy
+source-git-commit: 7e61f4cc5b87712012ff894878dd0aba7ceccd4f
 workflow-type: tm+mt
-source-wordcount: 1305
+source-wordcount: '1311'
 ht-degree: 40%
-
 ---
-
 # Notas de versão atuais do Adobe Analytics (setembro de 2026)
 
 **Última atualização**: 11 de setembro de 2026
@@ -43,7 +56,7 @@ Essas notas de versão abordam o período de lançamento de setembro de 2026. As
 | ----------- | ---------- | ---- |
 | **Limitar segmentos ao intervalo de datas do relatório**<br/> Os dados em um relatório do Workspace podem se estender além do intervalo de datas do relatório quando um segmento inclui componentes de intervalo de datas.<p>Uma nova opção está disponível e permite limitar os resultados ao intervalo de datas do relatório, independentemente de quaisquer componentes de data incluídos no segmento.</p><p>Essa opção está disponível ao criar ou modificar um segmento cujo contêiner de nível superior é Visitante.</p><p>Para obter mais informações, consulte [Criar segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md#components).</p> | 26 de agosto de 2026 | 9 de setembro de 2026 |
 | **Atualizações da detecção de bot**<br/> Ao usar a Coleção de dados da Edge com o Web SDK, as seguintes atualizações de detecção de bot estão disponíveis:<ul><li>Agora é possível criar regras de detecção de bot para identificar exceções no tráfego que, de outra forma, seriam tratadas como geradas por bot. As regras atuais e futuras continuarão a ser padronizadas para marcar o tráfego correspondente como gerado por bot.</li><li>Agora as regras de bot personalizadas são executadas antes das regras de detecção de bot IAB. Essa alteração não afeta as pontuações de bot, mas os nomes de regra de bot associados a um evento podem ser alterados.</li></ul><p>Observação: essa atualização se aplica somente às implementações da Coleta de dados do Edge que usam o Web SDK. Isso não se aplica a bibliotecas mais antigas, como a AppMeasurement.</p><p>(Link para a documentação a seguir).</p> | | Início de setembro de 2026 |
-| **CX Enterprise Coworker: Analisar dados do Adobe Analytics no Chat do Colaborador** <br/>O Chat do Adobe CX Enterprise Coworker agora pode executar a análise avançada de dados que anteriormente só era possível no Analysis Workspace. O Bate-papo com colegas de trabalho acessa os dados dos seus conjuntos de relatórios do Adobe Analytics, permitindo que você explore esses dados e obtenha respostas para prompts em linguagem natural.<p>(Link para a documentação a seguir).</p> | | 25 de setembro de 2026 |
+| **CX Enterprise Coworker: Analisar dados do Adobe Analytics no Chat do Colaborador** <br/>O Chat do Adobe CX Enterprise Coworker agora pode executar a análise avançada de dados que anteriormente só era possível no Analysis Workspace. O Bate-papo com colegas de trabalho acessa os dados dos seus conjuntos de relatórios do Adobe Analytics, permitindo que você explore esses dados e obtenha respostas para prompts em linguagem natural.<p>(Link para a documentação a seguir).</p> | | 29 de setembro de 2026<p>(Planejado originalmente para 25 de setembro de 2026)</p> |
 | **CX Enterprise Coworker: habilidade de análise da causa principal** <br/>O Adobe CX Enterprise Coworker Chat agora pode realizar a análise da causa principal, explicando por que uma métrica mudou, não apenas o que mudou. O bate-papo com colegas de trabalho identifica a data em que ocorreu uma mudança e compara os dados antes e depois dela, depois detalha a mudança pelas dimensões que a orientam e sua magnitude, mostrada como uma porcentagem e um valor absoluto. Se nenhuma alteração significativa for detectada, o Bate-papo com colegas de trabalho permitirá que você saiba, em vez de especular sobre uma causa.<p>(Link para a documentação a seguir).</p> | | 2 de outubro de 2026 |
 | **CX Enterprise Coworker: Abra uma visualização no Analysis Workspace** <br/>Inicie uma análise de dados no Chat do Colaborador e, em seguida, abra a análise como uma visualização diretamente no Analysis Workspace para continuar compilando, refinando e explorando.</p><p>(Link para a documentação a seguir).</p> | | 2 de outubro de 2026 |
 | **Atualizações da API dos conjuntos de classificação**<br/> A documentação da API dos conjuntos de classificação agora inclui informações atualizadas de parâmetro e ponto de extremidade para configurar solicitações de API dos conjuntos de classificação.<p>Para obter mais informações, consulte o [manual de ponto de extremidade de classificações](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/).</p> | 5 de setembro de 2026 | 30 de setembro de 2026 |
