@@ -45,7 +45,7 @@ O AppMeasurement coleta esses dados usando a variável [`channel`](/help/implem
 | Propriedade | Valor |
 | --- | --- |
 | **Variável do AppMeasurement** | [`channel`](/help/implement/vars/page-vars/channel.md) |
-| **Web SDK / campo XDM** | [`web.webPageDetails.siteSection`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Web SDK / campo XDM** | [`web.webPageDetails.siteSection`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/data-types/webpage-details) |
 | **Parâmetro de consulta** | [`ch`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Marca XML** | [`<channel>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite de bytes** | 100 bytes |

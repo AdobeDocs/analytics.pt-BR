@@ -54,7 +54,7 @@ A [!UICONTROL Opção código postal] em [Configurações gerais da Conta](/help
 | Propriedade | Valor |
 | --- | --- |
 | **Variável do AppMeasurement** | [`zip`](/help/implement/vars/page-vars/zip.md) |
-| **Web SDK / campo XDM** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/geo) |
+| **Web SDK / campo XDM** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/data-types/geo) |
 | **Parâmetro de consulta** | [`zip`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Marca XML** | [`<zip>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite de bytes** | 50 bytes |
