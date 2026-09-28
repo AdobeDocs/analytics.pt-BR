@@ -3,16 +3,30 @@ description: Entenda como configurar uma visualização da tela de jornada.
 title: Configurar a visualização de uma tela de jornada
 feature: Visualizations
 role: User, Admin
-source-git-commit: 0af08348796361b4da5361debe7f54dc24595ad8
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 2a0575f2e631d1b8722974f60c8541814c3c2cd3
 workflow-type: tm+mt
-source-wordcount: '6557'
-ht-degree: 81%
+source-wordcount: '6563'
+ht-degree: 80%
 ---
 # Configurar a visualização de uma tela de jornada {#configure-journey-canvas}
 
 >[!BEGINSHADEBOX]
 
-_Este artigo documenta a visualização da tela de Jornada no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Consulte [Configurar uma visualização da tela de Jornada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) para a versão _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;deste artigo._
+_Este artigo documenta a visualização da tela de Jornada no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Consulte [Configurar uma visualização da tela de Jornada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) para a versão _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -93,7 +107,7 @@ Consulte [Visão geral da tela de jornada](/help/analyze/analysis-workspace/visu
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_compare"
 >title="Comparar com"
->abstract="O intervalo de datas usado para comparar os dados da jornada atual com um período anterior. Quando você seleciona um intervalo de datas de comparação, cada nó na jornada mostra a alteração percentual entre o intervalo de datas atual e o intervalo de datas de comparação selecionado, com base na métrica primária. "
+>abstract="O intervalo de datas usado para comparar os dados da jornada atual com um período anterior. Quando você seleciona um intervalo de datas de comparação, cada nó, seta e fallout na jornada mostra a alteração percentual entre o intervalo de datas atual e o intervalo de datas de comparação selecionado, com base na métrica principal. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -113,7 +127,7 @@ Para definir as configurações da visualização de Tela de jornada:
    |---------|----------|
    | [!UICONTROL **Valor percentual**] | O valor percentual mostrado em cada nó da jornada.<p>![valor percentual](assets/journey-canvas-percentage.png)</p> <p>Considere o seguinte ao configurar os valores percentuais mostrados nos nós da jornada:</p><ul><li>Um percentual é mostrado em cada nó para a métrica principal. Um percentual também é mostrado para a métrica secundária, se uma estiver configurada. (Para obter mais informações sobre as configurações de métrica primária e secundária, consulte [Começar a criar uma visualização de Tela de jornada](#begin-building-a-journey-canvas-visualization).)</li><li>As porcentagens incluem todas as pessoas ou sessões incluídas no conjunto de relatórios dentro do intervalo de datas do painel. A utilização de _pessoas_ ou _sessões_ depende da configuração do container. (Para obter mais informações sobre a configuração do container, consulte [Começar a criar uma visualização de Tela de jornada](#begin-building-a-journey-canvas-visualization).)</li></ul> <p>Escolha entre as seguintes opções:</p> <ul><li>[!UICONTROL **Percentual do nó inicial**]: calcula os percentuais exibidos em cada nó em relação ao nó inicial. Os percentuais se baseiam nas métricas principal e secundária selecionadas. <p>Um _nó inicial_ é um nó que não tem nós conectados anteriores a ele.</p><p>Uma jornada pode conter vários nós iniciais. No entanto, [!UICONTROL **Percentual do total**] será usado se a jornada tiver 2 ou mais nós iniciais que levam a um nó comum. Se quiser usar [!UICONTROL **Percentual do nó inicial**], atualize a jornada para que cada nó na jornada possa ser rastreado até um único nó inicial.</p></li><li>[!UICONTROL **Percentual do nó anterior**]: calcula os percentuais exibidos em cada nó em relação ao nó anterior. Os percentuais se baseiam nas métricas principal e secundária selecionadas.</li><li>[!UICONTROL **Percentual do total**]: calcula as porcentagens exibidas em cada nó em relação a todos os dados no conjunto de relatórios. Os percentuais se baseiam nas métricas principal e secundária selecionadas.</li></ul> |
    | [!UICONTROL **Configurações de seta**] | As setas que aparecem entre os nós na Tela de jornada podem ser configuradas para mostrar rótulos e valores personalizados. <p>![configurações de seta](assets/journey-canvas-arrow-settings.png)</p><p>_Rótulos_ são nomes personalizados que você pode adicionar às telas de Jornada, conforme descrito em [Adicionar ou atualizar um rótulo em uma seta](#add-or-update-a-label-on-an-arrow).</li></ol><p>_Valores_ são os números e percentuais que aparecem nas setas e indicam as pessoas ou sessões que passaram de um nó para outro na jornada. (Em outras palavras, aqueles que não desistiram da jornada em uma determinada etapa.) </p><p>As seguintes opções estão disponíveis:</p><ul><li>[!UICONTROL **Nenhum rótulo**]: nenhum rótulo é mostrado nas setas da jornada. </br> Essa opção só estará disponível se a jornada tiver sido modificada no </li><li>[!UICONTROL **Somente rótulos**]: os rótulos são mostrados nas setas da jornada.</li></ul> |
-   | [!UICONTROL **Comparar com**] | O intervalo de datas usado para comparar os dados da jornada atual com um período anterior. Você pode escolher qualquer um dos seguintes intervalos de datas para comparação:<ul><li>**[!UICONTROL 4 semanas antes]**</li><li>**[!UICONTROL 2 trimestres antes]**</li><li>**[!UICONTROL 1 ano antes]**</li><li>**[!UICONTROL Intervalo de datas personalizado]**</li></ul><p>Quando você seleciona um intervalo de datas de comparação, cada nó na jornada mostra a alteração percentual entre o intervalo de datas atual e o intervalo de datas de comparação selecionado, com base na métrica primária. Isso permite identificar se a jornada está tendo um desempenho melhor ou pior em comparação a um período anterior.</p> |
+   | [!UICONTROL **Comparar com**] | O intervalo de datas usado para comparar os dados da jornada atual com um período anterior. Você pode escolher qualquer um dos seguintes intervalos de datas para comparação:<ul><li>**[!UICONTROL 4 semanas antes]**</li><li>**[!UICONTROL 2 trimestres antes]**</li><li>**[!UICONTROL 1 ano antes]**</li><li>**[!UICONTROL Intervalo de datas personalizado]**</li></ul><p>Quando você seleciona um intervalo de datas de comparação, cada nó, seta e fallout na jornada mostra a alteração percentual entre o intervalo de datas atual e o intervalo de datas de comparação selecionado, com base na métrica principal. Isso permite identificar se a jornada está tendo um desempenho melhor ou pior em comparação a um período anterior.</p> |
    | [!UICONTROL **Mostrar fallout**] | Os dados de fallout mostram o percentual e o número de usuários que saem em cada etapa da jornada. Os dados de fallout se baseiam na métrica associada às configurações do container da jornada; não se baseiam na métrica principal ou secundária. <p>![fallout](assets/journey-canvas-fallout.png)</p><p>Por padrão, o container é _Pessoa_, portanto, a métrica usada para os dados de fallout é _Pessoas_. Se o container for alterado para _Sessão_, a métrica usada para os dados de fallout será _Sessões_, e assim por diante.</p><p>Por exemplo, com _Pessoa_ como a configuração do container, o fallout mostra o percentual e o número de pessoas em cada nó da jornada que nunca chegaram a nenhum dos próximos nós imediatos. Ela pode ter executado outras ações no site, mas não atendeu aos critérios definidos por nenhum dos nós que se seguem imediatamente.</p> <p>Para obter mais informações sobre a configuração do container da Tela de jornada, consulte [Começar a criar uma visualização da Tela de jornada](#begin-building-a-journey-canvas-visualization). |
    | **Controles** | Os seguintes controles estão disponíveis no canto superior direito da tela:<ul><li>**Ajustar tela** ![ícone ajustar tela](assets/fill-screen-icon.png): ajusta as configurações atuais de zoom e panorâmica para preencher a tela com a visualização completa.</li><li>**Organizar** ![ícone organizar](assets/organize.svg): reorganiza os nós para minimizar setas cruzadas e otimizar o espaçamento, com base nas conexões do nó. </li><li>**Aumentar zoom** ![ícone aumentar zoom](assets/zoom-in-icon.png): amplia áreas específicas da visualização.<p>Também é possível usar os controles do mouse, como o pinçamento em um trackpad.</li><li>**Reduzir zoom** ![ícone reduzir zoom](assets/zoom-out-icon.png): reduz a visualização para permitir mais espaço na tela.<p>Também é possível usar os controles do mouse, como o pinçamento em um trackpad.</p></li></ul><p>Para percorrer a tela após aumentar ou diminuir o zoom, clique com o mouse e arraste até o local desejado.</p> |
 
