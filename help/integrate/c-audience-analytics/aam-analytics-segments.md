@@ -6,20 +6,30 @@ exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
 TQID: 'https://experienceleague.adobe.com/RjKoKg5fyxSwXNSQRCGHhJQcfjkwLIrVsKDBCFpJ5Ac'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 747
+source-wordcount: '747'
 ht-degree: 14%
-
 ---
-
 # Entender os segmentos no Analytics e no Audience Manager
 
 O Analytics e o Audience Manager usam segmentos. No entanto, um segmento do Analytics não é exatamente a mesma coisa que um segmento do Audience Manager. Essas diferenças contribuem, em parte, para as discrepâncias que você verá nos relatórios do Analytics e do Audience Manager. Como resultado, é importante e útil tentar entender essas diferenças ao começar a trabalhar com segmentos em ambas as soluções.
@@ -41,7 +51,7 @@ Para obter mais informações, consulte [Dados de população de característica
 
 ## Segmentos do Analytics {#analytics-segments}
 
-Um segmento do Analytics é um mecanismo de filtragem para dados em seus relatórios. A filtragem pode ocorrer no nível do visitante, da visita ou da ocorrência, em vez de somente no nível do visitante como ocorre no Audience Manager. Há vários fatores importantes a serem considerados ao comparar um segmento do Analytics com um segmento do Audience Manager:
+Um segmento do Analytics é um mecanismo de filtragem para dados em seus relatórios. A filtragem pode ocorrer no nível do visitante, da visita ou do hit, em vez de somente no nível do visitante como ocorre no Audience Manager. Há vários fatores importantes a serem considerados ao comparar um segmento do Analytics com um segmento do Audience Manager:
 
 * Os segmentos do Analytics operam em um conjunto de dados diferente dos segmentos do Audience Manager. Durante a coleta de dados, o Analytics aplica várias etapas diferentes de pós-processamento aos dados que não estão disponíveis para o Audience Manager. O pós-processamento pode incluir persistência do eVar, regras de processamento, pesquisas (localização geográfica, dispositivo móvel), VISTA e muitas outras. O Audience Manager recebe dados pré-processados por meio do encaminhamento pelo lado do servidor (ou DIL).
 

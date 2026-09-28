@@ -4,32 +4,47 @@ title: Rótulos de privacidade de dados para variáveis do Analytics
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-TQID: https://experienceleague.adobe.com/M3mMUOHeCOs4u70TPwzisCwSZpX7GvzG-E8Lat74wV0
+TQID: 'https://experienceleague.adobe.com/M3mMUOHeCOs4u70TPwzisCwSZpX7GvzG-E8Lat74wV0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 3848
+source-wordcount: '3848'
 ht-degree: 81%
-
 ---
-
 # Rótulos de privacidade de dados para variáveis do Analytics
 
 Os clientes da Adobe, como controladores de dados, são responsáveis por cumprir as leis aplicáveis de privacidade de dados, como o Regulamento Geral sobre a Proteção de Dados (RGPD) e a Lei de Privacidade do Consumidor da Califórnia (CCPA, na sigla em inglês). Os clientes devem consultar suas próprias equipes jurídicas para determinar como os dados devem ser tratados para cumprir as leis de privacidade de dados. A Adobe entende que cada um de seus clientes tem necessidades exclusivas relacionadas à privacidade, por isso ela permite que seus clientes personalizem as configurações desejadas para o processamento de dados de privacidade. Isso permite que cada cliente único processe solicitações de Privacidade de dados da maneira mais adequada para sua marca e conjunto de dados exclusivo.
@@ -75,8 +90,8 @@ Os rótulos de governança de dados oferecem aos usuários a capacidade de class
 | Rótulo | Definição | Outros requisitos |
 | --- | --- | --- |
 | Nenhum | Selecione esta opção se essa variável não contiver dados que devem ser incluídos nos dados retornados ao titular de dados, como parte de uma solicitação de acesso da privacidade de dados. | |
-| ACC-ALL | Os valores neste campo devem ser incluídos em todas as solicitações de acesso da Privacidade de dados. Se essa ocorrência vier de um dispositivo compartilhado por vários indivíduos, ao aplicar esse rótulo, você, como controlador de dados, estará indicando que é aceitável compartilhar os dados desse campo com qualquer pessoa que tenha acesso ao dispositivo compartilhado. | Os campos com este rótulo serão retornados para todas as solicitações de Privacidade de dados. |
-| ACC-PERSON | Os valores deste campo devem apenas ser incluídos em solicitações de acesso da privacidade de dados quando você estiver razoavelmente certo de que a ocorrência originou-se do titular de dados, o que pode ser confirmado pelo fato de a ID da solicitação de privacidade de dados corresponder ao valor do campo ID-PERSON. | Você também deve ter um rótulo ID-PERSON definido em alguma variável dentro desse conjunto de relatórios e enviar solicitações usando essa ID, caso contrário esse rótulo nunca será aplicado. |
+| ACC-ALL | Os valores neste campo devem ser incluídos em todas as solicitações de acesso da Privacidade de dados. Se esse hit vier de um dispositivo compartilhado por várias pessoas, ao aplicar esse rótulo, você, como controlador de dados, estará indicando que é aceitável compartilhar os dados desse campo com qualquer pessoa que tenha acesso ao dispositivo compartilhado. | Os campos com este rótulo serão retornados para todas as solicitações de Privacidade de dados. |
+| ACC-PERSON | Os valores deste campo devem apenas ser incluídos em solicitações de acesso da privacidade de dados quando você estiver razoavelmente certo de que o hit originou-se do titular de dados, o que pode ser confirmado pelo fato de a ID da solicitação de privacidade de dados corresponder ao valor do campo ID-PERSON. | Você também deve ter um rótulo ID-PERSON definido em alguma variável dentro desse conjunto de relatórios e enviar solicitações usando essa ID, caso contrário esse rótulo nunca será aplicado. |
 
 {style="table-layout:auto"}
 
@@ -86,12 +101,12 @@ Embora poucas variáveis recebam qualquer um dos outros rótulos, espera-se que 
 
 Ao contrário dos outros rótulos, esses rótulos de Exclusão não são mutuamente exclusivos. Você pode selecionar ambos ou nenhum. Um rótulo [!UICONTROL Nenhum] separado não é necessário, pois o valor [!UICONTROL Nenhum] pode ser indicando simplesmente por não selecionar as opções de exclusão.
 
-Um rótulo de exclusão é necessário apenas para campos que contenham um valor que permita a associação de uma ocorrência ao titular de dados (ou seja, que permita a identificação do titular de dados). Outras informações pessoais (favoritos, histórico de navegação/compras, condições de saúde, etc.) não precisará ser excluído, pois a associação com o titular dos dados será interrompida.
+Um rótulo de exclusão é necessário apenas para campos que contenham um valor que permita a associação de um hit ao titular de dados (ou seja, que permita a identificação do titular de dados). Outras informações pessoais (favoritos, histórico de navegação/compras, condições de saúde, etc.) não precisará ser excluído, pois a associação com o titular dos dados será interrompida.
 
 | Rótulo | Definição | Outros requisitos |
 | --- | --- | --- |
-| DEL-DEVICE | Para solicitações de exclusão da Privacidade de dados, os valores nesse campo devem ser anonimizados apenas para as solicitações em que uma ID-DEVICE especificada esteja presente na ocorrência.  Se o mesmo valor aparecer em outras ocorrências que não estão sendo excluídas, essas outras instâncias não serão alteradas. Isso resultará na alteração das contagens nos relatórios que processam contagens específicas neste campo. Em dispositivos compartilhados, isso pode remover identificadores de outras pessoas, além do titular de dados.  As contagens não são alteradas se esse campo também tiver um rótulo ID-DEVICE e o valor nele for usado como uma ID na solicitação de Privacidade de dados. | <ul><li>Também exige o rótulo I1, I2 ou S1</li><li>Não pode ser definido em eventos</li><li>Não pode ser definido em eVars de merchandising</li></li><li>Não pode ser definido em Classificações</li><li>Você deve enviar solicitações usando um ID-DEVICE ou definir expandIDs como true, caso contrário esse rótulo nunca será aplicado.</li></ul> |
-| DEL-PERSON | Para solicitações de exclusão da Privacidade de dados, os valores nesse campo devem ser anonimizados apenas para as solicitações em que uma ID-PERSON especificada esteja presente na ocorrência.  Se o mesmo valor aparecer em outras ocorrências que não estão sendo excluídas, esses outros valores não serão alterados. Isso resultará na alteração das contagens nos relatórios que processam contagens específicas neste campo. As contagens não são alteradas se esse campo também tiver um rótulo ID-PERSON e o valor nele for usado como uma ID na solicitação de Privacidade de dados. | <ul><li>Também exige o rótulo I1, I2 ou S1</li><li>Não pode ser definido em eventos</li><li>Não pode ser definido em eVars de merchandising</li></li><li>Não pode ser definido em Classificações</li><li>Você também deve enviar pedidos utilizando um rótulo ID-PERSON definido em alguma variável dentro desse conjunto de relatórios e enviar solicitações usando essa ID, caso contrário esse rótulo nunca será aplicado.</li></ul> |
+| DEL-DEVICE | Para solicitações de exclusão da Privacidade de dados, os valores nesse campo devem ser anonimizados apenas para as solicitações em que uma ID-DEVICE especificada esteja presente no hit.  Se o mesmo valor aparecer em outros hits que não estão sendo excluídos, essas outras instâncias não serão alteradas. Isso resultará na alteração das contagens nos relatórios que processam contagens específicas neste campo. Em dispositivos compartilhados, isso pode remover identificadores de outras pessoas, além do titular de dados.  As contagens não são alteradas se esse campo também tiver um rótulo ID-DEVICE e o valor nele for usado como uma ID na solicitação de Privacidade de dados. | <ul><li>Também exige o rótulo I1, I2 ou S1</li><li>Não pode ser definido em eventos</li><li>Não pode ser definido em eVars de merchandising</li></li><li>Não pode ser definido em Classificações</li><li>Você deve enviar solicitações usando um ID-DEVICE ou definir expandIDs como true, caso contrário esse rótulo nunca será aplicado.</li></ul> |
+| DEL-PERSON | Para solicitações de exclusão da Privacidade de dados, os valores nesse campo devem ser anonimizados apenas para as solicitações em que uma ID-PERSON especificada esteja presente no hit.  Se o mesmo valor aparecer em outros hits que não estão sendo excluídos, esses outros valores não serão alterados. Isso resultará na alteração das contagens nos relatórios que processam contagens específicas neste campo. As contagens não são alteradas se esse campo também tiver um rótulo ID-PERSON e o valor nele for usado como uma ID na solicitação de Privacidade de dados. | <ul><li>Também exige o rótulo I1, I2 ou S1</li><li>Não pode ser definido em eventos</li><li>Não pode ser definido em eVars de merchandising</li></li><li>Não pode ser definido em Classificações</li><li>Você também deve enviar pedidos utilizando um rótulo ID-PERSON definido em alguma variável dentro desse conjunto de relatórios e enviar solicitações usando essa ID, caso contrário esse rótulo nunca será aplicado.</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -181,7 +196,7 @@ A rotulagem da privacidade de dados afeta quatro grandes classes de variáveis d
      <li id="li_41CB61F927CB4402AAB4A62E219CD153">Dimensões de tráfego personalizadas </li> 
     </ul> </td> 
    <td colname="col2"> <p>Todos, exceto classificações </p> </td> 
-   <td colname="col3"> <p>Todas </p> </td> 
+   <td colname="col3"> <p>Tudo </p> </td> 
    <td colname="col4"> </td> 
   </tr>
   <tr> 
@@ -197,7 +212,7 @@ A rotulagem da privacidade de dados afeta quatro grandes classes de variáveis d
   </tr> 
   <tr> 
    <td colname="col1"> <p>Eventos de conversão </p> </td> 
-   <td colname="col2"> <p>Todas </p> </td> 
+   <td colname="col2"> <p>Tudo </p> </td> 
    <td colname="col3"> <p>Nenhum / S1 / S2 </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -239,7 +254,7 @@ A tabela a seguir descreve como as variáveis são “excluídas”. Esta lista 
 
 | Variáveis | Método de exclusão |
 | --- | --- |
-| <ul><li>Variáveis de tráfego (props)</li><li>Variáveis de comércio (eVars)</li></ul> | O valor existente é substituído por um novo valor com a forma “Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482”, onde o valor hexadecimal de 32 dígitos que procede o prefixo “Data Privacy-” é um número aleatório de 128 bits de forte criptografia.<p>Como será substituído por uma sequência de caracteres aleatória, não há como determinar o valor original a partir desse novo valor, nem como derivar o novo valor sabendo o valor original.  Para uma determinada variável, se o valor idêntico ao que está sendo substituído estiver presente em outras ocorrências que também estão sendo excluídas como parte da mesma solicitação de Privacidade de dados, todas as instâncias desse valor serão substituídas pelo mesmo valor novo.<p>Se algumas instâncias de um valor forem substituídas por uma solicitação de exclusão, e uma solicitação posterior excluir outras (novas) instâncias do valor original, o novo valor de substituição será diferente do valor de substituição original. |
+| <ul><li>Variáveis de tráfego (props)</li><li>Variáveis de comércio (eVars)</li></ul> | O valor existente é substituído por um novo valor com a forma “Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482”, onde o valor hexadecimal de 32 dígitos que procede o prefixo “Data Privacy-” é um número aleatório de 128 bits de forte criptografia.<p>Como será substituído por uma sequência de caracteres aleatória, não há como determinar o valor original a partir desse novo valor, nem como derivar o novo valor sabendo o valor original.  Para uma determinada variável, se o valor idêntico ao que está sendo substituído estiver presente em outros hits que também estão sendo excluídos como parte da mesma solicitação de Privacidade de dados, todas as instâncias desse valor serão substituídas pelo mesmo valor novo.<p>Se algumas instâncias de um valor forem substituídas por uma solicitação de exclusão, e uma solicitação posterior excluir outras (novas) instâncias do valor original, o novo valor de substituição será diferente do valor de substituição original. |
 | ID de compra | O valor existente é substituído por um novo valor de forma “G-7588FCD8642718EC50”, onde os 18 dígitos hexadecimais que procedem o prefixo “G-” são os primeiros 18 dígitos de um número aleatório de 128 bits criptograficamente forte. Todos os comentários que se aplicam à exclusão de variáveis de tráfego e comércio também se aplicam aqui.<p>A ID de compra é uma ID de transação cuja finalidade principal é garantir que uma compra não seja creditada duas vezes, por exemplo quando alguém atualizar a página de confirmação da compra. A própria ID pode vincular a compra a uma linha em seu próprio banco de dados onde a compra é registrada. Na maioria dos casos, não é necessário excluir essa ID, portanto ela não é excluída por padrão.<p>Caso ainda seja possível vincular a compra a um usuário depois da solicitação de exclusão da Privacidade de dados de seus dados, pode ser necessário excluir este campo, para que os dados do Analytics referentes ao visitante não possam ser vinculados ao comprador. |
 | ID de visitante | O valor é um inteiro de 128 bits e é substituído por um número aleatório de 128 bits criptograficamente forte. |
 | <ul><li>MCID</li><li>ID de visitante personalizada</li><li>Endereço IP</li><li>Endereço IP 2 | O valor é limpo (definido como uma cadeia de caracteres vazia ou 0, dependendo do tipo da variável). |
@@ -262,8 +277,8 @@ Esta seção pretende esclarecer informações sobre as variáveis do Analytics 
 | [!UICONTROL Agente do usuário] | O Agente do usuário identifica a versão do navegador que foi usada. |
 | [!UICONTROL ID de usuário] | Especifica o conjunto de relatórios do Analytics (como um número) que contém os dados. |
 | [!UICONTROL ID do conjunto de relatórios] | Especifica o nome do conjunto de relatórios do Analytics que contém os dados. |
-| [!UICONTROL ID de visitante]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | Essas IDs têm um rótulo DEL-DEVICE, mas o rótulo DEL-PERSON não pode ser adicionado. Se você quiser que essas IDs de cookie sejam anonimizados em ocorrências que contenham uma ID correspondente em uma prop ou eVar, poderá contornar essa limitação de rotulação, modificando a prop ou eVar com um rótulo ID-DEVICE, mesmo que, na verdade, ele identifique uma pessoa (todos os rótulos DEL-PERSON também precisam ser alterados para rótulos DEL-DEVICE). Nesse caso, já que somente algumas instâncias da ID de visitante ou da ECID estão sendo anonimizadas, as contagens de visitantes únicos mudarão em um relatório histórico. |
-| [!UICONTROL ID do AMO] | A Adobe Advertising ID é uma variável de solução que tem um rótulo [!UICONTROL DEL-DEVICE] não modificável. Ele é preenchido com base em um cookie, assim como a ID do visitante e a MCID. Ela deve ser excluída das ocorrências sempre que essas outras IDs forem excluídas. Consulte a descrição dessas variáveis para obter mais detalhes. |
+| [!UICONTROL ID de visitante]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | Essas IDs têm um rótulo DEL-DEVICE, mas o rótulo DEL-PERSON não pode ser adicionado. Se você quiser que essas IDs de cookie sejam anonimizados em hits que contenham uma ID correspondente em uma prop ou eVar, poderá contornar essa limitação de rotulação, modificando a prop ou eVar com um rótulo ID-DEVICE, mesmo que, na verdade, ele identifique uma pessoa (todos os rótulos DEL-PERSON também precisam ser alterados para rótulos DEL-DEVICE). Nesse caso, já que somente algumas instâncias da ID de visitante ou da ECID estão sendo anonimizadas, as contagens de visitantes únicos mudarão em um relatório histórico. |
+| [!UICONTROL ID do AMO] | A Adobe Advertising ID é uma variável de solução que tem um rótulo [!UICONTROL DEL-DEVICE] não modificável. Ele é preenchido com base em um cookie, assim como a ID do visitante e a MCID. Ela deve ser excluída dos hits sempre que essas outras IDs forem excluídas. Consulte a descrição dessas variáveis para obter mais detalhes. |
 
 {style="table-layout:auto"}
 
@@ -273,14 +288,14 @@ Há cinco variáveis padrão que contêm carimbos de data e hora:
 
 | Carimbo de data e hora | Definição |
 | --- | --- |
-| Horário da ocorrência (UTC) | A hora em que o Adobe Analytics recebeu a ocorrência. |
-| Horário da ocorrência personalizada (UTC) | Hora em que a ocorrência ocorreu, que para alguns aplicativos móveis e outras implementações pode ser anterior à hora em que foi recebida. Por exemplo, se uma conexão de rede não estava disponível quando ocorreu, o aplicativo pode conter a ocorrência e enviá-la quando uma conexão estiver disponível. |
-| Data e hora | Mesmo valor de Horário personalizado da ocorrência em UTC, mas no fuso horário do conjunto de relatórios, em vez de GMT. |
+| Horário do hit (UTC) | A hora em que o Adobe Analytics recebeu a ocorrência. |
+| Horário personalizado do hit (UTC) | Hora em que a ocorrência ocorreu, que para alguns aplicativos móveis e outras implementações pode ser anterior à hora em que foi recebida. Por exemplo, se uma conexão de rede não estava disponível quando ocorreu, o aplicativo pode conter a ocorrência e enviá-la quando uma conexão estiver disponível. |
+| Data e hora | Mesmo valor de Horário personalizado do hit em UTC, mas no fuso horário do conjunto de relatórios, em vez de GMT. |
 | Hora da Primeira Ocorrência GMT | O valor de Horário personalizado da ocorrência em UTC para a primeira ocorrência recebida para o valor de ID de visitante para esta ocorrência. |
-| Horário da primeira visita (UTC) | O valor de Horário personalizado da ocorrência em UTC referente à primeira ocorrência recebida para a visita atual para esta ID de visitante. |
+| Horário da primeira visita (UTC) | O valor de Horário personalizado do hit em UTC referente ao primeiro hit recebido para a visita atual para esta ID de visitante. |
 
 {style="table-layout:auto"}
 
-O código para geração de arquivos retornados por solicitações de Privacidade de dados de acesso exige que pelo menos uma das primeiras três variáveis de carimbo de data e hora sejam incluídas na solicitação de acesso (tenham um rótulo ACC aplicável ao tipo de solicitação). Se não forem incluídas, o Horário personalizado da ocorrência em UTC será tratado como se tivesse um rótulo ACC-ALL.
+O código para geração de arquivos retornados por solicitações de Privacidade de dados de acesso exige que pelo menos uma das primeiras três variáveis de carimbo de data e hora sejam incluídas na solicitação de acesso (tenham um rótulo ACC aplicável ao tipo de solicitação). Se não forem incluídas, o Horário personalizado do hit em UTC será tratado como se tivesse um rótulo ACC-ALL.
 
-O arquivo CSV na camada das ocorrências retornado para solicitações de acesso de privacidade de dados converterá os valores desses campos de carimbos de data e hora unix em campos de data e hora no formato `YYYY-MM-DD HH:MM:SS` (por exemplo, `2018-05-01 13:49:22`). No arquivo HTML de resumo, esses valores de carimbos de data e hora serão truncados para incluir somente a data, `YYYY-MM-DD`, para reduzir o número de valores únicos que ocorrem para esses campos.
+O arquivo CSV no nível de hit retornado para solicitações de acesso de privacidade de dados converterá os valores desses campos de carimbos de data e hora unix em campos de data e hora no formato `YYYY-MM-DD HH:MM:SS` (por exemplo, `2018-05-01 13:49:22`). No arquivo HTML de resumo, esses valores de carimbos de data e hora serão truncados para incluir somente a data, `YYYY-MM-DD`, para reduzir o número de valores únicos que ocorrem para esses campos.

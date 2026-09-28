@@ -4,34 +4,51 @@ description: Perguntas frequentes sobre o Análise entre dispositivos
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 feature: CDA
 role: Admin
-TQID: https://experienceleague.adobe.com/tdOmNG-s2F-KOq9fCMILkovykm3gknjnS-8JdxiGnm4
+TQID: 'https://experienceleague.adobe.com/tdOmNG-s2F-KOq9fCMILkovykm3gknjnS-8JdxiGnm4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: f99536a1-75c7-4151-a2c8-073630632526
+    internal-label: CDA
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1728
+source-wordcount: '1728'
 ht-degree: 96%
-
 ---
-
 # Perguntas frequentes
 
 {{available-existing-customers}}
@@ -59,14 +76,14 @@ A compilação entre dispositivos do CDA ocorre em dois processos simultâneos.
 
 * O primeiro processo é chamado de “compilação em tempo real”, que ocorre à medida que os dados fluem para o Adobe Analytics. Durante a compilação em tempo real, o CDA faz o melhor que pode para reafirmar os dados no nível da pessoa. No entanto, se a pessoa for desconhecida no momento da compilação em tempo real, o CDA voltará para a ID de visitante para representar a pessoa.
 
-* O segundo processo é chamado de “repetição”. Durante a repetição, o CDA recua no tempo e reafirma os dados históricos, quando possível, em uma janela de pesquisa especificada. Essa janela de pesquisa é de 1 dia ou 7 dias, dependendo de como você solicitou a configuração do CDA. Durante a repetição, o CDA tenta reafirmar as ocorrências em que a pessoa era anteriormente desconhecida.
+* O segundo processo é chamado de “repetição”. Durante a repetição, o CDA recua no tempo e reafirma os dados históricos, quando possível, em uma janela de pesquisa especificada. Essa janela de pesquisa é de 1 dia ou 7 dias, dependendo de como você solicitou a configuração do CDA. Durante a repetição, o CDA tenta reavaliar hits em que a pessoa era anteriormente desconhecida.
 
 
 +++
 
 +++ Como o CDA trata as ocorrências com carimbos de data e hora?
 
-A Adobe trata as ocorrências com carimbos de data e hora como se fossem recebidas no momento do carimbo de data e hora, e não quando a Adobe recebeu a ocorrência. As ocorrências com carimbo de data e hora com mais de 1 mês nunca são compiladas pois estão fora do intervalo que a Adobe usa para compilar.
+A Adobe trata hits com carimbos de data e hora como se fossem recebidos no momento do carimbo de data e hora, e não quando a Adobe recebeu o hit. Os hits com carimbo de data e hora com mais de 1 mês nunca são compilados pois estão fora do intervalo que a Adobe usa para compilar.
 
 +++
 
@@ -74,7 +91,7 @@ A Adobe trata as ocorrências com carimbos de data e hora como se fossem recebid
 
 O uso da ID de visitante personalizada é um método herdado para conectar os usuários aos dispositivos. Com uma ID de visitante personalizada, você usa a variável [`visitorID`](/help/implement/vars/config-vars/visitorid.md) para definir explicitamente a ID usada para a lógica do visitante. A variável `visitorID` substitui todas as IDs baseadas em cookies presentes.
 
-As IDs de visitante personalizadas têm vários efeitos colaterais indesejados que o CDA supera ou minimiza. Por exemplo, a metodologia de ID de visitante personalizada não tem recursos de [repetição](replay.md). Se um usuário for autenticado no meio de uma visita, a primeira parte da visita será associada a uma ID de visitante diferente da última parte da visita. As IDs de visitante separadas resultam no aumento de visitas e visitantes. O CDA reafirma os dados históricos para que ocorrências não autenticadas pertençam à pessoa correta.
+As IDs de visitante personalizadas têm vários efeitos colaterais indesejados que o CDA supera ou minimiza. Por exemplo, a metodologia de ID de visitante personalizada não tem recursos de [repetição](replay.md). Se um usuário for autenticado no meio de uma visita, a primeira parte da visita será associada a uma ID de visitante diferente da última parte da visita. As IDs de visitante separadas resultam no aumento de visitas e visitantes. O CDA reavalia dados históricos para que hits não autenticados pertençam à pessoa certa.
 
 +++
 
@@ -123,7 +140,7 @@ Sim. O Analysis Workspace usa a API 2.0 para solicitar dados dos servidores da A
 
 +++ O Análise entre dispositivos pode unir visitantes únicos. É possível compilar visitas?
 
-Sim. Se uma pessoa enviar ocorrências de dois dispositivos separados dentro do tempo-limite de visita do conjunto de relatórios virtual (30 minutos por padrão), eles serão agrupados na mesma visita.
+Sim. Se uma pessoa enviar hits de dois dispositivos separados dentro do tempo-limite de visita do conjunto de relatórios virtual (30 minutos por padrão), eles serão agrupados na mesma visita.
 
 +++
 
@@ -176,7 +193,7 @@ Se um cliente fizer o downgrade do Ultimate, ele não terá mais acesso aos dado
 
 +++ Por que o número total de hits no conjunto de relatórios de origem é diferente do conjunto de relatórios virtual do CDA?
 
-O CDA usa um pipeline de processamento paralelo complexo, com vários componentes dependentes. É esperada uma incompatibilidade de dados de aproximadamente 1% entre o número total de ocorrências do conjunto de relatórios original e o do conjunto de relatórios virtual do CDA.
+O CDA usa um pipeline de processamento paralelo complexo, com vários componentes dependentes. É esperada uma incompatibilidade de dados de aproximadamente 1% entre o número total de hits do conjunto de relatórios original e o do conjunto de relatórios virtual do CDA.
 
 +++
 
@@ -190,6 +207,6 @@ Para a compilação em campo, a variável personalizada do identificador diferen
 
 +++ Ao visualizar o identificador prop/eVar, por que vejo valores diferentes de zero para a métrica “Pessoas não identificadas”?
 
-Essa situação geralmente ocorre quando um visitante gera ocorrências autenticadas e não autenticadas na janela de relatórios. O visitante pertence a “Não identificado” e “Identificado” na dimensão [Estado identificado](/help/components/dimensions/identified-state.md), causando uma atribuição de ocorrências não identificadas a um identificador. Esse cenário pode mudar após a execução de [Reproduzir](replay.md), dependendo da frequência de repetição e da taxa de sucesso.
+Essa situação geralmente ocorre quando um visitante gera hits autenticados e não autenticados na janela de relatórios. O visitante pertence a “Não identificado” e “Identificado” na dimensão [Estado identificado](/help/components/dimensions/identified-state.md), causando uma atribuição de hits não identificados a um identificador. Esse cenário pode mudar após a execução de [Reproduzir](replay.md), dependendo da frequência de repetição e da taxa de sucesso.
 
 +++

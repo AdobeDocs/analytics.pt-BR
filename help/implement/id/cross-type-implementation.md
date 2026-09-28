@@ -4,7 +4,7 @@ description: Use diferentes tipos de implementação e rastreie os visitantes fa
 exl-id: 18aa5595-d2a7-4df2-a4ef-a5040c097483
 feature: Implementation Basics
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/FM6c33rpXxzy1huu8KE0VBkfe4FGIySczmVMrprFEUY
+TQID: 'https://experienceleague.adobe.com/FM6c33rpXxzy1huu8KE0VBkfe4FGIySczmVMrprFEUY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -13,6 +13,8 @@ feature_v2:
     internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: c069c44e-5426-4c1a-accc-8028662f2fde
     internal-label: Functions
@@ -20,6 +22,8 @@ subfeature_v2:
     internal-label: Tags
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
     internal-label: Variables
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -34,7 +38,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 46%
@@ -54,8 +58,8 @@ Se você usar mais de um tipo de implementação (como AppMeasurement e solicita
 | Variável | Extensão da tag do SDK da web | Web SDK (Alloy) | Extensão do Analytics | AppMeasurement | Solicitação de imagem codificada |
 |---|---|---|---|---|---|
 | ID do conjunto de relatórios | Adicione o Adobe Analytics como um serviço ao [Configurar uma sequência de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure) | Adicione o Adobe Analytics como um serviço ao [Configurar uma sequência de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure) | [!UICONTROL Conjuntos de relatórios] na seção [!UICONTROL Gerenciamento de biblioteca] quando [Configurar a extensão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/analytics/overview) | Argumento de cadeia de caracteres em [`s_gi`](../vars/functions/s-gi.md) | Parte do URL `pathname` (após `/b/ss/`) |
-| Serviço de ID de visitante | Inclui nativamente o [Experience Platform Identity Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home); requer [`idMigrationEnabled`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/commands/configure/idmigrationenabled) para ler os cookies do Serviço de ID de Visitante | Inclui nativamente o [Experience Platform Identity Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home); requer [[!UICONTROL Migrar ECID da VisitorAPI para a Web SDK]](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/web-sdk/configure/identity) para ler os cookies do Serviço de ID do Visitante | Use a [&#39;[!UICONTROL Extensão de tag do Serviço da Experience Cloud ID]&#39;](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/id-service/overview), que implementa o [Serviço de ID de Visitante](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home) | Implementar o [Serviço de ID do Visitante](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home) (`VisitorAPI.js`) | Fazer uma [chamada separada para o Serviço de ID do Visitante](https://experienceleague.adobe.com/pt-br/docs/id-service/using/implementation/direct-integration) para obter a ID desejada e incluir `mid` na cadeia de caracteres de consulta |
-| Domínio do Edge | O campo [!UICONTROL Domínio do Edge] ao [Configurar a extensão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) | A propriedade `edgeDomain` ao [Configurar o SDK da Web](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/overview) | [!UICONTROL Servidor de Rastreamento SSL] na seção [!UICONTROL Geral] ao [Configurar a extensão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/analytics/overview) | A variável [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) | O `hostname` do URL de solicitação de imagem |
+| Serviço de ID de visitante | Inclui nativamente o [Experience Platform Identity Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home); requer [`idMigrationEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/idmigrationenabled) para ler os cookies do Serviço de ID de Visitante | Inclui nativamente o [Experience Platform Identity Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home); requer [[!UICONTROL Migrar ECID da VisitorAPI para a Web SDK]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/identity) para ler os cookies do Serviço de ID do Visitante | Use a [&#39;[!UICONTROL Extensão de tag do Serviço da Experience Cloud ID]&#39;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview), que implementa o [Serviço de ID de Visitante](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home) | Implementar o [Serviço de ID do Visitante](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home) (`VisitorAPI.js`) | Fazer uma [chamada separada para o Serviço de ID do Visitante](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/direct-integration) para obter a ID desejada e incluir `mid` na cadeia de caracteres de consulta |
+| Domínio do Edge | O campo [!UICONTROL Domínio do Edge] ao [Configurar a extensão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) | A propriedade `edgeDomain` ao [Configurar o SDK da Web](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) | [!UICONTROL Servidor de Rastreamento SSL] na seção [!UICONTROL Geral] ao [Configurar a extensão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/analytics/overview) | A variável [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) | O `hostname` do URL de solicitação de imagem |
 
 >[!NOTE]
 >

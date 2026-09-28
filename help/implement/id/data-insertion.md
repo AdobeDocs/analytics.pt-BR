@@ -11,16 +11,22 @@ feature_v2:
     internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: c069c44e-5426-4c1a-accc-8028662f2fde
     internal-label: Functions
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
     internal-label: Variables
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
@@ -28,7 +34,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 7fcd738b7eb13c13d5f9f23d625287988c803220
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 0%
@@ -47,20 +53,20 @@ O Adobe identifica um visitante usando a [ordem de operações](overview.md) pad
 
 A ECID (enviada como `mid`) é o identificador de visitante moderno entre soluções, compartilhado na Adobe Analytics, Adobe Target e Adobe Audience Manager. A Adobe recomenda usá-lo sempre que possível.
 
-Obtenha a ECID com o [Serviço de ID de Visitante](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home) (`VisitorAPI.js`). Em um navegador, inicialize o serviço com sua ID de organização IMS usando [`getInstance`](https://experienceleague.adobe.com/pt-br/docs/id-service/using/id-service-api/methods/getinstance) e, em seguida, leia a ECID com [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/pt-br/docs/id-service/using/id-service-api/methods/getmcvid):
+Obtenha a ECID com o [Serviço de ID de Visitante](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home) (`VisitorAPI.js`). Em um navegador, inicialize o serviço com sua ID de organização IMS usando [`getInstance`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getinstance) e, em seguida, leia a ECID com [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid):
 
 ```js
 var visitor = Visitor.getInstance("YOUR_ORG_ID@AdobeOrg");
 var ecid = visitor.getMarketingCloudVisitorID();
 ```
 
-Envie esse valor em cada ocorrência como o parâmetro de consulta `mid`, juntamente com a ID da organização IMS como o parâmetro `mcorgid`, para que a ECID seja resolvida corretamente. Se seus dados forem encaminhados para o Audience Manager, envie também a região de [`getLocationHint`](https://experienceleague.adobe.com/pt-br/docs/id-service/using/id-service-api/methods/getlocationhint) como o parâmetro `aamlh`. Para associar seus próprios identificadores de clientes ao visitante, use [`setCustomerIDs`](https://experienceleague.adobe.com/pt-br/docs/id-service/using/id-service-api/methods/setcustomerids).
+Envie esse valor em cada ocorrência como o parâmetro de consulta `mid`, juntamente com a ID da organização IMS como o parâmetro `mcorgid`, para que a ECID seja resolvida corretamente. Se seus dados forem encaminhados para o Audience Manager, envie também a região de [`getLocationHint`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getlocationhint) como o parâmetro `aamlh`. Para associar seus próprios identificadores de clientes ao visitante, use [`setCustomerIDs`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/setcustomerids).
 
-Para coleção do lado do servidor, obtenha a ECID no cliente e encaminhe-a para o servidor para enviar em cada ocorrência. Para gerar uma ECID totalmente no lado do servidor, sem um cliente, use a [integração direta](https://experienceleague.adobe.com/pt-br/docs/id-service/using/implementation/direct-integration) do Serviço de ID.
+Para coleção do lado do servidor, obtenha a ECID no cliente e encaminhe-a para o servidor para enviar em cada ocorrência. Para gerar uma ECID totalmente no lado do servidor, sem um cliente, use a [integração direta](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/direct-integration) do Serviço de ID.
 
 ## Uso da ID de visitante do Analytics
 
-A ID de visitante do Analytics (`aid`) está armazenada no cookie [`s_vi`](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/cookies/analytics). Quando uma ocorrência chega sem um identificador, o servidor de coleção atribui um `aid` e tenta definir um cookie contendo esse identificador. Alguns [tipos de resposta](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types) também incluem esse identificador no corpo da resposta.
+A ID de visitante do Analytics (`aid`) está armazenada no cookie [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics). Quando uma ocorrência chega sem um identificador, o servidor de coleção atribui um `aid` e tenta definir um cookie contendo esse identificador. Alguns [tipos de resposta](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types) também incluem esse identificador no corpo da resposta.
 
 * **Lado do cliente (solicitações de imagem direta).** O navegador armazena o cookie `s_vi` que o servidor retorna e o envia em cada solicitação posterior para o mesmo domínio de coleção. O visitante é então reconhecido automaticamente, sem nenhum `aid` para definir a si mesmo. Como esse modelo depende de cookies, ele tem os mesmos limites de durabilidade que qualquer identidade baseada em cookies. Consulte [Identificação do visitante usando AppMeasurement](appmeasurement.md) para comportamento do cookie próprio ou de terceiros e a [ordem das operações](overview.md) para saber como a Adobe escolhe qual identificador usar. A Adobe recomenda usar uma ECID para identidade durável.
 

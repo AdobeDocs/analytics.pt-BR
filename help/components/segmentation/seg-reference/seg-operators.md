@@ -3,23 +3,30 @@ description: Saiba como usar os operadores no construtor de segmentos para compa
 title: Operadores
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-TQID: https://experienceleague.adobe.com/5FYLEO96F94w5Zbu8fVvqQ3qPpsJpES-EFdDShY0jMY
+TQID: 'https://experienceleague.adobe.com/5FYLEO96F94w5Zbu8fVvqQ3qPpsJpES-EFdDShY0jMY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1213
+source-wordcount: '1213'
 ht-degree: 30%
-
 ---
-
 # Operadores de comparação para segmentos
 
 O Construtor de segmentos permite que você compare e restrinja valores com os operadores selecionados. Há três categorias de operadores: [Padrão](#standard-operators), [Data Warehouse](#data-warehouse-operators) e [Contagem distinta](#distinct-count-operators).
@@ -61,8 +68,8 @@ Por exemplo, você tem um nome de página chamado *Meu produto divertido*.
 | **[!UICONTROL não começa com]** | Retorna todos os itens que não iniciam com o valor da cadeia de caracteres inserido. Este é o inverso do operador **[!UICONTROL inicia com]**. |
 | **[!UICONTROL termina com]** | Retorna itens que terminam com o valor da cadeia de caracteres inserido. |
 | **[!UICONTROL não termina com]** | Retorna todos os itens que não terminam com o valor da cadeia de caracteres inserido. Este é o inverso do operador **[!UICONTROL termina com]**. |
-| **[!UICONTROL correspondências]** | Retorna itens correspondentes com base no valor numérico ou de sequência. A cláusula **[!UICONTROL matches]** diferencia maiúsculas de minúsculas no Adobe Analytics e no Customer Journey Analytics. **Observação**: use este operador quando estiver usando recursos de curinga [3&rbrace;. &#x200B;](#wildcards)Exemplos de recurso de curinga:<ul><li>`a*e` corresponde a `ae`, `abcde`, `adobe` e `a whole sentence`</li><li>`adob*` corresponde a `adobe`, `adobe analytics` e `adobo recipe`</li><li>`*dobe` corresponde a `dobe`, `adobe` e `cute little dobe`</li></ul> |
-| **[!UICONTROL não corresponde]** | Retorna todos os itens que não contêm a correspondência exata do valor inserido. Observação: use este operador quando utilizar recursos de curinga [1&rbrace;.](#wildcards) |
+| **[!UICONTROL correspondências]** | Retorna itens correspondentes com base no valor numérico ou de sequência. A cláusula **[!UICONTROL matches]** diferencia maiúsculas de minúsculas no Adobe Analytics e no Customer Journey Analytics. **Observação**: use este operador quando estiver usando recursos de curinga [3}. ](#wildcards)Exemplos de recurso de curinga:<ul><li>`a*e` corresponde a `ae`, `abcde`, `adobe` e `a whole sentence`</li><li>`adob*` corresponde a `adobe`, `adobe analytics` e `adobo recipe`</li><li>`*dobe` corresponde a `dobe`, `adobe` e `cute little dobe`</li></ul> |
+| **[!UICONTROL não corresponde]** | Retorna todos os itens que não contêm a correspondência exata do valor inserido. Observação: use este operador quando utilizar recursos de curinga [1}.](#wildcards) |
 | **[!UICONTROL existe]** | Retorna o número de itens que existem. Por exemplo, se você avaliar a dimensão **[!UICONTROL Páginas não encontradas]** usando o operador **[!UICONTROL existe]**, o número de páginas de erro que existe é retornado. |
 | **[!UICONTROL não existe]** | Retorna todos os itens que não existem. Por exemplo, se você avaliar a dimensão **[!UICONTROL Páginas não encontradas]** usando o operador **[!UICONTROL não existe]**, o número de páginas nas quais esse erro não existia é retornado. |
 
@@ -91,6 +98,6 @@ Por exemplo, você tem um nome de página chamado *Meu produto divertido*.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Distinct dimension counts](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/components/segmentation/segmentation-on-distinct-dimension-counts){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Distinct dimension counts](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segmentation-on-distinct-dimension-counts){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]

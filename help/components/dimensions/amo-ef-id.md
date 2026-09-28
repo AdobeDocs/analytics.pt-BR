@@ -15,21 +15,26 @@ feature_v2:
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
     internal-label: Dimensions
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 6%
 ---
 # AMO EF ID
 
-A **[!UICONTROL ID EF AMO]** é um identificador de clique de anúncio usado em integrações do Adobe Advertising. É um token exclusivo que o Adobe Advertising usa para associar a atividade a uma exposição a cliques ou anúncios online em nível de visitante. A dimensão é criada automaticamente ao habilitar a integração do [Analytics para Advertising](https://experienceleague.adobe.com/pt-br/docs/advertising/integrations/analytics/overview).
+A **[!UICONTROL ID EF AMO]** é um identificador de clique de anúncio usado em integrações do Adobe Advertising. É um token exclusivo que o Adobe Advertising usa para associar a atividade a uma exposição a cliques ou anúncios online em nível de visitante. A dimensão é criada automaticamente ao habilitar a integração do [Analytics para Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview).
 
 ## Preencher esta dimensão com dados
 
-Esta dimensão é preenchida automaticamente pela integração do [Analytics for Advertising](https://experienceleague.adobe.com/pt-br/docs/advertising/integrations/analytics/overview); não há variável para definir.
+Esta dimensão é preenchida automaticamente pela integração do [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview); não há variável para definir.
 
 | Propriedade | Valor |
 | --- | --- |

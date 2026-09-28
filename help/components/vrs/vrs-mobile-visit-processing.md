@@ -1,40 +1,51 @@
 ---
-description: As Sessões sensíveis ao contexto em conjuntos de relatórios virtuais mudam a forma como o Adobe Analytics calcula as visitas de dispositivos móveis. Este artigo descreve as implicações do processamento de ocorrências em segundo plano e dos eventos de inicialização de aplicativos (ambos definidos pelo SDK móvel) na forma como as visitas móveis são definidas.
+description: As Sessões sensíveis ao contexto em conjuntos de relatórios virtuais mudam a forma como o Adobe Analytics calcula as visitas de dispositivos móveis. Este artigo descreve as implicações do processamento de hits em segundo plano e dos eventos de inicialização de aplicativos (ambos definidos pelo SDK móvel) na forma como as visitas móveis são definidas.
 title: Sessões sensíveis ao contexto
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-TQID: https://experienceleague.adobe.com/CRYnjIKXNZuu9P-oFB62zrvjRa6TFc1H2-etp8E8ntw
+TQID: 'https://experienceleague.adobe.com/CRYnjIKXNZuu9P-oFB62zrvjRa6TFc1H2-etp8E8ntw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1600
+source-wordcount: '1600'
 ht-degree: 24%
-
 ---
-
 # Sessões sensíveis ao contexto
 
-As sessões sensíveis ao contexto em conjuntos de relatórios virtuais mudam a forma como o Adobe Analytics calcula as visitas de dispositivos. Este artigo também descreve as implicações do processamento de ocorrências em segundo plano e dos eventos de inicialização de aplicativos (ambos definidos pelo SDK móvel) na forma como as visitas móveis são definidas.
+As sessões sensíveis ao contexto em conjuntos de relatórios virtuais mudam a forma como o Adobe Analytics calcula as visitas de dispositivos. Este artigo também descreve as implicações do processamento de hits em segundo plano e dos eventos de inicialização de aplicativos (ambos definidos pelo SDK móvel) na forma como as visitas móveis são definidas.
 
 Você pode definir uma visita da maneira que quiser sem alterar os dados subjacentes, para corresponder a como seus visitantes interagem com suas experiências digitais.
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sessões sensíveis ao contexto](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sessões sensíveis ao contexto](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -43,7 +54,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sessões se
 
 O processo de coleta de dados do Adobe Analytics permite definir um parâmetro da sequência de consulta que especifica a perspectiva do cliente (denotado como o parâmetro da sequência de consulta &quot;cp&quot;). Esse campo especifica o estado do aplicativo digital do usuário final. Isso ajuda você a saber se uma ocorrência foi gerada enquanto um aplicativo móvel estava em segundo plano.
 
-## Processamento de ocorrências em segundo plano
+## Processamento de hits em segundo plano
 
 Uma ocorrência em segundo plano é um tipo de ocorrência enviada para o Analytics a partir do Adobe Mobile SDK versão 4.13.6 e superior quando o aplicativo faz uma solicitação de rastreamento em segundo plano. Exemplos típicos disso são:
 
@@ -52,7 +63,7 @@ Uma ocorrência em segundo plano é um tipo de ocorrência enviada para o Analyt
 
 Os exemplos a seguir descrevem a lógica usada para determinar quando uma visita começa e termina para qualquer visitante quando a configuração &quot;Impedir ocorrências em segundo plano de iniciar uma nova visita&quot; está ou não ativada para um conjunto de relatórios virtual.
 
-**Se “Impedir ocorrências em segundo plano de iniciar uma nova visita” não estiver habilitado:**
+**Se “Impedir hits em segundo plano de iniciar uma nova visita” não estiver habilitado:**
 
 Se esse recurso não estiver ativado para um conjunto de relatórios virtual, as ocorrências em segundo plano serão tratadas da mesma forma que qualquer outra ocorrência, o que significa que elas iniciam novas visitas e agem da mesma forma que as ocorrências em primeiro plano. Por exemplo, se uma ocorrência em segundo plano ocorrer menos de 30 minutos (o tempo limite padrão da sessão para um conjunto de relatórios) antes de um conjunto de ocorrências em primeiro plano, a ocorrência em segundo plano fará parte da sessão.
 
@@ -62,11 +73,11 @@ Se a ocorrência em segundo plano ocorrer mais de 30 minutos antes de qualquer o
 
 ![](assets/nogood2.jpg)
 
-**Se “Impedir ocorrências em segundo plano de iniciar uma nova visita” estiver habilitado:**
+**Se “Impedir hits em segundo plano de iniciar uma nova visita” estiver habilitado:**
 
-Os exemplos a seguir ilustram o comportamento das ocorrências em segundo plano quando esse recurso está habilitado.
+Os exemplos a seguir ilustram o comportamento dos hits em segundo plano quando esse recurso está habilitado.
 
-Exemplo 1: uma ocorrência em segundo plano ocorre em algum período de tempo (t) antes de uma série de ocorrências em primeiro plano.
+Exemplo 1: um hit em segundo plano ocorre em algum período de tempo (t) antes de uma série de hits em primeiro plano.
 
 ![](assets/nogoodexample1.jpg)
 
@@ -85,7 +96,7 @@ Isso significa que:
 
 Em ambos os casos, a contagem total de visitas seria 1.
 
-Exemplo 2: se uma ocorrência em segundo plano ocorre após uma série de ocorrências em primeiro plano, o comportamento é semelhante:
+Exemplo 2: se um hit em segundo plano ocorre após uma série de hits em primeiro plano, o comportamento é semelhante:
 
 ![](assets/nogoodexample2.jpg)
 
@@ -104,7 +115,7 @@ Isso significa que:
 
 Como antes, a contagem total de visitas em ambos os casos seria 1.
 
-Exemplo 3: em algumas circunstâncias, uma ocorrência em segundo plano pode fazer com que duas visitas separadas sejam combinadas em uma única visita. No cenário a seguir, uma ocorrência em segundo plano é precedida e seguida por uma série de ocorrências em primeiro plano:
+Exemplo 3: em algumas circunstâncias, um hit em segundo plano pode fazer com que duas visitas separadas sejam combinadas em uma única visita. No cenário a seguir, uma ocorrência em segundo plano é precedida e seguida por uma série de ocorrências em primeiro plano:
 
 ![](assets/nogoodexample3.jpg)
 
@@ -124,13 +135,13 @@ Se *t1* for maior que o tempo limite e *t2* for menor que o tempo limite, a ocor
 
 ![](assets/nogoodexample3-4.jpg)
 
-Exemplo 4: em cenários em que uma série de ocorrências em segundo plano ocorrem dentro do tempo-limite de uma visita do conjunto de relatórios virtual, as ocorrências formam uma “visita em segundo plano” invisível que não é contabilizada na contagem de visitas e não pode ser acessada usando um contêiner de segmentação de visitas.
+Exemplo 4: em cenários em que uma série de hits em segundo plano ocorrem dentro do tempo-limite de uma visita do conjunto de relatórios virtual, os hits formam uma “visita em segundo plano” invisível que não é contabilizada na contagem de visitas e não pode ser acessada usando um contêiner de segmentação de visitas.
 
 ![](assets/nogoodexample4.jpg)
 
 Mesmo que isso não seja considerado uma visita, qualquer conjunto de eVars com expiração de visita manterá seus valores para a outra ocorrência em segundo plano nesta “visita em segundo plano”.
 
-Exemplo 5: para cenários em que várias ocorrências em segundo plano ocorrem sucessivamente após uma série de ocorrências em primeiro plano, é possível (dependendo da configuração de tempo-limite) que as ocorrências em segundo plano mantenham uma visita ativa por mais tempo do que o tempo-limite. Por exemplo, se *t1* e *t2* juntos forem maiores que o tempo limite de visita do conjunto de relatórios virtual, mas individualmente menores que o tempo limite, a visita ainda se estenderá para incluir ambas as ocorrências em segundo plano:
+Exemplo 5: para cenários em que vários hits em segundo plano ocorrem sucessivamente após uma série de hits em primeiro plano, é possível (dependendo da configuração de tempo-limite) que os hits em segundo plano mantenham uma visita ativa por mais tempo do que o tempo-limite. Por exemplo, se *t1* e *t2* juntos forem maiores que o tempo limite de visita do conjunto de relatórios virtual, mas individualmente menores que o tempo limite, a visita ainda se estenderá para incluir ambas as ocorrências em segundo plano:
 
 ![](assets/nogoodexample5.jpg)
 
@@ -148,9 +159,9 @@ A contagem de visitas é baseada exclusivamente na contagem de visitas que inclu
 
 O tempo gasto ainda é calculado de forma análoga à forma como fica sem ocorrências em segundo plano usando o tempo entre as ocorrências. Embora, se uma visita incluir ocorrências em segundo plano (porque ocorreram perto o suficiente das ocorrências em primeiro plano), essas ocorrências são incluídas no cálculo de tempo gasto por visita como se fossem uma ocorrência em primeiro plano.
 
-## Configurações de processamento de ocorrências em segundo plano
+## Configurações de processamento de hits em segundo plano
 
-Como o processamento de ocorrências em segundo plano está disponível apenas para conjuntos de relatórios virtuais usando Processamento de tempo de relatório, o Adobe Analytics oferece suporte a duas formas de processamento de ocorrências em segundo plano para preservar as contagens de visitas no conjunto de relatórios base que não usa o Processamento de tempo de relatório. Para acessar essa configuração, acesse Ferramentas administrativas do Adobe Analytics, vá para as configurações do conjunto de relatórios base aplicável e navegue até o menu &quot;Gerenciamento de dispositivos móveis&quot; e, em seguida, até o submenu &quot;Relatório de aplicativos móveis&quot;.
+Como o processamento de hits em segundo plano está disponível apenas para conjuntos de relatórios virtuais usando Processamento de tempo de relatório, o Adobe Analytics oferece suporte a duas formas de processamento de hits em segundo plano para preservar as contagens de visitas no conjunto de relatórios base que não usa o Processamento de tempo de relatório. Para acessar essa configuração, acesse Ferramentas administrativas do Adobe Analytics, vá para as configurações do conjunto de relatórios base aplicável e navegue até o menu &quot;Gerenciamento de dispositivos móveis&quot; e, em seguida, até o submenu &quot;Relatório de aplicativos móveis&quot;.
 
 1. &quot;Processamento herdado ativado&quot;: é a configuração padrão para todos os conjuntos de relatórios. Deixar o processamento herdado em processos em segundo plano como ocorrências normais em nosso pipeline de processamento no que diz respeito ao conjunto de relatórios base de Atribuição de tempo não relacionado ao relatório. Isso significa que qualquer ocorrência em segundo plano que apareça no conjunto de relatórios base incrementa as visitas como uma ocorrência normal. Se não quiser que ocorrências em segundo plano apareçam no conjunto de relatórios base, altere essa configuração para &quot;Desativado&quot;.
 1. &quot;Processamento herdado desativado&quot;: com o processamento herdado para ocorrências em segundo plano desativado, todas as ocorrências em segundo plano enviadas para o conjunto de relatórios base são ignoradas pelo conjunto de relatórios base e só podem ser acessadas quando um conjunto de relatórios virtual criado nesse conjunto de relatórios base é configurado para usar o Processamento de tempo de relatório. Isso significa que quaisquer dados capturados por ocorrências em segundo plano enviadas para esse conjunto de relatórios base só aparecem em um conjunto de relatórios virtual habilitado para Processamento de tempo de relatório.

@@ -4,27 +4,37 @@ title: Exibir/gerenciar a rotulagem de privacidade para a governança de dados
 feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-TQID: https://experienceleague.adobe.com/0muNPJ8HVoX6ro-bqp6I3dWiOrNGSHF9yBy-qRWLhZI
+TQID: 'https://experienceleague.adobe.com/0muNPJ8HVoX6ro-bqp6I3dWiOrNGSHF9yBy-qRWLhZI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: '815'
 ht-degree: 90%
-
 ---
-
 # Exibir/gerenciar a rotulagem de privacidade para a governança de dados
 
 A caixa de diálogo **[!UICONTROL Rotulagem de privacidade para governança de dados]** fornece uma visão geral dos rótulos e namespaces de privacidade de um conjunto de relatórios. Também é possível exportar as configurações para um arquivo .csv a partir daqui.
@@ -48,7 +58,7 @@ A caixa de diálogo **[!UICONTROL Rotulagem de privacidade para governança de d
 | **[!UICONTROL Identidade]** | Os rótulos “I” de dados de identidade são usados para classificar dados que podem identificar ou permitir o contato com uma pessoa específica. [Saiba mais](/help/admin/tools/privacy-labeling/labels.md#data-privacy-identity-labels) |
 | **[!UICONTROL Sensibilidade]** | Os rótulos “S” de dados sensíveis são usados para classificar dados sensíveis, como dados geográficos. Os rótulos de Dados confidenciais adicionais serão introduzidos no futuro para identificar outros tipos de informações confidenciais. [Saiba mais](/help/admin/tools/privacy-labeling/labels.md#sensitive-data-labels) |
 | **[!UICONTROL Acesso ao RGPD]** | Os rótulos de Governança de dados oferecem aos usuários a capacidade de classificar dados que refletem considerações relativas à privacidade e às condições contratuais para manter a conformidade com os regulamentos e as políticas corporativas. [Saiba mais](/help/admin/tools/privacy-labeling/labels.md#data-privacy-access-labels) |
-| **[!UICONTROL Exclusão do RGPD]** | Um rótulo de exclusão é necessário apenas para campos que contenham um valor que permita a associação de uma ocorrência ao titular de dados (ou seja, que permita a identificação do titular de dados). [Saiba mais](/help/admin/tools/privacy-labeling/labels.md#data-privacy-delete-labels) |
+| **[!UICONTROL Exclusão do RGPD]** | Um rótulo de exclusão é necessário apenas para campos que contenham um valor que permita a associação de um hit ao titular de dados (ou seja, que permita a identificação do titular de dados). [Saiba mais](/help/admin/tools/privacy-labeling/labels.md#data-privacy-delete-labels) |
 | **[!UICONTROL Namespace]** | Ao rotular uma variável como ID-DEVICE ou ID-PERSON, você receberá uma solicitação para fornecer um namespace. Você pode usar um namespace definido anteriormente ou definir um novo. |
 | **[!UICONTROL Categoria]** | Refere o tipo de componente, como Componente padrão, Variável de conversão etc. |
 
@@ -69,7 +79,7 @@ Se quiser aplicar as mesmas configurações de privacidade de dados a mais de um
 
    >[!IMPORTANT]
    >
-   >Lembre-se de que todos os conjuntos de relatórios selecionados devem ser mapeados para a sua organização CX Enterprise.
+   >Lembre-se de que todos os conjuntos de relatórios selecionados devem ser mapeados para a sua organização da CX Enterprise.
 
    Ao copiar os rótulos de uma variável ou um conjunto de variáveis para um conjunto de relatórios diferente, a cópia é encaminhada para a variável na posição correspondente do conjunto de relatórios de destino. Para Componentes padrão, Variáveis de lista e Eventos bem-sucedidos, os rótulos serão copiados para a variável com o **mesmo nome** no conjunto de relatórios de destino.
 

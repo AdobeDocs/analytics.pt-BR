@@ -7,34 +7,47 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/MH--f5MxzLFOkDV8B-JzqMULLbY1ota6efoJ8T1ne58'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 588
+source-wordcount: '588'
 ht-degree: 40%
-
 ---
-
 # Conformidade com o RGPD/ePrivacy e o encaminhamento pelo lado do servidor
 
 Esta seção explica as melhorias feitas ao encaminhamento pelo lado do servidor que foram solicitadas pelo [regulamento de conformidade de cookies da UE](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+and+similar+technologies), que entrou em vigor em 30 de setembro de 2017.
 
-O encaminhamento pelo lado do servidor é usado para compartilhar dados do Adobe Analytics com outras soluções CX Enterprise, como o Audience Manager, em tempo real. Quando ativado, o encaminhamento pelo lado do servidor também permite que o Analytics envie dados para outras soluções da CX Enterprise e que essas soluções enviem dados para o Analytics durante o processo de coleta de dados.
+O encaminhamento pelo lado do servidor é usado para compartilhar dados do Adobe Analytics com outras soluções da CX Enterprise, como o Audience Manager, em tempo real. Quando ativado, o encaminhamento pelo lado do servidor também permite que o Analytics envie dados para outras soluções da CX Enterprise e que essas soluções enviem dados para o Analytics durante o processo de coleta de dados.
 
-Anteriormente, o encaminhamento pelo lado do servidor não tinha uma maneira de delinear entre eventos/ocorrências de consentimento e pré-consentimento. A partir de 1º de novembro de 2018, você, como controlador de dados (cliente do Adobe Analytics), terá a opção de restringir os dados pré-consentimento do Adobe Analytics e impedir que sejam encaminhados para o Adobe Audience Manager. Uma nova variável de contexto de implementação permite sinalizar ocorrências onde o consentimento não foi recebido. A variável, quando definida, evita que essas ocorrências sejam enviadas para o Adobe Audience Manager até que o consentimento seja recebido.
+Anteriormente, o encaminhamento pelo lado do servidor não tinha uma maneira de delinear entre eventos/hits de consentimento e pré-consentimento. A partir de 1º de novembro de 2018, você, como controlador de dados (cliente do Adobe Analytics), terá a opção de restringir os dados pré-consentimento do Adobe Analytics e impedir que sejam encaminhados para o Adobe Audience Manager. Uma nova variável de contexto de implementação permite sinalizar ocorrências onde o consentimento não foi recebido. A variável, quando definida, evita que essas ocorrências sejam enviadas para o Adobe Audience Manager até que o consentimento seja recebido.
 
 Quando esta nova variável de contexto, `cm.ssf=1`, existir em uma ocorrência, ela é sinalizada e não é encaminhada pelo lado do servidor ao Adobe Audience Manager. Por outro lado, se essa sequência de caracteres não aparecer em uma ocorrência, a ocorrência será encaminhada para o Adobe Audience Manager.
 

@@ -4,27 +4,37 @@ title: Visão geral do uso de chamadas do servidor
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 role: Admin
-TQID: https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4
+TQID: 'https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: c9d85838-8d05-4bc7-9f18-30ec779251bc
+    internal-label: Server call usage
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93678f75cac9b513282a1e4d61276d7617fc933e
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 887
+source-wordcount: '887'
 ht-degree: 34%
-
 ---
-
 # Uso de chamadas do servidor
 
 O uso de chamadas de servidor do Adobe Analytics atende às suas solicitações de transparência nos dados de uso de chamadas do navegador e do servidor móvel. Ele permite acessar:
@@ -55,11 +65,11 @@ Os termos a seguir são importantes para entender o uso de chamadas do servidor:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Chamada de servidor </p> </td> 
-   <td colname="col2"> <p>Uma chamada de servidor, também conhecida como “ocorrência” ou uma “solicitação de imagem”, é uma instância na qual os dados são enviados para os servidores da Adobe para processamento. O tipo mais comum de chamada de servidor é uma exibição de página. Uma exibição de página ocorre onde um visitante visita uma página do site e uma chamada de servidor é gerada para a Adobe, onde as informações são coletadas, processadas e incluídas nas métricas de relatório. </p> <p>Há outros tipos de chamadas de servidor, incluindo links de saída e downloads de arquivo, em que os dados são enviados ao Adobe para processamento, mas não são registrados como uma nova exibição de página. Até mesmo as exibições de página "excluídas" (excluídas de seus relatórios por um intervalo de endereços IP configurado por você, por exemplo) são chamadas de servidor porque são recebidas e processadas pelo Adobe, mas nunca são exibidas em seus relatórios. </p> <p><b>Chamada do servidor primário</b>: solicitações recebidas diretamente dos navegadores de visitantes do site ou da API de inserção de dados. Inclui ocorrências principais (Exibições de página), eventos personalizados principais, eventos de download principais e eventos de saída principais. </p> <p><b>Chamada de Servidor Secundário</b>: cópias de chamadas de servidor primárias criadas por marcas de vários conjuntos ou copiadas/movidas por uma regra VISTA. Se uma chamada de servidor secundária tiver sido movida (não copiada) para um conjunto de relatórios diferente por uma regra VISTA, as chamadas secundárias acumuladas são subtraídas das chamadas de servidor primárias. </p> <p><b>Chamada de Servidor Primário Móvel </b> </p> <p>Solicitações recebidas diretamente de um dos Mobile SDKs. Inclua trackAction, trackState, trackApp Crashes, trackActionFromBackground, trackLocation, trackBeacon, trackPushMessageClickThrough, trackTimedActionBacklog, trackLifetimeValueIncrease.</p> <p><b>Chamada de Servidor Secundário Móvel</b> </p> <p>Cópias das Chamadas do servidor primárias criadas por marcas de vários conjuntos ou copiadas/movidas por uma regra VISTA. Se uma chamada de servidor secundária tiver sido movida (não copiada) para um conjunto de relatórios diferente por uma regra VISTA, as chamadas secundárias acumuladas são subtraídas das chamadas de servidor primárias. </p> <p>Observação: se sua empresa tiver direitos por contrato a ter somente Chamadas do servidor móveis (Primárias ou Secundárias), seu uso específico da web e de dispositivos móveis contará em relação a seu compromisso específico de dispositivos móveis. </p> </td> 
+   <td colname="col2"> <p>Uma chamada de servidor, também conhecida como “hit” ou uma “solicitação de imagem”, é uma instância na qual os dados são enviados para os servidores da Adobe para processamento. O tipo mais comum de chamada de servidor é uma exibição de página. Uma exibição de página ocorre onde um visitante visita uma página do site e uma chamada de servidor é gerada para a Adobe, onde as informações são coletadas, processadas e incluídas nas métricas de relatório. </p> <p>Há outros tipos de chamadas de servidor, incluindo links de saída e downloads de arquivo, em que os dados são enviados ao Adobe para processamento, mas não são registrados como uma nova exibição de página. Até mesmo as exibições de página "excluídas" (excluídas de seus relatórios por um intervalo de endereços IP configurado por você, por exemplo) são chamadas de servidor porque são recebidas e processadas pelo Adobe, mas nunca são exibidas em seus relatórios. </p> <p><b>Chamada do servidor primário</b>: solicitações recebidas diretamente dos navegadores de visitantes do site ou da API de inserção de dados. Inclui ocorrências principais (Exibições de página), eventos personalizados principais, eventos de download principais e eventos de saída principais. </p> <p><b>Chamada de Servidor Secundário</b>: cópias de chamadas de servidor primárias criadas por marcas de vários conjuntos ou copiadas/movidas por uma regra VISTA. Se uma chamada de servidor secundária tiver sido movida (não copiada) para um conjunto de relatórios diferente por uma regra VISTA, as chamadas secundárias acumuladas são subtraídas das chamadas de servidor primárias. </p> <p><b>Chamada de Servidor Primário Móvel </b> </p> <p>Solicitações recebidas diretamente de um dos Mobile SDKs. Inclua trackAction, trackState, trackApp Crashes, trackActionFromBackground, trackLocation, trackBeacon, trackPushMessageClickThrough, trackTimedActionBacklog, trackLifetimeValueIncrease.</p> <p><b>Chamada de Servidor Secundário Móvel</b> </p> <p>Cópias das Chamadas do servidor primárias criadas por marcas de vários conjuntos ou copiadas/movidas por uma regra VISTA. Se uma chamada de servidor secundária tiver sido movida (não copiada) para um conjunto de relatórios diferente por uma regra VISTA, as chamadas secundárias acumuladas são subtraídas das chamadas de servidor primárias. </p> <p>Observação: se sua empresa tiver direitos por contrato a ter somente Chamadas do servidor móveis (Primárias ou Secundárias), seu uso específico da web e de dispositivos móveis contará em relação a seu compromisso específico de dispositivos móveis. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Empresa de faturamento (ID de faturamento) </p> </td> 
-   <td colname="col2"> <p>A entidade legal que é cobrada por chamadas do servidor. Por exemplo, adobe.com. Cada empresa de faturamento tem uma ID de faturamento usada para identificar de maneira exclusiva o cliente de faturamento. Uma ID de cobrança pode estar vinculada a várias organizações CX Enterprise; nem sempre há uma relação 1:1 entre uma organização e uma ID de cobrança. </p> </td> 
+   <td colname="col2"> <p>A entidade legal que é cobrada por chamadas do servidor. Por exemplo, adobe.com. Cada empresa de faturamento tem uma ID de faturamento usada para identificar de maneira exclusiva o cliente de faturamento. Uma ID de cobrança pode estar vinculada a várias organizações da CX Enterprise; nem sempre há uma relação 1:1 entre uma organização e uma ID de cobrança. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Empresa de logon </p> </td> 
@@ -72,8 +82,8 @@ Os termos a seguir são importantes para entender o uso de chamadas do servidor:
     </ul> <p>Observação: dados de uso de chamadas do servidor referentes a <u>todos</u> os conjuntos de relatórios em uma empresa de faturamento ficam visíveis para todos os usuários com as <a href="/help/admin/admin-console/permissions/analytics-tools.md">permissões</a> apropriadas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Organização corporativa CX </p> </td> 
-   <td colname="col2"> <p>Uma organização é a entidade que permite a um administrador configurar grupos e usuários, além de controlar o logon único no CX Enterprise. A organização funciona como uma empresa de login que abrange todos os produtos e soluções da CX Enterprise. </p> <p>Frequentemente, a organização é o nome da empresa. No entanto, uma empresa pode ter muitas organizações. </p> </td> 
+   <td colname="col1"> <p>Organização da CX Enterprise </p> </td> 
+   <td colname="col2"> <p>Uma organização é a entidade que permite a um administrador configurar grupos e usuários, além de controlar o logon único na CX Enterprise. A organização funciona como uma empresa de logon que abrange todos os produtos e soluções da CX Enterprise. </p> <p>Frequentemente, a organização é o nome da empresa. No entanto, uma empresa pode ter muitas organizações. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Compromisso de chamadas do servidor </p> </td> 

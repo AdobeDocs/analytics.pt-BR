@@ -3,36 +3,48 @@ title: Política de retenção de dados
 description: Uma política de retenção de dados determina por quanto tempo a Adobe armazena os dados.
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 feature: Data Governance
-TQID: https://experienceleague.adobe.com/ymM-0bethfijutq5sprEuEfOFgw3Xn4gTsLNNgKTEio
+TQID: 'https://experienceleague.adobe.com/ymM-0bethfijutq5sprEuEfOFgw3Xn4gTsLNNgKTEio'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f570a4d2e66c2af8ad85ab097078dd95c574fc83
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 617
+source-wordcount: '617'
 ht-degree: 92%
-
 ---
-
 # Política de retenção de dados
 
 Os dados coletados pelo Adobe Analytics são retidos por um período específico. O período em que a Adobe mantém esses dados varia de contrato para contrato e é descrito na política de retenção de dados de uma organização. Essa política se aplica aos dados propriamente ditos, o que significa que afeta todos os recursos de relatório do Analytics (Analysis Workspace, API de relatórios etc.).
 
 **A política de retenção de dados padrão para o Adobe Analytics é de 25 meses.** A política de retenção da sua organização pode ser diferente, dependendo do contrato.
 
-Os dados retidos baseiam-se na data atual e na data/hora dos dados históricos. A data/hora registrada nas ocorrências pode ser diferente da data/hora em que as ocorrências foram recebidas pela Adobe.
+Os dados retidos baseiam-se na data atual e na data/hora dos dados históricos. A data e hora registradas nos hits podem ser diferentes da data e hora em que os hits foram recebidos pela Adobe.
 
 ## Ajustar o período de retenção de dados padrão
 
@@ -51,7 +63,7 @@ Quando os dados excederem sua política de retenção de dados, a Adobe mantém 
 
 ## Exibir/gerenciar a política atual de retenção de dados
 
-A caixa de diálogo Governança de dados em [!UICONTROL Ferramentas do] administrador fornecem uma visão geral de quais conjuntos de relatórios foram configurados para governança de dados. Também indica se eles foram mapeados para uma organização da série CX Enterprise e se uma política de retenção de dados está em vigor para este conjunto de relatórios.
+A caixa de diálogo Governança de dados em [!UICONTROL Ferramentas do] administrador fornecem uma visão geral de quais conjuntos de relatórios foram configurados para governança de dados. Também indica se eles foram mapeados para uma organização da CX Enterprise e se uma política de retenção de dados está em vigor para este conjunto de relatórios.
 
 ## Perguntas frequentes
 
@@ -69,7 +81,7 @@ A política de retenção de dados define uma janela rolante de retenção de da
 
 +++ Posso solicitar uma cópia dos meus dados antes que sejam excluídos?
 
-Sim. A Adobe pode fornecer um despejo de dados históricos de dados brutos em nível de ocorrência. Consulte [Feeds de dados](/help/export/analytics-data-feed/data-feed-overview.md) no guia do usuário Exportar para obter mais informações. Se você possui requisitos de exportação de dados que não sejam atendidos pelo escopo da interface, entre em contato com a equipe de contas da Adobe. É possível fazer acomodações especiais, mas os custos podem variar.
+Sim. A Adobe pode fornecer um histórico de dados brutos em nível de hit. Consulte [Feeds de dados](/help/export/analytics-data-feed/data-feed-overview.md) no guia do usuário Exportar para obter mais informações. Se você possui requisitos de exportação de dados que não sejam atendidos pelo escopo da interface, entre em contato com a equipe de contas da Adobe. É possível fazer acomodações especiais, mas os custos podem variar.
 
 +++
 

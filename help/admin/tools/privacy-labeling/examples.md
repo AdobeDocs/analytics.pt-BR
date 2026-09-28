@@ -7,27 +7,35 @@ exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 TQID: 'https://experienceleague.adobe.com/pnvpIQ1J8-XkP4bTA7JqTXswkYxxLKb-Df3ABRC1NcY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 734
+source-wordcount: '734'
 ht-degree: 84%
-
 ---
-
 # Exemplos de rotulagem
 
-## Dados de ocorrência de exemplo {#hit}
+## Dados de hit de exemplo {#hit}
 
 Suponha que você tenha os seguintes dados de ocorrência:
 
@@ -49,7 +57,7 @@ Suponha que você tenha os seguintes dados de ocorrência:
 
 ## Solicitação de acesso de exemplo {#access}
 
-Se enviar uma solicitação de acesso, você receberá dois arquivos que podem ser retornados ao titular dos dados. Um arquivo é um arquivo CSV que contém uma linha para cada ocorrência recebida para o titular dos dados e uma coluna para cada variável com o rótulo de acesso apropriado. O outro arquivo é um arquivo HTML de resumo que lista cada variável, seguida por todos os valores únicos vistos dessa variável para o titular dos dados e o número de vezes que cada valor único foi visto.
+Se enviar uma solicitação de acesso, você receberá dois arquivos que podem ser retornados ao titular dos dados. Um arquivo é um arquivo CSV que contém uma linha para cada hit recebido para o titular dos dados e uma coluna para cada variável com o rótulo de acesso apropriado. O outro arquivo é um arquivo HTML de resumo que lista cada variável, seguida por todos os valores únicos vistos dessa variável para o titular dos dados e o número de vezes que cada valor único foi visto.
 
 No nosso exemplo, o arquivo de resumo contém os valores indicados na tabela abaixo. Uma solicitação pode retornar somente um arquivo de dispositivo, somente um arquivo de pessoa ou um de cada. Dois arquivos de resumo são retornados somente se um ID de pessoa for usado e `expandIds` for verdadeiro.
 
@@ -161,7 +169,7 @@ Observe que a configuração de `expandIDs` não faz diferença para a saída qu
 
 ## Solicitações de exclusão de exemplo {#delete}
 
-Com uma solicitação de exclusão usando os valores da API na primeira linha da tabela, a tabela de ocorrências será atualizada para ser semelhante a esta:
+Com uma solicitação de exclusão usando os valores da API na primeira linha da tabela, a tabela de hits será atualizada para ser semelhante a esta:
 
 <table>
   <tr>

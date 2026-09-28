@@ -4,36 +4,50 @@ description: Defina a variável events, que governa a maioria das métricas do s
 feature: Appmeasurement Implementation
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/ZP2y0-Ip7JFp6DZvB5VW0PgTk7yhTWUocwzkLX2D2RM
+TQID: 'https://experienceleague.adobe.com/ZP2y0-Ip7JFp6DZvB5VW0PgTk7yhTWUocwzkLX2D2RM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 857
+source-wordcount: '857'
 ht-degree: 100%
-
 ---
-
 # events
 
 Dimensões e métricas são componentes vitais para os relatórios. A variável `events` é responsável pela coleta de dados de muitas métricas do site. Eventos normalmente incrementam [métricas](/help/components/metrics/overview.md) em relatórios.
 
-Antes de implementar eventos, você deve criá-los e configurá-los em [Eventos-bem sucedidos](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) nas configurações do Conjunto de relatórios. Se você planeja usar eventos personalizados em ocorrências de rastreamento de link, verifique se [`linkTrackVars`](../../config-vars/linktrackvars.md) e [`linkTrackEvents`](../../config-vars/linktrackevents.md) estão definidos corretamente.
+Antes de implementar eventos, você deve criá-los e configurá-los em [Eventos-bem sucedidos](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) nas configurações do Conjunto de relatórios. Se você planeja usar eventos personalizados em hits de rastreamento de link, verifique se [`linkTrackVars`](../../config-vars/linktrackvars.md) e [`linkTrackEvents`](../../config-vars/linktrackevents.md) estão definidos corretamente.
 
 ## Evento usando o SDK da Web
 
@@ -78,7 +92,7 @@ Vários recursos estão disponíveis:
 
 ## s.events no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
-A variável `s.events` é uma string que contém uma lista de eventos delimitada por vírgulas para inclusão na ocorrência. A variável permite até 64 KB, permitindo efetivamente quantos eventos forem necessários para uma ocorrência. Os valores válidos incluem:
+A variável `s.events` é uma string que contém uma lista de eventos delimitada por vírgulas para inclusão no hit. A variável permite até 64 KB, permitindo efetivamente quantos eventos forem necessários para um hit. Os valores válidos incluem:
 
 * `event1` e `event1000`: eventos personalizados, definidos como você desejar. Registre como você usa cada evento no [documento de design de solução](../../../prepare/solution-design.md) da sua organização. O número de eventos disponíveis depende do contrato do Analytics de sua organização. A maioria das organizações com contratos não herdados tem 1000 eventos personalizados disponíveis. Entre em contato com a Equipe de contas da Adobe se não tiver certeza de quantos eventos personalizados estão disponíveis para você.
 * `purchase`: incrementa a métrica [&quot;Pedidos&quot;](/help/components/metrics/orders.md) em 1 e obtém valores definidos na variável `products` para calcular [&quot;Unidades&quot;](/help/components/metrics/units.md) e [&quot;Receita&quot;](/help/components/metrics/revenue.md). Consulte [Evento de compra](event-purchase.md) para obter mais informações.

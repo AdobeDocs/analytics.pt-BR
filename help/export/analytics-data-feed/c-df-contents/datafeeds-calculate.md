@@ -4,35 +4,43 @@ keywords: Feed de dados;processo;métrica;coluna pré;coluna pós;bots;filtragem
 title: Calcular métricas
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-TQID: https://experienceleague.adobe.com/6q0Nxb4ne7NJYJi2Lw4k1xPqJC5Gn1ihRDG8nW22J8o
+TQID: 'https://experienceleague.adobe.com/6q0Nxb4ne7NJYJi2Lw4k1xPqJC5Gn1ihRDG8nW22J8o'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: '497'
 ht-degree: 95%
-
 ---
-
 # Usar feeds de dados para calcular métricas comuns
 
 Descreve como calcular métricas comuns usando feeds de dados.
 
 >[!NOTE]
 >
->As ocorrências normalmente excluídas do Analysis Workspace são incluídas nos feeds de dados. Considere adicionar as seguintes condições às consultas, se elas forem relevantes:
+>Os hits normalmente excluídos do Analysis Workspace são incluídos nos feeds de dados. Considere adicionar as seguintes condições às consultas, se elas forem relevantes:
 >
 >* **`exclude_hit`**: o Analysis Workspace inclui apenas dados em que `exclude_hit = 0`.
->* **`customer_perspective`**: o Analysis Workspace inclui apenas dados em que `customer_perspective = 0`, a menos que você use um conjunto de relatórios virtual que inclua ocorrências de plano de fundo móveis.
->* **`hit_source`**: dados de fontes de dados podem conter diferenças entre dados brutos e o Analysis Workspace. Se deseja excluir ocorrências de fontes de dados, exclua todas as linhas com `hit_source = 5,7,8,9`.
+>* **`customer_perspective`**: o Analysis Workspace inclui apenas dados em que `customer_perspective = 0`, a menos que você use um conjunto de relatórios virtual que inclua hits de segundo plano móveis.
+>* **`hit_source`**: dados de fontes de dados podem conter diferenças entre dados brutos e o Analysis Workspace. Se deseja excluir hits de fontes de dados, exclua todas as linhas com `hit_source = 5,7,8,9`.
 
 ## Exibições de página
 
@@ -67,22 +75,22 @@ Todos os métodos que a Adobe usa para identificar visitantes únicos (ID de vis
 
 ## Eventos personalizados
 
-Todas as métricas são contadas na `post_event_list` coluna como números inteiros delimitados por vírgulas. Use `event.tsv` para corresponder valores numéricos ao evento desejado. Por exemplo, `post_event_list = 1,200` indica que a ocorrência continha um evento de compra e um evento personalizado 1.
+Todas as métricas são contadas na `post_event_list` coluna como números inteiros delimitados por vírgulas. Use `event.tsv` para corresponder valores numéricos ao evento desejado. Por exemplo, `post_event_list = 1,200` indica que o hit continha um evento de compra e um evento personalizado 1.
 
 1. Conte o número de vezes em que o valor de pesquisa do evento aparece em `post_event_list`.
 
 ## Tempo gasto
 
-As ocorrências devem primeiro ser agrupadas por visita e, em seguida, ordenadas de acordo com o número da ocorrência na visita.
+Os hits devem primeiro ser agrupados por visita e, em seguida, ordenados de acordo com o número do hit na visita.
 
 1. Concatenar `post_visid_high`, `post_visid_low`, `visit_num`e `visit_start_time_gmt`.
 2. Classifique por esse valor concatenado e aplique uma classificação secundária por `visit_page_num`.
-3. Se uma ocorrência não for a última em uma visita, subtraia o `post_cust_hit_time` valor do `post_cust_hit_time` valor da ocorrência subsequente.
-4. Esse número é a quantidade de tempo gasto (em segundos) para a ocorrência. Os filtros podem ser aplicados para manter o foco nos itens de dimensão ou eventos.
+3. Se um hit não for o último em uma visita, subtraia o `post_cust_hit_time` valor do `post_cust_hit_time` valor do hit subsequente.
+4. Esse número é a quantidade de tempo gasto (em segundos) para o hit. Os filtros podem ser aplicados para manter o foco nos itens de dimensão ou eventos.
 
 ## Pedidos, unidades e receita
 
-Se o `currency` valor de uma ocorrência não corresponder à moeda de um conjunto de relatórios, ele será convertido usando a taxa de conversão desse dia. A coluna `post_product_list` usa o valor da moeda convertida, de modo que todas as ocorrências usam a mesma moeda nesta coluna.
+Se o valor `currency` de um hit não corresponder à moeda de um conjunto de relatórios, ele será convertido usando a taxa de conversão desse dia. A coluna `post_product_list` usa o valor da moeda convertida, de modo que todos os hits usam a mesma moeda nesta coluna.
 
 1. Excluir todas as linhas nas quais `duplicate_purchase = 1`.
 2. Incluir somente linhas nas quais `event_list` contém o evento compra.

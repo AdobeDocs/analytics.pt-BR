@@ -3,29 +3,41 @@ title: Importar métricas de pesquisa paga
 description: Etapas para configurar o Adobe Analytics para rastrear suas métricas de pesquisa paga (por exemplo, Google Ads, Microsoft Advertising etc.) usando Fontes de dados.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-TQID: https://experienceleague.adobe.com/QGwbmxtBYd0zgg5Zum-ErovDVJK2-wQnrXfqJztLjrA
+TQID: 'https://experienceleague.adobe.com/QGwbmxtBYd0zgg5Zum-ErovDVJK2-wQnrXfqJztLjrA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+    internal-label: Data sources
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1206
+source-wordcount: '1206'
 ht-degree: 79%
-
 ---
-
 # Importar métricas de [!UICONTROL Pesquisa paga] usando [!UICONTROL Fontes de dados]
 
 Para muitas organizações de marketing, a pesquisa paga é uma das maneiras mais valiosas e confiáveis de alcançar novos clientes e manter os existentes. O recurso [!UICONTROL Fontes de Dados] no Adobe Analytics facilita a importação de dados avançados de pesquisa paga de plataformas de publicidade digital, como o Google Ads. É possível integrá-los ao restante dos dados de marketing, junto com dados comportamentais no site e de atributos do cliente, para permitir melhores insights sobre os esforços de pesquisa paga da organização.

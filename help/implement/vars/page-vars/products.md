@@ -4,35 +4,46 @@ description: Envie dados sobre quais produtos são exibidos ou que estão no car
 feature: Appmeasurement Implementation
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/3u2EyAcwk2vDszmXryMfT1pVWPdOlN3HrB-HLGpXvHo
+TQID: 'https://experienceleague.adobe.com/3u2EyAcwk2vDszmXryMfT1pVWPdOlN3HrB-HLGpXvHo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 663
+source-wordcount: '663'
 ht-degree: 100%
-
 ---
-
 # produtos
 
-A variável `products` rastreia produtos e propriedades associadas a eles. Normalmente, essa variável é definida em páginas do produto individuais, em páginas de carrinho de compras e em páginas de confirmação de compra. É uma variável de muitos valores, o que significa que você pode enviar vários produtos na mesma ocorrência e a Adobe analisa o valor e o divide em itens de dimensão separados.
+A variável `products` rastreia produtos e propriedades associadas a eles. Normalmente, essa variável é definida em páginas do produto individuais, em páginas de carrinho de compras e em páginas de confirmação de compra. É uma variável de muitos valores, o que significa que você pode enviar vários produtos no mesmo hit e a Adobe analisa o valor e o divide em itens de dimensão separados.
 
 >[!NOTE]
 >
->Se essa variável for definida em uma ocorrência sem a [`events`](events/events-overview.md) variável, a métrica [Visualizações de produto](/help/components/metrics/product-views.md) será incrementada em 1. Defina os eventos apropriados em cada ocorrência com a variável `products`.
+>Se essa variável for definida em um hit sem a variável [`events`](events/events-overview.md), a métrica [Visualizações de produto](/help/components/metrics/product-views.md) será incrementada em 1. Defina os eventos apropriados em cada hit com a variável `products`.
 
 ## Produtos que usam o SDK da Web
 
@@ -99,8 +110,8 @@ A variável `s.products` é uma string que contém vários campos delimitados po
 
 * **Categoria** (opcional): a categoria do produto. O comprimento máximo deste campo é de 100 bytes.
 * **Nome do produto** (obrigatório): o nome do produto. O comprimento máximo deste campo é de 100 bytes.
-* **Quantidade** (opcional): a quantidade de produtos como esse que estão no carrinho. Esse campo se aplica somente às ocorrências com o evento de compra.
-* **Preço** (opcional): o preço total do produto em formato decimal. Se a quantidade for superior a um, defina o preço total e não o preço individual do produto. Ajuste a moeda desse valor para corresponder ao da variável [`currencyCode`](../config-vars/currencycode.md). Não inclua o símbolo da moeda nesse campo. Esse campo se aplica somente às ocorrências com o evento de compra.
+* **Quantidade** (opcional): a quantidade de produtos como esse que estão no carrinho. Esse campo se aplica somente aos hits com o evento de compra.
+* **Preço** (opcional): o preço total do produto em formato decimal. Se a quantidade for superior a um, defina o preço total e não o preço individual do produto. Ajuste a moeda desse valor para corresponder ao da variável [`currencyCode`](../config-vars/currencycode.md). Não inclua o símbolo da moeda nesse campo. Esse campo se aplica somente aos hits com o evento de compra.
 * **Eventos** (opcional): eventos vinculados ao produto. Delimite vários eventos usando uma barra vertical (`|`). Consulte [Eventos](events/events-overview.md) para obter mais informações.
 * **eVars** (opcional): eVars de merchandising ligadas ao produto. Delimite várias eVars de merchandising usando uma barra vertical (`|`). Consulte [eVar de merchandising](evar-merchandising.md) para obter mais informações.
 
@@ -109,7 +120,7 @@ A variável `s.products` é uma string que contém vários campos delimitados po
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Essa variável suporta vários produtos na mesma ocorrência. Ela é valiosa para carrinhos de compras e compras que contêm vários produtos. O comprimento máximo para toda a string `products` é de 64 KB. Separe cada produto usando uma vírgula (`,`) na string.
+Essa variável permite vários produtos no mesmo hit. Ela é valiosa para carrinhos de compras e compras que contêm vários produtos. O comprimento máximo para toda a string `products` é de 64 KB. Separe cada produto usando uma vírgula (`,`) na string.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart

@@ -4,25 +4,33 @@ description: Entenda os pré-requisitos e as limitações da compilação de dad
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-TQID: https://experienceleague.adobe.com/OoJZJsKu6xV4OfPVZ-7Pqe8J8GfZu6AlgRrNl1GXR70
+TQID: 'https://experienceleague.adobe.com/OoJZJsKu6xV4OfPVZ-7Pqe8J8GfZu6AlgRrNl1GXR70'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: f99536a1-75c7-4151-a2c8-073630632526
+    internal-label: CDA
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: '582'
 ht-degree: 81%
-
 ---
-
 # Compilação em campo
 
 {{available-existing-customers}}
@@ -45,11 +53,11 @@ Se você pretende implementar o Cross-Device Analytics usando a compilação em 
 
 * A compilação em campo funciona melhor em conjuntos de relatórios que têm uma alta taxa de identificação/autenticação do usuário.
 * Embora props e eVars tenham regras para como caracteres em maiúsculas e minúsculas são tratados para fins de relatório, a compilação em campo não transforma a prop ou eVar usada para compilação de maneira alguma. A compilação em campo usa o valor no campo especificado, pois ele existe após as regras VISTA e as regras de pós-processamento. O processo de compilação diferencia maiúsculas de minúsculas. Por exemplo, se às vezes aparecer a palavra &quot;Bob&quot; na prop/eVar e, às vezes, a palavra &quot;BOB&quot;, elas serão tratadas como duas pessoas separadas pelo processo de compilação.
-* Como a compilação em campo diferencia maiúsculas de minúsculas, a Adobe recomenda revisar quaisquer regras VISTA ou regras de processamento que se aplicam à prop ou eVar usada para a compilação em campo. Elas precisam ser revistas para garantir que nenhuma dessas regras introduza novas formas da mesma ID. Por exemplo, você deve garantir que nenhuma regra VISTA ou de processamento introduza letras minúsculas na prop ou eVar em apenas uma parte das ocorrências.
+* Como a compilação em campo diferencia maiúsculas de minúsculas, a Adobe recomenda revisar quaisquer regras VISTA ou regras de processamento que se aplicam à prop ou eVar usada para a compilação em campo. Elas precisam ser revistas para garantir que nenhuma dessas regras introduza novas formas da mesma ID. Por exemplo, você deve garantir que nenhuma regra VISTA ou de processamento introduza letras minúsculas na prop ou eVar em apenas uma parte dos hits.
 * A compilação em campo não aceita o uso de mais de uma prop ou eVar para fins de compilação. Por exemplo, se a eVar 12 contiver ID de logon e a eVar 20 contiver ID de email, você deverá escolher uma delas.
 * A compilação em campo não combina nem concatena campos (por exemplo, eVar10 + prop5).
 * A prop ou eVar deve conter um único tipo de ID. Por exemplo, a prop ou eVar não deve conter uma combinação de IDs de logon e IDs de email.
-* Se houver várias ocorrências com o mesmo carimbo de data e hora para o mesmo visitante, mas com valores diferentes na prop ou eVar de compilação, o CDA escolherá por ordem alfabética. Portanto, se o visitante A tiver duas ocorrências com o mesmo carimbo de data e hora e uma das ocorrências especificar Bob e a outra especificar Ann, o CDA escolherá Ann.
+* Se houver vários hits com o mesmo carimbo de data e hora para o mesmo visitante, mas com valores diferentes na prop ou eVar de compilação, o CDA escolherá por ordem alfabética. Portanto, se o visitante A tiver dois hits com o mesmo carimbo de data e hora e um dos hits especificar Bob e o outro especificar Ann, o CDA escolherá Ann.
 
 
 ## Próximas etapas

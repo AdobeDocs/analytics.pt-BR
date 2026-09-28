@@ -3,23 +3,28 @@ title: Gerenciar conjuntos de classificações
 description: Gerenciar conjuntos de classificações no Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-TQID: https://experienceleague.adobe.com/qSpr-B-e-VdROnw3ngLDcoWqsLgiUDz7GRniffxOM2c
+TQID: 'https://experienceleague.adobe.com/qSpr-B-e-VdROnw3ngLDcoWqsLgiUDz7GRniffxOM2c'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 621
+source-wordcount: '621'
 ht-degree: 5%
-
 ---
-
 # Gerenciar conjuntos de classificação
 
 É possível criar, renomear, editar, consolidar, excluir e marcar conjuntos de classificações na interface de gerenciamento de conjuntos de classificações. Também é possível filtrar e pesquisar por conjuntos de classificações específicos.
@@ -78,7 +83,7 @@ Ao selecionar um ou mais conjuntos de classificações na lista de conjuntos de 
 | ![Renomear](/help/assets/icons/Rename.svg) | **[!UICONTROL Renomear]** | Renomear um conjunto de classificações.<br/>Na caixa de diálogo **[!UICONTROL Renomear: _conjunto de classificações_]**, digite um novo nome e selecione **[!UICONTROL Renomear]**. |
 | ![Mesclar](/help/assets/icons/Merge.svg) | **[!UICONTROL Consolidar]** | [Consolidar conjuntos de classificações](/help/components/classifications/sets/consolidations/manage.md). |
 | ![Excluir](/help/assets/icons/Delete.svg) | **[!UICONTROL Excluir]** | Excluir um conjunto de classificações.<br/>O **[!UICONTROL Excluir _conjunto de classificações_?]** será exibida. A exclusão de um conjunto de classificações não pode ser desfeita. Qualquer projeto ou consolidação agendada que use esse conjunto de classificações continuará a usar a definição desse conjunto de classificações até que você salve novamente os projetos agendados ou revalide as consolidações agendadas. Selecione **[!UICONTROL Excluir]** para excluir o conjunto de classificações. |
-| ![Rótulo](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Marcar o conjunto de classificações.<br/>Na caixa de diálogo **[!UICONTROL Marca: _conjunto de classificações_]**, selecione uma ou mais marcas no menu suspenso **[!UICONTROL Marcas]**&#x200B;para adicionar marcas. Ou insira uma ou mais tags novas. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) para remover uma marca. <br/>Selecione **[!UICONTROL Salvar]**&#x200B;para salvar as marcas. |
+| ![Rótulo](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Marcar o conjunto de classificações.<br/>Na caixa de diálogo **[!UICONTROL Marca: _conjunto de classificações_]**, selecione uma ou mais marcas no menu suspenso **[!UICONTROL Marcas]**para adicionar marcas. Ou insira uma ou mais tags novas. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) para remover uma marca. <br/>Selecione **[!UICONTROL Salvar]**para salvar as marcas. |
 
 
 ### Painel de filtro
