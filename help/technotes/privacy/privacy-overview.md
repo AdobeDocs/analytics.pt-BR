@@ -7,33 +7,47 @@ exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 TQID: 'https://experienceleague.adobe.com/pIwRuvYPl6dcv-FEgSdeUZQlfqI1J8GJhbHeef1JdOI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1004
+source-wordcount: '1004'
 ht-degree: 88%
-
 ---
-
 # Visão geral de privacidade
 
-A Adobe deseja capacitar sua organização a cumprir com as leis e regulamentos aplicáveis. Consulte [Privacidade corporativa do Adobe CX](https://www.adobe.com/br/privacy/experience-cloud.html){target=_blank} para obter mais informações. Entre o Adobe Analytics e sua organização, a Adobe atua como um “processador de dados”, no qual você é o(a) “controlador(a) de dados” (ou equivalente, conforme as leis de privacidade e proteção de dados aplicáveis). Cabe à organização divulgar como você usa os produtos e serviços da Adobe, pois a organização controla com exclusividade a implementação das soluções da Adobe. Ao usar o Adobe Analytics, a organização é responsável por seguir a própria política de privacidade, o contrato de serviço com a Adobe e todas as leis aplicáveis.
+A Adobe deseja capacitar sua organização a cumprir com as leis e regulamentos aplicáveis. Consulte [Privacidade do Adobe CX Enterprise](https://www.adobe.com/br/privacy/experience-cloud.html){target=_blank} para obter mais informações. Entre o Adobe Analytics e sua organização, a Adobe atua como um “processador de dados”, no qual você é o(a) “controlador(a) de dados” (ou equivalente, conforme as leis de privacidade e proteção de dados aplicáveis). Cabe à organização divulgar como você usa os produtos e serviços da Adobe, pois a organização controla com exclusividade a implementação das soluções da Adobe. Ao usar o Adobe Analytics, a organização é responsável por seguir a própria política de privacidade, o contrato de serviço com a Adobe e todas as leis aplicáveis.
 
 A Adobe recomenda aderir aos seguintes conceitos abrangentes:
 
@@ -53,10 +67,10 @@ O Adobe Analytics pode coletar os seguintes tipos de dados:
 
 | Tipo de dados: | Detalhes | Exemplos de variáveis que contêm esses dados |
 | --- | --- | --- |
-| Nomes de páginas ou URLs de páginas da web no site | Esses dados são necessários para que o Adobe Analytics funcione. Um URL ou nome de página é necessário para cada ocorrência. | [Página](/help/components/dimensions/page.md), [URL da página](/help/components/dimensions/page-url.md) |
+| Nomes de páginas ou URLs de páginas da web no site | Esses dados são necessários para que o Adobe Analytics funcione. Um URL ou nome de página é necessário para cada hit. | [Página](/help/components/dimensions/page.md), [URL da página](/help/components/dimensions/page-url.md) |
 | Dados baseados em tempo | Esses dados são necessários para que o Adobe Analytics funcione. Um carimbo de data/hora é necessário para a coleta de dados e os dados baseados em tempo são derivados do carimbo de data/hora. | [Tempo gasto na página](/help/components/dimensions/time-spent-on-page.md), [Hora do dia](/help/components/dimensions/hour-of-day.md), [AM/PM](/help/components/dimensions/am-pm.md), [Dia da semana/Fim de semana](/help/components/dimensions/weekday-weekend.md), [Dia da semana](/help/components/dimensions/day-of-week.md), [Mês do ano](/help/components/dimensions/month-of-year.md) |
 | Dados do referenciador | As bibliotecas de coleção de dados coletam o URL referenciador por padrão quando um(a) visitante chega no site. É possível personalizar a implementação para coletar dados da string de consulta de um referenciador. Essa prática é comum para campanhas e rastreamento de desempenho de publicidade. | [Referenciador](/help/components/dimensions/referrer.md), [Domínio referenciador](/help/components/dimensions/referring-domain.md) |
-| IDs de visitante anônimas | As bibliotecas de coleção de dados geram e fazem referência a uma ID de visitante para cada navegador que visita o site. Essa ID é armazenada em um cookie. Se uma biblioteca de coleção de dados não puder definir um identificador de cookies, ela usará um método substituto para identificação de visitante anônimo. Esse método envolve vincular ocorrências relacionadas à mesma visita usando o endereço IP do(a) visitante e a string de agente de usuário. Se sua organização habilitar a ofuscação de IP, essa configuração será respeitada. Consulte [Adobe Analytics e cookies de navegador](../cookies/cookies.md) para obter mais informações. | [Visitantes únicos](/help/components/metrics/unique-visitors.md) |
+| IDs de visitante anônimas | As bibliotecas de coleção de dados geram e fazem referência a uma ID de visitante para cada navegador que visita o site. Essa ID é armazenada em um cookie. Se uma biblioteca de coleção de dados não puder definir um identificador de cookies, ela usará um método substituto para identificação de visitante anônimo. Esse método envolve vincular hits relacionados à mesma visita usando o endereço IP do(a) visitante e a string de agente de usuário. Se sua organização habilitar a ofuscação de IP, essa configuração será respeitada. Consulte [Adobe Analytics e cookies de navegador](../cookies/cookies.md) para obter mais informações. | [Visitantes únicos](/help/components/metrics/unique-visitors.md) |
 | IDs de visitante identificáveis | A Adobe não coleta IDs de visitante personalizadas automaticamente. No entanto, é possível personalizar a implementação para coletar esses dados. | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) |
 | Termos de pesquisa externos | Os dados de pesquisa externa incluem palavras-chave que se originam de mecanismos de pesquisa. As bibliotecas de coleção de dados procuram esses dados com base no URL referenciador. No entanto, muitos mecanismos de pesquisa modernos não incluem mais essas informações. | [Palavra-chave de pesquisa](/help/components/dimensions/search-keyword.md) |
 | Termos de pesquisa interna | Os dados de pesquisa interna incluem palavras-chave originárias do site ou dos recursos de pesquisa do aplicativo. A Adobe não coleta dados de pesquisa interna automaticamente. No entanto, é possível personalizar a implementação para coletar esses dados. Essa prática é comum em organizações que usam o Adobe Analytics. | [eVar](/help/components/dimensions/evar.md) |

@@ -3,28 +3,39 @@ description: Saiba como publicar segmentos para atividade de marketing na Biblio
 title: Publicar segmentos
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-TQID: https://experienceleague.adobe.com/JP5OI6SzaJ1xQpFY8iIgT-DNTVxofdSu93XmWI1vtsU
+TQID: 'https://experienceleague.adobe.com/JP5OI6SzaJ1xQpFY8iIgT-DNTVxofdSu93XmWI1vtsU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d2fb5ded5ce49c6e7143897de2ee9d3b6b494bf9
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: '1432'
 ht-degree: 31%
-
 ---
-
 # Publicar segmentos {#publish-segments}
 
 >[!CONTEXTUALHELP]
@@ -56,22 +67,22 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar se
 
 ## Pré-requisitos
 
-* Verifique se o conjunto de relatórios em que você está salvando este segmento está [habilitado para CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md). Caso contrário, você não poderá publicá-lo no CX Enterprise.
+* Verifique se o conjunto de relatórios em que você está salvando este segmento está [habilitado para o CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md). Caso contrário, não será possível publicá-lo no CX Enterprise.
 * Verifique se sua organização está usando Experience Cloud IDs.
 * Antes de publicar segmentos, o Administrador precisa atribuir a permissão [!UICONTROL Publicação de segmentos] a um perfil de produto no [Admin Console](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/administration/admin-tool-experience-cloud) e adicionar você ao perfil de produto.
 
 ## Considerações
 
 * **Limites do conjunto de relatórios**: você pode publicar até 75 segmentos por conjunto de relatórios. Este limite é aplicado. Se você já tiver 75 segmentos publicados, não poderá publicar segmentos adicionais até cancelar a publicação de segmentos suficientes para ficar abaixo do limite de 75 segmentos.
-* **Limites de associação**: públicos-alvo compartilhados com o CX Enterprise a partir do Adobe Analytics não podem exceder 20 milhões de membros únicos.
-* **Privacidade dos dados**: os públicos-alvo não são filtrados com base no estado de autenticação de um visitante. Um visitante pode conseguir navegar em seu site em estados de autenticação e de não autenticação. As ações que ocorrem quando um visitante não é autenticado ainda podem fazer com que um visitante seja incluído em um público-alvo. Revise a [privacidade corporativa do Adobe CX](https://www.adobe.com/br/privacy/experience-cloud.html) para entender todas as implicações de privacidade do compartilhamento de público-alvo.
+* **Limites de associação**: públicos-alvo compartilhados com a CX Enterprise a partir do Adobe Analytics não podem exceder 20 milhões de membros únicos.
+* **Privacidade dos dados**: os públicos-alvo não são filtrados com base no estado de autenticação de um visitante. Um visitante pode conseguir navegar em seu site em estados de autenticação e de não autenticação. As ações que ocorrem quando um visitante não é autenticado ainda podem fazer com que um visitante seja incluído em um público-alvo. Revise a [privacidade do Adobe CX Enterprise](https://www.adobe.com/br/privacy/experience-cloud.html) para entender todas as implicações de privacidade do compartilhamento de público-alvo.
 * Para uma discussão sobre as **diferenças entre segmentos em [!DNL Adobe Analytics] e no Audience Manager**, consulte [Entender os segmentos no Analytics e no Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md).
 
 ## Linha do tempo de publicação do segmento
 
 | O que está disponível | Quando está disponível | Onde está disponível |
 |---|---|---|
-| Metadados (título e definição do segmento) | Imediatamente após a publicação | Audience Manager, Biblioteca de público-alvo corporativo CX, Target |
+| Metadados (título e definição do segmento) | Imediatamente após a publicação | Audience Manager, Biblioteca de público-alvo da CX Enterprise, Target |
 | Segmento utilizável com associação | ~ 8 horas após a publicação | Visualizador de perfil do visitante no Audience Manager |
 | Características e associação da população | Em 24-48 horas | Audience Manager |
 
@@ -93,7 +104,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar se
 
 | Elemento | Descrição |
 |---|---|
-| **[!UICONTROL Publicar este segmento na Experience Cloud (para *conjunto de relatórios*)]** | Quando essa opção está ativada, o título e a definição do segmento são compartilhados com o CX Enterprise instantaneamente, enquanto a associação do segmento é avaliada e compartilhada a cada quatro horas. <br> Quando esse público-alvo é associado a uma atividade no Target, por exemplo, o [!DNL Analytics] começa a enviar IDs para os visitantes qualificados para esse público-alvo do CX Enterprise e do Target. Nesse momento, o nome do público-alvo e os dados correspondentes começam a ser exibidos na página [!DNL Audience Library] do CX Enterprise. </br> |
+| **[!UICONTROL Publicar este segmento na Experience Cloud (para *conjunto de relatórios*)]** | Quando essa opção está ativada, o título e a definição do segmento são compartilhados com a CX Enterprise instantaneamente, enquanto a associação do segmento é avaliada e compartilhada a cada 4 horas. <br> Quando esse público-alvo é associado a uma atividade no Target, por exemplo, o [!DNL Analytics] começa a enviar IDs para os visitantes que se qualificaram para esse público-alvo do CX Enterprise e do Target. Nesse momento, o nome do público-alvo e os dados correspondentes começam a ser exibidos na página [!DNL Audience Library] no CX Enterprise. </br> |
 | **[!UICONTROL Janela de criação de público-alvo]** | O período selecionado é usado para criar o público-alvo com base no calendário rotativo. Por exemplo, **[!UICONTROL Últimos 30 dias]** (padrão) inclui visitantes que se qualificaram para o público-alvo nos últimos 30 dias a partir da data de hoje (NÃO a partir da data original quando o segmento foi criado). |
 | **[!UICONTROL Criar na biblioteca de público-alvo]** | Os segmentos criados e publicados podem ser disponibilizados sem latência na página [!DNL Audience Library] do CX Enterprise. Eles não dependem das atualizações do Analytics. Esses segmentos não contam com o limite de 75 segmentos publicados. |
 | **[!UICONTROL x de 75 Publicados]** | O número de segmentos publicados no CX Enterprise. Clique no link para ver uma lista de segmentos publicados e seu conjunto de relatórios associado e o proprietário. |
@@ -153,9 +164,9 @@ A UUID do Adobe Audience Manager no navegador é usada por padrão quando o [!UI
 
 ## Exibir as características do segmento no Audience Manager
 
-No Adobe Audience Manager, a lista de visitantes com ECIDs para um determinado segmento é avaliada, enquanto o Analytics compartilha segmentos com o CX Enterprise.
+No Adobe Audience Manager, a lista de visitantes com ECIDs para um determinado segmento é avaliada, enquanto o Analytics compartilha segmentos com a CX Enterprise.
 
-1. No Audience Manager, vá para **[!UICONTROL Dados de público-alvo]** > **[!UICONTROL Características]** > **[!UICONTROL Características do Analytics]**. Você vê uma pasta para cada conjunto de relatórios do Analytics mapeada para a sua organização CX Enterprise. Essas pastas (para Características, Segmentos e Fontes de Dados) são criadas quando os serviços principais de Perfis e Públicos-alvo/Pessoas são iniciados ou provisionados.
+1. No Audience Manager, vá para **[!UICONTROL Dados de público-alvo]** > **[!UICONTROL Características]** > **[!UICONTROL Características do Analytics]**. Você vê uma pasta para cada conjunto de relatórios do Analytics mapeada para a organização da CX Enterprise. Essas pastas (para Características, Segmentos e Fontes de Dados) são criadas quando os serviços principais de Perfis e Públicos-alvo/Pessoas são iniciados ou provisionados.
 1. Selecione a pasta do conjunto de relatórios em que você criou o segmento que deseja compartilhar com a Audience Manager. Você verá o segmento/público-alvo criado. Quando você compartilha um segmento, duas coisas acontecem no Audience Manager:
    * Uma característica é criada, primeiro sem dados. Aproximadamente. oito horas após o segmento ser publicado no [!DNL Analytics], a lista de ECIDs é atualizada e compartilhada com a Audience Manager e outras soluções da CX Enterprise.
 
@@ -171,6 +182,6 @@ O **[!UICONTROL Publicar este segmento na Experience Cloud]** permite que o segm
 No Adobe Target:
 
 1. Selecione **[!UICONTROL Públicos]**.
-1. Na página **[!UICONTROL Públicos-alvo]**, localize o público-alvo proveniente do CX Enterprise. Esses públicos-alvo estão disponíveis para uso em atividades do Target.
+1. Na página **[!UICONTROL Públicos-alvo]**, localize o público-alvo proveniente da CX Enterprise. Esses públicos-alvo estão disponíveis para uso em atividades do Target.
 
    ![Públicos-alvo](assets/target-audiences.png)

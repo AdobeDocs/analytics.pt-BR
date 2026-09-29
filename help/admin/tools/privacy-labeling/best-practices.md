@@ -4,32 +4,47 @@ title: Práticas recomendadas de rotulagem
 feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-TQID: https://experienceleague.adobe.com/btvouuszSZn1h7xDCInebbqYE9vb1bwcU4-DMW3l3oM
+TQID: 'https://experienceleague.adobe.com/btvouuszSZn1h7xDCInebbqYE9vb1bwcU4-DMW3l3oM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: c77ba355-6681-41fe-b719-563d3f507fdb
+    internal-label: Mobile SDK
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2341
+source-wordcount: '2341'
 ht-degree: 65%
-
 ---
-
 # Práticas recomendadas de rotulagem
 
 A rotulagem precisa ser analisada sempre que um novo conjunto de relatórios for criado ou quando uma nova variável for habilitada em um conjunto de relatórios existente. Você também pode analisar a rotulagem quando novas integrações da solução forem habilitadas, pois elas podem expor novas variáveis que podem exigir rótulos. A reimplementação de aplicativos ou sites móveis pode alterar a forma como as variáveis existentes são usadas, o que também pode exigir atualizações nos rótulos.
@@ -92,7 +107,7 @@ Use esta tabela para determinar os tipos de IDs que serão usadas ao enviar soli
 
 >[!NOTE]
 >
->Props sempre diferenciam maiúsculas de minúsculas. As eVars não diferenciam maiúsculas de minúsculas por padrão, mas podem ser configuradas pelo Atendimento ao cliente da Adobe para fazer essa diferenciação. Se você tiver uma eVar que diferencie maiúsculas e minúsculas e que contenha uma ID, é sua responsabilidade usar a capitalização adequada ao enviar uma solicitação de Privacidade de dados, de modo que a letra usada na solicitação corresponda à letra usada nas ocorrências que contêm essas IDs.
+>Props sempre diferenciam maiúsculas de minúsculas. As eVars não diferenciam maiúsculas de minúsculas por padrão, mas podem ser configuradas pelo Atendimento ao cliente da Adobe para fazer essa diferenciação. Se você tiver uma eVar que diferencie maiúsculas e minúsculas e que contenha uma ID, é sua responsabilidade usar a capitalização adequada ao enviar uma solicitação de Privacidade de dados, de modo que a letra usada na solicitação corresponda à letra usada nos hits que contêm essas IDs.
 
 Os rótulos de exclusão DEL-DEVICE e DEL-PERSON devem ser usados com moderação. Quando aplicada a uma variável que não contém uma ID usada como parte da solicitação de Privacidade de dados, as contagens (métricas) nos relatórios históricos do Analytics quase sempre serão alteradas.
 
@@ -102,9 +117,9 @@ Os rótulos de exclusão DEL-DEVICE e DEL-PERSON devem ser usados com moderaçã
 * Da mesma forma, se um campo tiver o rótulo ID-PERSON, você também deverá atribuir o rótulo DEL-PERSON.
 * Se um campo não tiver um rótulo de ID, mas contiver informações de identificação que você deseja anonimizar, o rótulo apropriado (DISPOSITIVO ou PESSOA) dependerá da implementação. Se você usar apenas IDs de cookies nas solicitações de Privacidade de dados, use DEL-DEVICE.
 * Se você usar IDs personalizadas em um campo diferente com um rótulo ID-PERSON e desejar que a informação seja apagada somente nas linhas em que essa ID ocorre, use DEL-PERSON.
-* Observe que, se um rótulo de DEL-DEVICE ou DEL-PERSON for especificado em qualquer variável que também não seja usada como uma ID para essa solicitação (incluindo uma ID expandida), os valores únicos nessa variável serão anonimizados apenas em ocorrências que tiverem uma ID especificada (ou expandida). Se outras ocorrências contiverem o mesmo valor, elas não serão atualizadas nesses outros locais. Isso pode resultar na alteração de contagens (métricas).
+* Observe que, se um rótulo de DEL-DEVICE ou DEL-PERSON for especificado em qualquer variável que também não seja usada como uma ID para essa solicitação (incluindo uma ID expandida), os valores únicos nessa variável serão anonimizados apenas em hits que tiverem uma ID especificada (ou expandida). Se outros hits contiverem o mesmo valor, este não será atualizado nesses outros locais. Isso pode resultar na alteração de contagens (métricas).
 
-  Por exemplo, se você tiver três ocorrências contendo o valor “foo” na eVar7, mas apenas uma delas também contiver uma ID em uma variável diferente que corresponde a uma exclusão, então “foo” nessa ocorrência será modificado para um valor como “Privacidade de dados-123456789” e permanecerá inalterado nas outras duas ocorrências. Um relatório que mostra o número de valores únicos para eVar7, agora, também mostrará mais um valor único. Um relatório que mostra os principais valores para eVars pode incluir “foo” com apenas duas instâncias (em vez de três, como anteriormente), e o novo valor também será exibido com uma única instância.
+  Por exemplo, se você tiver três hits contendo o valor “foo” na eVar7, mas apenas um deles também contiver uma ID em uma variável diferente que corresponde a uma exclusão, então “foo” nesse hit será modificado para um valor como “Privacidade de dados-123456789” e permanecerá inalterado nos outros dois hits. Um relatório que mostra o número de valores únicos para eVar7, agora, também mostrará mais um valor único. Um relatório que mostra os principais valores para eVars pode incluir “foo” com apenas duas instâncias (em vez de três, como anteriormente), e o novo valor também será exibido com uma única instância.
 
 ## Práticas recomendadas para definir rótulos de acesso {#best-practices-access}
 
@@ -120,7 +135,7 @@ Embora pouquíssimos campos tenham um dos outros rótulos, é comum que um grand
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Somente IDs de dispositivo </p> </td> 
-   <td colname="col2"> <p>Se as únicas IDs que você está usando forem IDs de cookie ou aquelas com um rótulo ID-DEVICE, você deverá usar somente o rótulo ACC-ALL. </p> <p>Você obterá um par de arquivos para cada solicitação de acesso: um arquivo contendo uma linha para cada ocorrência correspondente com todos os campos ACC-ALL especificados e um arquivo de resumo contendo um resumo desses dados. </p> </td> 
+   <td colname="col2"> <p>Se as únicas IDs que você está usando forem IDs de cookie ou aquelas com um rótulo ID-DEVICE, você deverá usar somente o rótulo ACC-ALL. </p> <p>Você obterá um par de arquivos para cada solicitação de acesso: um arquivo contendo uma linha para cada hit correspondente com todos os campos ACC-ALL especificados e um arquivo de resumo contendo um resumo desses dados. </p> </td> 
   </tr> 
  </tbody> 
 </table>

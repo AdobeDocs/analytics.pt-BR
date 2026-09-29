@@ -4,34 +4,49 @@ keywords: Conjunto de relatórios virtuais
 title: Considerações sobre Conjuntos de relatórios virtuais e Marcação de vários conjuntos
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-TQID: https://experienceleague.adobe.com/TQF7QQ1DbIlAK5nY2kEQ0YbjTmswa7NQNVYZIENbZEI
+TQID: 'https://experienceleague.adobe.com/TQF7QQ1DbIlAK5nY2kEQ0YbjTmswa7NQNVYZIENbZEI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
 subfeature_v2:
   - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+    internal-label: Use cases
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+    internal-label: Personalization
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1657
+source-wordcount: '1657'
 ht-degree: 72%
-
 ---
-
 # Considerações sobre Conjuntos de relatórios virtuais e Marcação de vários conjuntos
 
 Os conjuntos de relatórios virtuais permitem exibir dados de um conjunto de relatórios que está coletando dados de suas propriedades digitais, mas com um segmento aplicado permanentemente.
@@ -50,7 +65,7 @@ Tenha as seguintes considerações em mente ao determinar se deve usar a marcaç
 
 O compartilhamento de segmentos no Adobe CX Enterprise não é compatível com os conjuntos de relatórios virtuais. Os usuários que desejam compartilhar um segmento no CX Enterprise devem ter acesso ao conjunto de relatórios de origem.
 
-Os segmentos ainda não podem ser publicados no Adobe CX Enterprise a partir de um conjunto de relatórios virtual para personalização e direcionamento. Todos os usuários que publicam segmentos precisam acessar o conjunto de relatórios de origem para este propósito. Por exemplo, você deseja que os usuários tenham acesso somente aos dados de suas regiões geográficas, mas deseja que eles consigam criar e compartilhar segmentos do Adobe Analytics no Adobe CX Enterprise para direcionamento no Adobe Target. Nesse caso, a Adobe recomenda usar marcação de vários conjuntos. Se você não se importar com o acesso dos usuários ao conjunto de relatórios global ou se não precisar publicar segmentos para uso em outras soluções, os conjuntos de relatórios virtuais poderão ser usados.
+Os segmentos ainda não podem ser publicados no Adobe CX Enterprise a partir de um conjunto de relatórios virtual para personalização e direcionamento. Todos os usuários que publicam segmentos precisam acessar o conjunto de relatórios de origem para este propósito. Por exemplo, você deseja que os usuários tenham acesso somente aos dados de suas regiões geográficas, mas deseja que eles consigam criar e compartilhar segmentos do Adobe Analytics com o Adobe CX Enterprise para direcionamento no Adobe Target. Nesse caso, a Adobe recomenda usar marcação de vários conjuntos. Se você não se importar com o acesso dos usuários ao conjunto de relatórios global ou se não precisar publicar segmentos para uso em outras soluções, os conjuntos de relatórios virtuais poderão ser usados.
 
 ### Limites únicos (tráfego baixo)
 
@@ -88,7 +103,7 @@ Se sua organização fizer a análise em uma única moeda, isso não causará pr
 
 Os Feeds de dados não podem usar conjuntos de relatórios virtuais. No entanto, você pode receber um feed de dados de um conjunto de relatórios global e depois separá-lo.
 
-Os Feeds de dados permitem que você receba uma exportação diária ou a cada hora de todos os dados do Adobe Analytics em um nível de ocorrência individual. Os Feeds de dados não podem ser pré-segmentados antes de serem entregues a você. Sendo assim, você só pode receber um feed de dados para seu conjunto de relatórios global. Se sua organização tiver uma grande necessidade por feeds de dados individuais em uma marca, propriedade, região ou outro nível granular, considere usar a marcação de vários conjuntos.
+Os Feeds de dados permitem que você receba uma exportação diária ou a cada hora de todos os dados do Adobe Analytics em um nível de hit individual. Os Feeds de dados não podem ser pré-segmentados antes de serem entregues a você. Sendo assim, você só pode receber um feed de dados para seu conjunto de relatórios global. Se sua organização tiver uma grande necessidade por feeds de dados individuais em uma marca, propriedade, região ou outro nível granular, considere usar a marcação de vários conjuntos.
 
 ### Conectores de dados com contas de parceiros
 
@@ -100,7 +115,7 @@ Por exemplo, somente um DCM do Google é permitido por conjunto de relatórios. 
 
 As Fontes de dados de resumo permitem importar métricas agregadas para o Adobe Analytics a um nível de conjunto de relatórios. Como os uploads das fontes de dados de resumo contêm métricas agregadas *sem uma ID de visitante*, eles não podem ser segmentados nos contêineres [!UICONTROL Visita] e [!UICONTROL Visitante]. Como o Conjunto de relatórios virtual opera usando a segmentação, os dados importados usando fontes de dados de resumo não estarão disponíveis nos conjuntos de relatórios virtuais se o segmento for criado usando um contêiner de Visita ou Visitante.
 
-As fontes de dados de resumo são exibidas no conjunto de relatórios virtual se um contêiner de Ocorrência for usado e se esse contêiner de Ocorrência tiver regras condicionadas para incluir as informações da fonte de dados.
+As fontes de dados de resumo são exibidas no conjunto de relatórios virtual se um contêiner de hit for usado e se esse contêiner de hit tiver regras condicionadas para incluir as informações da fonte de dados.
 
 >[!TIP]
 >
@@ -113,7 +128,7 @@ Se optar por remover chamadas de servidor secundárias em favor dos conjuntos de
 1. Crie conjuntos de relatórios virtuais que correspondam aos dados dos conjuntos de relatórios filhos. Segmentar em uma dimensão personalizada que distingue seus sites uns dos outros.
    * Se migrar de uma implementação com tags de vários conjuntos, compare os segmentos do conjunto de relatórios virtual com os conjuntos de relatórios filhos existentes. Certifique-se de que os dados sejam comparáveis antes de mover os usuários para o conjunto de relatórios virtual.
    * Como prática recomendada, considere usar o [empilhamento de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) para poder editar um segmento em um local e aplicá-lo a todos os conjuntos de relatórios virtuais dependentes.
-   * Use contêineres de ocorrência se desejar manter os conjuntos de relatórios virtuais mais mutuamente exclusivos.
+   * Use contêineres de hit se desejar manter os conjuntos de relatórios virtuais mais mutuamente exclusivos.
 2. Depois de confirmar que os conjuntos de relatórios virtuais estão configurados corretamente, remova as IDs do conjunto de relatórios secundário de sua implementação. Para remover conjuntos de relatórios secundários:
    * Na extensão do Adobe Analytics da Coleção de dados da Adobe Experience Platform, clique no &quot;x&quot; ao lado de qualquer conjunto de relatórios que você não deseja mais usar.
    * Em implementações JavaScript herdadas, localize a variável `s.account` e remova as IDs de conjunto de relatórios que você não deseja mais usar.

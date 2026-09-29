@@ -7,24 +7,32 @@ exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
 TQID: 'https://experienceleague.adobe.com/G-3emGJR0FMicoTI8WUlWdM3SSoWjGb7sr6lxqceBdg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 478
+source-wordcount: '478'
 ht-degree: 55%
-
 ---
-
 # Adobe Analytics e o RGPD
 
 Este documento descreve o que precisa ser feito no Adobe Analytics para oferecer suporte aos direitos de acesso e exclusão de GDPR dos titulares de dados.
@@ -37,15 +45,15 @@ Em 25 de maio de 2018, o Regulamento Geral sobre a Proteção de Dados (RGPD) da
 
 Quando a Adobe fornece software e serviços a uma empresa, ela atua como um processador de dados para os dados pessoais que recebe e armazena em nome dos clientes como parte da prestação dos serviços. Como Processador de dados, a Adobe processa dados pessoais de acordo com a permissão e as instruções de sua empresa (por exemplo, como definido em seu contrato com a Adobe).
 
-Como o controlador de dados, você determinará os dados pessoais que a Adobe processa e armazena em seu nome. Se você usa as soluções Adobe CX Enterprise, a Adobe pode hospedar dados pessoais, dependendo das soluções usadas e das informações que você escolher enviar para a sua conta Adobe CX Enterprise. Para obter uma lista de exemplos, consulte [privacidade corporativa do Adobe CX.](https://www.adobe.com/br/privacy/experience-cloud.html#collect)
+Como o controlador de dados, você determinará os dados pessoais que a Adobe processa e armazena em seu nome. Se você usa as soluções da Adobe CX Enterprise, a Adobe pode hospedar dados pessoais, dependendo das soluções usadas e das informações que você escolher enviar para a sua conta da Adobe CX Enterprise. Para obter uma lista de exemplos, consulte [privacidade do Adobe CX Enterprise.](https://www.adobe.com/br/privacy/experience-cloud.html#collect)
 
 ![](assets/privacy_ready.png)
 
 ## Como a Adobe lida com dados do RGPD
 
-O Adobe CX Enterprise fornece uma solução integrada que conecta a infraestrutura de governança de dados da sua marca com as ferramentas da Adobe que ela usa para criar e gerenciar as experiências do consumidor. Os recursos de controle de dados do Adobe CX Enterprise permitem uma vinculação direta da política de controle de dados ao uso de dados.
+A Adobe CX Enterprise fornece uma solução integrada que conecta a infraestrutura de governança de dados da sua marca com as ferramentas da Adobe que ela usa para criar e gerenciar as experiências do consumidor. Os recursos de governança de dados do Adobe CX Enterprise permitem uma vinculação direta da política de governança de dados ao uso de dados.
 
-Familiarize-se com a [maneira como o Adobe Analytics lida com o GDPR](https://www.adobe.com/br/data-analytics-cloud/analytics/general-data-protection-regulation.html), que apresenta as etapas de preparação do GDPR e como fazer a integração com a API do GDPR corporativo do Adobe CX.
+Familiarize-se com a [maneira como o Adobe Analytics lida com o GDPR](https://www.adobe.com/br/data-analytics-cloud/analytics/general-data-protection-regulation.html), que apresenta as etapas de preparação do GDPR e como fazer a integração com a API do GDPR da Adobe CX Enterprise.
 
 ## Preparação para o RGPD e dados do Adobe Analytics
 

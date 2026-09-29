@@ -6,22 +6,34 @@ exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 TQID: 'https://experienceleague.adobe.com/4WmYDRfcQTjKAdIbmsx2CCnLDqwDIBS-KdyN8Epun8s'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2151
+source-wordcount: '2151'
 ht-degree: 32%
-
 ---
-
 # Criar um feed de dados
 
 Ao criar um feed de dados, você fornece à Adobe:
@@ -95,7 +107,7 @@ Antes de criar um feed de dados, é importante ter uma compreensão básica dos 
    | [!UICONTROL **Enviar manifesto mesmo sem dados**] | Determina se a Adobe deve entregar um [arquivo de manifesto](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md#feed-manifest) para o destino quando nenhum dado for coletado para um intervalo do feed. Se você selecionar **Arquivo de manifesto**, receberá um arquivo de manifesto semelhante ao seguinte quando nenhum dado for coletado:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **Substituir cadeias de caracteres do sistema operacional**] | Ao coletar dados, alguns caracteres (como novas linhas) podem causar problemas. Selecione essa opção para remover esses caracteres dos arquivos de feed.<p>Essa opção detecta as seguintes sequências de caracteres incorporadas nos dados do cliente e as substitui por um espaço:</p> <ul><li>**Windows:** CRLF, CR ou TAB</li><li>**Mac e Linux:** \n, \r ou \t</li></ul> |
    | [!UICONTROL **Habilitar pesquisas dinâmicas**] | As pesquisas dinâmicas permitem que você receba arquivos de pesquisa adicionais no feed de dados que, de outra forma, não estarão disponíveis. Essa configuração permite que as seguintes tabelas de pesquisa sejam enviadas com cada arquivo de feed de dados:<ul><li> **Nome da operadora**</li><li>**Atributos móveis**</li><li>**Tipo de sistema operacional**</li></ul><p>Para obter mais informações, consulte [Pesquisas dinâmicas](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md).</p> |
-   | **Permitir ocorrências de chegada atrasadas** | Os dados históricos podem chegar depois que um processo de feed de dados terminar o processamento de uma determinada hora ou dia, por exemplo, por meio de ocorrências com carimbos de data e hora ou fontes de dados.<p>Selecione essa opção para incluir dados que chegaram depois que o feed de dados terminou de processar dados dentro da frequência de relatório definida (geralmente, a cada dia ou a cada hora). Com essa opção habilitada, toda vez que um feed de dados processar os dados, ele verificará todas as ocorrências atrasadas que chegaram e as reunirá no próximo arquivo de feed de dados enviado.</p><p>Para obter mais informações, consulte [Ocorrências de chegada tardia](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md).</p> |
+   | **Permitir ocorrências de chegada atrasadas** | Os dados históricos podem chegar depois que um processo de feed de dados terminar o processamento de uma determinada hora ou dia, por exemplo, por meio de ocorrências com carimbos de data e hora ou fontes de dados.<p>Selecione essa opção para incluir dados que chegaram depois que o feed de dados terminou de processar dados dentro da frequência de relatório definida (geralmente, a cada dia ou a cada hora). Com essa opção habilitada, toda vez que um feed de dados processar os dados, ele verificará todos os hits de chegada tardia que chegaram e os reunirá no próximo arquivo de feed de dados enviado.</p><p>Para obter mais informações, consulte [Ocorrências de chegada tardia](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md).</p> |
    | **Janela de pesquisa** (para ocorrências de chegada tardia) | Esta opção é exibida quando a opção **[!UICONTROL Permitir ocorrências de chegada tardia]** está habilitada. Selecione a janela de retrospectiva para limitar o intervalo de tempo de ocorrências atrasadas incluídas. Selecione **[!UICONTROL Ilimitado]** se quiser permitir todas as ocorrências de chegada atrasadas, independentemente do atraso. Você pode escolher um intervalo predefinido, como **[!UICONTROL 1 hora]**, **[!UICONTROL 2 horas]**, **[!UICONTROL 1 semana]**, **[!UICONTROL 2 semanas]** e assim por diante. Ou selecione **[!UICONTROL Janela de pesquisa personalizada]** e, no campo **[!UICONTROL Pesquisa personalizada]**, especifique uma janela de pesquisa com duração máxima de 26.280 horas. |
 
 1. Na seção [!UICONTROL **Estrutura de dados**], no campo **[!UICONTROL Conjunto de relatórios]**, selecione o conjunto de relatórios de origem que contém os dados que você deseja exportar. <p>Considere o seguinte ao selecionar um conjunto de relatórios:</p> <ul><li>Se vários feeds de dados forem criados para o mesmo conjunto de relatórios, cada feed de dados deverá ter definições de coluna diferentes.</li><li>Somente conjuntos de relatórios de origem são compatíveis com feeds de dados; os conjuntos de relatórios virtuais não são compatíveis.</li><li>A lista de colunas disponíveis depende da empresa de logon à qual o conjunto de relatórios selecionado pertence. Se você alterar o conjunto de relatórios, a lista de colunas disponíveis poderá ser alterada. </li></ul>

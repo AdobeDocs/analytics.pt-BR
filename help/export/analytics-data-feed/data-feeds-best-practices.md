@@ -7,21 +7,26 @@ exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
 TQID: 'https://experienceleague.adobe.com/-8EoregiCONFrXywjKP5zMdypH-FM67ij1nVfxupBdY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: '289'
 ht-degree: 84%
-
 ---
-
 # Práticas recomendadas para feeds de dados
 
 A seguir você encontra algumas das práticas recomendadas para processamento e entrega de feed de dados.
@@ -32,7 +37,7 @@ A seguir você encontra algumas das práticas recomendadas para processamento e 
 
 * Os feeds por hora que usam vários processos de entrega de arquivos são os mais rápidos. Considere o uso de vários feeds de arquivo por hora se uma entrega em tempo hábil for uma prioridade alta da organização.
 
-* Se você automatizar o processo de ingestão de feed, considere que as ocorrências e os arquivos poderão ser transferidos mais de uma vez. O processo de ingestão de feed precisa lidar com ocorrências e arquivos duplicados sem causar erros nem duplicar dados. Recomendamos usar a combinação das colunas `hitid_high` e `hitid_low` para identificar uma ocorrência de maneira exclusiva.
+* Se você automatizar o processo de ingestão de feed, considere que os hits e os arquivos poderão ser transferidos mais de uma vez. O processo de ingestão de feed precisa lidar com hits e arquivos duplicados sem causar erros nem duplicar dados. Recomendamos usar a combinação das colunas `hitid_high` e `hitid_low` para identificar um hit de maneira exclusiva.
 
   Em casos raros, você pode ver valores `hitid_high` e `hitid_low` duplicados. Se isso acontecer, confirme se o arquivo não foi enviado e processado anteriormente. Se apenas algumas linhas em um arquivo estiverem duplicadas, considere adicionar `visit_num` e `visit_page_num` para ajudar a determinar a exclusividade.
 

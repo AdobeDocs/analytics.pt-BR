@@ -1,33 +1,41 @@
 ---
 title: registerPostTrackCallback
-description: Cria funções de retorno de chamada após enviar uma ocorrência para a Adobe.
+description: Cria funções de retorno de chamada após enviar um hit para a Adobe.
 feature: Appmeasurement Implementation
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/v-FVX1yPqGLFBhyOzW2rHbr56kRoho0vSzAhS4whSOc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 367
+source-wordcount: '367'
 ht-degree: 70%
-
 ---
-
 # registerPostTrackCallback
 
-A variável `registerPostTrackCallback` permite que sua organização conecte uma função JavaScript imediatamente após uma ocorrência ser enviada com êxito para a Adobe. Se uma chamada de rastreamento falhar, essa função não será executada. Você pode usar essa variável para enviar dados coletados pelo AppMeasurement a um parceiro ou infraestrutura interna, ou para limpar valores variáveis em aplicativos de página única.
+A variável `registerPostTrackCallback` permite que sua organização conecte uma função JavaScript imediatamente após um hit ser enviado com êxito para a Adobe. Se uma chamada de rastreamento falhar, essa função não será executada. Você pode usar essa variável para enviar dados coletados pelo AppMeasurement a um parceiro ou infraestrutura interna, ou para limpar valores variáveis em aplicativos de página única.
 
 >[!WARNING]
 >
@@ -90,7 +98,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 
 ## Caso de uso
 
-O registro da função [`clearVars()`](clearvars.md) no retorno de chamada pós-rastreamento pode ser benéfico para aplicativos de página única. Toda vez que você envia uma ocorrência para a Adobe com êxito, a função `clearVars()` é executada. Sua implementação pode definir variáveis novamente sem se preocupar com valores que persistem incorretamente.
+O registro da função [`clearVars()`](clearvars.md) no retorno de chamada pós-rastreamento pode ser benéfico para aplicativos de página única. Toda vez que você envia um hit para a Adobe com êxito, a função `clearVars()` é executada. Sua implementação pode definir variáveis novamente sem se preocupar com valores que persistem incorretamente.
 
 ```js
 s.registerPostTrackCallback(function(){s.clearVars();});

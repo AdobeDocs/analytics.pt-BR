@@ -4,30 +4,40 @@ keywords: segmentação;segmentos
 title: Contêineres de segmentos
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-TQID: https://experienceleague.adobe.com/9T5ZgEmeBFpE73rlE-MZU0oIKRkbn5yE7Yl8Q5kpSpk
+TQID: 'https://experienceleague.adobe.com/9T5ZgEmeBFpE73rlE-MZU0oIKRkbn5yE7Yl8Q5kpSpk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 3545
+source-wordcount: '3545'
 ht-degree: 69%
-
 ---
-
 # Containers de segmentos
 
-Um segmento define condições para filtrar um visitante com base nos atributos ou interações do visitante com o site. Para definir condições em um segmento, você define regras para filtrar visitantes com base nas características de visitante e/ou nas características de navegação. Para detalhar ainda mais os dados do visitante, você pode filtrar com base em visitantes específicos e/ou ocorrências de visualização de página para cada visitante. O Construtor de segmentos fornece uma arquitetura simples para construir esses subconjuntos e aplicar regras como contêineres aninhados e hierárquicos Visitante, Visita ou Ocorrência.
+Um segmento define condições para filtrar um visitante com base nos atributos ou interações do visitante com o site. Para definir condições em um segmento, você define regras para filtrar visitantes com base nas características de visitante e/ou nas características de navegação. Para detalhar ainda mais os dados do visitante, você pode filtrar com base em visitantes específicos e/ou hits de visualização de página para cada visitante. O Construtor de segmentos fornece uma arquitetura simples para construir esses subconjuntos e aplicar regras como contêineres aninhados e hierárquicos Visitante, Visita ou Ocorrência.
 
 A arquitetura de contêiner empregada no [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) define:
 
@@ -35,7 +45,7 @@ A arquitetura de contêiner empregada no [Construtor de segmentos](/help/compone
 - ![Visita](/help/assets/icons/Visit.svg): um container de **[!UICONTROL Visita]** aninhado que permite definir regras para detalhar os dados de visitantes com base em visitas, e
 - ![WebPage](/help/assets/icons/WebPage.svg) um contêiner aninhado de **[!UICONTROL Ocorrência]** permite detalhar as informações do visitante com base em visualizações de página individuais.
 
-Cada container permite que você relate o histórico do(a) visitante, as interações detalhadas por visitas ou um detalhamento de ocorrências individuais.
+Cada container permite relatório do histórico do(a) visitante, das interações detalhadas por visitas ou um detalhamento de hits individuais.
 
 <table style="table-layout: fixed; border: none;">
 
@@ -51,7 +61,7 @@ Cada container permite que você relate o histórico do(a) visitante, as intera�
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hits</td>
 </tr>
 </table>
 
@@ -87,9 +97,9 @@ Os contêineres de visita incluem valores com base na ocorrência por visita:
 - Métricas de participação
 - Métricas alocadas linearmente
 
-## Container de Ocorrência
+## Container de hits
 
-O container de Ocorrência define quais ocorrências de página você deseja incluir ou excluir de um segmento. O container de Ocorrência é o mais restrito dos containers disponíveis e permite identificar cliques e exibições de página específicas nas quais uma condição é “verdadeira”. Você pode exibir um único código de rastreamento ou isolar o comportamento em uma seção específica do site. Talvez você também queira identificar um valor específico quando uma ação ocorre, como quando um pedido é feito no canal de marketing.
+O container de hits define quais hits de página você deseja incluir ou excluir de um segmento. O container de hits é o mais restrito dos containers disponíveis e permite identificar cliques e visualizações de página específicas nas quais uma condição é “verdadeira”. Você pode exibir um único código de rastreamento ou isolar o comportamento em uma seção específica do site. Talvez você também queira identificar um valor específico quando uma ação ocorre, como quando um pedido é feito no canal de marketing.
 
 Os contêineres de ocorrência incluem valores com base em detalhamentos de página única:
 
@@ -100,7 +110,7 @@ Os contêineres de ocorrência incluem valores com base em detalhamentos de pág
 
   >[!NOTE]
   >
-  >Se você usar esse container em um valor persistente, como uma eVar, ele extrairá cada ocorrência na qual esse valor persiste. Se houver um código de rastreamento que expira após uma semana, esse valor poderá persistir em várias visitas.
+  >Se você usar esse container em um valor persistente, como uma eVar, ele extrairá cada hit no qual esse valor persiste. Se houver um código de rastreamento que expira após uma semana, esse valor poderá persistir em várias visitas.
 
 ## Container de Grupo lógico
 
@@ -145,7 +155,7 @@ criará um segmento que se comporta desta forma:
 
 ## Contêineres para segmentos sequenciais {#containers-sequential}
 
-A segmentação sequencial emprega os mesmos containers básicos, incluindo [!UICONTROL Visitantes], [!UICONTROL Visitas] e [!UICONTROL Ocorrências] (bem como exibições de página ou outras dimensões) aninhados hierarquicamente.
+A segmentação sequencial emprega os mesmos containers básicos, incluindo [!UICONTROL Visitantes], [!UICONTROL Visitas] e [!UICONTROL Hits] (bem como visualizações de página ou outras dimensões) aninhados hierarquicamente.
 
 <table style="table-layout:fixed; border: none;">
 
@@ -161,13 +171,13 @@ A segmentação sequencial emprega os mesmos containers básicos, incluindo [!UI
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hits</td>
 </tr>
 </table>
 
 <!--![](assets/nesting_container.png)-->
 
-O container de [!UICONTROL Visitantes] assume a posição mais elevada na segmentação sequencial, com as [!UICONTROL Visitas] contidas no container de [!UICONTROL Visitantes] e as [!UICONTROL Ocorrências] contidas nos containers de [!UICONTROL Visitantes] ou [!UICONTROL Visitas]. Você deve manter essa [hierarquia de containers](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) para criar segmentos sequenciais bem ordenados.
+O container de [!UICONTROL Visitantes] assume a posição mais elevada na segmentação sequencial, com as [!UICONTROL Visitas] contidas no container de [!UICONTROL Visitantes] e os [!UICONTROL Hits] contidos nos containers de [!UICONTROL Visitantes] ou [!UICONTROL Visitas]. Você deve manter essa [hierarquia de containers](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) para criar segmentos sequenciais bem ordenados.
 
 **Para criar segmentos sequenciais**, você deve aninhar os containers e unir a lógica sequencial usando o operador [!UICONTROL THEN], que exige que cada container seja `true` com base na sequência do(a) visitante.
 
@@ -186,7 +196,7 @@ O container de [!UICONTROL Visitantes] assume a posição mais elevada na segmen
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hits</td>
 </tr>
 
 <tr>
@@ -201,13 +211,13 @@ O container de [!UICONTROL Visitantes] assume a posição mais elevada na segmen
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hits</td>
 </tr>
 </table>
 
 <!--![](assets/sequential_segmentation_nesting_3.png)-->
 
-A única exceção a essa hierarquia de containers é ao usar o [container de Grupo lógico](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). O container de [!UICONTROL Grupo lógico] permite aninhar uma ocorrência em um container sem ordem para capturar eventos e dimensões, mas fora de uma ordem sequencial.
+A única exceção a essa hierarquia de containers é ao usar o [container de Grupo lógico](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). O container de [!UICONTROL Grupo lógico] permite aninhar um hit em um container sem ordem para capturar eventos e dimensões, mas fora de uma ordem sequencial.
 
 <table style="table-layout:fixed; border: none;">
 
@@ -223,7 +233,7 @@ A única exceção a essa hierarquia de containers é ao usar o [container de G
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hits</td>
 </tr>
 
 <tr>
@@ -238,7 +248,7 @@ A única exceção a essa hierarquia de containers é ao usar o [container de G
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hits</td>
 </tr>
 
 <tr>
@@ -255,7 +265,7 @@ A única exceção a essa hierarquia de containers é ao usar o [container de G
 
 Os containers permitem filtrar dados diferentes de forma diferente com base em valores de relatórios ao detalhar segmentos e aplicá-los a relatórios.
 
-Os dados capturados em cada nível da hierarquia de Visitantes > Visitas > Contêineres de ocorrência afetam a maneira como você constrói seus segmentos. Se você aplicar o mesmo segmento ao mesmo relatório usando o mesmo conjunto de dados, obterá valores diferentes com base no container a partir do qual você gerou o relatório. Fatores como o nível de relatório de container e a persistência de valores em ocorrências podem resultar em grandes alterações na precisão dos relatórios.
+Os dados capturados em cada nível da hierarquia de Visitantes > Visitas > Contêineres de ocorrência afetam a maneira como você constrói seus segmentos. Se você aplicar o mesmo segmento ao mesmo relatório usando o mesmo conjunto de dados, obterá valores diferentes com base no container a partir do qual você gerou o relatório. Fatores como o nível de relatório de container e a persistência de valores em hits podem resultar em grandes alterações na precisão dos relatórios.
 
 ### Dados básicos de contêiner {#container-data}
 
@@ -305,7 +315,7 @@ Dependendo do container selecionado, o relatório exibe resultados diferentes pa
 
 <!--![](assets/container_overview.png)-->
 
-### Relatórios do container de Ocorrência
+### Relatórios do container de hits
 
 Quando esta condição está dentro de um contêiner de Ocorrência, o relatório lista somente as páginas em que *Página = Casacos de inverno* é verdadeiro. Como apenas uma página corresponde a essa condição em um contêiner de apenas uma página, somente a página Casacos de inverno é exibida.
 
@@ -315,7 +325,7 @@ Quando esta condição está dentro de um contêiner de Ocorrência, o relatóri
 
 <!--![](assets/container_overview_PV.png)-->
 
-Ao gerar relatórios a partir do container de Ocorrência, você pode ver como os relatórios de diferentes containers afetam os valores gerais dos relatórios. Ao visualizar o relatório de segmento, observe que as exibições de página são aproximadamente iguais às visitas (cerca de 2.000 visitantes viram páginas duplicadas em uma visita, o que aumenta o número total de exibições de página). E os visitantes únicos são aproximadamente iguais ao número de visitas (cerca de 2.000 visitantes únicos visitaram mais de uma vez).
+Ao gerar relatórios a partir do container de hits, você pode ver como os relatórios de diferentes containers afetam os valores gerais dos relatórios. Ao visualizar o relatório de segmento, observe que as exibições de página são aproximadamente iguais às visitas (cerca de 2.000 visitantes viram páginas duplicadas em uma visita, o que aumenta o número total de exibições de página). E os visitantes únicos são aproximadamente iguais ao número de visitas (cerca de 2.000 visitantes únicos visitaram mais de uma vez).
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Métrica | # | % |
 |---|---|--:|--:|
@@ -326,7 +336,7 @@ Ao gerar relatórios a partir do container de Ocorrência, você pode ver como o
 
 >[!IMPORTANT]
 >
->Independentemente de como você visualiza os dados (a partir dos containers de Ocorrência, Visita ou Visitante), neste exemplo, todos eles têm o mesmo número de visitantes: 63.541. Independentemente de como você gera o relatório, a condição inicial do visitante (Visitantes que visualizaram a página Casacos de inverno) permanece intacta. É o subconjunto de dados a partir do qual você cria relatórios em níveis diferentes.
+>Independentemente de como você visualiza os dados (a partir dos containers de Hit, Visita ou Visitante), neste exemplo, todos eles têm o mesmo número de visitantes: 63.541. Independentemente de como você gera o relatório, a condição inicial do visitante (Visitantes que visualizaram a página Casacos de inverno) permanece intacta. É o subconjunto de dados a partir do qual você cria relatórios em níveis diferentes.
 
 ### Relatórios do container de Visita
 
@@ -397,23 +407,23 @@ Usando o exemplo do segmento `Page equals Winter Coats`, veja abaixo alguns exem
 
 A aplicação do contêiner de segmento em comparação ao escopo natural dos dados traz resultados esperados, onde os itens de linha correspondem à regra de segmento.
 
-- **Contêiner de ocorrência onde a página é igual a &quot;Casaco de inverno&quot;**: visualizar um relatório de *página* com esse segmento retorna somente os valores iguais a &quot;Casaco de inverno&quot;. Todas as demais páginas são excluídas do relatório.
+- **Contêiner de hits onde a página é igual a &quot;Casaco de inverno&quot;**: visualizar um relatório de *página* com esse segmento retorna somente os valores iguais a &quot;Casaco de inverno&quot;. Todas as demais páginas são excluídas do relatório.
 - **Contêiner de visitas onde a página de entrada é igual a &quot;Roupas de inverno&quot;**: visualizar um relatório de *Página de entrada* com esse segmento retorna somente a segunda visita, pois a página de entrada corresponde a regra do segmento.
 - **Container de visita com um número de visitas igual a 1**: a visualização “Visita: todas as exibições de página da primeira visita” é incluída no relatório, pois corresponde à regra de segmento.
 
 ### Exibições de página no nível do container de Visita
 
-Várias regras de segmento identificam exibições de página por visita. Quando isso ocorre, o container inteiro de Visitante é aplicado se uma única ocorrência corresponder à regra. Esse relatório de segmento é especialmente valioso porque as exibições de página com base nas visitas fornecem insight com base nas exibições de página por visita.
+Várias regras de segmento identificam exibições de página por visita. Quando isso ocorre, o container inteiro de Visitante é aplicado se um único hit corresponder à regra. Esse relatório de segmento é especialmente valioso porque as exibições de página com base nas visitas fornecem insight com base nas exibições de página por visita.
 
 - **Contêiner de visitas onde a página é igual à página &quot;Casaco de inverno&quot;**: em um relatório de Página no nível do contêiner de Visitantes, são exibidas todas as visualizações de páginas de visitas que incluem uma visualização da página &quot;Roupas de inverno&quot;. Se uma página corresponder à regra de segmento, todas as exibições de página associadas a essa visita serão incluídas no relatório.
 - **Container de visitas no qual a página equivale à “Página inicial”**: em um relatório de página, esse segmento exibe apenas os dados da primeira visita, pois na segunda visita o(a) visitante não visualizou uma página “inicial”.
 - **Container de visitante no qual a página equivale a “Roupas de inverno”**: em um relatório de página, esse segmento recupera todos os dados de ambas as visitas, pois o(a) visitante visualizou a página “Roupas de inverno” em ambas.
 
-### O container de segmento que identifica ocorrências inferiores às exibições de página
+### O container de segmento que identifica hits inferiores às visualizações de página
 
 O uso de um segmento com um contêiner menor do que o escopo de detalhamento retorna dados inesperados. O uso de um detalhamento menor ainda extrai todas as ocorrências desse escopo de dados.
 
-- **Contêiner de ocorrência onde a página de entrada é igual à página do produto**: cada página é associada à página de entrada da visita, tornando-a um detalhamento com base na visita. O uso desse segmento extrai não apenas a página de entrada da página do produto, mas também todas as ocorrências nessa visita.
+- **Contêiner de ocorrência onde a página de entrada é igual à página do produto**: cada página é associada à página de entrada da visita, tornando-a um detalhamento com base na visita. O uso desse segmento extrai não apenas a página de entrada da página do produto, mas também todos os hits nessa visita.
 - **Contêiner de ocorrência em que a Var de Lista 1 contém o Valor A**: se vários valores foram definidos na mesma ocorrência que a var de lista, todos os valores de variável serão incluídos no segmento. Não há como separar valores que ocorrem na mesma exibição de página, pois o contêiner de Ocorrência é o menor contêiner de segmento para detalhar as ocorrências.
 - **Contêiner de ocorrências em que a Página é igual a &quot;Compra&quot;**: se estiver usando exibições de página como uma métrica, somente a página Compra será exibida (conforme esperado). Se estiver usando um relatório de Participação de receita, todas as páginas na primeira visita receberão US$ 100, já que as métricas de participação se baseiam em visitas.
 - **Contêiner de ocorrências em que a página é igual a &quot;Casaco de inverno&quot;**: se estiver usando exibições de página como uma métrica, somente a página Casaco de inverno será exibida (conforme esperado). Se estiver usando um relatório de Participação de receita, nenhuma página receberá crédito porque essa dimensão requer uma dimensão persistente. A exibição de página que realmente fez a compra (a página Compra) não está incluída no contêiner Ocorrência, portanto, nenhuma participação de receita é fornecida para qualquer item. No entanto, executar um relatório do contêiner de Visita incluiria todas as exibições de página nessa visita e distribuiria a participação da receita (US$ 100) em todas as páginas visualizadas na sessão.
@@ -470,9 +480,9 @@ O segmento `Referring Domain equals aol.com` abaixo é aplicado ao **Relatório 
 
 Em uma nova visita, o(a) visitante é referenciado(a) de outro site. Consequentemente, todas as páginas na nova visita recebem o novo valor de domínio referenciador para cada exibição de página.
 
-### Relatórios do container de Ocorrência
+### Relatórios do container de hit
 
-Como todas as exibições de página na mesma visita recebem o mesmo valor de domínio referenciador, relatar no nível do container de ocorrência (no qual `Referring Domain equsls 'aol.com'`) retorna todas as páginas listadas na tabela abaixo.
+Como todas as visualizações de página na mesma visita recebem o mesmo valor de domínio referenciador, relatórios no nível do container de hits (no qual `Referring Domain equsls 'aol.com'`) retornam todas as páginas listadas na tabela abaixo.
 
 | O domínio referenciador é igual a &#39;aol.com&#39; | Exibições de página |
 |----|---:|
@@ -516,7 +526,7 @@ Como todas as páginas têm o mesmo valor de domínio referenciador baseado na v
 
 No container de Visitante, o relatório de páginas lista todas as páginas visualizadas por qualquer visitante nas quais `Referring Domain equals 'aol.com'` é verdadeiro. Portanto, se um visitante utilizar *&#39;aol.com&#39;* como domínio referenciador em qualquer momento (dentro do período definido), todas as páginas no container de Visitante (incluindo exibições de página em outras visitas) serão listadas. Até mesmo as páginas que não correspondem à condição principal são listadas no relatório, porque fazem parte do container de Visitante. Todas as páginas do container de Visitante são listadas no relatório, mesmo se ocorreram anteriormente e não atenderam especificamente às condições.
 
-Em um relatório de domínio referenciador, `Referring Domain equals 'aol.com'` é verdadeiro em quatro exibições de página, mas `Referring Domain equals "weather.com"` é verdadeiro nas outras páginas que o(a) visitante acessou. No container de Visitante, você obtém uma lista de visitantes em que &#39;aol.com&#39; é verdadeiro. Mas isso também fornece páginas em que o domínio referenciador é “weather.com”, e não o valor que corresponde à sua solicitação inicial no segmento.
+Em um relatório de domínio referenciador, `Referring Domain equals 'aol.com'` é verdadeiro em quatro visualizações de página, mas `Referring Domain equals "weather.com"` é verdadeiro nas outras páginas que o(a) visitante acessou (hit). No container de Visitante, você obtém uma lista de visitantes em que &#39;aol.com&#39; é verdadeiro. Mas isso também fornece páginas em que o domínio referenciador é “weather.com”, e não o valor que corresponde à sua solicitação inicial no segmento.
 
 | Visita 1<br/>O domínio referenciador é igual a &#39;aol.com&#39; | <br/>Exibições de página |
 |----|---:|

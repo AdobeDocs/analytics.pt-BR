@@ -7,26 +7,36 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/A9jQocr-Ty9zB-6RWWzIH8FoX12iOSn2YM-lsAY-ZRA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 681
+source-wordcount: '681'
 ht-degree: 71%
-
 ---
-
 # Plug-in da Adobe: getNewRepeat
 
 {{plug-in}}
@@ -96,7 +106,7 @@ A função `getNewRepeat` usa os seguintes argumentos:
 
 * **`d`** (número inteiro, opcional): o número mínimo de dias necessários entre visitas que redefine os visitantes novamente como `"New"`. Se esse argumento não for definido, o padrão será 30 dias.
 
-Essa função retornará o valor de `"New"` se o cookie definido pelo plug-in não existir ou tiver expirado. Ele retorna o valor `"Repeat"` se o cookie definido pelo plug-in existe e o se tempo desde a ocorrência atual e o tempo definido no cookie forem maiores que 30 minutos. Essa função retorna o mesmo valor para uma visita inteira.
+Essa função retornará o valor de `"New"` se o cookie definido pelo plug-in não existir ou tiver expirado. Ele retorna o valor `"Repeat"` se o cookie definido pelo plug-in existe e o se tempo desde o hit atual e o tempo definido no cookie forem maiores que 30 minutos. Essa função retorna o mesmo valor para uma visita inteira.
 
 Esse plug-in usa um cookie chamado `"s_nr[LENGTH]"`, onde `[LENGTH]` é igual ao argumento `d`. O cookie contém um carimbo de data e hora Unix que representa a hora atual e o status atual do visitante (`"New"` ou `"Repeat"`).
 

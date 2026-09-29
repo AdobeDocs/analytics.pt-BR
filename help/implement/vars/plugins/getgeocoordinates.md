@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/LKwWo4v7B8bcwsqsezBt4trAiOQRdIWDm2moqNJLY04'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 598
+source-wordcount: '598'
 ht-degree: 71%
-
 ---
-
 # Plug-in da Adobe: getGeoCoordinates
 
 {{plug-in}}
@@ -91,7 +99,7 @@ function getGeoCoordinates(){if(arguments&&"-v"===arguments[0])return{plugin:"ge
 
 A função `getGeoCoordinates` não usa nenhum argumento. Ele retorna um dos valores a seguir:
 
-* `"geo coordinates not available"`: para dispositivos que não têm dados de localização geográfica disponíveis no momento em que o plug-in é executado. Esse valor é comum na primeira ocorrência da visita, especialmente quando os visitantes precisam primeiro fornecer consentimento em relação ao rastreamento de sua localização.
+* `"geo coordinates not available"`: para dispositivos que não têm dados de localização geográfica disponíveis no momento em que o plug-in é executado. Esse valor é comum no primeiro hit da visita, especialmente quando os visitantes precisam primeiro fornecer consentimento em relação ao rastreamento de sua localização.
 * `"error retrieving geo coordinates"`: quando o plug-in encontra erros ao tentar recuperar o local do dispositivo.
 * `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`: onde [LATITUDE]/[LONGITUDE] são a latitude e a longitude, respectivamente.
 
@@ -99,7 +107,7 @@ A função `getGeoCoordinates` não usa nenhum argumento. Ele retorna um dos val
 >
 >Os valores de coordenadas são arredondados para a quarta casa decimal que estiver mais próxima. Por exemplo, o valor de `"40.438635333"` é arredondado para `"40.4386"` com o objetivo de limitar o número de valores únicos a serem capturados. Os valores estão próximos o suficiente para apontar o local exato do dispositivo com margem de 6 metros.
 
-Esse plug-in usa um cookie chamado `"s_ggc"` para armazenar coordenadas entre ocorrências, se necessário.
+Esse plug-in usa um cookie chamado `"s_ggc"` para armazenar coordenadas entre hits, se necessário.
 
 ## Exemplos
 

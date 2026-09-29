@@ -6,20 +6,26 @@ exl-id: c082bc95-cdae-448b-86b5-695660fb2352
 TQID: 'https://experienceleague.adobe.com/xSFb-MLmbaYK1EazyTDu38XofTBJGdLfF-j2Bm8citw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Troubleshooting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 471
+source-wordcount: '471'
 ht-degree: 95%
-
 ---
-
 # Solução de problemas com feeds de dados
 
 Determine possíveis motivos pelos quais um processo pode não funcionar nem entregar resultados.
@@ -32,9 +38,9 @@ Se você tiver um feed de dados que opera com êxito por hora ou por dia, mas qu
 * Certifique-se de que haja espaço disponível suficiente no site FTP. Se o site FTP ficar sem espaço em disco, exclua alguns arquivos do servidor para abrir espaço para novos arquivos.
 * Se não houver problemas conhecidos e o site FTP tiver espaço em disco suficiente, você poderá reenviar o feed de dados.
 
-   1. Faça logon no Adobe Analytics e navegue até **[!UICONTROL Administrador]** > **[!UICONTROL Feeds de dados]**.
-   2. Localize os feeds de dados desejados e clique na caixa de seleção ao lado de cada um que você deseja executar novamente.
-   3. Clique em **[!UICONTROL Reexecutar]**.
+  1. Faça logon no Adobe Analytics e navegue até **[!UICONTROL Administrador]** > **[!UICONTROL Feeds de dados]**.
+  2. Localize os feeds de dados desejados e clique na caixa de seleção ao lado de cada um que você deseja executar novamente.
+  3. Clique em **[!UICONTROL Reexecutar]**.
 
   ![Reexecutar](assets/rerun.png)
 

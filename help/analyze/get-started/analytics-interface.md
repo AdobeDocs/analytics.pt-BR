@@ -6,32 +6,52 @@ exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 TQID: 'https://experienceleague.adobe.com/sE4DUBdWdybdWVwBegoy9j9PRZL1TVIjt4dsEqiVBO0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1993
+source-wordcount: '1993'
 ht-degree: 93%
-
 ---
-
 # Noções básicas da interface do Analytics
 
 A interface do Adobe Analytics consiste nas seguintes áreas principais, incluindo guias para gerenciar projetos no Analysis Workspace, gerenciar componentes, ferramentas e funções administrativas.
@@ -129,7 +149,7 @@ A guia Administrador inclui recursos e opções de configuração para administr
    | Fontes de dados | Use o gerenciador de fonte de dados para criar, editar ou desativar fontes de dados. Também é possível usar essa interface para acompanhar o status dos arquivos enviados para os locais FTP de fontes de dados. | [Gerenciar fontes de dados](/help/import/data-sources/manage.md) |
    | Gerenciador de código | O Gerenciador de código permite baixar o código da coleção de dados para plataformas móveis e da Web | [Gerenciador de código](/help/admin/tools/code-manager-admin.md) |
    | Gerenciamento de tráfego | A página Gerenciamento de tráfego permite especificar as alterações esperadas no volume de tráfego. Essas configurações permitem que a Adobe aloque os recursos apropriados para garantir que seu tráfego possa ser rastreado e processado em tempo hábil. | [Visão geral do gerenciamento de tráfego](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md) |
-   | Uso de chamadas do servidor | Uma chamada de servidor, também conhecida como “ocorrência” ou uma “solicitação de imagem”, é uma instância na qual os dados são enviados para os servidores da Adobe para processamento. Um painel de Uso de chamadas do servidor que monitora seus dados de consumo de chamadas do servidor e os compara ao limite contratual está disponível. É possível configurar alertas para evitar excessos. | [Visão geral do uso de Chamadas do servidor](/help/admin/tools/server-call-usage/overage-overview.md) |
+   | Uso de chamadas do servidor | Uma chamada de servidor, também conhecida como “hit” ou “solicitação de imagem”, é uma instância na qual os dados são enviados para os servidores da Adobe para processamento. Um painel de Uso de chamadas do servidor que monitora seus dados de consumo de chamadas do servidor e os compara ao limite contratual está disponível. É possível configurar alertas para evitar excessos. | [Visão geral do uso de Chamadas do servidor](/help/admin/tools/server-call-usage/overage-overview.md) |
    | Logs | Os arquivos de log ajudam a identificar quando os usuários fazem logon, suas atividades, acessos, conjuntos de relatórios e alterações de administrador. | [Logs](/help/admin/tools/logs.md) |
    | Advertising Analytics | Configure o Adobe Analytics para mostrar todos os seus dados de pesquisa paga do Google Ads e do Microsoft Advertising lado a lado. | [Configuração do Advertising Analytics](/help/admin/tools/manage-rs/edit-settings/advertising-analytics-config.md) |
    | Feeds de dados | Os feeds de dados são uma maneira avançada de obter dados brutos do Adobe Analytics. Esses dados brutos podem ser usados em outras plataformas fora da Adobe para uso a critério da sua organização. | [Visão geral do feed de dados do Analytics](/help/export/analytics-data-feed/data-feed-overview.md) |

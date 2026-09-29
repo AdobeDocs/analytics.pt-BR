@@ -3,27 +3,37 @@ title: Perguntas frequentes sobre canais de marketing
 description: Perguntas frequentes para canais de marketing.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-TQID: https://experienceleague.adobe.com/CdAWwH-UWjkiWEKFw2e63LMU7LQIz6SbzXu5-52dhyQ
+TQID: 'https://experienceleague.adobe.com/CdAWwH-UWjkiWEKFw2e63LMU7LQIz6SbzXu5-52dhyQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
   - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+    internal-label: Processing rules
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+    internal-label: Marketing Channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1524
+source-wordcount: '1524'
 ht-degree: 86%
-
 ---
-
 # Perguntas frequentes sobre canais de marketing
 
 >[!NOTE]
@@ -51,7 +61,7 @@ Verifique se o nome do parâmetro está especificado nos campos de parâmetro da
 
 ## Por que todo o meu tráfego de último contato é atribuído a um domínio interno?
 
-Você possui uma regra que corresponde ao tráfego interno. Observe que essas regras processam todos os acessos de um visitante em seu site, não só a primeira visita. Se você tiver uma regra como *`Page URL exists`* sem outros critérios, o canal é correspondido em cada ocorrência sucessiva do site, porque sempre há um URL de página presente.
+Você possui uma regra que corresponde ao tráfego interno. Observe que essas regras processam todos os hits de um visitante em seu site, não só a primeira visita. Se você tiver uma regra como *`Page URL exists`* sem outros critérios, o canal é correspondido em cada hit sucessivo do site, porque sempre há um URL de página presente.
 
 ## Como faço para depurar o tráfego exibido em Nenhum canal identificado no relatório?
 
@@ -71,7 +81,7 @@ Certifique-se de ter um canal para essas três possibilidades. Por exemplo, crie
 
 3. **[!UICONTROL Referenciador]** e **[!UICONTROL Existe]** e **[!UICONTROL Referenciador Não Corresponde a Filtros Internos de URL]**.
 
-Por último, crie um canal *Outro* para capturar as ocorrências restantes, conforme descrito em [Nenhum canal identificado](/help/components/c-marketing-channels/c-faq.md#no-channel-identified).
+Por último, crie um canal *Outro* para capturar os hits restantes, conforme descrito em [Nenhum canal identificado](/help/components/c-marketing-channels/c-faq.md#no-channel-identified).
 
 ## Relação entre primeiro e último contato
 
@@ -105,7 +115,7 @@ O último contato interno (atualização da sessão) só pode ocorrer se também
 
 * **Tráfego entre domínios**: um visitante se move de um domínio que é acionado para o Conjunto A, para um segundo domínio que é acionado para o Conjunto B. Se no Conjunto B, os filtros internos de URL incluírem o primeiro domínio, a visita no Conjunto B será registrada como Interna, já que os Canais de marketing a veem como uma nova visita no segundo conjunto. A visita será classificada como Atualização de sessão.
 
-* **Longos tempos de carregamento da página de entrada**: um visitante acessa a página A, que tem bastante conteúdo, e o código do Adobe Analytics está localizado na parte inferior da página. Antes que todo o conteúdo (incluindo a solicitação de imagem do Adobe Analytics) possa ser carregado, o visitante clica na Página B. A Página B aciona sua solicitação de imagem do Adobe Analytics. Como a solicitação de imagem da Página A nunca foi carregada, a segunda página aparece como a primeira ocorrência da visita no Adobe Analytics, com a Página A como referenciador. A visita é classificada como Atualização de sessão.
+* **Longos tempos de carregamento da página de entrada**: um visitante acessa a página A, que tem bastante conteúdo, e o código do Adobe Analytics está localizado na parte inferior da página. Antes que todo o conteúdo (incluindo a solicitação de imagem do Adobe Analytics) possa ser carregado, o visitante clica na Página B. A Página B aciona sua solicitação de imagem do Adobe Analytics. Como a solicitação de imagem da Página A nunca foi carregada, a segunda página aparece como o primeiro hit da visita no Adobe Analytics, com a Página A como referenciador. A visita é classificada como Atualização de sessão.
 
 * **Limpeza de cookies no meio do site**: um visitante acessa o site e, no meio da sessão, os cookies são apagados. Os canais Primeiro e Último contato seriam redefinidos e a visita seria classificada como Atualização da sessão (porque o referenciador seria interno).
 

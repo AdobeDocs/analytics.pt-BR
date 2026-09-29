@@ -7,19 +7,28 @@ role: Developer
 TQID: 'https://experienceleague.adobe.com/-d3QyBm0RW5arsRHNHY4ov7YJxVFZrNdvXhVIuU6Ih4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
+subfeature_v2:
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: '385'
 ht-degree: 73%
-
 ---
-
 # Visão geral da implementação do JavaScript do Código H
 
 >[!IMPORTANT]
@@ -42,7 +51,7 @@ ht-degree: 73%
    >
    >O código H exige que o script `s_code.js` seja chamado dentro da tag `<body>`. Isso é diferente de outros métodos de implementação, a maioria dos quais requer referências de script na tag `<head>`.
 1. **Definir variáveis específicas da página em cada página**: cada página deve ter variáveis individuais definidas, como nome de página ou eVars. As variáveis individuais geralmente são definidas com uma tag `<script>` em linha em cada página.
-1. **Use o depurador para verificar a coleta de dados**: baixe e instale o [CX Enterprise Debugger](../../validate/debugger.md) para garantir que os dados sejam enviados para a Adobe e que as variáveis de página sejam definidas corretamente.
+1. **Use o depurador para verificar a coleta de dados**: baixe e instale o [CX Enterprise debugger](../../validate/debugger.md) para garantir que os dados sejam enviados para o Adobe e que as variáveis de página sejam definidas corretamente.
 
 ## Armazenamento em cache
 

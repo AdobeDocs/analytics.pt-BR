@@ -4,26 +4,37 @@ description: Veja as vantagens de cada método de envio de dados para o Adobe An
 exl-id: 19353255-6356-4426-a2ef-5a2672a00eca
 feature: Implementation Basics
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/Tx3YIRJv4Qztv-Bsa9XJFMFVE0PW9SnvgrYeMmrULiA
+TQID: 'https://experienceleague.adobe.com/Tx3YIRJv4Qztv-Bsa9XJFMFVE0PW9SnvgrYeMmrULiA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
+subfeature_v2:
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 500
+source-wordcount: '500'
 ht-degree: 40%
-
 ---
-
 # Comparar métodos de implementação
 
 Veja a comparação entre cada método de implementação do Adobe Analytics. Você pode usar essas tabelas para ajudar sua organização a determinar a maneira mais ideal de enviar dados para a Adobe. Clique em cada coluna para obter informações mais específicas.
@@ -35,7 +46,7 @@ Veja a comparação entre cada método de implementação do Adobe Analytics. Vo
 | Requisitos de implementação | Referencie `AppMeasurement.js` em cada página, defina variáveis e envie dados usando `s.t()` para o Adobe Analytics | Carregador de tag de referência em cada página, use a interface da Coleção de dados para definir variáveis e enviar dados para a Adobe Analytics | Referencie `Alloy.js` em cada página, use `alloy("sendEvent",{})` para compor objetos XDM e enviar os dados desejados usando o Edge Network para o Adobe Analytics | Carregador de tag de referência em cada página, use a interface da Coleção de dados para compor objetos XDM e enviar os dados desejados usando o Edge Network para a Adobe Analytics |
 | Destino dos dados | Enviado diretamente para o Adobe Analytics | Enviado diretamente para o Adobe Analytics | Enviado para a Adobe Experience Platform Edge, que encaminha dados para o Adobe Analytics | Enviado para a Adobe Experience Platform Edge, que encaminha dados para o Adobe Analytics |
 | Dificuldade em fazer ajustes de implementação | Requer acesso ao código do site para cada alteração de implementação | Alterar o código do site uma vez para instalar a tag loader; todas as atualizações de implementação adicionais podem ser feitas na interface da Coleção de dados | Requer acesso ao código do site para cada alteração de implementação | Alterar o código do site uma vez para instalar a tag loader; todas as atualizações de implementação adicionais podem ser feitas na interface da Coleção de dados |
-| Como o A4T é tratado | As chamadas do A4T são incluídas nas ocorrências enviadas para a Adobe | As chamadas do A4T são incluídas nas ocorrências enviadas para a Adobe | Chamadas do A4T são enviadas como ocorrências separadas | Chamadas do A4T são enviadas como ocorrências separadas |
+| Como o A4T é tratado | As chamadas do A4T são incluídas nos hits enviados para a Adobe | As chamadas do A4T são incluídas nos hits enviados para a Adobe | Chamadas do A4T são enviadas como hits separados | Chamadas do A4T são enviadas como hits separados |
 | Dados de contexto | Use `s.contextData`. | Usar `s.contextData` em blocos de código personalizado | Todos os campos não mapeados são enviados automaticamente como `a.x.*` variáveis de dados de contexto. | Todos os campos não mapeados são enviados automaticamente como `a.x.*` variáveis de dados de contexto. |
 
 {style="table-layout:auto"}
@@ -52,7 +63,7 @@ Veja a comparação entre cada método de implementação do Adobe Analytics. Vo
 | Requisitos de implementação | Referencie o carregador de tags no aplicativo e, em seguida, use chamadas diretas de API ou regras na interface da coleção de dados para compor objetos XDM e enviar os dados desejados usando o Edge Network para a Adobe Analytics | Use a API do Edge Network para compor objetos XDM e enviar os dados desejados usando o Edge Network para o Adobe Analytics |
 | Destino dos dados | Enviado para a Adobe Experience Platform Edge, que encaminha dados para o Adobe Analytics | Enviado para a Adobe Experience Platform Edge, que encaminha dados para o Adobe Analytics |
 | Dificuldade em fazer ajustes de implementação | Altere o código do aplicativo em que as chamadas diretas à API são feitas ou faça alterações na interface da Coleção de dados | Requer acesso ao código do aplicativo para cada alteração de implementação |
-| Como o A4T é tratado | Chamadas do A4T são enviadas como ocorrências separadas | Chamadas do A4T são enviadas como ocorrências separadas |
+| Como o A4T é tratado | Chamadas do A4T são enviadas como hits separados | Chamadas do A4T são enviadas como hits separados |
 | Dados de contexto | Todos os campos não mapeados são enviados automaticamente como `a.x.*` variáveis de dados de contexto. | Todos os campos não mapeados são enviados automaticamente como `a.x.*` variáveis de dados de contexto |
 
 {style="table-layout:auto"}

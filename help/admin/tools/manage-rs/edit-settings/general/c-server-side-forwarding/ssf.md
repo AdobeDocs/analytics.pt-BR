@@ -1,5 +1,5 @@
 ---
-description: O encaminhamento pelo lado do servidor foi projetado para clientes que desejam compartilhar dados do Analytics com outras soluções corporativas CX em tempo real. Quando ativado, o encaminhamento pelo lado do servidor também permite que o Analytics envie dados para outras soluções da CX Enterprise e que essas soluções enviem dados para o Analytics durante o processo de coleta de dados.
+description: O encaminhamento pelo lado do servidor foi projetado para clientes que desejam compartilhar dados do Analytics com outras soluções da CX Enterprise em tempo real. Quando ativado, o encaminhamento pelo lado do servidor também permite que o Analytics envie dados para outras soluções da CX Enterprise e que essas soluções enviem dados para o Analytics durante o processo de coleta de dados.
 solution: Analytics
 title: Visão geral do encaminhamento pelo lado do servidor
 feature: Report Suite Settings
@@ -8,34 +8,46 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/3Jing56TCBeoAFOXowaXAXoTDkXgQB0-j5jFmVOTsrw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 887
+source-wordcount: '887'
 ht-degree: 59%
-
 ---
-
 # Visão geral do encaminhamento pelo lado do servidor
 
-O encaminhamento pelo lado do servidor foi projetado para clientes que desejam compartilhar dados do Analytics com outras soluções corporativas CX em tempo real. Quando ativado, o encaminhamento pelo lado do servidor também permite que o Analytics envie dados para outras soluções da CX Enterprise e que essas soluções enviem dados para o Analytics durante o processo de coleta de dados.
+O encaminhamento pelo lado do servidor foi projetado para clientes que desejam compartilhar dados do Analytics com outras soluções da CX Enterprise em tempo real. Quando ativado, o encaminhamento pelo lado do servidor também permite que o Analytics envie dados para outras soluções da CX Enterprise e que essas soluções enviem dados para o Analytics durante o processo de coleta de dados.
 
 O encaminhamento pelo lado do servidor aprimora a coleta de dados porque:
 
 * Reduz as chamadas de da página. Com o encaminhamento pelo lado do servidor, os clientes do [!DNL Audience Manager] não precisam mais usar o DIL para a coleta de dados porque estão sendo encaminhados do Analytics. Remover o DIL significa eliminar uma chamada `"/event"`. Menos chamadas ajuda a melhorar o tempo de carregamento da página, o que resulta em uma melhor experiência do cliente no site.
-* Permite que você aproveite o compartilhamento de dados entre as soluções CX Enterprise.
+* Permite aproveitar o compartilhamento de dados entre as soluções da CX Enterprise.
 * Está em conformidade com as práticas recomendadas para a implementação e implantação do código do Audience Manager.
 
 >[!TIP]
@@ -43,7 +55,7 @@ O encaminhamento pelo lado do servidor aprimora a coleta de dados porque:
 >Os clientes atuais do Audience Manager que utilizam o Analytics devem migrar para o encaminhamento pelo lado do servidor. Os novos clientes do Adobe Analytics e do Audience Manager devem implementar o encaminhamento pelo lado do servidor (em vez do DIL) como o método de transferência e coleta de dados padrão.
 
 >[!IMPORTANT]
->Para atender à regulamentação de conformidade de cookies da UE, controladores de dados (clientes do Analytics) agora têm a opção de restringir dados de pré-consentimento no Adobe Analytics e evitar que sejam encaminhados pelo lado do servidor para o Adobe Audience Manager. Uma nova variável de contexto de implementação permite sinalizar ocorrências onde o consentimento não foi recebido. A variável, quando definida, evita que essas ocorrências sejam enviadas para o Adobe Audience Manager até que o consentimento seja recebido. Para obter mais informações, consulte [Conformidade com o GDPR_ePrivacy e o encaminhamento pelo lado do servidor](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md).
+>Para atender à regulamentação de conformidade de cookies da UE, controladores de dados (clientes do Analytics) agora têm a opção de restringir dados de pré-consentimento no Adobe Analytics e evitar que sejam encaminhados pelo lado do servidor para o Adobe Audience Manager. Uma nova variável de contexto de implementação permite sinalizar hits onde o consentimento não foi recebido. A variável, quando definida, evita que esses hits sejam enviados para o Adobe Audience Manager até que o consentimento seja recebido. Para obter mais informações, consulte [Conformidade com o GDPR_ePrivacy e o encaminhamento pelo lado do servidor](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md).
 
 Para entender onde sua organização está em termos de implementação do encaminhamento pelo lado do servidor, passe por essas etapas de validação:
 
@@ -87,4 +99,4 @@ Acesse **Analytics** > **Administração** > **Conjuntos de relatórios** > (sel
 
 >[!NOTE]
 >
->Os dados não serão exibidos em outras soluções CX Enterprise, como [Audience Manager](https://docs.adobe.com/content/help/pt-BR/experience-cloud/user-guides/home.html) ou [Públicos-alvo](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR), até que todas as 3 etapas sejam concluídas. Uma vez habilitado, levará várias horas para que essas configurações entrem em vigor.
+>Os dados não serão exibidos em outras soluções da CX Enterprise, como [Audience Manager](https://docs.adobe.com/content/help/pt-BR/experience-cloud/user-guides/home.html) ou [Públicos-alvo](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR), até que todas as 3 etapas sejam concluídas. Uma vez habilitado, levará várias horas para que essas configurações entrem em vigor.

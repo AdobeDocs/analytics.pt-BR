@@ -4,45 +4,57 @@ description: Para sites de comércio eletrônico, define a moeda em que a págin
 feature: Appmeasurement Implementation
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/DKHPWh0KRGKXW6QOspE5K0FGBFCrzLYSrTufIt3Xf4g
+TQID: 'https://experienceleague.adobe.com/DKHPWh0KRGKXW6QOspE5K0FGBFCrzLYSrTufIt3Xf4g'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 952
+source-wordcount: '952'
 ht-degree: 96%
-
 ---
-
 # currencyCode
 
 Em sites que usam comércio, receita e moeda, é uma parte importante do Analytics. Muitos sites, especialmente aqueles que abrangem vários países, usam moedas diferentes. Use a variável `currencyCode` para verificar se os atributos de receita estão na moeda correta.
 
-A conversão de moeda usa a seguinte lógica em cada ocorrência. Essas etapas se aplicam aos valores de receita definidos pela variável [`products`](../page-vars/products.md) e a todos os eventos listados como “Moeda” na seção [Eventos bem-sucedidos](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) das configurações do conjunto de relatórios.
+A conversão de moeda usa a seguinte lógica em cada hit. Essas etapas se aplicam aos valores de receita definidos pela variável [`products`](../page-vars/products.md) e a todos os eventos listados como “Moeda” na seção [Eventos bem-sucedidos](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) das configurações do conjunto de relatórios.
 
 * Se `currencyCode` não estiver definido, a Adobe presume que todos os valores de moeda são a moeda do conjunto de relatórios. Consulte [Configurações gerais da conta](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) nas configurações do conjunto de relatórios para ver a moeda do conjunto de relatórios.
 * Se `currencyCode` for definida e corresponder à moeda do conjunto de relatórios, nenhuma conversão de moeda será aplicada.
 * Se `currencyCode` estiver definida e for diferente da moeda do conjunto de relatórios, a Adobe aplicará uma conversão de moeda com base na taxa de câmbio do dia. A Adobe tem uma parceria com o [XE](https://xe.com) para converter moeda a cada dia. Todos os valores armazenados no conjunto de relatórios estão na moeda do conjunto de relatórios.
 * Se `currencyCode` estiver definido com um valor inválido, **a ocorrência inteira será descartada, causando perda de dados.** Verifique se essa variável está definida corretamente sempre que for usada.
 
-Essa variável não é mantida entre ocorrências. Verifique se essa variável está definida em todas as páginas que envolvam eventos de receita ou moeda que não correspondam à moeda padrão do conjunto de relatórios.
+Essa variável não é mantida entre hits. Verifique se essa variável está definida em todas as páginas que envolvam eventos de receita ou moeda que não correspondam à moeda padrão do conjunto de relatórios.
 
 >[!NOTE]
 >
->Embora os códigos de moeda possam mudar entre páginas, todas as métricas de moeda em uma única ocorrência devem usar a mesma moeda.
+>Embora os códigos de moeda possam mudar entre páginas, todas as métricas de moeda em um único hit devem usar a mesma moeda.
 
 Um ponto **deve** ser usado como separador para todas as moedas ao implementar essa variável. Por exemplo, a coroa sueca, que normalmente exibe um separador de vírgula, deve ser modificada para usar um ponto na variável `products` e em todos os eventos de moeda. A Adobe exibe o separador de moeda correto no relatório.
 

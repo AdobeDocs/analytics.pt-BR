@@ -7,19 +7,30 @@ exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 TQID: 'https://experienceleague.adobe.com/5dYdPb8Erenemm1Q5Cn79fH-MChshnxJtdD7O33MaHk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1120
+source-wordcount: '1120'
 ht-degree: 14%
-
 ---
-
 # Perguntas frequentes
 
 Respostas a perguntas que você pode se fazer ao implantar o Audience Analytics.
@@ -36,7 +47,7 @@ Se você tiver emails/endereços/etc em uma prop ou eVar, considere colocar os d
 
 Isso não se aplica ao envio de dados do Adobe Analytics para o Adobe Audience Manager. Pergunte a si mesmo:
 
-* Você compartilhará um segmento compartilhado do Analytics com uma dimensão MCA de volta para o CX Enterprise?
+* Você compartilhará um segmento compartilhado do Analytics com uma dimensão MCA de volta para a CX Enterprise?
 
 * Você está exportando (por exemplo, por meio de feeds de dados) para um sistema Business Intelligence (BI) usado para esses fins?
 
@@ -118,7 +129,7 @@ Em todos os lugares; eles são tratados como qualquer outra dimensão coletada n
 
 Por padrão, a integração do Audience Analytics para o Adobe Audience Manager envia todos os segmentos para os quais um visitante se qualifica, com base em cada ocorrência, para o Analytics. Se um visitante pertencer a mais de 150 segmentos do Adobe Audience Manager em uma única ocorrência, os **150 segmentos qualificados mais recentemente** serão enviados ao Analytics, enquanto a lista restante será truncada. Um sinalizador adicional é enviado ao Analytics, para avisar que a lista de segmentos está truncada, e é exibido como “Limite de público-alvo atingido” na dimensão Nome de público-alvo e “-1” na dimensão ID de público-alvo.
 
-Mesmo sendo improvável que um visitante seja qualificado para mais de 150 segmentos em uma única ocorrência, há uma pequena chance de isso ocorrer. Se você encontrar o erro “Limite de público-alvo atingido” em seu relatório, há duas opções:
+Mesmo sendo improvável que um visitante seja qualificado para mais de 150 segmentos em um único hit, há uma pequena chance de isso ocorrer. Se você encontrar o erro “Limite de público-alvo atingido” em seu relatório, há duas opções:
 
 * Opção 1: continue permitindo que a integração funcione no estado pronto para uso, enviando os 150 segmentos qualificados mais recentemente para um visitante específico.
 
@@ -142,7 +153,7 @@ Sim. Na configuração de destino do Adobe Audience Manager, você verá apenas 
 
 +++ Por que não consigo ativar certos conjuntos de relatórios para SSF no Analytics Admin?
 
-Somente conjuntos mapeados para sua CX Enterprise Org podem ser habilitados.
+Somente conjuntos mapeados para sua Organização CX Enterprise podem ser habilitados.
 
 Para obter mais perguntas frequentes sobre esse tópico, consulte [Perguntas frequentes sobre o encaminhamento pelo lado do servidor](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md).
 
@@ -164,7 +175,7 @@ Consulte [Entender os segmentos no Analytics e no Audience Manager](/help/integr
 
 +++ Qual é a diferença entre os atributos do cliente e os dados do cliente integrados no Adobe Audience Manager?
 
-Os atributos do cliente não são baseados em tempo; eles são aplicados retroativamente e prosseguem. Os dados integrados do Adobe Audience Manager são baseados em tempo e somente progressivos. Além disso, os atributos do cliente são uma tabela de pesquisa para IDs de visitante do CX Enterprise, enquanto a integração do Adobe Audience Manager é feita com dados agrupados em cada ocorrência para um visitante.
+Os atributos do cliente não são baseados em tempo; eles são aplicados retroativamente e prosseguem. Os dados integrados do Adobe Audience Manager são baseados em tempo e somente progressivos. Além disso, os atributos do cliente são uma tabela de pesquisa para IDs de visitante do CX Enterprise, enquanto a integração do Adobe Audience Manager é de dados compilados em cada ocorrência para um visitante.
 
 +++
 

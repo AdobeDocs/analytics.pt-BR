@@ -5,31 +5,45 @@ title: Compartilhar projetos
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-TQID: https://experienceleague.adobe.com/-Vesl-gD6YZerr2Ls-4ik-9WCxzg2w-aCr4jTpiPB5M
+TQID: 'https://experienceleague.adobe.com/-Vesl-gD6YZerr2Ls-4ik-9WCxzg2w-aCr4jTpiPB5M'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2046
-ht-degree: 88%
-
+source-wordcount: '2059'
+ht-degree: 89%
 ---
-
 # Compartilhar projetos {#share-projects}
 
 >[!CONTEXTUALHELP]
@@ -100,8 +114,8 @@ Para compartilhar uma função de projeto específica com usuários ou grupos na
 
    Ou
 
-   Para compartilhar apenas um projeto individual, você pode abrir o projeto que deseja compartilhar e selecionar **[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com usuários do Workspace]**.
-Se houver alterações não salvas, você será solicitado a salvar seu projeto primeiro.
+   Para compartilhar somente um projeto individual, abra o projeto que deseja compartilhar e clique em **[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com usuários do Espaço de trabalho]**.
+   Se houver alterações não salvas, será solicitado que salve o projeto primeiro.
 
    A caixa de diálogo Compartilhar projeto é exibida. As seções [!UICONTROL **Compartilhar por link**] e [!UICONTROL **Configurações**] da caixa de diálogo estão visíveis somente ao compartilhar um único projeto.
 
@@ -200,13 +214,13 @@ Para compartilhar um projeto do Analysis Workspace com pessoas que não têm ace
 
    * **[!UICONTROL Exigir autenticação do CX Enterprise]:**
 
-     Quando essa opção está habilitada, os únicos usuários que podem acessar o projeto são aqueles que podem fazer logon na organização corporativa do Adobe CX em que o projeto que você está compartilhando foi criado. No entanto, usuários com os quais você compartilha não precisam ter acesso ao Adobe Analytics.
+     Quando essa opção está habilitada, os únicos usuários que podem acessar o projeto são aqueles que podem fazer logon na organização da Adobe CX Enterprise onde o projeto que você está compartilhando foi criado. No entanto, usuários com os quais você compartilha não precisam ter acesso ao Adobe Analytics.
 
      Os administradores do Analytics podem configurar essa preferência para a empresa, conforme descrito em [Preferências](/help/analyze/analysis-workspace/user-preferences.md). É possível encontrar os seguintes cenários, dependendo de como a administração configurou essa opção:
 
-      * Se essa opção não estiver visível, a administração do Analytics não habilitou esse recurso.
+     * Se essa opção não estiver visível, a administração do Analytics não habilitou esse recurso.
 
-      * Se essa opção estiver ativada e esmaecida, o administrador do Analytics exigirá a autenticação do CX Enterprise para qualquer pessoa que acessar os projetos da Analysis Workspace.
+     * Se essa opção estiver ativada e esmaecida, o administrador do Analytics exigirá a autenticação do CX Enterprise para qualquer pessoa que acessar os projetos da Analysis Workspace.
 
 1. Ao lado do campo **[!UICONTROL Compartilhar com qualquer pessoa (sem necessidade de fazer logon)]**, clique no ícone **Copiar link**![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg) para copiar o link para a área de transferência do seu sistema.
 

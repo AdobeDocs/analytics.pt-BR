@@ -7,21 +7,30 @@ exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
 TQID: 'https://experienceleague.adobe.com/2rsPhh5Y-Fxf8fvG4skU59bO72FM2x7Zdecwh1sVVsY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1214
+source-wordcount: '1214'
 ht-degree: 71%
-
 ---
-
 # Perguntas frequentes
 
 Estas são as respostas para perguntas frequentes sobre atribuição.
@@ -41,9 +50,9 @@ Algumas métricas baseadas em visitas, como [Entradas](/help/components/metrics/
 1. Eles visitam várias páginas, a última às 12h05 do dia 8 de setembro.
 1. Uma semana depois, você executa um relatório de tendências diárias com o intervalo de datas de 8 a 14 de setembro.
 
-Métricas baseadas em ocorrências, como [Visualizações de página](/help/components/metrics/page-views.md), produziriam a saída esperada; a tendência diária dos dados é de 8 a 14 de setembro. No entanto, as métricas baseadas em visitas também mostrariam a visita acima em 7 de setembro. A entrada atribuída à visita ocorreu em 7 de setembro, e a janela de pesquisa por padrão é de 1° a 31 de setembro.
+Métricas baseadas em hits, como [Visualizações de página](/help/components/metrics/page-views.md), produziriam a saída esperada; a tendência diária dos dados é de 8 a 14 de setembro. No entanto, as métricas baseadas em visitas também mostrariam a visita acima em 7 de setembro. A entrada atribuída à visita ocorreu em 7 de setembro, e a janela de pesquisa por padrão é de 1° a 31 de setembro.
 
-A taxa de rejeição sempre mostra 0% em 7 de setembro neste exemplo. Essa métrica é definida como `Bounces divided by Entries`, uma métrica baseada em ocorrência dividida por uma métrica baseada em visita. Rejeições consistem em uma única solicitação de imagem, de modo que não podem se estender por vários dias, Qualquer rejeição ocorrida em 7 de setembro ocorreu fora da janela de relatórios, causando a taxa de rejeição garantida de 0% para esse dia. Outras métricas baseadas em ocorrências também mostrariam 0 para 7 de setembro neste relatório, já que essas ocorrências também não estão na janela de relatórios.
+A taxa de rejeição sempre mostra 0% em 7 de setembro neste exemplo. Essa métrica é definida como `Bounces divided by Entries`, uma métrica baseada em hit dividida por uma métrica baseada em visita. Rejeições consistem em uma única solicitação de imagem, de modo que não podem se estender por vários dias, Qualquer rejeição ocorrida em 7 de setembro ocorreu fora da janela de relatórios, causando a taxa de rejeição garantida de 0% para esse dia. Outras métricas baseadas em hits também mostrariam 0 para 7 de setembro neste relatório, já que esses hits também não estão na janela de relatórios.
 
 Considere outro exemplo semelhante. A única diferença entre o exemplo a seguir e o acima são as datas:
 
@@ -120,7 +129,7 @@ Sim, as classificações são totalmente compatíveis.
 
 Sim, a maioria das fontes de dados é compatível. A atribuição não é compatível com fontes de dados de nível de resumo porque elas não se vinculam a um identificador de visitante do Analytics.
 
-As fontes de dados de ID de transação são tratadas como qualquer outra ocorrência. As fontes de dados de ID de transação não usam o processamento especial normalmente utilizado nos relatórios tradicionais. Em outras palavras, ao usar o processamento de tempo do relatório, as ocorrências de ID de transação têm valores de eVar propagados a partir de ocorrências que ocorrem perto do carimbo de data e hora da ocorrência de ID de transação. Os valores não são propagados de ocorrências que ocorreram perto da hora da transação original.
+As fontes de dados de ID de transação são tratadas como qualquer outro hit. As fontes de dados de ID de transação não usam o processamento especial normalmente utilizado nos relatórios tradicionais. Em outras palavras, ao usar o processamento de tempo do relatório, as ocorrências de ID de transação têm valores de eVar propagados a partir de ocorrências que ocorrem perto do carimbo de data e hora da ocorrência de ID de transação. Os valores não são propagados de ocorrências que ocorreram perto da hora da transação original.
 
 Quando possível, a atribuição depende do valor da coluna MID enviado em um evento na fonte de dados, em vez de um valor persistente. O modelo de atribuição é aplicado em tempo real aos valores da coluna MID na fonte de dados. Por exemplo, ao usar a [atribuição Último contato](models.md), o modelo começa a partir de cada instância de uma métrica. E recua sequencialmente nas ocorrências até que o modelo atinja o último valor observado na coluna MID.
 
@@ -149,9 +158,9 @@ Como as dimensões do canal de marketing dependem de uma definição de visita t
 
 +++## Como a atribuição funciona com variáveis de vários valores, como vars de lista?
 
-Algumas dimensões do Analytics podem conter vários valores em uma só ocorrência. Exemplos comuns incluem list vars e a variável products.
+Algumas dimensões do Analytics podem conter vários valores em um só hit. Exemplos comuns incluem list vars e a variável products.
 
-Quando a atribuição é aplicada a ocorrências de vários valores, todos os valores na mesma ocorrência recebem o mesmo crédito. Como muitos valores podem receber esse crédito, o total do relatório pode ser diferente se você somar cada item de linha individual. O total do relatório é deduplicado, enquanto cada item de dimensão individual recebe o crédito adequado.
+Quando a atribuição é aplicada a hits de vários valores, todos os valores no mesmo hit recebem o mesmo crédito. Como muitos valores podem receber esse crédito, o total do relatório pode ser diferente se você somar cada item de linha individual. O total do relatório é deduplicado, enquanto cada item de dimensão individual recebe o crédito adequado.
 
 +++
 
@@ -160,12 +169,12 @@ Quando a atribuição é aplicada a ocorrências de vários valores, todos os va
 
 A atribuição sempre é executada antes da segmentação e a segmentação é executada antes da aplicação dos filtros do relatório. Esse conceito também se aplica a conjuntos de relatórios virtuais (VRS) que usam segmentos.
 
-Por exemplo, se você criar um conjunto de relatórios virtual com um segmento “Exibir ocorrências” aplicado, é possível ver outros canais em uma tabela usando alguns modelos de atribuição.
+Por exemplo, se você criar um conjunto de relatórios virtual com um segmento “Exibir hits” aplicado, é possível ver outros canais em uma tabela usando alguns modelos de atribuição.
 
 ![Conjunto de relatórios virtuais “somente exibição”](assets/vrs-aiq-example.png)
 
 >[!NOTE]
 >
->Se um segmento suprimir ocorrências que contenham sua métrica, essas instâncias de métrica não serão atribuídas a nenhuma dimensão. No entanto, um filtro de relatório semelhante simplesmente oculta alguns itens de dimensão, sem qualquer impacto nas métricas processadas pelo modelo de atribuição. Como resultado, um segmento pode retornar valores menores que um filtro com uma definição comparável.
+>Se um segmento suprimir hits que contenham sua métrica, essas instâncias de métrica não serão atribuídas a nenhuma dimensão. No entanto, um filtro de relatório semelhante simplesmente oculta alguns itens de dimensão, sem qualquer impacto nas métricas processadas pelo modelo de atribuição. Como resultado, um segmento pode retornar valores menores que um filtro com uma definição comparável.
 
 +++

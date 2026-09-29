@@ -3,39 +3,56 @@ description: Entenda como os segmentos permitem identificar subconjuntos de visi
 title: Sobre os segmentos
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-TQID: https://experienceleague.adobe.com/o6mpvRuEpfb5IUhJ-dRR1YRqpHG-Z725momiyXMGsdE
+TQID: 'https://experienceleague.adobe.com/o6mpvRuEpfb5IUhJ-dRR1YRqpHG-Z725momiyXMGsdE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
+    internal-label: Segment Builder
   - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
+    internal-label: Folders
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1052
+source-wordcount: '1052'
 ht-degree: 89%
-
 ---
-
 # Sobre segmentos
 
 Os segmentos permitem identificar subconjuntos de visitantes com base em características ou interações no site. Os segmentos foram desenvolvidos como insights de público-alvo que você pode criar para necessidades específicas e verificar, editar e compartilhar com outros membros da equipe ou usar em outros produtos da Adobe e recursos do Analytics.
 
-Os segmentos baseiam-se em uma hierarquia de nível de [!UICONTROL Visitante], [!UICONTROL Visita] e [!UICONTROL Ocorrência], utilizando um modelo de container aninhado. Os containers aninhados permitem definir atributos de visitante e ações com base em regras contidas nos containers e entre eles. Segmentos do Analytics podem ser construídos, aprovados, compartilhados, salvos e executados em vários produtos e recursos da Adobe CX Enterprise. Os segmentos podem ser gerados a partir de um relatório, construído em um relatório de painel, ou marcado para acesso rápido.
+Os segmentos baseiam-se em uma hierarquia de nível de [!UICONTROL Visitante], [!UICONTROL Visita] e [!UICONTROL Hit], utilizando um modelo de container aninhado. Os containers aninhados permitem definir atributos de visitante e ações com base em regras contidas nos containers e entre eles. Segmentos do Analytics podem ser construídos, aprovados, compartilhados, salvos e executados em vários produtos e recursos da Adobe CX Enterprise. Os segmentos podem ser gerados a partir de um relatório, construído em um relatório de painel, ou marcado para acesso rápido.
 
 Você pode criar e salvar segmentos no construtor de segmentos ou gerá-los a partir de um relatório de fallout (no [!UICONTROL Analysis Workspace]). Você também pode empregar e estender segmentos pré-construídos com base em regras específicas entre containers aninhados, o que permite filtrar resultados e aplicar a relatórios. Além disso, os segmentos podem ser usados juntos como [segmentos empilhados](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
@@ -72,7 +89,7 @@ Ao criar segmentos de público-alvo no construtor de segmentos, é possível def
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
 </tr>
 
 <tr>
@@ -87,7 +104,7 @@ Ao criar segmentos de público-alvo no construtor de segmentos, é possível def
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
 </tr>
 </table>
 
@@ -106,7 +123,7 @@ Ao criar segmentos de público-alvo no construtor de segmentos, é possível def
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
 </tr>
 
 <tr>
@@ -121,7 +138,7 @@ Ao criar segmentos de público-alvo no construtor de segmentos, é possível def
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
 </tr>
 </table>
 
@@ -135,7 +152,7 @@ Esse tipo de segmento filtra conjuntos de dados com base em características uni
 - O [Gerenciador de segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md) permite configurar [fluxos de trabalho](/help/components/segmentation/segmentation-workflow/seg-workflow.md) com recursos de compartilhamento, marcação, verificação e aprovação de segmentos.
 - Você pode [adicionar tags a segmentos](/help/components/segmentation/segmentation-workflow/seg-tag.md) para organizar e pesquisar depois, em vez de usar pastas.
 - Você pode criar [segmentos sequenciais](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
-- O container de [!UICONTROL Exibição de página] foi renomeado como container de [!UICONTROL Ocorrência] para indicar que ele segmenta todos os tipos de dados e não apenas exibições de página. Por exemplo, chamadas de rastreamento de link e chamadas de rastreamento de ações originadas por SDKs móveis também são incluídas ou excluídas pelo container de ocorrências.
+- O container de [!UICONTROL Visualização de página] foi renomeado como container de [!UICONTROL Hit] para indicar que ele segmenta todos os tipos de dados e não apenas visualizações de página. Por exemplo, chamadas de rastreamento de link e chamadas de rastreamento de ações originadas por SDKs móveis também são incluídas ou excluídas pelo container de hits.
 
 ## Segmentação no Analysis Workspace:
 
@@ -161,10 +178,10 @@ Os segmentos sequenciais permitem identificar visitantes de acordo com a navega�
 |---|---|---|
 | Na primeira visita, o(a) visitante foi para a página de destino principal (A), excluiu a página da campanha (B) e visualizou a página do produto (C). | Na segunda visita, o(a) visitante foi novamente para a página de destino principal (A), excluiu a página da campanha (B), foi novamente para a página do produto (C) e, em seguida, foi para a nova página (D). | Na terceira visita, o(a) visitante entrou e seguiu o mesmo caminho da primeira e da segunda visita; em seguida, excluiu a página (F) para ir diretamente para a página do produto direcionada (G). |
 
-Os segmentos sequenciais podem ser baseados nos seguintes valores de ocorrência:
+Os segmentos sequenciais podem ser baseados nos seguintes valores de hit:
 
-- Visitantes com base na sequência de ocorrências de página: exibições de página em uma única visita, exibições de página em visitas separadas e visitas que excluíram exibições de página.
-- Visitantes com base no tempo entre e após as exibições de página: após um tempo limite, entre ocorrências e após um evento.
+- Visitantes com base na sequência de hits de página: visualizações de página em uma única visita, visualizações de página em visitas separadas e visitas que excluíram visualizações de página.
+- Visitantes com base no tempo entre e após as visualizações de página: após um tempo-limite, entre hits e após um evento.
 
 <table style="table-layout:fixed; border: none;">
 
@@ -181,7 +198,7 @@ Os segmentos sequenciais podem ser baseados nos seguintes valores de ocorrência
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
 </tr>
 
 <tr>
@@ -196,7 +213,7 @@ Os segmentos sequenciais podem ser baseados nos seguintes valores de ocorrência
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
 </tr>
 </table>
 
@@ -215,7 +232,7 @@ Os segmentos sequenciais podem ser baseados nos seguintes valores de ocorrência
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
 </tr>
 
 <tr>
@@ -225,7 +242,7 @@ Os segmentos sequenciais podem ser baseados nos seguintes valores de ocorrência
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
 </tr>
 
 <tr>
@@ -240,7 +257,7 @@ Os segmentos sequenciais podem ser baseados nos seguintes valores de ocorrência
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
 
 <tr>
 <td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>OR</td></td>
@@ -249,7 +266,7 @@ Os segmentos sequenciais podem ser baseados nos seguintes valores de ocorrência
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
 </tr>
 </tr>
 </table>

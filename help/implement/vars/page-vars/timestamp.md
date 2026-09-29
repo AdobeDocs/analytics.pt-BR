@@ -1,37 +1,45 @@
 ---
 title: carimbo de data e hora
-description: Defina manualmente o carimbo de data e hora da ocorrência.
+description: Defina manualmente o carimbo de data e hora do hit.
 feature: Appmeasurement Implementation
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/f2r9jWtF5HgCP6jUKg3YnLFxNwx1DiUBI-2Nquy5-K0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 1ed4ab984231b7c72580c5ae505b1a16c0330c2f
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '304'
 ht-degree: 67%
-
 ---
-
 # carimbo de data e hora
 
-A variável `timestamp` define manualmente o carimbo de data e hora da ocorrência para conjuntos de relatórios com carimbo de data e hora habilitado.
+A variável `timestamp` define manualmente o carimbo de data e hora do hit para conjuntos de relatórios com carimbo de data e hora habilitado.
 
 >[!WARNING]
 >
->Não use essa variável se o conjunto de relatórios não estiver configurado explicitamente para aceitar ocorrências com carimbo de data e hora. O AppMeasurement define automaticamente a hora de uma ocorrência para conjuntos de relatórios que não suportam ocorrências com carimbo de data e hora. Se você enviar uma ocorrência com essa variável para um conjunto de relatórios não compatível com carimbos de data e hora, esses dados serão perdidos permanentemente.
+>Não use essa variável se o conjunto de relatórios não estiver configurado explicitamente para aceitar hits com carimbo de data e hora. O AppMeasurement define automaticamente a hora de um hit para conjuntos de relatórios que não permitem hits com carimbo de data e hora. Se você enviar um hit com essa variável para um conjunto de relatórios não compatível com carimbos de data e hora, esses dados serão perdidos permanentemente.
 
 ## Carimbo de data e hora usando o Web SDK
 
@@ -43,7 +51,7 @@ Não há um campo dedicado na extensão do Adobe Analytics para o uso dessa vari
 
 ## s.timestamp no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
-A variável `s.timestamp` é uma string que contém a data e a hora da ocorrência. Os formatos válidos de carimbo de data/hora incluem [ISO 8601](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6) e [Unix time](https://pt.wikipedia.org/wiki/Era_Unix) em segundos.
+A variável `s.timestamp` é uma string que contém a data e a hora do hit. Os formatos válidos de carimbo de data/hora incluem [ISO 8601](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6) e [Unix time](https://pt.wikipedia.org/wiki/Era_Unix) em segundos.
 
 ```js
 // Timestamp using ISO 8601
