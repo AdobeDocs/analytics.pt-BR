@@ -7,41 +7,64 @@ exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
 TQID: https://experienceleague.adobe.com/1UUQ-01VPJWZmSReen7PjTBozBcMr2LgKDHpO8LcKew
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+    internal-label: Advertising Analytics
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+    internal-label: Marketing Channels
   - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
+    internal-label: Streaming Media
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
+    internal-label: Cohort Analysis
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+    internal-label: Mobile experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 83dd61d47dd9bebdc9c79410969c32ea36efd4d4
 workflow-type: tm+mt
-source-wordcount: 18746
+source-wordcount: '18746'
 ht-degree: 99%
-
 ---
-
 # Usar modelos
 
 Os modelos (ou modelos da empresa) do Analysis Workspace fornecem insights rápidos sobre os casos de relatórios mais comuns. Confira abaixo alguns exemplos de perguntas às quais você pode responder com modelos:
@@ -1038,7 +1061,7 @@ Estes são os modelos disponíveis:
 | **Retenção de visitantes** > **Número de visitas** | Visualize quantas vezes um visitante visitou o site.<p>**Isso pode ajudar** a entender melhor como os visitantes estão engajados ao retornar ao site. Ela se aplica ao tempo de vida do visitante, independentemente do intervalo de datas do projeto.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como ajustar as campanhas de marketing para visitantes frequentes.</p><p>Este modelo usa a dimensão Número de visitas.</p> |
 | **Retenção de visitantes** > **Ciclo de vendas** > **Fidelização do cliente** | Veja o número de visitantes do site que fizeram 0 compras anteriores, 1 compra anterior, 2 compras anteriores ou mais de 3 compras anteriores. <p>**Isso pode ajudar** a entender melhor como o site afeta o comportamento de compra.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como concentrar-se em visitantes que retornam para fazer uma compra, a fim de incentivar comportamentos semelhantes em novos(as) visitantes.</p><p>Este modelo usa a dimensão Fidelização do cliente.</p> |
 | **Retenção de visitantes** > **Ciclo de vendas** > **Dias antes da primeira compra** | Veja o número de dias que se passaram entre a primeira vez que um(a) visitante chega ao site e o momento em que realiza uma compra. Por exemplo, se um(a) visitante efetua uma compra um dia após a primeira visita, qualquer visita ou evento subsequente pertence ao item de dimensão “1 dia”.<p>**Isso pode ajudar** a entender melhor quanto tempo os visitantes levam para fazer uma compra.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como atualizar o site para incentivar aquisições mais rápidas.</p><p>Este modelo usa a dimensão Dias antes da primeira compra.</p> |
-| **Retenção de visitantes** > **Ciclo de vendas** > **Dias desde a última compra** | Visualize a quantidade de tempo decorrido entre a ocorrência atual do visitante e sua compra mais recente no momento.<p>**Isso pode ajudar** a entender melhor o comportamento do visitante após comprar algo no site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como atualizar o site para incentivar compras subsequentes.</p><p>Este modelo usa a dimensão Dias desde a última compra.</p> |
+| **Retenção de visitantes** > **Ciclo de vendas** > **Dias desde a última compra** | Visualize a quantidade de tempo decorrido entre o hit atual do visitante e sua compra mais recente no momento.<p>**Isso pode ajudar** a entender melhor o comportamento do visitante após comprar algo no site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como atualizar o site para incentivar compras subsequentes.</p><p>Este modelo usa a dimensão Dias desde a última compra.</p> |
 | **Dispositivos móveis** > **Dispositivos** | Veja a marca e o modelo dos dispositivos móveis que as pessoas usam para acessar o seu site.<p>**Isso pode ajudar** a entender melhor quais dispositivos móveis são mais usados pela sua base de usuários.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar a renderização do site para os dispositivos móveis mais comuns.</p><p>Este modelo usa a dimensão Nome do dispositivo móvel.</p> |
 | **Dispositivos móveis** > **Tipo de dispositivo** | Veja os tipos de dispositivos móveis que as pessoas usam para acessar o site, como celulares e tablets.<p>**Isso pode ajudar** a entender melhor os vários tipos de dispositivos móveis usados para acessar o site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar o site para os tipos de dispositivos móveis mais usados.</p><p>Este modelo usa a dimensão Tipo de dispositivo móvel.</p> |
 | **Dispositivos móveis** > **Fabricante** | Veja quais fabricantes produzem os dispositivos móveis que as pessoas usam para acessar o seu site, como Apple e Samsung.<p>**Isso pode ajudar** a entender melhor quais fabricantes são mais usados pela sua base de usuários.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como adaptar a entrega de conteúdo com base nos recursos de diferentes fabricantes para garantir uma experiência de usuário fluida.</p><p>Este modelo usa a dimensão Fabricante do dispositivo móvel.</p> |
@@ -1109,7 +1132,7 @@ Estes são os modelos disponíveis:
 >[!CONTEXTUALHELP]
 >id="template--firstouchchanneldetailrankedreport"
 >title="Veja os detalhes do primeiro canal de marketing que um(a) visitante utiliza durante o seu período de engajamento (30 dias por padrão)."
->abstract="**Isso pode ajudar** a entender melhor o que contribuiu para que a visita ocorresse por meio daquele canal de marketing. Por exemplo, se um visitante chegasse ao seu site e correspondesse ao canal de marketing &quot;Pesquisa paga”, você poderia usar os detalhes do canal para ver qual mecanismo de pesquisa foi usado ou qual palavra-chave foi pesquisada.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing em áreas mais eficazes.<br/>Este modelo usa a dimensão “Detalhes do canal de primeiro contato”."
+>abstract="**Isso pode ajudar** a entender melhor o que contribuiu para que o hit correspondesse a um canal de marketing. Por exemplo, se um visitante chegasse ao seu site e correspondesse ao canal de marketing &quot;Pesquisa paga”, você poderia usar os detalhes do canal para ver qual mecanismo de pesquisa foi usado ou qual palavra-chave foi pesquisada.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing em áreas mais eficazes.<br/>Este modelo usa a dimensão “Detalhes do canal de primeiro contato”."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1236,9 +1259,9 @@ Estes são os modelos disponíveis:
 | --- | --- |
 | [!UICONTROL **Canais de marketing**] > [!UICONTROL **Relatório de visão geral de canal**] | Por meio da atribuição personalizada, este modelo mostra como visitantes chegam ao seu site.<p>**Isso pode ajudar** a entender melhor quais dos seus canais de marketing são mais eficazes.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o investimento em canais de marketing eficazes e livrar-se de canais de marketing menos eficazes.</p><p>Este modelo usa a dimensão ID (variáveis/canal de marketing) e a métrica Receita.</p> |
 | [!UICONTROL **Canais de marketing**] > [!UICONTROL **Primeiro canal de contato**] | Veja o primeiro canal de marketing com o qual um visitante corresponde durante seu período de engajamento (30 dias, por padrão). <p>**Isso pode ajudar** a entender melhor quais canais de marketing geram o tráfego inicial para o seu site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing em áreas mais eficazes.</p><p>Este modelo usa a dimensão Primeiro canal de contato.</p> |
-| [!UICONTROL **Canais de marketing**] > [!UICONTROL **Detalhes do primeiro canal de contato**] | Veja os detalhes do primeiro canal de marketing que um(a) visitante utiliza durante o seu período de engajamento (30 dias por padrão).<p>**Isso pode ajudar** a entender melhor o que contribuiu para que a visita ocorresse por meio daquele canal de marketing. Por exemplo, se um visitante chegasse ao seu site e correspondesse ao canal de marketing &quot;Pesquisa paga”, você poderia usar os detalhes do canal para ver qual mecanismo de pesquisa foi usado ou qual palavra-chave foi pesquisada.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing em áreas mais eficazes.</p><p>Este modelo usa a dimensão Detalhes do primeiro canal de contato.</p> |
+| [!UICONTROL **Canais de marketing**] > [!UICONTROL **Detalhes do primeiro canal de contato**] | Veja os detalhes do primeiro canal de marketing que um(a) visitante utiliza durante o seu período de engajamento (30 dias por padrão).<p>**Isso pode ajudar** a entender melhor o que contribuiu para que o hit correspondesse a um canal de marketing. Por exemplo, se um visitante chegasse ao seu site e correspondesse ao canal de marketing &quot;Pesquisa paga”, você poderia usar os detalhes do canal para ver qual mecanismo de pesquisa foi usado ou qual palavra-chave foi pesquisada.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing em áreas mais eficazes.</p><p>Este modelo usa a dimensão Detalhes do primeiro canal de contato.</p> |
 | [!UICONTROL **Canais de marketing**] > [!UICONTROL **Último canal de contato**] | Veja o canal de marketing mais recente com o qual um(a) visitante correspondeu durante o seu período de engajamento (30 dias, por padrão).<p>**Isso pode ajudar** a entender melhor quais canais de marketing geram o tráfego para o seu site que resulta em conversões.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing em áreas mais eficazes.</p><p>Este modelo usa a dimensão Último canal de contato.  </p> |
-| [!UICONTROL **Canais de marketing**] > [!UICONTROL **Detalhes do último canal de contato**] | Veja detalhes sobre o canal de marketing mais recente com o qual um(a) visitante correspondeu durante o seu período de engajamento (30 dias, por padrão)<p>**Isso pode ajudar** a entender melhor o que contribuiu para que a visita ocorresse por meio daquele canal de marketing. Por exemplo, se um visitante chegasse ao seu site e correspondesse ao canal de marketing &quot;Pesquisa paga”, você poderia usar os detalhes do canal para ver qual mecanismo de pesquisa foi usado ou qual palavra-chave foi pesquisada.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing em áreas mais eficazes. </p><p>Este modelo usa a dimensão “Detalhes do canal de último contato”. </p> |
+| [!UICONTROL **Canais de marketing**] > [!UICONTROL **Detalhes do último canal de contato**] | Veja detalhes sobre o canal de marketing mais recente com o qual um(a) visitante correspondeu durante o seu período de engajamento (30 dias, por padrão)<p>**Isso pode ajudar** a entender melhor o que contribuiu para que o hit correspondesse a um canal de marketing. Por exemplo, se um visitante chegasse ao seu site e correspondesse ao canal de marketing &quot;Pesquisa paga”, você poderia usar os detalhes do canal para ver qual mecanismo de pesquisa foi usado ou qual palavra-chave foi pesquisada.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing em áreas mais eficazes. </p><p>Este modelo usa a dimensão “Detalhes do canal de último contato”. </p> |
 | [!UICONTROL **Campanhas**] > [!UICONTROL **Funil de conversão de campanhas**] | Veja o número de cliques e check-outs das suas campanhas. <p>**Isso pode ajudar** a entender melhor como as campanhas de marketing estão impulsionando a conversão.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como determinar quais campanhas de marketing estão gerando maior ROI.</p> |
 | [!UICONTROL **Campanhas**] > [!UICONTROL **Desempenho da campanha**] | Veja os detalhes do desempenho das suas campanhas de marketing.<p>**Isso pode ajudar** a entender melhor os vários indicadores de sucesso associados às campanhas, como receita, exibições de produtos, pedidos e assim por diante.</p><p>**Com base no que aprendeu, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing nas maiores fontes de receita. </p><p>Este modelo usa as métricas “Receita”, “Exibições do produto”, “Adições ao carrinho”, “Pedidos” e “Unidades”. Ele também usa as dimensões “Código de rastreamento” e “Domínio de referência”. </p> |
 | [!UICONTROL **Campanhas**] > [!UICONTROL **Código de rastreamento**] | Confira os nomes dos códigos de rastreamento no seu site. Você pode colocar links com diferentes valores de parâmetros de strings de consulta em diferentes lugares na internet.<p>**Isso pode ajudar** a entender melhor quais links foram os mais bem-sucedidos em termos de direcionar o tráfego para o seu site. Anexar strings de consulta de código de rastreamento é comum em emails, anúncios, publicações em redes sociais e outras atividades de marketing que a sua organização usa</p><p>**Com base no que aprendeu, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing nas maiores fontes de receita.</p><p>Este modelo usa a dimensão Código de rastreamento. </p> |
