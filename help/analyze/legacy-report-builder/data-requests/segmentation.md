@@ -7,22 +7,27 @@ exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
 TQID: https://experienceleague.adobe.com/0n3erBFX--uMJmm9OW80ZKK82rQdYYSk5n53k44ItDo
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 988
-ht-degree: 32%
-
+source-wordcount: '964'
+ht-degree: 31%
 ---
-
 # Gerenciar segmentos
 
 {{legacy-arb}}
@@ -53,7 +58,7 @@ O Report Builder apresenta um painel de segmentação na Etapa 1 do Assistente d
 É possível ter combinações específicas de dimensões de relatórios que você deseja transformar em um segmento. É possível criar esses segmentos na interface do Report Builder. Por exemplo, selecione algumas páginas de uma saída de solicitação de página e crie um segmento com base nesses valores.
 
 1. Selecione os itens de saída de relatório que você deseja transformar em um segmento.
-1. Clique com o botão direito para selecionar **[!UICONTROL Criar segmento no contexto em]** e especifique o contêiner apropriado (Contêiner de ocorrências, Contêiner de visitas, Contêiner de visitantes).
+1. Clique com o botão direito para selecionar **[!UICONTROL Criar segmento no contexto em]** e especifique o contêiner apropriado (Contêiner de hits, Contêiner de visitas, Contêiner de visitantes).
 
    ![Captura de tela mostrando Criar segmento no contexto nas opções de contêiner selecionadas e disponíveis.](assets/seg_in_context.png)
 
@@ -66,7 +71,7 @@ O Report Builder apresenta um painel de segmentação na Etapa 1 do Assistente d
 
 ## Pesquisar por e aplicar segmentos
 
-Qualquer segmento criado no Reports &amp; Analytics (agora encerrado), Report Builder ou Data Warehouse aparece na lista de segmentos. Para atualizar a lista, clique no ícone Atualizar ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
+Qualquer segmento criado no Reports &amp; Analytics (agora encerrado), Report Builder ou Data Warehouse aparece na lista de segmentos. Para atualizar a lista, clique no ícone Atualizar ![](/help/assets/icons/Refresh.svg).
 
 Você pode aplicar um ou mais segmentos a qualquer solicitação. Isso inclui segmentos sequenciais.
 
@@ -82,7 +87,7 @@ Você pode aplicar um ou mais segmentos a qualquer solicitação. Isso inclui se
 
 ## Filtrar segmentos {#filter}
 
-**Filtre** segmentos ao clicar no ícone Filtrar: ![Ícone Filtrar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+**Filtre** segmentos ao clicar no ícone Filtrar: ![Ícone Filtrar](/help/assets/icons/Filter.svg)
 
 Os filtros disponíveis são:
 
@@ -100,7 +105,7 @@ Os filtros disponíveis são:
 
 Adicionar um controle de segmento permite você alternar segmentos de uma pasta de trabalho em vez de precisar ir até o Assistente de solicitação.
 
-1. Clique no ícone de Controle ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) ao lado do menu suspenso de segmentos.
+1. Clique no ícone de Controle ![](/help/assets/icons/Filter.svg) ao lado do menu suspenso do segmento.
 
 1. Marque todos os segmentos que você deseja exibir no controle de segmentos ou marque **[!UICONTROL Selecionar tudo]**.
 
@@ -119,7 +124,7 @@ Adicionar um controle de segmento permite você alternar segmentos de uma pasta 
 
 ## Atualizar a lista de segmentos {#refresh}
 
-Sempre que você adicionar um novo segmento ou editar um já existente, você deve clicar no ícone Atualizar ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) para atualizar a lista de segmentos em cache.
+Sempre que você adicionar um novo segmento ou editar um já existente, você deve clicar no ícone Atualizar ![](/help/assets/icons/Refresh.svg) para atualizar a lista de segmentos em cache.
 
 ## Gerenciamento de segmentos em solicitações {#manage}
 

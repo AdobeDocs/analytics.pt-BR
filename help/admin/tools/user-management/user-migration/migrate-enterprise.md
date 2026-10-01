@@ -20,7 +20,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f5c62a921b700585a98069b42e5feefad4144373
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 71%
@@ -151,11 +151,11 @@ Se precisar migrar as contas de usuário existentes do Adobe ID para uma Enterpr
    </tbody> 
    </table>
 
-   Para obter mais informações sobre os campos no arquivo [!DNL .csv], consulte o [formato de arquivo CSV](https://helpx.adobe.com/br/enterprise/using/users.html).
+Para obter mais informações sobre os campos no arquivo [!DNL .csv], consulte o [formato de arquivo CSV](https://helpx.adobe.com/br/enterprise/using/users.html).
 
-   >[!NOTE]
-   >
-   >Outras colunas, como [!UICONTROL Configurações de Produto] e [!UICONTROL Funções administrativas], podem ficar em branco.
+>[!NOTE]
+>
+>Outras colunas, como [!UICONTROL Configurações de Produto] e [!UICONTROL Funções administrativas], podem ficar em branco.
 
 1. Na guia Usuários do Adobe Admin Console, faça upload do arquivo de modelo clicando em **[!UICONTROL Adicionar usuário por CSV]** (como mostrado na Etapa 3).
 1. No Analytics, execute a ferramenta de migração (conforme descrito em [Migrar contas de usuário do Analytics](/help/admin/tools/user-management/user-migration/t-migrate-users.md).

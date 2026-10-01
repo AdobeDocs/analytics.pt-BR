@@ -22,10 +22,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 10%
+source-wordcount: '992'
+ht-degree: 9%
 ---
 # Criar e editar consolidações de classificação
 
@@ -37,7 +37,7 @@ Uma consolidação de conjuntos de classificações permite pegar classificaçõ
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
 >title="Prioridade do conjunto de classificações"
->abstract="O ![conjunto de classificações](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *Chave* é a base e define o esquema geral, por isso tem precedência em qualquer conflito de mesclagem. Os outros conjuntos de classificações são aplicados em ordem de cima para baixo."
+>abstract="O ![conjunto de classificações](/help/assets/icons/Key.svg) *Chave* é a base e define o esquema geral, por isso tem precedência em qualquer conflito de mesclagem. Os outros conjuntos de classificações são aplicados em ordem de cima para baixo."
 
 
 Para criar uma consolidação de classificação, na interface principal do Adobe Analytics:
