@@ -67,10 +67,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 371cf3de49f5a4a001ae6058e7f6422c23334e39
 workflow-type: tm+mt
-source-wordcount: '4163'
-ht-degree: 78%
+source-wordcount: '4286'
+ht-degree: 75%
 ---
 # Referência da coluna de dados
 
@@ -203,7 +203,7 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | | **`mobilerelaunchcampaignterm`** | Termo de lançamento do Mobile Services | varchar(255) |
 | | **`mobilerelaunchcampaigntrackingcode`** | Coletada da variável de dados de contexto `a.launch.campaign.trackingcode`. Usado na aquisição como o código de rastreamento para a campanha de lançamento. | varchar(255) |
 | **`post_`** | **`mobileresolution`** | Resolução do dispositivo móvel. `[Width] x [Height]` em pixels. | varchar(255) |
-| | **`mobile_id`** | Se o(a) visitante estiver usando um dispositivo móvel, o ID numérico do dispositivo. O valor-chave da [pesquisa dinâmica](dynamic-lookups.md) `mobile_attributes.tsv`. | int |
+| | **`mobile_id`** | Se o usuário estiver usando um dispositivo móvel, o ID numérico do dispositivo. O valor-chave da [pesquisa dinâmica](dynamic-lookups.md) `mobile_attributes.tsv`. | int |
 | | **`monthly_visitor`** | Um sinalizador que determina se o visitante é único no mês atual. | tinyint unsigned |
 | **`post_`** | **`mvvar1`** - **`mvvar3`** | [Lista de valores de variáveis.](/help/implement/vars/page-vars/list.md) Contém uma lista delimitada de valores personalizados dependendo da implementação. As colunas `post_mvvar1` - `post_mvvar3` substituem o delimitador original por `--**--`. | text |
 | **`post_`** | **`mvvar1_instances`** - **`mvvar3_instances`** | Os valores da variável de lista que foram definidos no hit atual. Substitui o delimitador original por `--**--`. As colunas `post` normalmente não contêm dados. | text |
@@ -235,8 +235,8 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | | **`stats_server`** | Fora de uso. Servidor interno da Adobe que processou o hit. | char(30) |
 | **`post_`** | **`s_kwcid`** | A ID de palavra-chave usada em integrações da Adobe Advertising | varchar(255) |
 | | **`s_resolution`** | Valor bruto da resolução da tela. Coletado usando a função do JavaScript `screen.width x screen.height`. | char(20) |
-| **`post_`** | **`tnt`** | Usado em integrações do Adobe Target. Representa todos os testes qualificados até o momento. O formato é: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | text |
-| **`post_`** | **`tnt_action`** | Usado em integrações do Adobe Target. Representa todos os testes para os quais o hit se qualificou. | text |
+| **`post_`** | **`tnt`** | Usado em integrações do Adobe Target. Lista as atividades do Target e as experiências para as quais o visitante se qualificou. A coluna `post_tnt` persiste valores de ocorrências anteriores, semelhantes a eVars. Para ver apenas as atividades e os eventos da ocorrência atual, use `tnt_action`. Várias entradas são separadas por vírgulas. Cada entrada usa o mesmo formato que `tnt_action`, mas sem a ID de evento. | text |
+| **`post_`** | **`tnt_action`** | Usado em integrações do Adobe Target. Lista somente as atividades e experiências do Target para as quais a ocorrência atual se qualificou, juntamente com os eventos associados. Ao contrário de `post_tnt`, os valores não persistem em ocorrências anteriores. Várias entradas são separadas por vírgulas. Cada entrada usa um dos seguintes formatos:<ul><li>Maioria das atividades: `activityID:experienceID:trafficType\|eventID`</li><li>Algumas atividades automatizadas, como Direcionamento automático: `activityID:experienceID:trafficType:algorithmID\|eventID`</li></ul>Os valores de ID do algoritmo são internos no Target. Alguns eventos incluem um valor, anexado como `\|value`. As IDs de evento incluem `0` (entrada de atividade), `1` (visita), `2` (impressão) e `32767` (conversão). Se uma ocorrência tiver vários eventos para a mesma atividade e experiência, cada evento será uma entrada separada. | text |
 | | **`tnt_instances`** | Usado em integrações do Adobe Target. Variável de instâncias do Target. | text |
 | **`post_`** | **`transactionid`** | Um identificador exclusivo, em que vários pontos de dados podem ser carregados posteriormente por meio de fontes de dados. Coletado usando a variável [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | text |
 | | **`truncated_hit`** | Um sinalizador que indica que a solicitação de imagem foi truncada (uma ocorrência parcial foi recebida). <br>Y: hit truncado; hit parcial recebido <br>N: hit não truncado; hit total recebido | char(1) |

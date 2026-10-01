@@ -4,13 +4,11 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no CX Enterprise Admin Console, configurar conjuntos de relatórios e muito mais.
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '505'
 ht-degree: 95%
-
 ---
-
 
 # Guia do administrador do Adobe Analytics {#admin}
 
@@ -82,7 +80,6 @@ ht-degree: 95%
         + [Eventos bem-sucedidos](tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)
         + [Hierarquias de classificação](tools/manage-rs/edit-settings/conversion-var-admin/classification-hierarchies.md)
         + [Variáveis da lista](tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)
-        + [eVars de merchandising](tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)
       + Canais de marketing {#marketing-channels}
         + [Gerenciador de canal de marketing](tools/manage-rs/edit-settings/marketing-channels/c-channels.md)
         + [Regras de processamento de canal de marketing](tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
