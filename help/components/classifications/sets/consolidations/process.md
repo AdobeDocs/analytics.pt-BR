@@ -22,10 +22,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 10%
+source-wordcount: '992'
+ht-degree: 9%
 ---
 # Criar e editar consolidações de classificação
 
@@ -37,7 +37,7 @@ Uma consolidação de conjuntos de classificações permite pegar classificaçõ
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
 >title="Prioridade do conjunto de classificações"
->abstract="O ![conjunto de classificações](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *Chave* é a base e define o esquema geral, por isso tem precedência em qualquer conflito de mesclagem. Os outros conjuntos de classificações são aplicados em ordem de cima para baixo."
+>abstract="O ![conjunto de classificações](/help/assets/icons/Key.svg) *Chave* é a base e define o esquema geral, por isso tem precedência em qualquer conflito de mesclagem. Os outros conjuntos de classificações são aplicados em ordem de cima para baixo."
 
 
 Para criar uma consolidação de classificação, na interface principal do Adobe Analytics:
@@ -55,7 +55,7 @@ Para criar uma consolidação de classificação, na interface principal do Adob
 
       A lista esquerda **[!UICONTROL Conjunto de Classificações do Source]** foi preenchida com conjuntos de classificações semelhantes à lista de classificações selecionada e disponíveis para consolidação. A lista direita é preenchida automaticamente com o conjunto de classificações ![Chave](/help/assets/icons/Key.svg) selecionado. Esse conjunto de base definiu o esquema geral e sempre tem prioridade em qualquer conflito de mesclagem.
 
-   1. Selecione os conjuntos de classificações que deseja consolidar na lista à esquerda e solte os conjuntos selecionados na lista à direita abaixo do ![Conjunto de classificações **[[!UICONTROL _base]](/help/assets/icons/Key.svg) selecionado_]**.
+   1. Selecione os conjuntos de classificações que deseja consolidar na lista à esquerda e solte os conjuntos selecionados na lista à direita abaixo do ![Conjunto de classificações **[!UICONTROL _base](/help/assets/icons/Key.svg) selecionado_]**.
 
       Os conjuntos de classificações adicionais são consolidados em ordem crescente quando você executa a consolidação. Se uma chave existir em vários conjuntos adicionais, o valor da chave do conjunto de classificação de classificação superior será usado. Se uma chave existir no conjunto base ![Key](/help/assets/icons/Key.svg) e em qualquer conjunto adicional, o valor do conjunto base será usado.
 
@@ -90,7 +90,7 @@ Para editar uma consolidação de classificação, na interface principal do Ado
 1. Selecione **[!UICONTROL Conjuntos de classificações]** no menu **[!UICONTROL Componentes]**.
 1. No gerenciador **[!UICONTROL Conjuntos de classificações]**, selecione a guia **[!UICONTROL Consolidações]**.
 1. No gerenciador **[!UICONTROL Conjuntos de classificações Consolidações]**:
-   1. Selecione o nome da consolidação de classificação. A caixa de diálogo **[!UICONTROL Consolidação: _nome da consolidação de classificação_]**&#x200B;é exibida. A aparência e as ações disponíveis dependem do status atual da consolidação e se você ainda tem a opção de modificar a consolidação de classificação.
+   1. Selecione o nome da consolidação de classificação. A caixa de diálogo **[!UICONTROL Consolidação: _nome da consolidação de classificação_]**é exibida. A aparência e as ações disponíveis dependem do status atual da consolidação e se você ainda tem a opção de modificar a consolidação de classificação.
 
       | Ações disponíveis | Descrição |
       |---|---|

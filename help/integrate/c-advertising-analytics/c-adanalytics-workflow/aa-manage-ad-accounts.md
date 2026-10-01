@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 18%
+source-wordcount: '443'
+ht-degree: 4%
 ---
 # Gerenciar contas publicitárias
 
@@ -44,28 +44,28 @@ A tabela consiste nas seguintes colunas:
 | Nome ou elemento | Descrição |
 |---|---|
 | **[!UICONTROL Nome]** | *Nome da conta*. Você pode selecionar o nome para editar as configurações do mecanismo de pesquisa. |
-| ![Editar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) | Selecione para renomear a conta publicitária ou editar as configurações do mecanismo de pesquisa. |
-| ![Mais](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | Selecione para abrir um menu de contexto que permita [mapear conjuntos de relatórios](#map-reporting-suites), [ativar ou pausar contas publicitárias](#activate-or-pause-advertising-accounts). |
+| ![Editar](/help/assets/icons/Edit.svg) | Selecione para renomear a conta publicitária ou editar as configurações do mecanismo de pesquisa. |
+| ![Mais](/help/assets/icons/More.svg) | Selecione para abrir um menu de contexto que permita [mapear conjuntos de relatórios](#map-reporting-suites), [ativar ou pausar contas publicitárias](#activate-or-pause-advertising-accounts). |
 | **[!UICONTROL Conjuntos de relatórios]** | Lista os conjuntos de relatórios para os quais a conta publicitária está mapeada. |
 | **[!UICONTROL Tipo]** | Mostra o tipo de conta publicitária. Por padrão, o tipo é [!UICONTROL Pesquisa] |
 | **[!UICONTROL Conta]** | Mostre o tipo de conta, seja [!UICONTROL Bing Ads] ou [!UICONTROL Google Adwords]. |
 | **[!UICONTROL Status]** | O status da conta publicitária: *Pausado* ou Ativo. |
 
 
-- Para filtrar a lista por Conjunto de relatórios, Tipo e Status, selecione ![Filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
-- Para pesquisar sua conta publicitária usando o campo de pesquisa ![Pesquisa](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg).
+- Para filtrar a lista por Conjunto de relatórios, Tipo e Status, selecione ![Filtro](/help/assets/icons/Filter.svg)
+- Para pesquisar sua conta publicitária usando o campo de pesquisa ![Pesquisa](/help/assets/icons/Search.svg).
 - Para selecionar contas ativas na tabela, marque **[!UICONTROL Contas ativas]**.
-- Para definir quais colunas serão mostradas para a tabela, selecione ![Configurações de coluna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). <br/>Na caixa de diálogo **[!UICONTROL Personalizar tabela]**:
+- Para definir quais colunas serão mostradas para a tabela, selecione ![Configurações de coluna](/help/assets/icons/ColumnSetting.svg). <br/>Na caixa de diálogo **[!UICONTROL Personalizar tabela]**:
   - Selecione as colunas que deseja mostrar.
   - Selecione **[!UICONTROL Aplicar]**.
 
-Ao selecionar uma ou mais contas publicitárias, uma barra de ação azul, com base no status das contas selecionadas, permite ![Editar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Renomear]**, ![Atualizar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Mapear Conjuntos de Relatórios]**, ![Reproduzir](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL Ativar]** ou ![Pausar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL Pausar]** suas contas publicitárias.
+Ao selecionar uma ou mais contas publicitárias, uma barra de ação azul, com base no status das contas selecionadas, permite ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Renomear]**, ![Atualizar](/help/assets/icons/Refresh.svg) **[!UICONTROL Mapear Conjuntos de Relatórios]**, ![Reproduzir](/help/assets/icons/Play.svg) **[!UICONTROL Ativar]** ou ![Pausar](/help/assets/icons/Pause.svg) **[!UICONTROL Pausar]** suas contas publicitárias.
 
 ## Criar uma conta publicitária
 
 Para criar uma nova conta publicitária:
 
-1. Selecione ![Adicionar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) **[!UICONTROL Adicionar]**.
+1. Selecione ![Adicionar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Adicionar]**.
 1. Você verá a caixa de diálogo [!UICONTROL Contas do Advertising] > **[!UICONTROL Nova conta]** para permitir que você defina uma nova conta publicitária. Consulte [Configurar uma conta do Advertising](aa-create-ad-account.md) para obter mais informações.
 
 
@@ -74,16 +74,16 @@ Para criar uma nova conta publicitária:
 Para editar as configurações do mecanismo de pesquisa para uma conta publicitária:
 
 - Selecione o nome da conta publicitária.
-- Selecione ![Editar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) ao lado do nome da conta publicitária.
+- Selecione ![Editar](/help/assets/icons/Edit.svg) ao lado do nome da conta publicitária.
 
 ## Mapear conjuntos de relatórios
 
 Para mapear uma ou mais contas publicitárias para conjuntos de relatórios:
 
 1. (opcional) Selecione mais de uma conta publicitária.
-1. Selecione ![Mais](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) para uma conta publicitária específica.
-1. Selecione ![Atualizar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Mapear conjuntos de relatórios]** no menu de contexto.
-1. Na caixa de diálogo Mapear conjuntos de relatórios, selecione um ou mais conjuntos de relatórios no menu suspenso. Você pode excluir conjuntos de relatórios do mapeamento usando ![Cruz](https://spectrum.adobe.com/static/icons/ui_18/CrossSize400.svg).
+1. Selecione ![Mais](/help/assets/icons/More.svg) para uma conta publicitária específica.
+1. Selecione ![Atualizar](/help/assets/icons/Refresh.svg) **[!UICONTROL Mapear conjuntos de relatórios]** no menu de contexto.
+1. Na caixa de diálogo Mapear conjuntos de relatórios, selecione um ou mais conjuntos de relatórios no menu suspenso. Você pode excluir conjuntos de relatórios do mapeamento usando ![Cruz](/help/assets/icons/CrossSize400.svg).
 1. Selecione **[!UICONTROL Salvar]** para salvar o mapeamento.
 
 
@@ -92,12 +92,12 @@ Para mapear uma ou mais contas publicitárias para conjuntos de relatórios:
 Para ativar uma ou mais contas publicitárias:
 
 1. (opcional) Selecione mais de uma conta publicitária.
-1. Selecione ![Mais](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) para uma conta publicitária específica.
-1. Selecione ![Reproduzir](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL Ativar]** no menu de contexto.
+1. Selecione ![Mais](/help/assets/icons/More.svg) para uma conta publicitária específica.
+1. Selecione ![Reproduzir](/help/assets/icons/Play.svg) **[!UICONTROL Ativar]** no menu de contexto.
 
 Para pausar uma ou mais contas publicitárias:
 
 1. (opcional) Selecione mais de uma conta publicitária.
-1. Selecione ![Mais](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) para uma conta publicitária específica.
-1. Selecione ![Pausar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL Pausar]** no menu de contexto.
+1. Selecione ![Mais](/help/assets/icons/More.svg) para uma conta publicitária específica.
+1. Selecione ![Pausar](/help/assets/icons/Pause.svg) **[!UICONTROL Pausar]** no menu de contexto.
 

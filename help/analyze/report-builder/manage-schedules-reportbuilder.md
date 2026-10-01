@@ -9,18 +9,20 @@ exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
 TQID: https://experienceleague.adobe.com/QbA2xh07-E4WMt70tLIoR-TL30qfnvFSCToTVi3COXU
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: User
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 383
-ht-degree: 6%
-
+source-wordcount: '381'
+ht-degree: 4%
 ---
-
 # Gerenciar pastas de trabalho programadas
 
 Você pode agendar um compartilhamento de pasta de trabalho por email ou exportando para um destino de nuvem, conforme descrito nos seguintes artigos:
@@ -49,7 +51,7 @@ Você pode exibir e gerenciar todas as pastas de trabalho agendadas na guia **[!
 
    * Selecione o ícone de coluna ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para definir quais colunas serão exibidas.
 
-   * Selecione o ícone de filtro ![Ícone de filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) e [!UICONTROL **Mostrar tudo**] para mostrar todas as pastas de trabalho agendadas de uma determinada organização.
+   * Selecione o ícone de filtro ![Ícone de filtro](/help/assets/icons/Filter.svg) e [!UICONTROL **Mostrar tudo**] para mostrar todas as pastas de trabalho agendadas de uma determinada organização.
 
 1. Selecione uma ou mais pastas de trabalho.
 
@@ -78,7 +80,7 @@ Você pode exibir o histórico e o status de pastas de trabalho agendadas na gui
    ![Histórico agendado](assets/scheduled-workbooks-history.png){zoomable="yes"}
 
    Use a ![Pesquisa](/help/assets/icons/Search.svg) para procurar pastas de trabalho específicas na lista.
-Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para definir quais colunas mostrar.
+   Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para definir quais colunas mostrar.
 
    A guia **[!UICONTROL Histórico]** permite examinar o status de cada tarefa agendada. Uma linha separada documenta a alteração de status para cada tarefa agendada.
 
