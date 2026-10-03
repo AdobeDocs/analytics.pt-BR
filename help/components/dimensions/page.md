@@ -51,7 +51,7 @@ Defina a variável [`pageName`](/help/implement/vars/page-vars/pagename.md) em [
 | Propriedade | Valor |
 | --- | --- |
 | **Variável do AppMeasurement** | [`pageName`](/help/implement/vars/page-vars/pagename.md) |
-| **Web SDK / campo XDM** | [`web.webPageDetails.name`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Web SDK / campo XDM** | [`web.webPageDetails.name`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/data-types/webpage-details) |
 | **Parâmetro de consulta** | [`pageName`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Marca XML** | [`<pageName>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite de bytes** | 100 bytes |
