@@ -45,7 +45,7 @@ Para usar essas dimensões, habilite o **[!UICONTROL Media Ads]** em [[!UICONTRO
 As seguintes dimensões estão disponíveis:
 
 * [[!UICONTROL Anúncio]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/ad)
-* [[!UICONTROL Anúncio na posição pod]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)
+* [[!UICONTROL Anúncio na posição pod]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)
 * [[!UICONTROL Comprimento do anúncio (variável)]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/ad-length)
 * [[!UICONTROL Nome do anúncio (variável)]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/ad-name)
 * [[!UICONTROL Nome do player do anúncio]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/ad-player-name)
