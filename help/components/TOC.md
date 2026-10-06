@@ -5,13 +5,11 @@ user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
 nudge: red
-source-git-commit: 4cdd860f83b81128d289c68201500d14f27bda8b
+source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '780'
 ht-degree: 97%
-
 ---
-
 # [!DNL Adobe Analytics] Guia de componentes {#components}
 
 + [Guia de componentes do Analytics](home.md)
@@ -63,7 +61,7 @@ ht-degree: 97%
   + [Canal de primeiro contato](dimensions/first-touch-channel.md)
   + [Detalhes do canal de primeiro contato](dimensions/first-touch-detail.md)
   + [Profundidade da ocorrência](dimensions/hit-depth.md)
-  + [Tipo de ocorrência](dimensions/hit-type.md)
+  + [Tipo de hit](dimensions/hit-type.md)
   + [Hora do dia](dimensions/hour-of-day.md)
   + [Hora](dimensions/hour.md)
   + [Estado identificado](dimensions/identified-state.md)
@@ -133,6 +131,7 @@ ht-degree: 97%
   + [Tempo médio no site](metrics/average-time-on-site.md)
   + [Ocorrências de bot](metrics/bot-occurrences.md)
   + [Exibições de página de bot](metrics/bot-page-views.md)
+  + [Ocorrências de produto de bot](metrics/bot-product-occurrences.md)
   + [Taxa de rejeição](metrics/bounce-rate.md)
   + [Rejeições](metrics/bounces.md)
   + [Adições ao carrinho](metrics/cart-additions.md)

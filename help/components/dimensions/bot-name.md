@@ -31,23 +31,25 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 11%
+source-wordcount: '265'
+ht-degree: 10%
 ---
 # Nome do bot
 
 A [dimensão](overview.md) de &#39;Nome de bot&#39; mostra os nomes de bots que foram detectados usando as [Regras de bot](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md). Essas regras podem ser regras IAB padrão ou regras de bot personalizadas configuradas pela organização. É útil nos casos em que você deseja saber mais sobre quais bots estão visitando seu site ou quais bots geram mais tráfego.
 
-As ocorrências que correspondem a [!UICONTROL Regras de bot] são automaticamente filtradas de todos os relatórios do Analytics, com exceção a esta dimensão, [Ocorrências de bot](../metrics/bot-occurrences.md) e [Exibições de página de bot](../metrics/bot-page-views.md). É possível utilizar essa dimensão e essas duas métricas para ver quais dados de bot são excluídos do restante dos relatórios.
+As ocorrências que correspondem a [!UICONTROL Regras de bot] são automaticamente filtradas de todos os relatórios do Analytics, com exceção a esta dimensão, [Ocorrências de bot](../metrics/bot-occurrences.md), [Exibições de página de bot](../metrics/bot-page-views.md) e [Ocorrências de produto de bot](../metrics/bot-product-occurrences.md). É possível utilizar essa dimensão e essas três métricas para ver quais dados de bot são excluídos do restante dos relatórios.
 
 Como os relatórios de bot são separados do restante dos dados do conjunto de relatórios, somente as seguintes dimensões e métricas são compatíveis com essa dimensão:
 
 * [Página](page.md)
+* [Produto](product.md) (somente com [Ocorrências de produto de bot](../metrics/bot-product-occurrences.md))
 * Dimensões com base em tempo (por exemplo, [Dia](day.md), [Semana](week.md) ou [Mês](month.md))
 * [Ocorrências de bot](../metrics/bot-occurrences.md)
 * [Exibições de página de bot](../metrics/bot-page-views.md)
+* [Ocorrências de produto de bot](../metrics/bot-product-occurrences.md)
 
 Usar qualquer outra dimensão ou métrica com essa dimensão não retorna dados.
 

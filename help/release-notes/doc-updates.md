@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
+source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
 workflow-type: tm+mt
-source-wordcount: '7551'
-ht-degree: 91%
+source-wordcount: '7591'
+ht-degree: 90%
 ---
 # Atualizações de documentação técnica do Adobe Analytics
 
@@ -75,6 +75,8 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 | Recurso | Descrição |
 | --- | --- |
+| **outubro de 2026** | |
+| Métrica de ocorrências de produto de bot | Adição da métrica [Ocorrências de produto de bot](/help/components/metrics/bot-product-occurrences.md), que mostra o número de sub-ocorrências de cadeia de caracteres de produto que corresponderam às regras de bot. <p>Atualização da dimensão [Nome do bot](/help/components/dimensions/bot-name.md) e da métrica [Ocorrências de bot](/help/components/metrics/bot-occurrences.md) também para fazer referência à nova métrica.</p> |
 | **setembro de 2026** | |
 | Jornada comparação da tela de desenho em setas e fallout | Atualização da configuração &#39;[!UICONTROL Comparar com]&#39; em [Configurar uma visualização da tela de Jornada](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) para mostrar que a alteração de porcentagem entre os intervalos de datas agora é exibida em cada nó, seta e fallout na jornada. |
 | eVars de merchandising | Documentação renovada e consolidada de variáveis de merchandising em componentes relevantes:<ul><li>Dimensão [eVar (Merchandising)](/help/components/dimensions/evar-merchandising.md) no guia Componentes</li><li>[Variável do eVar (merchandising)](/help/implement/vars/page-vars/evar-merchandising.md) no guia de implementação</li><li>[Variáveis de conversão](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) no Guia do administrador</li></ul> |
