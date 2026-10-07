@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 53%
+source-wordcount: '333'
+ht-degree: 43%
 ---
 # Requisitos do encaminhamento pelo lado do servidor
 
@@ -62,5 +62,5 @@ O encaminhamento pelo lado do servidor exige a versão 1.5 (ou mais recente) das
 
 Qualquer ferramenta que monitora as solicitações HTTP feitas por um navegador pode mostrar o número da versão do seu código AppMeasurement e Visitor API. O `AppMeasurement_Module_AudienceManagement.js` não contém ou retorna uma ID de versão. Os exemplos a seguir mostram a aparência das IDs de versão para os códigos `AppMeasurement.js` e `VisitorAPI.js`.
 
-* `AppMeasurement.js`: O [Adobe Debugger](/help/implement/validate/debugger.md) retorna a versão do AppMeasurement da seguinte maneira: `Version of Code | JS-1.5.1`. Outras ferramentas podem usar um rótulo diferente, mas o valor sempre segue o padrão `JS-X.X.X`, onde `X` é um número de versão.
+* `AppMeasurement.js`: A versão aparece na URL da solicitação após o tipo de resposta, como `/b/ss/examplersid/1/JS-X.X.X/s234234238479`. [Ferramentas de depuração](/help/implement/validate/debugging-tools.md) que decodificam solicitações podem usar um rótulo diferente, mas o valor sempre segue o padrão `JS-X.X.X`, onde `X` é um número de versão.
 * `VisitorAPI.js`: Procure o parâmetro `d_visid_ver`. Ele mostrará o serviço de ID de visitante como este: `d_visid_ver: 1.5.5`. O código da API de visitante anterior à versão 1.5.2 não incluía um número de versão. Você provavelmente está usando uma biblioteca de código mais antiga (e precisa atualizar) se os resultados do monitoramento não retornarem um número de versão.

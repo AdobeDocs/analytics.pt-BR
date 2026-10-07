@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '161'
 ht-degree: 18%
 ---
 # ID de visitante da Experience Cloud
@@ -44,8 +44,8 @@ Essa dimensão requer uma implementação que use o Serviço de ID de visitante 
 
 | Propriedade | Valor |
 | --- | --- |
-| **Variável do AppMeasurement** | Nenhum (definido pelo Serviço de ID de visitante da Experience Cloud) |
-| **Web SDK / campo XDM** | Nenhum (definido pelo serviço de identidade da Experience Cloud) |
+| **Variável do AppMeasurement** | Nenhum (definido pelo Serviço de ID de visitante da Adobe) |
+| **Web SDK / campo XDM** | Nenhum (definido pelo serviço de identidade da Experience Platform) |
 | **Parâmetro de consulta** | [`mid`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Marca XML** | [`<marketingCloudVisitorId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite de bytes** | N/D |
@@ -53,4 +53,4 @@ Essa dimensão requer uma implementação que use o Serviço de ID de visitante 
 
 ## Itens de dimensão
 
-Os itens do Dimension incluem a Experience Cloud ID de cada visitante.
+Os itens do Dimension incluem a ECID de cada visitante.

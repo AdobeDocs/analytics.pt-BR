@@ -7,28 +7,38 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/FpJRwRs9GXGTzUY52vWqC5Ddej-I3mh2ASC6YKphNRI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: 635
-ht-degree: 65%
-
+source-wordcount: '631'
+ht-degree: 66%
 ---
-
 # Validar uma implementação de desenvolvimento e publicar na produção
 
 Assim que a biblioteca de tags for enviada para produção, a empresa poderá começar a usar o Adobe Analytics para receber relatórios básicos.
@@ -37,14 +47,14 @@ Assim que a biblioteca de tags for enviada para produção, a empresa poderá co
 
 [Implante a implementação do Analytics no ambiente de desenvolvimento](deploy-dev.md): uma implementação do Analytics deve ser publicada no ambiente de desenvolvimento para que esta página possa ser seguida.
 
-## Valide sua implementação de desenvolvimento usando o CX Enterprise Debugger
+## Validar a implementação de desenvolvimento usando o Adobe Experience Platform Debugger
 
-O CX Enterprise Debugger é uma extensão que mostra todas as tags do CX Enterprise presentes em uma página.
+O Adobe Experience Platform Debugger é uma extensão que mostra todas as tags do CX Enterprise presentes em uma página.
 
 1. Instale a extensão do [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou do Firefox.
 2. Navegue até o site de desenvolvimento em que você implementou as tags.
-3. Clique no ícone do Adobe CX Enterprise Debugger no navegador.
-4. Se estiver tudo implementado corretamente, você verá o conteúdo no Adobe Analytics, nas tags e no serviço de ID de visitante da Adobe Experience Cloud.
+3. Clique no ícone do Adobe Experience Platform Debugger no navegador.
+4. Se estiver tudo implementado corretamente, você verá o conteúdo no Adobe Analytics, nas tags e no Serviço de ID de visitante da Adobe.
 
 ## Implante a implementação de desenvolvimento para preparo/produção
 
@@ -65,7 +75,7 @@ Depois de validar que os dados estão sendo exibidos, você pode enviar a implem
 
 Confirme se você está vendo os dados na versão ao vivo do site e comece a coleta de dados oficial do Adobe Analytics.
 
-1. Depois de confirmar com os proprietários do site que eles enviaram o código da tag para produção, navegue até a página inicial do site no Chrome e abra o Adobe CX Enterprise Debugger.
+1. Depois de confirmar com os proprietários do site que eles enviaram o código da tag para produção, navegue até a página inicial do site no Chrome e abra o Adobe Experience Platform Debugger.
 2. Se tudo estiver funcionando, você verá dados semelhantes aos seus testes no ambiente de desenvolvimento. Neste ponto, você está coletando dados no site e agora pode começar a usar o Adobe Analytics para relatórios.
 
 ## Solução de problemas

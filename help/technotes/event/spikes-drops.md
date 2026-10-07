@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 100%
+source-wordcount: '857'
+ht-degree: 98%
 ---
 # Solução de problemas de picos e quedas nos dados
 
@@ -53,11 +53,11 @@ As quedas de tráfego são categorizadas em duas seções: dados parciais e zero
 * **Latência do conjunto de relatórios**: ocasionalmente, um conjunto de relatórios pode apresentar [latência](../latency.md) devido a vários fatores. Vários problemas de latência são resolvidos em horas. Se você estiver preocupado com um conjunto de relatórios específico, entre em contato com o Atendimento ao cliente da Adobe e informe a ID do conjunto de relatórios afetado.
 * **Remoção da implementação**: às vezes, quando uma organização altera ou reestrutura a implementação de seu site, a reimplementação do Analytics é ignorada. Trabalhe com desenvolvedores em sua organização para reimplementar o código em seu site.
 * **Problema de interface/cache do Analytics**: em raras ocasiões, o cache de um navegador contém dados inválidos que fazem com que todos os relatórios retornem zeros. Limpe os cookies e o cache do navegador para resolver o problema. Se a limpeza dos cookies/cache não funcionar, entre em contato com o Atendimento ao cliente com o relatório e o intervalo de datas ausentes; eles podem duplicar o problema e fornecer informações adicionais.
-* **Disponibilidade do Analytics**: verifique [status.adobe.com](https://status.adobe.com/br/products/1173/pt) se há problemas com a coleta ou o processamento de dados.
+* **Disponibilidade do Analytics**: verifique [status.adobe.com](https://status.adobe.com/products/1173/pt) se há problemas com a coleta ou o processamento de dados.
 
 ### Possíveis causas da ausência parcial ou tráfego diminuído
 
-* **Alterações de implementação**: use o [depurador](/help/implement/validate/debugger.md) para validar se as dimensões desejadas funcionam.
+* **Alterações de implementação**: use uma [ferramenta de depuração](/help/implement/validate/debugging-tools.md) para validar se as dimensões desejadas funcionam.
 * **Diminuição do tráfego de referência**: se um anúncio de banner popular ou hiperlink em outro site for removido, o tráfego pode diminuir bastante. Analise a tendência da dimensão [Domínios referenciadores](/help/components/dimensions/referring-domain.md) antes e depois da queda para fazer pesquisas mais detalhadas.
 * **Problemas de desempenho do site**: a distribuição incorreta do tráfego por meio de balanceadores de carga ou problemas de servidor que hospedam seu site pode contribuir para uma redução no relatório do Analytics. Trabalhe com a equipe em sua organização que gerencia a integridade do site para investigar possíveis problemas de desempenho.
 * **Alterações na classificação de pesquisa natural**: o tráfego pode diminuir se outro site sair da classificação de pesquisa natural para algumas de suas palavras-chave. Essa diminuição pode ser especialmente evidente se o site não estiver mais na primeira página dos resultados da pesquisa. Analise a tendência da dimensão [Mecanismos de pesquisa](/help/components/dimensions/search-engine.md) para fazer pesquisas mais detalhadas.

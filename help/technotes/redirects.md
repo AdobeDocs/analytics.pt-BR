@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1140'
 ht-degree: 87%
 ---
 # Redirecionamentos e aliases
@@ -135,11 +135,11 @@ s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tick
 s.pageURL="https://www.flytohawaii.example"
 ```
 
-## Verificar o referenciador com o Adobe Debugger {#verify}
+## Verificar o referenciador com o Adobe Experience Platform Debugger {#verify}
 
 Faça um teste para verificar se o referenciador, o URL de origem (*`s_server`*) e as variáveis de campanha estão sendo capturados.
 
-Essas variáveis serão representadas como os parâmetros a seguir no [CX Enterprise Debugger](https://experienceleague.adobe.com/pt-br/docs/experience-platform/debugger/home).
+Essas variáveis serão representadas como os parâmetros a seguir em [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/pt-br/docs/experience-platform/debugger/home).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
