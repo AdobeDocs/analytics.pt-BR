@@ -79,7 +79,7 @@ O assistente de atualização requer o seguinte acesso. Trabalhe com o administr
 
 | Tipo de acesso | Obrigatório |
 | --- | --- |
-| [Permissões da Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL Visualizar esquemas]</li><li>[!UICONTROL Gerenciar esquemas]</li><li>[!UICONTROL Visualizar conjuntos de dados]</li><li>[!UICONTROL Gerenciar conjuntos de dados]</li><li>[!UICONTROL Exibir namespaces de identidade]</li></ul> |
+| [Permissões da Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL Visualizar esquemas]</li><li>[!UICONTROL Gerenciar esquemas]</li><li>[!UICONTROL Visualizar conjuntos de dados]</li><li>[!UICONTROL Gerenciar conjuntos de dados]</li><li>[!UICONTROL Exibir namespaces de identidade]</li></ul> |
 | Acesso ao produto | <ul><li>Coleção de dados (tags)</li><li>Adobe Analytics</li></ul> |
 | [Direitos de marcas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/administration/user-permissions) | [!UICONTROL Gerenciar propriedades] |
 
