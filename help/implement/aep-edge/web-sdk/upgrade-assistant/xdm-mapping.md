@@ -69,7 +69,7 @@ Você pode criar o mapeamento de uma das duas formas a seguir:
 
 <!-- markdownlint-enable MD034 -->
 
-Ao criar um novo esquema, você também escolhe se o assistente de atualização favorece grupos de campos padrão ou personalizados. Os grupos de campos padrão são definidos pela Adobe, enquanto os grupos de campos personalizados são definidos pela organização. Consulte [Grupo de campos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition#field-group) na documentação do XDM.
+Ao criar um novo esquema, você também escolhe se o assistente de atualização favorece grupos de campos padrão ou personalizados. Os grupos de campos padrão são definidos pela Adobe, enquanto os grupos de campos personalizados são definidos pela organização. Consulte [Grupo de campos](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group) na documentação do XDM.
 
 ## Revisar o mapeamento {#review}
 
