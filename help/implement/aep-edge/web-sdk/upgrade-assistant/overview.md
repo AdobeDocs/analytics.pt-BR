@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '534'
 ht-degree: 3%
 ---
 # Assistente de atualização do Web SDK
@@ -54,7 +54,7 @@ O assistente de atualização orientará você pelas etapas a seguir e cada etap
 
 1. **[Seleção de componentes](component-selection.md)**: escolha as regras, os elementos de dados e as extensões a serem incluídos na migração.
 1. **[Conclusões de auditoria](audit-findings.md)**: revise as recomendações de limpeza opcionais para os componentes selecionados.
-1. **[Verificação do conjunto de relatórios](rs-verification.md)**: revise as variáveis do Analytics em seus conjuntos de relatórios e escolha quais serão postergadas.
+1. **[Preparação do mapeador](mapper-prep.md)**: revise as variáveis do Analytics nos seus conjuntos de relatórios e escolha quais serão transportadas.
 1. **[Mapeamento XDM](xdm-mapping.md)**: mapeie as variáveis do Analytics para campos em um esquema XDM.
 1. **[Implementação do Web SDK](web-sdk-implementation.md)**: revise as ações do Web SDK que o assistente de atualização adiciona às suas regras.
 1. **[Revisão final](final-review.md)**: selecione uma sandbox da Experience Platform, analise o que a migração cria e finalize a migração.
@@ -79,7 +79,7 @@ O assistente de atualização requer o seguinte acesso. Trabalhe com o administr
 
 | Tipo de acesso | Obrigatório |
 | --- | --- |
-| [Permissões da Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL Visualizar esquemas]</li><li>[!UICONTROL Gerenciar esquemas]</li><li>[!UICONTROL Visualizar conjuntos de dados]</li><li>[!UICONTROL Gerenciar conjuntos de dados]</li><li>[!UICONTROL Exibir namespaces de identidade]</li></ul> |
+| [Permissões da Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL Visualizar esquemas]</li><li>[!UICONTROL Gerenciar esquemas]</li><li>[!UICONTROL Visualizar conjuntos de dados]</li><li>[!UICONTROL Gerenciar conjuntos de dados]</li><li>[!UICONTROL Exibir namespaces de identidade]</li></ul> |
 | Acesso ao produto | <ul><li>Coleção de dados (tags)</li><li>Adobe Analytics</li></ul> |
 | [Direitos de marcas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/administration/user-permissions) | [!UICONTROL Gerenciar propriedades] |
 

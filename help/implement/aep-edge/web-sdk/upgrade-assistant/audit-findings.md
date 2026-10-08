@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '335'
 ht-degree: 2%
 ---
 # Conclusões da auditoria
@@ -58,7 +58,7 @@ O assistente de atualização verifica as regras e os elementos de dados selecio
 * Elementos de dados duplicados que podem ser consolidados
 * Elementos de dados que podem não ser usados, que podem ser desativados
 
-Esta etapa é opcional. Você pode resolver quantos achados quiser ou continuar diretamente para a [verificação do conjunto de relatórios](rs-verification.md).
+Esta etapa é opcional. Você pode resolver quantos achados quiser ou continuar diretamente para [Preparação do mapeador](mapper-prep.md).
 
 ## Revisar uma conclusão {#review}
 
