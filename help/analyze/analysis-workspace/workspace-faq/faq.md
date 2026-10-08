@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 89%
+source-wordcount: '601'
+ht-degree: 86%
 ---
 # Perguntas frequentes
 
@@ -104,7 +104,7 @@ Se você criar um relatório de espaço de trabalho com êxito, mas não houver 
 * Verifique novamente o conjunto de relatórios e veja se ele está preenchido com dados.
 * Se você aplicar um segmento no seu relatório, os critérios do segmento podem não corresponder a nenhum dado. Tente remover o segmento ou ajustar a definição do segmento.
 * Verifique o intervalo de datas no canto superior direito e verifique se ele está definido como um valor que você esperaria.
-* Acesse seu site e use o [Depurador](https://experienceleague.adobe.com/pt-br/docs/experience-platform/debugger/home) para verificar se os dados estão sendo coletados.
+* Navegue até o site e use a [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/pt-br/docs/experience-platform/debugger/home) para verificar se os dados estão sendo coletados.
 
 
 +++

@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '393'
 ht-degree: 73%
 ---
 # Visão geral da implementação do JavaScript do Código H
@@ -51,7 +51,7 @@ ht-degree: 73%
    >
    >O código H exige que o script `s_code.js` seja chamado dentro da tag `<body>`. Isso é diferente de outros métodos de implementação, a maioria dos quais requer referências de script na tag `<head>`.
 1. **Definir variáveis específicas da página em cada página**: cada página deve ter variáveis individuais definidas, como nome de página ou eVars. As variáveis individuais geralmente são definidas com uma tag `<script>` em linha em cada página.
-1. **Use o depurador para verificar a coleta de dados**: baixe e instale o [CX Enterprise debugger](../../validate/debugger.md) para garantir que os dados sejam enviados para o Adobe e que as variáveis de página sejam definidas corretamente.
+1. **Use o depurador para verificar a coleta de dados**: baixe e instale o [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/pt-br/docs/experience-platform/debugger/home) para garantir que os dados sejam enviados para o Adobe e que as variáveis de página sejam definidas corretamente.
 
 ## Armazenamento em cache
 

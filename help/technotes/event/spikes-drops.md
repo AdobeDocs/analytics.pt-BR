@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 100%
+source-wordcount: '857'
+ht-degree: 98%
 ---
 # Solução de problemas de picos e quedas nos dados
 
@@ -57,7 +57,7 @@ As quedas de tráfego são categorizadas em duas seções: dados parciais e zero
 
 ### Possíveis causas da ausência parcial ou tráfego diminuído
 
-* **Alterações de implementação**: use o [depurador](/help/implement/validate/debugger.md) para validar se as dimensões desejadas funcionam.
+* **Alterações de implementação**: use uma [ferramenta de depuração](/help/implement/validate/debugging-tools.md) para validar se as dimensões desejadas funcionam.
 * **Diminuição do tráfego de referência**: se um anúncio de banner popular ou hiperlink em outro site for removido, o tráfego pode diminuir bastante. Analise a tendência da dimensão [Domínios referenciadores](/help/components/dimensions/referring-domain.md) antes e depois da queda para fazer pesquisas mais detalhadas.
 * **Problemas de desempenho do site**: a distribuição incorreta do tráfego por meio de balanceadores de carga ou problemas de servidor que hospedam seu site pode contribuir para uma redução no relatório do Analytics. Trabalhe com a equipe em sua organização que gerencia a integridade do site para investigar possíveis problemas de desempenho.
 * **Alterações na classificação de pesquisa natural**: o tráfego pode diminuir se outro site sair da classificação de pesquisa natural para algumas de suas palavras-chave. Essa diminuição pode ser especialmente evidente se o site não estiver mais na primeira página dos resultados da pesquisa. Analise a tendência da dimensão [Mecanismos de pesquisa](/help/components/dimensions/search-engine.md) para fazer pesquisas mais detalhadas.

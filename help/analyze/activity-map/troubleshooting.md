@@ -7,27 +7,36 @@ exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
 TQID: 'https://experienceleague.adobe.com/gv0QMe3b8xe17THNCvDN0g7bPy73XdakcSsZYio8K5s'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: d40ce8ba-a8b5-4daa-9c46-16a4e57a022b
+    internal-label: Activity Map
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 18%
-
+source-wordcount: '426'
+ht-degree: 16%
 ---
-
 # Solução de problemas de coleta de dados do Activity Map
 
 Se você não vir dados para dimensões do Activity Map, use esta página para ajudar a determinar por quê.
@@ -36,7 +45,7 @@ Se você não vir dados para dimensões do Activity Map, use esta página para a
 
 Primeiro, verifique se o AppMeasurement coleta corretamente os dados do Activity Map.
 
-1. Baixe e instale a [Extensão do Chrome do Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/pt-br/docs/experience-platform/debugger/home).
+1. Baixe e instale o [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/pt-br/docs/experience-platform/debugger/home).
 2. Navegue até a página da Web e clique em um link.
 3. Quando a página subsequente for carregada, abra o depurador. Confirme se você vê as variáveis de dados de contexto do Activity Map agrupadas entre `activitymap.` e `.activitymap`:
 

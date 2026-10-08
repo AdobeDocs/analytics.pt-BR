@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1441'
 ht-degree: 31%
 ---
 # Publicar segmentos {#publish-segments}
@@ -135,14 +135,14 @@ Para exibir segmentos publicados:
 
 Há duas maneiras de capturar a UUID do Adobe Audience Manager associada ao navegador no momento:
 
-* Adobe CX Enterprise Debugger
+* Adobe Experience Platform Debugger
 * Ferramenta de desenvolvedor nativa nos navegadores (por exemplo, Ferramentas de desenvolvedor do Chrome)
 
 As capturas de tela a seguir mostram como recuperar a UUID do Adobe Audience Manager no navegador e usá-la no Visualizador de perfil do visitante da Audience Manager para validar a característica e a associação do segmento.
 
-### Método 1: usar o Adobe CX Enterprise Debugger
+### Método 1: usar o Adobe Experience Platform Debugger
 
-1. Baixe e instale o [Adobe CX Enterprise Debugger](/help/implement/validate/debugger.md) na Chrome Web Store.
+1. Baixe e instale o [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/pt-br/docs/experience-platform/debugger/home) na Chrome Web Store.
 1. Inicie o depurador ao carregar uma página.
 1. Role até a seção Audience Manager e localize a UUID do Adobe Audience Manager definida na página atual do navegador
 (`35721780439475290181087231320657663953` no exemplo abaixo)
