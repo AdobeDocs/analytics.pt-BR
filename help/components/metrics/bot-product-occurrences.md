@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: 7a99ecd99a9b1a639c8a2d48dc35d57fdfeb1a12
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '135'
 ht-degree: 5%
 ---
 # Ocorrências de produto de bot
@@ -33,7 +33,6 @@ A [métrica](overview.md) de &#39;Ocorrências de produto de bot&#39; mostra o n
 Como o relatório de bot é separado do restante dos dados do conjunto de relatórios, essa métrica funciona somente com as seguintes dimensões:
 
 * [Nome do bot](../dimensions/bot-name.md)
-* [Produto](../dimensions/product.md)
 * Dimensões com base em tempo (por exemplo, [Dia](../dimensions/day.md), [Semana](../dimensions/week.md) ou [Mês](../dimensions/month.md))
 
 Usar qualquer outra dimensão com essa métrica não retorna dados.
