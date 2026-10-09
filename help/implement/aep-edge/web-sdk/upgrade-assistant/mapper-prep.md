@@ -1,5 +1,5 @@
 ---
-title: Verificação do conjunto de relatórios no assistente de atualização do Web SDK
+title: Preparação do mapeador no assistente de atualização do Web SDK
 description: Revise as variáveis do Analytics em seus conjuntos de relatórios e escolha quais serão transportadas para o mapeamento XDM.
 feature: Implementation Basics
 role: Admin, Developer, Leader
@@ -35,18 +35,18 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '507'
 ht-degree: 0%
 ---
-# Verificação do conjunto de relatórios
+# Preparação do mapeador
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_upgradeassistant_rsverification"
->title="Verificação do conjunto de relatórios"
+>id="aa_upgradeassistant_mapperprep"
+>title="Preparação do mapeador"
 >abstract="Revise as variáveis do Analytics que a propriedade de tags envia para cada conjunto de relatórios. As variáveis selecionadas aqui são transportadas para o mapeamento XDM. Use as guias para verificar dados recentes, localizar variáveis duplicadas e comparar configurações em conjuntos de relatórios."
 
 <!-- markdownlint-enable MD034 -->
@@ -80,7 +80,7 @@ Se a propriedade das tags enviar dados para mais de um conjunto de relatórios, 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_upgradeassistant_rsverification_refresh"
+>id="aa_upgradeassistant_mapperprep_refresh"
 >title="Atualizar dados do conjunto de relatórios"
 >abstract="Verifica novamente os conjuntos de relatórios vinculados a essa propriedade de tags, incluindo suas configurações de variável e dados recentes, e executa novamente a análise de variável. Se o assistente de atualização ainda não encontrou conjuntos de relatórios, ele os procurará na propriedade de tags primeiro. Suas seleções e decisões são mantidas."
 

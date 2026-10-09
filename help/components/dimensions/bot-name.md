@@ -31,9 +31,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: 7a99ecd99a9b1a639c8a2d48dc35d57fdfeb1a12
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '259'
 ht-degree: 10%
 ---
 # Nome do bot
@@ -45,7 +45,6 @@ As ocorrências que correspondem a [!UICONTROL Regras de bot] são automaticamen
 Como os relatórios de bot são separados do restante dos dados do conjunto de relatórios, somente as seguintes dimensões e métricas são compatíveis com essa dimensão:
 
 * [Página](page.md)
-* [Produto](product.md) (somente com [Ocorrências de produto de bot](../metrics/bot-product-occurrences.md))
 * Dimensões com base em tempo (por exemplo, [Dia](day.md), [Semana](week.md) ou [Mês](month.md))
 * [Ocorrências de bot](../metrics/bot-occurrences.md)
 * [Exibições de página de bot](../metrics/bot-page-views.md)

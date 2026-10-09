@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '418'
 ht-degree: 3%
 ---
 # Mapeamento XDM
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 <!-- markdownlint-enable MD034 -->
 
-O Web SDK envia dados usando [campos do Experience Data Model (XDM)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home), para que cada variável do Analytics transportada da [verificação do conjunto de relatórios](rs-verification.md) precise de um campo correspondente em um esquema XDM. Nesta etapa, escolha um esquema e mapeie as variáveis aos campos.
+O Web SDK envia dados usando os [campos do Experience Data Model (XDM)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home), de modo que cada variável do Analytics transportada da [Preparação do mapeador](mapper-prep.md) precisa de um campo correspondente em um esquema XDM. Nesta etapa, escolha um esquema e mapeie as variáveis aos campos.
 
 ## Escolher um esquema {#schema}
 
