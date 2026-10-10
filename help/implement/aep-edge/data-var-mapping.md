@@ -28,16 +28,16 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c7bf23667e8dad862d73106345c08047039e945a
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 77%
+source-wordcount: '645'
+ht-degree: 66%
 ---
 # Mapeamento de campo do objeto de dados para o Adobe Analytics
 
 A tabela a seguir mostra o campo do objeto de dados que o Adobe Experience Platform Edge Network mapeia automaticamente para o Adobe Analytics. Se você usar esses caminhos de campo de objeto de dados, nenhuma configuração adicional será necessária para enviar dados para o Adobe Analytics.
 
-Recomenda-se o uso desses campos caso você pretenda utilizar o Customer Journey Analytics no futuro. Este método de implementação permite que sua organização envie dados para a Adobe usando o SDK da Web sem estar em conformidade com um esquema XDM. Quando sua organização estiver pronta para enviar dados para a Adobe Experience Platform, você poderá usar o [Mapeamento de sequência de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/data-prep#mapping) para apontar campos de objeto de dados para seus respectivos campos XDM.
+O uso desses campos é recomendado se você pretende mudar para o Customer Journey Analytics no futuro. Esse método de implementação permite que sua organização envie dados para a Adobe Analytics usando a Web SDK sem estar em conformidade com um esquema XDM. Esses mapeamentos se aplicam somente ao Adobe Analytics. Quando sua organização estiver pronta para enviar dados para a Adobe Experience Platform, use o [mapeamento de sequência de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/data-prep#mapping) para mapear campos de objeto de dados para os campos no esquema XDM.
 
 ## Prioridades de valor
 
