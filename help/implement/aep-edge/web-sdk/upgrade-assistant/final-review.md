@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 0%
+ht-degree: 13%
 ---
 # Revisão final
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_finalreview"
 >title="Revisão final"
->abstract="Selecione a sandbox da Experience Platform a ser usada e revise tudo o que essa migração cria ou altera. Nada é alterado até que você finalize a migração. Quando você o finaliza, o assistente de atualização cria tudo de uma só vez, adiciona as alterações das tags a uma nova biblioteca e torna essa migração somente leitura. Em seguida, você publica essa biblioteca para produção sozinho."
+>abstract="Selecione a sandbox da Experience Platform a ser usada e revise tudo o que essa migração cria ou altera. Nada é alterado até que você finalize a migração. Quando você a finaliza, o assistente de atualização cria tudo de uma só vez, adiciona as alterações das tags a uma nova biblioteca e torna essa migração somente leitura. Em seguida, você mesmo publica essa biblioteca no ambiente de produção."
 
 <!-- markdownlint-enable MD034 -->
 

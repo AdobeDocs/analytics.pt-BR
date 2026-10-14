@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 2%
+ht-degree: 17%
 ---
 # Conclusões da auditoria
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_auditfindings"
 >title="Conclusões da auditoria"
->abstract="As descobertas apontam regras e elementos de dados que você pode querer limpar antes de migrar, como elementos de dados que nada faz referência. Aceite uma conclusão para incluir sua alteração recomendada na migração ou recuse-a para deixar o componente como está. Esta etapa é opcional."
+>abstract="As conclusões apontam regras e elementos de dados que talvez seja recomendável limpar antes da migração, como, por exemplo, elementos de dados aos quais nada faz referência. Aceite uma conclusão para incluir a alteração recomendada na migração ou rejeite-a para manter o componente como está. Esta etapa é opcional."
 
 <!-- markdownlint-enable MD034 -->
 

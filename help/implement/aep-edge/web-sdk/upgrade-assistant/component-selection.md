@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 0%
+ht-degree: 21%
 ---
 # Seleção de componente
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection"
 >title="Seleção de componente"
->abstract="Escolha as regras, os elementos de dados e as extensões a serem incluídos nesta migração. Os componentes que contribuem ativamente para a implementação do Adobe Analytics são selecionados por padrão. As etapas posteriores só funcionam com os componentes selecionados aqui."
+>abstract="Escolha as regras, os elementos de dados e as extensões a serem incluídos nesta migração. Os componentes que contribuem ativamente para a implementação do Adobe Analytics são selecionados por padrão. As etapas posteriores funcionam apenas com os componentes selecionados aqui."
 
 A seleção de componentes é a primeira etapa de uma migração. Use-a para escolher quais regras, elementos de dados e extensões da propriedade de tags serão incluídos na migração.
 
