@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: adb1abb0c0eab08dff8debe57bb52ec098df2a56
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 13%
@@ -336,10 +336,10 @@ Se você criar várias regras que não compartilham a mesma operação **[!UICON
 
 ### Exemplo
 
-Você deseja classificar com a classificação **[!UICONTROL Tipo]** como os usuários pesquisam por um atleta usando a sequência de pesquisa como dimensão principal. Por exemplo, usando esse conjunto de regras:
+Você deseja classificar com a classificação **[!UICONTROL Tipo]** que tipo de pesquisa os usuários executam usando a sequência de pesquisa como a dimensão principal. Por exemplo, usando esse conjunto de regras:
 
 ![Prioridade de regras](assets/rule-priority.png)
 
-* Quando um usuário pesquisa por `Cowboys Fantasy Tony Romo`, `Romo` é classificado como **[!UICONTROL Tipo]**.
-* Quando um usuário pesquisa por `Cowboys Fantasy Tony Romeo`, `Fantasy` é classificado como **[!UICONTROL Tipo]**.
+* Quando um usuário pesquisa por `Cowboys with Tony Romo`, `Team` é classificado como **[!UICONTROL Tipo]**.
+* Quando um usuário pesquisa por `Cowboys vs. Broncos with Tony Romeo`, `Player` é classificado como **[!UICONTROL Tipo]**.
 * Quando um usuário pesquisa por `Cowboys vs. Broncos`, `Team` é classificado como **[!UICONTROL Tipo]**.
