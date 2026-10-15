@@ -60,7 +60,7 @@ Consulte [Configurar a extensão do Adobe Experience Platform Web SDK](https://e
 
 ## Domínio do Edge que implementa manualmente o Web SDK
 
-Configurar o SDK usando [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain). O campo é uma cadeia de caracteres que determina o domínio para o qual enviar dados.
+Configurar o SDK usando [`edgeDomain`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/edgedomain). O campo é uma cadeia de caracteres que determina o domínio para o qual enviar dados.
 
 ```json
 alloy("configure", {
@@ -95,7 +95,7 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 O valor usado para `trackingServerSecure` (ou `edgeDomain`) depende de como sua organização envia dados para a Adobe:
 
-* **Se sua organização usar um domínio próprio**, como por meio do [programa de certificados gerenciados pela Adobe](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert), um [certificado gerenciado pelo cliente](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert) ou uma [rede de entrega de conteúdo (CDN)](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn), defina o valor para esse domínio. Por exemplo, `data.example.com`.
+* **Se sua organização usar um domínio próprio**, como por meio do [programa de certificados gerenciados pela Adobe](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/adobe-managed-cert), um [certificado gerenciado pelo cliente](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert) ou uma [rede de entrega de conteúdo (CDN)](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn), defina o valor para esse domínio. Por exemplo, `data.example.com`.
 * **Se sua organização usar um domínio de terceiros**, defina o valor de `data.adobedc.net` como o subdomínio da ID do locatário. Por exemplo, `example.data.adobedc.net`.
 
 Consulte [Escolher um domínio de coleção de dados](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain) no guia de administração e interface da CX Enterprise para obter detalhes sobre cada opção, incluindo como encontrar sua ID de locatário.
@@ -106,8 +106,8 @@ A Adobe recomenda que essas informações sejam mantidas em um [documento de des
 
 A Adobe recomenda usar a ECID como a forma principal de identidade do visitante em todas as implementações. A coleta de ECIDs pode ser implementada de várias maneiras diferentes, dependendo do tipo de implementação:
 
-* As implementações manuais do AppMeasurement usam `VisitorAPI.js` e chamam o método `getInstance`. Consulte [Implementar o Serviço de ID de visitante para o Analytics](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics) para obter mais informações.
-* As implementações que usam a extensão de tag da Adobe Analytics usam a [[!UICONTROL extensão de tag do Serviço da Experience Cloud ID]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview), que implementa o Serviço de ID de visitante. Depois de adicionada, nenhuma configuração adicional é necessária.
+* As implementações manuais do AppMeasurement usam `VisitorAPI.js` e chamam o método `getInstance`. Consulte [Implementar o Serviço de ID de visitante para o Analytics](https://experienceleague.adobe.com/pt-br/docs/id-service/using/implementation/setup-analytics) para obter mais informações.
+* As implementações que usam a extensão de tag da Adobe Analytics usam a [[!UICONTROL extensão de tag do Serviço da Experience Cloud ID]](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/id-service/overview), que implementa o Serviço de ID de visitante. Depois de adicionada, nenhuma configuração adicional é necessária.
 * As implementações que usam qualquer forma da Web SDK (`alloy.js` ou a extensão de tag da Web SDK) incluem automaticamente o Experience Platform Identity Service. Nenhuma configuração é necessária além da definição do valor `edgeDomain`.
 
 **Se sua implementação não usar ECIDs**, considere os seguintes impactos na sua implementação:
