@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 3%
+ht-degree: 22%
 ---
 # Mapeamento XDM
 
@@ -47,7 +47,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_xdmmapping"
 >title="Mapeamento XDM"
->abstract="Mapeie as variáveis do Analytics selecionadas para campos em um esquema XDM. O assistente de atualização pode criar um novo esquema com mapeamentos sugeridos por IA ou mapear variáveis para um esquema que você já tem. Revise todos os mapeamentos antes de continuar."
+>abstract="Mapeie as variáveis do Analytics selecionadas para campos em um esquema XDM. O assistente de upgrade pode criar um novo esquema com mapeamentos sugeridos por IA, ou você pode mapear variáveis para um esquema que você já tenha. Revise todos os mapeamentos antes de continuar."
 
 <!-- markdownlint-enable MD034 -->
 

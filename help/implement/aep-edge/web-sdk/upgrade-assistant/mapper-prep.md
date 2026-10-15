@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 0%
+ht-degree: 18%
 ---
 # Preparação do mapeador
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_mapperprep"
 >title="Preparação do mapeador"
->abstract="Revise as variáveis do Analytics que a propriedade de tags envia para cada conjunto de relatórios. As variáveis selecionadas aqui são transportadas para o mapeamento XDM. Use as guias para verificar dados recentes, localizar variáveis duplicadas e comparar configurações em conjuntos de relatórios."
+>abstract="Revise as variáveis do Analytics que a propriedade de tags envia para cada conjunto de relatórios. As variáveis selecionadas aqui são encaminhadas para o mapeamento XDM. Use as guias para verificar dados recentes, localizar variáveis duplicadas e comparar configurações entre conjuntos de relatórios."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -82,7 +82,7 @@ Se a propriedade das tags enviar dados para mais de um conjunto de relatórios, 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_mapperprep_refresh"
 >title="Atualizar dados do conjunto de relatórios"
->abstract="Verifica novamente os conjuntos de relatórios vinculados a essa propriedade de tags, incluindo suas configurações de variável e dados recentes, e executa novamente a análise de variável. Se o assistente de atualização ainda não encontrou conjuntos de relatórios, ele os procurará na propriedade de tags primeiro. Suas seleções e decisões são mantidas."
+>abstract="Verifica novamente os conjuntos de relatórios vinculados a essa propriedade de tags, incluindo suas configurações de variável e dados recentes, e executa novamente a análise de variáveis. Se o assistente de atualização ainda não encontrou conjuntos de relatórios, ele os procurará na propriedade de tags primeiro. Suas seleções e decisões são mantidas."
 
 <!-- markdownlint-enable MD034 -->
 
