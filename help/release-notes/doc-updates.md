@@ -76,7 +76,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **outubro de 2026** | |
-| Coleta de dados por meio de uma CDN | Adicionada a coleção de dados de Rota [por meio de uma CDN](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn) à interface da CX Enterprise e ao guia de administração. |
+| Coleta de dados por meio de uma CDN | Adicionada a coleção de dados de Rota [por meio de uma CDN](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/cdn) à interface da CX Enterprise e ao guia de administração. |
 | Métrica de ocorrências de produto de bot | Adição da métrica [Ocorrências de produto de bot](/help/components/metrics/bot-product-occurrences.md), que mostra o número de sub-ocorrências de cadeia de caracteres de produto que corresponderam às regras de bot. <p>Atualização da dimensão [Nome do bot](/help/components/dimensions/bot-name.md) e da métrica [Ocorrências de bot](/help/components/metrics/bot-occurrences.md) também para fazer referência à nova métrica.</p> |
 | **setembro de 2026** | |
 | Jornada comparação da tela de desenho em setas e fallout | Atualização da configuração &#39;[!UICONTROL Comparar com]&#39; em [Configurar uma visualização da tela de Jornada](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) para mostrar que a alteração de porcentagem entre os intervalos de datas agora é exibida em cada nó, seta e fallout na jornada. |

@@ -95,10 +95,10 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 O valor usado para `trackingServerSecure` (ou `edgeDomain`) depende de como sua organização envia dados para a Adobe:
 
-* **Se sua organização usar um domínio próprio**, como por meio do [programa de certificados gerenciados pela Adobe](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/adobe-managed-cert), um [certificado gerenciado pelo cliente](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert) ou uma [rede de entrega de conteúdo (CDN)](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn), defina o valor para esse domínio. Por exemplo, `data.example.com`.
+* **Se sua organização usar um domínio próprio**, como por meio do [programa de certificados gerenciados pela Adobe](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/adobe-managed-cert), um [certificado gerenciado pelo cliente](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/customer-managed-cert) ou uma [rede de entrega de conteúdo (CDN)](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/cdn), defina o valor para esse domínio. Por exemplo, `data.example.com`.
 * **Se sua organização usar um domínio de terceiros**, defina o valor de `data.adobedc.net` como o subdomínio da ID do locatário. Por exemplo, `example.data.adobedc.net`.
 
-Consulte [Escolher um domínio de coleção de dados](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain) no guia de administração e interface da CX Enterprise para obter detalhes sobre cada opção, incluindo como encontrar sua ID de locatário.
+Consulte [Escolher um domínio de coleção de dados](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/collection-domain) no guia de administração e interface da CX Enterprise para obter detalhes sobre cada opção, incluindo como encontrar sua ID de locatário.
 
 A Adobe recomenda que essas informações sejam mantidas em um [documento de design da solução](../../prepare/solution-design.md) para que sejam consistentes em toda a organização.
 
