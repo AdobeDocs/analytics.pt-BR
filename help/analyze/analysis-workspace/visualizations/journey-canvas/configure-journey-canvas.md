@@ -26,7 +26,7 @@ ht-degree: 81%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo documenta a visualização da tela de Jornada no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Consulte [Configurar uma visualização da tela de Jornada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) para a versão _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;deste artigo._
+_Este artigo documenta a visualização da tela de Jornada no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Consulte [Configurar uma visualização da tela de Jornada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) para a versão _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -116,7 +116,7 @@ Consulte [Visão geral da tela de jornada](/help/analyze/analysis-workspace/visu
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_compare_percentages"
 >title="Comparar porcentagens"
->abstract="Compara a alteração percentual em cada nó, seta e fallout na jornada entre o intervalo de datas atual e o intervalo de datas de comparação selecionado, com base na métrica principal. Quando essa opção está desativada, a porcentagem do valor bruto é exibida em vez da alteração da porcentagem."
+>abstract="Compara a variação percentual em cada nó, seta e fallout na jornada entre o intervalo de datas atual e o intervalo de datas de comparação selecionado, com base na métrica principal. Quando essa opção está desabilitada, a porcentagem do valor bruto é exibida, em vez da variação percentual."
 
 <!-- markdownlint-enable MD034 -->
 
