@@ -76,7 +76,7 @@ O cabeçalho desse painel contém as seguintes configurações:
 * **[!UICONTROL Mostrar configurações]**: abre um menu para configurações que você pode alterar (ícone de engrenagem):
   * **[!UICONTROL Configurações]**: abre as [Configurações](settings.md) da extensão.
   * **[!UICONTROL Ajuda]**: abre a documentação para o Experience League (esta página).
-  * **[!UICONTROL Comunidade Adobe]**: abre a [comunidade Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=pt).
+  * **[!UICONTROL Comunidade Adobe]**: abre a [comunidade Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=pt&lang=pt).
   * **[!UICONTROL Sobre]**: exibe a versão da extensão.
   * **[!UICONTROL Logout]**: encerra sua sessão da extensão, exigindo que você entre novamente.
 * **[!UICONTROL Sair do Activity Map]**: fecha todas as sobreposições da extensão (ícone X).
