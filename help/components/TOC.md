@@ -5,9 +5,9 @@ user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
 nudge: red
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: a68e13c9232ef8d975fd1256168a0addf677f5ac
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '782'
 ht-degree: 97%
 ---
 # [!DNL Adobe Analytics] Guia de componentes {#components}
@@ -67,6 +67,7 @@ ht-degree: 97%
   + [Estado identificado](dimensions/identified-state.md)
   + [Endereço IP](dimensions/ip-address.md)
   + [Java habilitado](dimensions/java-enabled.md)
+  + [Versão do JavaScript](dimensions/javascript-version.md)
   + [Idioma](dimensions/language.md)
   + [Canal de último contato](dimensions/last-touch-channel.md)
   + [Detalhes do canal de último contato](dimensions/last-touch-detail.md)
