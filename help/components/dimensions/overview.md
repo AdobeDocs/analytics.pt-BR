@@ -26,10 +26,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: a68e13c9232ef8d975fd1256168a0addf677f5ac
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 37%
+source-wordcount: '418'
+ht-degree: 38%
 ---
 # Visão geral das dimensões
 
@@ -58,7 +58,6 @@ As seguintes dimensões foram removidas. A maioria eram relatórios do Reports &
 * **Hierarquia**: uma dimensão personalizada (`hier1`-`hier5`) usada para capturar a estrutura hierárquica de um site para relatórios. Ela foi removida e não está disponível no Analysis Workspace. Em vez disso, use [eVars](evar.md) e classificações.
 * **Página inicial**: um sinalizador que indica se a página atual era a página inicial do navegador do visitante. É uma dimensão herdada sem equivalente moderno devido às práticas modernas de privacidade do navegador.
 * **Suporte do JavaScript**: indicou se o navegador do visitante suportava o JavaScript. Uma dimensão herdada que não é mais significativa para a medição moderna.
-* **Versão do JavaScript**: relatou a versão do JavaScript para a qual o navegador do visitante deu suporte. Uma dimensão herdada que não é mais coletada.
 * **Próxima página**: uma dimensão de definição de caminho que mostra a próxima página que um visitante visualizou. Use a [Visualização de fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) no Analysis Workspace para as dimensões de definição de caminho atuais.
 * **Página anterior**: uma dimensão de definição de caminho que mostra a página anterior que um visitante visualizou. Use a [Visualização de fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) no Analysis Workspace para as dimensões de definição de caminho atuais.
 * **Fuso Horário**: o fuso horário do visitante, derivado do deslocamento do carimbo de data/hora nas solicitações de imagem do AppMeasurement. O Web SDK coleta fuso horário usando [`placeContext`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/commands/configure/context).
