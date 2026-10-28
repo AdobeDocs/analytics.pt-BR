@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3a948346a9613a7317ac42b532592350cd3494fa
+source-git-commit: db58d6fc510998d56794678c94d8a97f0563beb4
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1695'
 ht-degree: 5%
 ---
 # Migrar componentes e projetos do Adobe Analytics para o Customer Journey Analytics
@@ -51,7 +51,7 @@ O processo de migração inclui:
 >
 >* As APIs do Adobe Analytics. Para obter mais informações, consulte as [APIs do Adobe Analytics](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs). Todas as definições de API estão disponíveis no menu suspenso **[!UICONTROL Selecionar uma definição]**.
 >
->* Adobe CX Enterprise Coworker. Para obter mais informações, consulte [Migrar projetos do Adobe Analytics para o Customer Journey Analytics com Colaborador](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/migrate-projects-aa-cja) na documentação do Adobe CX Enterprise Coworker.
+>* Adobe CX Enterprise Coworker. Para obter mais informações, consulte [Migrar projetos do Adobe Analytics para o Customer Journey Analytics com Colaborador](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/migrate-projects-aa-cja) na documentação do Adobe CX Enterprise Coworker.
 
 
 ## Preparar-se para uma migração
