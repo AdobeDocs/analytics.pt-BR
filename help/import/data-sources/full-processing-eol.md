@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 5%
@@ -47,7 +47,7 @@ Em 25 de março de 2021, o Adobe impediu a criação de novas conexões de fonte
 * A inserção de dados em massa tem recursos de validação de dados e tratamento de erros, removendo parte do trabalho administrativo de envio de dados de ocorrência.
 * A inserção de dados em massa é compatível com vários métodos de identificação de ID de visitante.
 * A inserção de dados em massa tem alguns campos obrigatórios adicionais: Uma coluna de identificação de visitante, um `pageName` (ou equivalente a link), `reportSuiteID`, `timestamp` e `userAgent`.
-* Para garantir a continuidade do visitante e a atribuição, a inserção de dados em massa requer que as linhas nos arquivos sejam classificadas em ordem cronológica. Consulte [Grupos de visitantes](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups/) para saber mais sobre a ordem da atividade do visitante em todos os arquivos.
+* Para garantir a continuidade do visitante e a atribuição, a inserção de dados em massa requer que as linhas nos arquivos sejam classificadas em ordem cronológica. Consulte [Grupos de visitantes](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups) para saber mais sobre a ordem da atividade do visitante em todos os arquivos.
 * A inserção de dados em massa requer que os arquivos sejam compactados em .csv no formato .gzip.
 * O BDIA usa `timestamp` em vez de `date`.
 
@@ -58,7 +58,7 @@ As seguintes variáveis foram introduzidas na inserção de dados em massa, que 
 * **`aamlh`**: dica de localização do Adobe Audience Manager.
 * **`contextData.key`**: [Variáveis de dados de contexto](/help/implement/vars/page-vars/contextdata.md).
 * **`customerID`**: variáveis do Serviço de ID de Visitante. Inclui o `id`, `authState` e `isMCSeed`.
-* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=pt-BR) variáveis. Inclui `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` e `wow64`.
+* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) variáveis. Inclui `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` e `wow64`.
 * **`ipaddress`**: A dimensão [Endereço IP](/help/components/dimensions/ip-address.md).
 * **`language`**: A dimensão [Idioma](/help/components/dimensions/language.md).
 * **`list1`** - **`list3`**: [Listar variáveis](/help/implement/vars/page-vars/list.md).

@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 66%
+source-wordcount: '516'
+ht-degree: 59%
 ---
 # Validar uma implementação de desenvolvimento e publicar na produção
 
@@ -80,14 +80,7 @@ Confirme se você está vendo os dados na versão ao vivo do site e comece a col
 
 ## Solução de problemas
 
-**Nenhum dado é exibido no depurador**.
-
-Enquanto estiver no site, abra o console de desenvolvedor do navegador (normalmente F12). Examine o código-fonte da página e verifique se os seguintes itens foram atendidos:
-
-* Não há erros de JavaScript no console. Trabalhe com os proprietários do site da empresa para garantir que todos os erros de JS sejam resolvidos.
-* O código do cabeçalho está implementado corretamente: verifique se o código do cabeçalho está dentro da tag `<head>` e se o arquivo existe.
-* A biblioteca do AppMeasurement existe: navegue diretamente para a origem de JS para verificar se o arquivo de JS contém o código. Caso contrário, verifique se cada ambiente foi criado e se a biblioteca foi publicada no respectivo ambiente.
-* Extensões que interferem: algumas extensões, como bloqueadores de anúncios, podem impedir que as solicitações de imagem sejam acionadas. Desative todas as extensões que possam impedir o envio de dados para a Adobe.
+Se nenhum dado do Analytics aparecer no depurador, ou se os dados não forem os esperados, consulte [Depurar coleta de dados do Analytics](../validate/debugging.md#appmeasurement).
 
 ## Próximas etapas
 

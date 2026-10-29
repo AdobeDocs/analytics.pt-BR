@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guia de implementação do Analytics
 breadcrumb-title: Guia de Implementação
 user-guide-description: Conheça maneiras de implementar o Adobe Analytics. Personalize quais dados são coletados para aproveitar ao máximo os dados do Analytics.
-source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 93%
+source-wordcount: '460'
+ht-degree: 95%
 ---
 
 # Guia de implementação do Adobe Analytics {#implementation}
@@ -150,7 +150,7 @@ ht-degree: 93%
       + [Conclusões da auditoria](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
       + [Preparação do mapeador](aep-edge/web-sdk/upgrade-assistant/mapper-prep.md)
       + [Mapeamento XDM](aep-edge/web-sdk/upgrade-assistant/xdm-mapping.md)
-      + [Implementação do Web SDK](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
+      + [Implementação do SDK da Web](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
       + [Revisão final](aep-edge/web-sdk/upgrade-assistant/final-review.md)
     + [Migrar para o SDK da web com tags](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
     + [Migrar para o SDK da web com JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
@@ -191,7 +191,7 @@ ht-degree: 93%
   + [Usar o AppMeasurement com iFrames](use-cases/iframe.md)
   + [Fluxo de trabalho de rastreamento de campanha](use-cases/campaign-tracking.md)
 + Validar a sua implementação {#validate}
-  + [Ferramentas de depuração](validate/debugging-tools.md)
+  + [Depurar a coleta de dados do Analytics](validate/debugging.md)
   + [Colisões de hash](validate/hash-collisions.md)
 + [Perguntas frequentes](faq.md)
 + Analisar a sua implementação {#review}
