@@ -33,13 +33,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: 408
-ht-degree: 87%
-
+source-wordcount: '463'
+ht-degree: 76%
 ---
-
 # Criar projetos {#create-projects}
 
 
@@ -105,7 +103,7 @@ As configurações incluem:
 | Proprietário | Nome do(a) proprietário(a) do projeto. |
 | Última modificação | Data da última modificação no projeto. |
 | Tags | Lista as tags aplicadas a um projeto para facilitar a categorização. |
-| Descrição | Uma descrição é útil para esclarecer a finalidade de um projeto. Você pode clicar duas vezes na descrição para editá-la. |
+| Descrição | Uma descrição é útil para esclarecer a finalidade de um projeto. Você pode clicar duas vezes na descrição para editá-la. <p>Para que o Adobe gere uma descrição para você, selecione **[!UICONTROL Gerar descrição]** acima do campo de descrição. O Adobe analisa vários painéis no projeto e os resume em uma descrição. As descrições geradas incluem o texto **[!UICONTROL Gerado pelo Adobe usando IA]** e podem ser editadas. Essa opção exige que sua organização concorde com determinados termos legais de IA generativos.</p> |
 | Contar instâncias repetidas | Especifica se as instâncias repetidas são contadas nos relatórios. Observação: essa configuração não se aplica às visualizações de fluxo ou fallout. |
 | Mostrar anotações | Especifica se as anotações do projeto são exibidas ou não. |
 | [Paleta de cores do projeto](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md) | É possível alterar a paleta de cores categórica usada no Espaço de trabalho escolhendo entre paletas predefinidas que foram otimizadas para a cegueira de cores ou especificando a paleta personalizada. Esse recurso afeta muitas coisas no Espaço de trabalho, incluindo a maioria das visualizações. |
