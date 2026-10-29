@@ -24,9 +24,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '632'
 ht-degree: 16%
 ---
 # Gerenciar segmentos
@@ -79,6 +79,7 @@ Você pode executar ações em segmentos usando a barra de ações ➋. A barra 
 | ![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL Renomear]** | Renomeie um único segmento selecionado. Quando selecionada, você pode renomear o segmento em linha. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Aprovar]** | Aprove os segmentos selecionados. Consulte [Aprovar segmentos](seg-approve.md) para obter mais informações. |
 | ![Copy](/help/assets/icons/Copy.svg)  **[!UICONTROL Copiar]** | Copie o segmento selecionado. Novos segmentos são criados com o mesmo nome e sufixo `(Copy)`. |
+| ![IA](/help/assets/icons/AI.svg) **[!UICONTROL Gerar descrições]** | <p>Gerar descrições para os segmentos selecionados, substituindo quaisquer descrições existentes.</p><p>Para evitar a substituição de descrições existentes, primeiro [filtre](#filter-panel) a lista para mostrar apenas segmentos sem uma descrição (no filtro, em [!UICONTROL **Outros filtros**], selecione [!UICONTROL **Descrição ausente**]).</p><p>Uma confirmação será solicitada. Solicitações grandes são executadas em segundo plano e você recebe uma notificação quando elas são concluídas.</p><p>Consulte [Gerar descrições automaticamente](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions) para obter mais informações.</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Exportar para CSV]** | Exportar os segmentos para um arquivo `Segments List.csv`. |
 
 ### Barra de filtros ativos

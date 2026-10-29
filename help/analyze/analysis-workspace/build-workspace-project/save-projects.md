@@ -18,13 +18,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: 860
-ht-degree: 95%
-
+source-wordcount: '962'
+ht-degree: 85%
 ---
-
 # Salvar projetos
 
 <!-- markdownlint-disable MD034 -->
@@ -54,7 +52,7 @@ Para salvar um projeto manualmente, com o projeto aberto no Analysis Workspace, 
   1. Especifique o seguinte:
 
      * **[!UICONTROL Nome]** (obrigatório). nome do projeto.
-     * **[!UICONTROL Descrição]**. Uma descrição do projeto.
+     * **[!UICONTROL Descrição]**. Uma descrição do projeto. Para que o Adobe gere uma descrição para você, selecione **[!UICONTROL Gerar descrição]**. O Adobe analisa vários painéis no projeto e os resume em uma descrição. As descrições geradas incluem o texto **[!UICONTROL Gerado pelo Adobe usando IA]** e podem ser editadas. Essa opção exige que sua organização concorde com determinados termos legais de IA generativos.
      * **[!UICONTROL Tags]**. Pesquise tags no campo [!UICONTROL *Pesquisar tags*] ou adicione novas tags usando **[!UICONTROL ENTER]**.
      * **[!UICONTROL Pasta]**. Selecione uma pasta no menu suspenso [!UICONTROL *Selecionar uma pasta*]. Se você não especificar uma pasta, o projeto será salvo na pasta atual na qual você criou um novo projeto.
      * **[!UICONTROL Notas de versão]**. Adicionar notas de versão na área de texto *Adicionar notas*.
@@ -91,7 +89,7 @@ Para salvar um projeto manualmente, com o projeto aberto no Analysis Workspace, 
   1. Especifique o seguinte:
 
      * **[!UICONTROL Nome]** (obrigatório). nome do projeto.
-     * **[!UICONTROL Descrição]**. Uma descrição do projeto.
+     * **[!UICONTROL Descrição]**. Uma descrição do projeto. Para que o Adobe gere uma descrição para você, selecione **[!UICONTROL Gerar descrição]**. O Adobe analisa vários painéis no projeto e os resume em uma descrição. As descrições geradas incluem o texto **[!UICONTROL Gerado pelo Adobe usando IA]** e podem ser editadas. Essa opção exige que sua organização concorde com determinados termos legais de IA generativos.
      * **[!UICONTROL Tags]**. Pesquise tags no campo [!UICONTROL *Pesquisar tags*] ou adicione novas tags usando **[!UICONTROL ENTER]**.
      * **[!UICONTROL Pasta]**. Selecione uma pasta no menu suspenso [!UICONTROL *Selecionar uma pasta*]. Se você não especificar uma pasta, o projeto será salvo na pasta atual na qual você criou um novo projeto.
      * **[!UICONTROL Notas de versão]**. Adicionar notas de versão na área de texto *Adicionar notas*.

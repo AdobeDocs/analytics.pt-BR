@@ -1,9 +1,8 @@
 ---
-source-git-commit: 8522c9129a88366fdc953d825c8935e4251487a0
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '3236'
+source-wordcount: '3238'
 ht-degree: 93%
-
 ---
 # Trechos
 
@@ -190,7 +189,7 @@ Use as informações a seguir para escolher a visualização que melhor atende �
 
 | Outros filtros | Descrição |
 |---|---|
-| ![Outros filtros](/help/assets/filter-other.png){width="300"} | A seção **[!UICONTROL Outros filtros]** permite filtrar por outros filtros predefinidos.<ul><li>Você pode selecionar uma ou mais das seguintes opções:<ul><li> **[!UICONTROL Exibir tudo]**</li><li>**[!UICONTROL Compartilhado comigo]**</li><li>**[!UICONTROL Meu]**</li><li>**[!UICONTROL Aprovado]**</li><li>**[!UICONTROL Favoritos]**</li></ul> O que você pode selecionar depende da sua função e das suas permissões.</li><li>É possível selecionar vários outros filtros. Os outros filtros disponíveis dependem das seleções feitas em outras seções no painel de filtros.</li><li>Os números indicam:<ul><li>**(1)**: o número de outros filtros selecionados (se um ou mais outros filtros forem selecionados).</li><li>**5︎⃣**: o número de outros filtros disponíveis para os itens resultantes do filtro atual.</li><li>4︎⃣: o número de itens associados ao outro filtro específico.</li></ul></li></ul> |
+| ![Outros filtros](/help/assets/filter-other.png){width="300"} | A seção **[!UICONTROL Outros filtros]** permite filtrar por outros filtros predefinidos.<ul><li>Você pode selecionar uma ou mais das seguintes opções:<ul><li> **[!UICONTROL Exibir tudo]**</li><li>**[!UICONTROL Compartilhado comigo]**</li><li>**[!UICONTROL Meu]**</li><li>**[!UICONTROL Aprovado]**</li><li>**[!UICONTROL Favoritos]**</li><li>**[!UICONTROL Descrição ausente]**</li></ul> O que você pode selecionar depende da sua função e das suas permissões.</li><li>É possível selecionar vários outros filtros. Os outros filtros disponíveis dependem das seleções feitas em outras seções no painel de filtros.</li><li>Os números indicam:<ul><li>**(1)**: o número de outros filtros selecionados (se um ou mais outros filtros forem selecionados).</li><li>**5︎⃣**: o número de outros filtros disponíveis para os itens resultantes do filtro atual.</li><li>4︎⃣: o número de itens associados ao outro filtro específico.</li></ul></li></ul> |
 
 ## Seção de filtro de intervalo de datas  {#daterangefiltersection}
 
