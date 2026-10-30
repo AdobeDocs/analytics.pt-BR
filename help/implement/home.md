@@ -42,9 +42,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '816'
 ht-degree: 82%
 ---
 # Implementação do Adobe Analytics
@@ -118,7 +118,7 @@ Os seguintes métodos de implementação estão disponíveis para seu **aplicati
 ## Artigos principais de implementação do Analytics
 
 * [Assumir o controle de uma implementação existente do Adobe Analytics](/help/implement/prepare/existing-implementation.md)
-* [Ferramentas de depuração](validate/debugging-tools.md)
+* [Depurar a coleta de dados do Analytics](validate/debugging.md)
 * [Criar uma propriedade de tag na Experience Platform](launch/create-analytics-property.md)
 * [Atualizações do AppMeasurement](appmeasurement-updates.md)
 * [Tutorial Configurar o Adobe Analytics com o Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics)
