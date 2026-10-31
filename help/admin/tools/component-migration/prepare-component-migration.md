@@ -36,7 +36,7 @@ ht-degree: 8%
 ---
 # Preparar-se para migrar componentes e projetos do Adobe Analytics para o Customer Journey Analytics
 
-Antes que qualquer pessoa na sua organização comece a migrar projetos, conforme descrito em [Migrar componentes e projetos do Adobe Analytics para o Customer Journey Analytics](/help/admin/tools/component-migration/component-migration.md) ou com o [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/migrate-projects-aa-cja), conclua as seções a seguir.
+Antes que qualquer pessoa na sua organização comece a migrar projetos, conforme descrito em [Migrar componentes e projetos do Adobe Analytics para o Customer Journey Analytics](/help/admin/tools/component-migration/component-migration.md) ou com o [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/pt-br/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/migrate-projects-aa-cja), conclua as seções a seguir.
 
 ## Pré-requisitos
 
