@@ -24,10 +24,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: b4c7365f660ff093731d55c7aba9cae5ade76789
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 76%
+source-wordcount: '871'
+ht-degree: 47%
 ---
 # Tipo de referenciador
 
@@ -50,7 +50,7 @@ O Adobe deriva essa dimensão do [referenciador](referrer.md) de cada ocorrênci
 
 Os itens de dimensão incluem o tipo de referenciador do hit. Valores específicos incluem:
 
-* **Digitado/Marcado**: não existem dados do referenciador para o hit.
+* **Digitado/Marcado**: não existem dados do referenciador para o hit. Este valor inclui visitas de [ferramentas de IA conversacional que abrem links sem um referenciador](#include-ai-traffic-that-has-no-referrer).
 * **Mecanismos de pesquisa**: o referenciador veio de um mecanismo de pesquisa reconhecido que inclui uma sequência de consulta de palavra-chave.
 * **Ferramentas de IA de conversa**: o referenciador veio de uma ferramenta de IA de conversa reconhecida.
 * **Redes sociais:**: os dados do referenciador pertenciam a uma rede social reconhecida pela Adobe.
@@ -60,6 +60,10 @@ Os itens de dimensão incluem o tipo de referenciador do hit. Valores específic
 * **Email**: o referenciador é originado de um URL com um protocolo de `imap://` ou `mail://`. Não inclui serviços de email online, pois eles normalmente utilizam o protocolo `https://`.
 
 ### Ferramentas de IA de conversa
+
+>[!IMPORTANT]
+>
+>Esse valor inclui somente visitas que têm um referenciador da lista a seguir. Algumas ferramentas de IA de conversação, como o ChatGPT, não enviam um referenciador quando abrem links, portanto, suas visitas não são incluídas. Para obter mais informações, consulte [Incluir o tráfego de IA que não tem referenciador](#include-ai-traffic-that-has-no-referrer).
 
 A lista a seguir faz referência à tabela de pesquisa &quot;Ferramentas de IA de conversa&quot; que o Adobe usa. A Adobe oferece essa lista como cortesia para os clientes do Adobe Analytics. Se você quiser que a Adobe adicione um domínio a esta lista, peça para um representante de suporte da sua organização entrar em contato com o Atendimento ao cliente.
 
@@ -84,6 +88,18 @@ A lista a seguir faz referência à tabela de pesquisa &quot;Ferramentas de IA d
 * `https://chat.mistral.ai`
 * `https://meta.ai`
 * `https://you.com`
+
+#### Incluir tráfego de IA que não tenha referenciador
+
+Algumas ferramentas de IA de conversação, incluindo o ChatGPT, abrem links sem enviar um referenciador. O Adobe relata essas visitas em &quot;Digitado/Marcado&quot; em vez de &quot;Ferramentas de IA de conversa&quot;. As ferramentas de IA podem alterar a forma como abrem links a qualquer momento. Se o tráfego das &quot;Ferramentas de IA de conversa&quot; cair, uma ferramenta pode ter parado de enviar um referenciador. A queda não significa que o Adobe Analytics perdeu dados.
+
+Em vez de um referenciador, algumas dessas ferramentas adicionam um parâmetro de sequência de consulta UTM aos links que abrem, como `utm_source=chatgpt.com` ou `utm_source=perplexity`. Para obter uma contagem mais completa do tráfego de ferramentas de IA de conversação, use o parâmetro UTM junto com o valor &quot;Ferramentas de IA de conversação&quot;:
+
+* **Capture o parâmetro UTM em uma variável**: defina uma eVar com o valor `utm_source` da URL da página de aterrissagem. Use o plug-in [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md), os recursos de parâmetro de URL na extensão do Web SDK ou do Adobe Analytics ou uma [regra de processamento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-use-cases.md) que leia o parâmetro da cadeia de caracteres de consulta.
+* **Criar um canal de marketing para ferramentas de IA**: criar uma [Regra de processamento de canal de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) que corresponda se qualquer uma de suas condições for verdadeira. Adicione a condição **[!UICONTROL Referenciador é IA de Conversação]** e uma condição **[!UICONTROL Parâmetro da Cadeia de Caracteres de Consulta]** `utm_source` para cada valor que as ferramentas de IA usam, como `chatgpt.com` ou `perplexity`.
+* **Criar um segmento**: crie um [segmento](/help/components/segmentation/seg-overview.md) que corresponda a &quot;Tipo de referenciador&quot; que seja igual a &quot;Ferramentas de IA de conversação&quot; ou que seu UTM eVar contenha um valor que as ferramentas de IA usam. Como a dimensão [URL da página](page-url.md) inclui cadeias de caracteres de consulta, você também pode fazer a correspondência com a URL da página que contém `utm_source=chatgpt.com`. Essa opção funciona sem alterações de implementação.
+
+Algumas ferramentas de IA não enviam um referenciador nem um parâmetro UTM. Você não pode identificar o tráfego dessas ferramentas como tráfego de IA.
 
 ### Redes sociais
 
