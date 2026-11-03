@@ -24,13 +24,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b4c7365f660ff093731d55c7aba9cae5ade76789
 workflow-type: tm+mt
-source-wordcount: 643
-ht-degree: 2%
-
+source-wordcount: '681'
+ht-degree: 0%
 ---
-
 # Analisar o tráfego de ferramentas de IA conversacional
 
 O Adobe Analytics fornece ferramentas para analisar o tráfego de IA no seu site.
@@ -72,9 +70,11 @@ Você pode usar a dimensão Tipo de referenciador no Analysis Workspace para ana
 
 * Fluxos de trabalho de agente
 
-A dimensão Tipo de referenciador inclui o [Item de dimensão de ferramentas da IA de conversa](/help/components/dimensions/referrer-type.md#conversational-ai-tools). Este item de dimensão inclui uma lista predefinida de chatbots de IA.
+A dimensão Tipo de referenciador inclui o [Item de dimensão de ferramentas da IA de conversa](/help/components/dimensions/referrer-type.md#conversational-ai-tools). Esse item de dimensão inclui somente visitas que têm um referenciador de uma lista predefinida de chatbots de IA.
 
-Para obter mais informações, consulte [Tipo de referenciador](/help/components/dimensions/referrer-type.md).
+>[!IMPORTANT]
+>
+>Algumas ferramentas de IA de conversação, como o ChatGPT, não enviam um referenciador quando abrem links, portanto, suas visitas não são incluídas nesse item de dimensão. Para obter mais informações, consulte [Incluir o tráfego de IA que não tem referenciador](/help/components/dimensions/referrer-type.md#include-ai-traffic-that-has-no-referrer).
 
 ### Analisar o tráfego de IA usando a detecção de bot
 

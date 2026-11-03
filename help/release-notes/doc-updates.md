@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 19e31fec475abe3805e2637949dc86171123c210
+source-git-commit: 464a88e60a47759383c89b312ce4db5f4aad311d
 workflow-type: tm+mt
-source-wordcount: '7701'
-ht-degree: 89%
+source-wordcount: '7790'
+ht-degree: 88%
 ---
 # Atualizações de documentação técnica do Adobe Analytics
 
@@ -75,6 +75,8 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 | Recurso | Descrição |
 | --- | --- |
+| **novembro de 2026** | |
+| Incluir tráfego de IA que não tenha referenciador | Algumas ferramentas de IA, incluindo o ChatGPT, abrem links sem enviar um referenciador; portanto, o tipo de referenciador &quot;Ferramentas de IA de conversa&quot; não conta essas visitas. A documentação agora explica isso e mostra como relatar esse tráfego:<ul><li>Adição de uma seção sobre [uso de parâmetros UTM](/help/components/dimensions/referrer-type.md#include-ai-traffic-that-has-no-referrer) para capturar tráfego de IA que não tem referenciador.</li><li>Adição de uma observação sobre esse comportamento à seção [Ferramentas de IA de conversa](/help/components/dimensions/referrer-type.md#conversational-ai-tools) da dimensão &quot;Tipo de referenciador&quot;.</li><li>Adição de uma observação sobre este comportamento ao [Analisar tráfego de ferramentas de IA de conversação](/help/technotes/ai-traffic.md).</li></ul> |
 | **outubro de 2026** | |
 | Bloquear seleção para visualizações | [Gerenciar fontes de dados](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) reestruturadas para separar as definições de configuração da fonte de dados do bloqueio da seleção. Também esclareceu como a [seleção de bloqueio](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md#lock-selection) funciona quando uma visualização está bloqueada para linhas em uma tabela de forma livre, incluindo o que acontece quando as linhas de detalhamento bloqueadas não estão mais na tabela. |
 | Navegação do teclado para colunas da tabela | Instruções documentadas sobre como [redimensionar](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns) e [reorganizar](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns) colunas de tabela no Analysis Workspace usando o teclado, incluindo comentários de leitores de tela. Também foi adicionada uma seção [Ações da coluna da tabela](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions) às Teclas de atalho. |
@@ -333,7 +335,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | **Março de 2021** | |
 | Março, abril de 2021 | Atualizações nos painéis do Adobe Analytics [Guia executivo](/help/analyze/mobile-app/executive.md) e [Guia do curador](/help/analyze/mobile-app/curator.md) |
 | 25 de março de 2021 | Nova documentação na página [!UICONTROL Componentes] > [!UICONTROL Preferências do usuário]. Ela permite gerenciar as configurações do [!UICONTROL Analysis Workspace] e seus componentes relacionados para o usuário. [!UICONTROL As preferências do usuário] se aplicam a todos os novos projetos e painéis. <br>**Observação:** as configurações a seguir foram movidas para a página [!UICONTROL Preferências do usuário]:<ul><li>Configurações do relatório: Separador de milhares (agora chamado de _Formato de número_)</li><li>Configurações do relatório: separador CSV</li><li>Projetos do Espaço de trabalho: Ajuda > Habilitar dicas</li><li>Projetos do Espaço de trabalho: Painel em branco _Iniciar novos projetos com esta opção de painel_</li></ul> |
-| 25 de março de 2021 | [!UICONTROL A Previsão do bucket inteligente do histograma] ajuda com histogramas de métricas de alta cardinalidade, identificando automaticamente a largura e o número corretos de intervalos para a disseminação de seus dados. Para métricas de baixa cardinalidade, a visualização se comporta da mesma forma que antes. |
+| 25 de março de 2021 | [!UICONTROL A Previsão do bucket inteligente do histograma] ajuda com histogramas de métricas de alta cardinalidade, identificando automaticamente a largura e o número corretos de buckets para a disseminação de seus dados. Para métricas de baixa cardinalidade, a visualização se comporta da mesma forma que antes. |
 | 25 de março de 2021 | Atualizações da [API de reparo de dados](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) (filtragem de URLs, sequências de consulta, sinais e muito mais) |
 | 25 de março de 2021 | Nova documentação da [API do log de uso](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) |
 | **Fevereiro de 2021** | |
