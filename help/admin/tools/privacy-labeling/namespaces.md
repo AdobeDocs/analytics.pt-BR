@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 65%
+source-wordcount: '939'
+ht-degree: 62%
 ---
 # Namespaces
 
@@ -91,7 +91,7 @@ Também é aceitável usar `"namespaceId": 4` em vez de ou além de `"namespace"
 
 >[!NOTE]
 >
->A Experience Cloud ID (ECID) era conhecida anteriormente como Marketing Cloud ID (MCID) e ainda é referida por esse nome em algumas documentações existentes.
+>A ECID era conhecida anteriormente como Marketing Cloud ID (MCID) e ainda é chamada por esse nome em algumas documentações existentes.
 >
 >Essas IDs são as únicas IDs compatíveis com o Analytics que usam um valor “type” em vez de “analytics”.
 

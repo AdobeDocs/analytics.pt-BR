@@ -25,13 +25,11 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 779
-ht-degree: 96%
-
+source-wordcount: '777'
+ht-degree: 95%
 ---
-
 # Métricas calculadas padrão
 
 O Adobe Analytics fornece várias métricas calculadas para os casos de uso mais comuns. Essas métricas calculadas estão disponíveis por padrão no Analysis Workspace.
@@ -62,13 +60,13 @@ Veja a seguir uma lista de cada métrica calculada fornecida pela Adobe, com sua
 | Usuários do aplicativo | O número total de usuários de um aplicativo móvel | `[Mobile App Users] (segment)`<br>`[Unique Visitors] (metric)` |
 | Duração média das sessões (dispositivos móveis) | O tempo médio que visitantes passam no site durante uma única sessão. | Em branco |
 | Tempo médio no site | O tempo médio que um(a) visitante passa no site antes de sair ou ir para outro site. | `[Average Time Spent on Site (Seconds)]` |
-| Taxa de rejeição | A proporção de visitas que continham exatamente uma ocorrência em comparação ao número de visitas nessa página. Essa métrica pode ajudar a entender quais itens de dimensão têm a maior taxa de rejeição ou a visualizar a taxa de rejeição total agregada do site ao longo do tempo. | `[Bounces] / [Entries]` |
+| Taxa de rejeição | A proporção de visitas que continham exatamente um hit em comparação ao número de visitas nessa página. Essa métrica pode ajudar a entender quais itens de dimensão têm a maior taxa de rejeição ou a visualizar a taxa de rejeição total agregada do site ao longo do tempo. | `[Bounces] / [Entries]` |
 | Proporção de exibições de página por bots | A proporção de exibições de página por bots em comparação ao número total de exibições de página. | `[Bot Page Views] / [Page Views]` |
 | Velocidade do conteúdo | A velocidade na qual um novo conteúdo é criado e publicado no site, e a rapidez com a qual ele gera engajamento do usuário. | `[Page Views] / [Visits]` |
 | Índice de conversão | A porcentagem de visitantes que executaram uma ação desejada, como fazer uma compra. | `[Orders] / [Visits]` |
 | Taxa de entrada | A porcentagem de visitantes que entraram no site em uma determinada página, em comparação ao número total de sessões no site. | `[Entries] / [Visits]` |
 | Visitantes únicos estimados (ITP 2.1) | Para visitantes com ITP (usuários em navegadores Safari), divida Visitantes únicos por 2 ou menos. Essa métrica calculada pressupõe que você esteja definindo cookies usando JavaScript do lado do cliente (não uma implementação CNAME). As implementações que definem cookies usando JavaScript do lado do cliente foram afetadas a partir do ITP 2.1. Consulte [Prevenção de rastreamento inteligente](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) para obter detalhes. | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
-| Cobertura da Experience Cloud ID | A porcentagem de visitantes com uma ID da Experience Cloud. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
+| Cobertura da Experience Cloud ID | A porcentagem de visitantes que têm uma ECID. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | Taxa de saída | A porcentagem de visitantes que saem do site após visualizar uma página específica. | `[Exits] / [Visits]` |
 | Visitantes únicos/Visitantes únicos com ITP 2.1 | A porcentagem de visitantes únicos que usam um navegador afetado pelas limitações de cookies ITP 2.1. | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |
 | Assistências em pedidos | O número de vezes que um canal ou fonte contribuiu para a jornada de um(a) cliente até a compra, mas não resultou na compra final. | `[Orders (Visit Participation)] - [Orders]` |

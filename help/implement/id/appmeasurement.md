@@ -30,13 +30,11 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 1%
-
 ---
-
 # Identificação do visitante usando o AppMeasurement
 
 O AppMeasurement é a biblioteca JavaScript herdada do Adobe Analytics para coleta de dados. Embora o AppMeasurement por si só ofereça uma maneira nativa de identificar visitantes, muitos navegadores modernos rejeitam os cookies de terceiros que ele tenta definir. A Adobe recomenda usar o [Serviço de ID de visitante da Adobe](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home) em todas as implementações para estar em conformidade com os padrões modernos de privacidade do navegador. Todas as versões do AppMeasurement vêm com o `VisitorAPI.js`, a biblioteca de JavaScript usada para implementar o Serviço de ID de visitante.
@@ -49,7 +47,7 @@ Esteja preparado com o seguinte:
 * Uma [ID do conjunto de relatórios](/help/admin/tools/manage-rs/new-rs/new-report-suite.md) de desenvolvimento.
 * O domínio de borda desejado para [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md).
 * Sua ID organizacional IMS:
-  1. Faça logon no [Adobe CX Enterprise](https://experience.adobe.com) usando suas credenciais da Adobe ID.
+  1. Faça logon no [Adobe CX Enterprise](https://experience.adobe.com) usando suas credenciais do Adobe ID.
   1. Em qualquer lugar na interface do CX Enterprise, pressione `[Cmd]` + `[I]` (iOS) ou `[Ctrl]` + `[I]` (Windows).
   1. Um **[!UICONTROL Depurador de dados do usuário]** é exibido. Selecione a guia **[!UICONTROL Organizações atribuídas]**.
   1. Expanda a organização IMS desejada.
@@ -79,7 +77,7 @@ Depois de usar os recursos acima, a página de exemplo básica a seguir conterá
 
 >[!TIP]
 >
->Você pode acompanhar se uma ocorrência usa o serviço de ID de visitante atribuindo a presença de `Visitor` a uma variável personalizada em [`doPlugins`](/help/implement/vars/functions/doplugins.md):
+>Você pode acompanhar se uma ocorrência usa o Serviço de ID de visitante atribuindo a presença de `Visitor` a uma variável personalizada em [`doPlugins`](/help/implement/vars/functions/doplugins.md):
 >
 >```js
 >s.doPlugins = function() {

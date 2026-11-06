@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 97%
+source-wordcount: '584'
+ht-degree: 92%
 ---
 # Opções para atenuar o efeito das limitações de cookies do navegador
 
@@ -57,7 +57,7 @@ Você pode enviar dados para o lado do servidor do Analytics usando a [API de in
 
 ## ID do dispositivo próprio (FPID) com o SDK da Web
 
-Com o SDK da Web da Adobe Experience Platform, você pode optar por definir e gerenciar seus próprios identificadores de dispositivos em vez das Experience Cloud IDs (ECIDs) geradas pela Adobe. Elas são chamadas de IDs de dispositivo próprios (FPIDs). Saiba mais [aqui](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/identity/first-party-device-ids).
+Com o Adobe Experience Platform Web SDK, você pode optar por definir e gerenciar seus próprios identificadores de dispositivo em vez das ECIDs geradas pela Adobe. Elas são chamadas de IDs de dispositivo próprios (FPIDs). Saiba mais [aqui](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/identity/first-party-device-ids).
 
 ## Mais informações
 

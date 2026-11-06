@@ -28,13 +28,11 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '754'
 ht-degree: 96%
-
 ---
-
 # Configurar usuários executivos com o aplicativo
 
 Em alguns casos, os usuários executivos podem precisar de assistência adicional para acessar e usar o aplicativo. Esta seção fornece informações para ajudá-lo a prestar essa assistência.
@@ -78,7 +76,7 @@ Após o download e a instalação, os usuários executivos podem fazer logon no 
 
    A tela **[!UICONTROL Escolher uma empresa]** é exibida. Essa tela lista as empresas de logon às quais o usuário executivo pertence.
 
-1. Faça com que eles toquem no nome da empresa de logon ou na CX Enterprise Org que se aplica ao cartão de pontuação que você compartilhou.
+1. Faça com que eles toquem no nome da empresa de logon ou na organização da Adobe que se aplica ao cartão de pontuação que você compartilhou.
 
    A lista do cartão de pontuação mostra todos os cartões de pontuação que foram compartilhados com o executivo na empresa de logon.
 

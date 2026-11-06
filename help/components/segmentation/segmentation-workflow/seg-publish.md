@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1438'
 ht-degree: 31%
 ---
 # Publicar segmentos {#publish-segments}
@@ -68,7 +68,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar se
 ## Pré-requisitos
 
 * Verifique se o conjunto de relatórios em que você está salvando este segmento está [habilitado para o CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md). Caso contrário, não será possível publicá-lo no CX Enterprise.
-* Verifique se sua organização está usando Experience Cloud IDs.
+* Verifique se sua organização está usando ECIDs.
 * Antes de publicar segmentos, o Administrador precisa atribuir a permissão [!UICONTROL Publicação de segmentos] a um perfil de produto no [Admin Console](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/administration/admin-tool-experience-cloud) e adicionar você ao perfil de produto.
 
 ## Considerações
@@ -166,7 +166,7 @@ A UUID do Adobe Audience Manager no navegador é usada por padrão quando o [!UI
 
 No Adobe Audience Manager, a lista de visitantes com ECIDs para um determinado segmento é avaliada, enquanto o Analytics compartilha segmentos com a CX Enterprise.
 
-1. No Audience Manager, vá para **[!UICONTROL Dados de público-alvo]** > **[!UICONTROL Características]** > **[!UICONTROL Características do Analytics]**. Você vê uma pasta para cada conjunto de relatórios do Analytics mapeada para a organização da CX Enterprise. Essas pastas (para Características, Segmentos e Fontes de Dados) são criadas quando os serviços principais de Perfis e Públicos-alvo/Pessoas são iniciados ou provisionados.
+1. No Audience Manager, vá para **[!UICONTROL Dados de público-alvo]** > **[!UICONTROL Características]** > **[!UICONTROL Características do Analytics]**. Você vê uma pasta para cada conjunto de relatórios do Analytics mapeada para a organização da Adobe. Essas pastas (para Características, Segmentos e Fontes de Dados) são criadas quando os serviços principais de Perfis e Públicos-alvo/Pessoas são iniciados ou provisionados.
 1. Selecione a pasta do conjunto de relatórios em que você criou o segmento que deseja compartilhar com a Audience Manager. Você verá o segmento/público-alvo criado. Quando você compartilha um segmento, duas coisas acontecem no Audience Manager:
    * Uma característica é criada, primeiro sem dados. Aproximadamente. oito horas após o segmento ser publicado no [!DNL Analytics], a lista de ECIDs é atualizada e compartilhada com a Audience Manager e outras soluções da CX Enterprise.
 

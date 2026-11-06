@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 65%
+source-wordcount: '1170'
+ht-degree: 64%
 ---
 # Qual ferramenta do Adobe Analytics devo usar?
 
@@ -123,7 +123,7 @@ A **[API de inserção de dados (legado)](/help/import/c-data-insertion-api/c-da
 
 **[O Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** deve ser usado:
 
-* Para acessar as variáveis ocultas na interface do usuário - endereço IP, Experience Cloud ID, ID de visitante do Analytics, URL da página)
+* Para acessar as variáveis ocultas na interface do usuário - endereço IP, ECID, ID de visitante do Analytics, URL da página)
 * Para acessar dados mais granulares que a interface do usuário (exibição de tabela desnormalizada)
 * Para baixar dados em um formato adequado para uma entrada de Tabela Dinâmica
 * Se o cliente quiser inserir dados do Adobe em uma ferramenta de visualização de dados de terceiros (ligeiramente resumida e não no nível de ocorrência)

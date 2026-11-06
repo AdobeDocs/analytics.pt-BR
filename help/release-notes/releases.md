@@ -20,10 +20,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 100%
+source-wordcount: '392'
+ht-degree: 90%
 ---
 # Versões de recursos do Adobe Analytics
 
@@ -35,9 +35,9 @@ O [!UICONTROL Analysis Workspace] usa sinalizadores de recursos (também conheci
 
 * **Teste limitado**: uma versão em fases começa com testes feitos por usuários internos da Adobe. Ela é então disponibilizada para um pequeno grupo de contas de clientes para garantir que o recurso atenda às necessidades e expectativas do cliente.
 
-* **Início da implantação**: a implantação de uma versão em fases começa com a fase de teste limitado. A versão é redimensionada de 0% a 100% de disponibilidade aos clientes ao longo de alguns meses. A implementação em fases acontece no nível da organização CX Enterprise, de modo que todos os usuários autorizados em uma organização recebam a mesma experiência.
+* **Início da implantação**: a implantação de uma versão em fases começa com a fase de teste limitado. A versão é redimensionada de 0% a 100% de disponibilidade aos clientes ao longo de alguns meses. A implantação em fases acontece no nível da organização da Adobe, de modo que todos os usuários autorizados em uma organização recebem a mesma experiência.
 
-* **Disponibilidade geral (GA)**: o recurso está disponível para 100% das organizações CX Enterprise autorizadas e o seu lançamento está concluído.
+* **Disponibilidade Geral (GA)**: o recurso está disponível para 100% das organizações autorizadas e a versão do recurso está concluída.
 
 Com cada versão de recurso, a linha do tempo do início da implantação até a disponibilidade geral pode variar. O objetivo é manter os lançamentos breves, para que, dentro de 2 meses do início da implantação, um recurso já seja disponibilizado de maneira geral.
 

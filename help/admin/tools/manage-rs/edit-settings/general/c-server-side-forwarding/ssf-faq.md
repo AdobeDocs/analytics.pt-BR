@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 42%
+source-wordcount: '687'
+ht-degree: 43%
 ---
 # Perguntas frequentes sobre o encaminhamento pelo lado do servidor
 
@@ -51,11 +51,11 @@ Perguntas frequentes sobre recursos, funcionalidades e problemas relacionados ao
 | Pergunta | Resposta |
 |--- |--- |
 | P: E se eu tiver uma tag de vários conjuntos no meu site? O encaminhamento pelo lado do servidor duplicará minhas chamadas de servidor para o Audience Manager? | Não, um hit que é encaminhado do Analytics para o Audience Manager somente será encaminhado uma vez para o Audience Manager, independentemente do número de conjuntos de relatórios no hit. Se você tiver fontes de dados correspondentes no Audience Manager para cada um dos conjuntos de relatórios no hit, cada um será preenchido apropriadamente a partir desse único hit.  Tenha em mente, no entanto, que, se você usa atualmente a coleta de dados no lado do cliente (DIL) e habilitar o encaminhamento pelo lado do servidor sem instalar o módulo de Gerenciamento de público-alvo, você duplicará suas chamadas de servidor para o Audience Manager, independentemente do número de conjuntos de relatórios que você possui no hit do Analytics. |
-| P: E se eu tiver conjuntos de relatórios com tags de vários conjuntos que estejam mapeados a organizações separadas da CX Enterprise? | Você nunca deve enviar dados de uma única ocorrência do Analytics para dois conjuntos de relatórios pertencentes a organizações da CX Enterprise separadas, mas se isso ocorrer, apenas encaminharemos a ocorrência para a organização da CX Enterprise correspondente à configuração do serviço da identidade na página. |
-| P: E se eu tiver uma tag de vários conjuntos e apenas um dos meus conjuntos de relatórios for mapeado à minha organização da CX Enterprise e o outro não? | Encaminharemos a ocorrência para o servidor de coleta de dados correspondente à Organização CX Enterprise no conjunto de relatórios mapeado. No entanto, como o conjunto de relatórios não mapeado não terá uma fonte de dados associada no Audience Manager, nenhum dado será gravado para o conjunto de relatórios não mapeado no Audience Manager. |
-| P: E se eu tiver um conjunto de relatórios mapeado a várias organizações da CX Enterprise? | O Analytics considerará esse conjunto de relatórios como não mapeado e não permitirá que o encaminhamento pelo lado do servidor seja ativado para esse conjunto de relatórios. Entre em contato com o atendimento ao cliente para resolver esse problema de mapeamento. |
+| P: E se eu tiver conjuntos de relatórios com tags de vários conjuntos que estejam mapeados a organizações separadas da Adobe? | Você nunca deve enviar dados de uma única ocorrência do Analytics para dois conjuntos de relatórios pertencentes a organizações separadas, mas se isso ocorrer, apenas encaminharemos a ocorrência para a organização correspondente à configuração do Serviço de ID de visitante na página. |
+| P: E se eu tiver uma tag de vários conjuntos e apenas um dos meus conjuntos de relatórios for mapeado para a minha organização e o outro não? | Encaminharemos a ocorrência para o servidor de coleta de dados correspondente à organização em seu conjunto de relatórios mapeado. No entanto, como o conjunto de relatórios não mapeado não terá uma fonte de dados associada no Audience Manager, nenhum dado será gravado para o conjunto de relatórios não mapeado no Audience Manager. |
+| P: E se eu tiver um conjunto de relatórios mapeado para várias organizações? | O Analytics considerará esse conjunto de relatórios como não mapeado e não permitirá que o encaminhamento pelo lado do servidor seja ativado para esse conjunto de relatórios. Entre em contato com o atendimento ao cliente para resolver esse problema de mapeamento. |
 | P: O método de encaminhamento pelo lado do servidor baseado no conjunto de relatórios será mais lento do que o encaminhamento pelo lado do servidor baseado no servidor de rastreamento? | Não, o tempo de resposta será o mesmo. |
-| P: E se nós tivermos duas organizações da CX Enterprise (ou instâncias do Adobe Audience Manager) e quisermos compartilhar dados entre as duas organizações da CX Enterprise? Posso encaminhar no lado do servidor uma única ocorrência do Analytics para várias organizações corporativas CX? | Não. Se você precisar compartilhar os dados coletados de uma organização da CX Enterprise com outra organização da CX Enterprise, recomendamos enviar qualquer público aplicável de uma instância do Audience Manager para outra usando o audience marketplace. |
+| P: E se nós tivermos duas organizações (ou instâncias do Adobe Audience Manager) e quisermos compartilhar dados entre ambas? Posso encaminhar no lado do servidor uma única ocorrência do Analytics para várias organizações? | Não. Se você precisar compartilhar os dados coletados de uma organização para outra, recomendamos enviar qualquer público aplicável de uma instância do Audience Manager para outra usando o audience marketplace. |
 | P: O encaminhamento pelo lado do servidor resultará em cobrança adicional no Audience Manager ou no Analytics? | No Analytics, nenhuma cobrança adicional ocorrerá. No Audience Manager, os hits encaminhados são tratados como qualquer outro hit e são cobrados.  É por isso que é importante não ter o DIL e encaminhamento pelo lado do servidor habilitados ao mesmo tempo, o que pode causar cobrança duplicada, bem como duplicação de dados. |
 
 >[!MORELIKETHIS]

@@ -24,20 +24,18 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 197
+source-wordcount: '196'
 ht-degree: 0%
-
 ---
-
 # Identificação do visitante usando a extensão de tag do Web SDK
 
 A extensão de tag do Web SDK na Coleção de dados da Adobe Experience Platform permite que as organizações implementem o Web SDK usando uma interface de gerenciamento de tags. Cenários avançados, como compartilhamento de ID entre domínios e migração de perfil de visitante, são facilmente configurados por meio de regras e ações de extensão. O uso do Web SDK prova o futuro da sua implementação e oferece suporte a uma atualização contínua do Customer Journey Analytics.
 
 Os dados de identidade podem ser estendidos para suportar IDs personalizadas e vários namespaces usando o [`identityMap`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/identity/identity-map) do XDM. A Adobe recomenda usar a ECID como o identificador principal do Analytics, usando outras opções de gerenciamento de identidade para cenários avançados.
 
-Como o Serviço de ID de visitante é criado nativamente na extensão de tag, ele requer apenas que você defina o **[!UICONTROL Domínio do Edge]** com o valor desejado. Se esse campo estiver definido corretamente, a identificação do visitante funcionará sem nenhuma configuração adicional.
+Como a identidade da Edge Network é criada nativamente na extensão de tag, ela requer apenas que você defina o **[!UICONTROL Domínio do Edge]** com o valor desejado. Se esse campo estiver definido corretamente, a identificação do visitante funcionará sem nenhuma configuração adicional.
 
 >[!NOTE]
 >

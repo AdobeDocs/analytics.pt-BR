@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '814'
 ht-degree: 90%
 ---
 # Exibir/gerenciar a rotulagem de privacidade para a governança de dados
@@ -79,7 +79,7 @@ Se quiser aplicar as mesmas configurações de privacidade de dados a mais de um
 
    >[!IMPORTANT]
    >
-   >Lembre-se de que todos os conjuntos de relatórios selecionados devem ser mapeados para a sua organização da CX Enterprise.
+   >Lembre-se de que todos os conjuntos de relatórios selecionados devem ser mapeados para a sua organização da Adobe.
 
    Ao copiar os rótulos de uma variável ou um conjunto de variáveis para um conjunto de relatórios diferente, a cópia é encaminhada para a variável na posição correspondente do conjunto de relatórios de destino. Para Componentes padrão, Variáveis de lista e Eventos bem-sucedidos, os rótulos serão copiados para a variável com o **mesmo nome** no conjunto de relatórios de destino.
 

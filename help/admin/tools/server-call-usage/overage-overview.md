@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '885'
 ht-degree: 34%
 ---
 # Uso de chamadas do servidor
@@ -69,7 +69,7 @@ Os termos a seguir são importantes para entender o uso de chamadas do servidor:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Empresa de faturamento (ID de faturamento) </p> </td> 
-   <td colname="col2"> <p>A entidade legal que é cobrada por chamadas do servidor. Por exemplo, adobe.com. Cada empresa de faturamento tem uma ID de faturamento usada para identificar de maneira exclusiva o cliente de faturamento. Uma ID de cobrança pode estar vinculada a várias organizações da CX Enterprise; nem sempre há uma relação 1:1 entre uma organização e uma ID de cobrança. </p> </td> 
+   <td colname="col2"> <p>A entidade legal que é cobrada por chamadas do servidor. Por exemplo, adobe.com. Cada empresa de faturamento tem uma ID de faturamento usada para identificar de maneira exclusiva o cliente de faturamento. Uma ID de cobrança pode estar vinculada a várias organizações da Adobe; nem sempre há uma relação 1:1 entre uma organização e uma ID de cobrança. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Empresa de logon </p> </td> 
@@ -82,7 +82,7 @@ Os termos a seguir são importantes para entender o uso de chamadas do servidor:
     </ul> <p>Observação: dados de uso de chamadas do servidor referentes a <u>todos</u> os conjuntos de relatórios em uma empresa de faturamento ficam visíveis para todos os usuários com as <a href="/help/admin/admin-console/permissions/analytics-tools.md">permissões</a> apropriadas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Organização da CX Enterprise </p> </td> 
+   <td colname="col1"> <p>Organização da Adobe </p> </td> 
    <td colname="col2"> <p>Uma organização é a entidade que permite a um administrador configurar grupos e usuários, além de controlar o logon único na CX Enterprise. A organização funciona como uma empresa de logon que abrange todos os produtos e soluções da CX Enterprise. </p> <p>Frequentemente, a organização é o nome da empresa. No entanto, uma empresa pode ter muitas organizações. </p> </td> 
   </tr> 
   <tr> 

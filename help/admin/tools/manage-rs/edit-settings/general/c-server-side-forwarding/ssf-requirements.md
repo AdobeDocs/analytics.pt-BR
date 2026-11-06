@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 43%
+source-wordcount: '336'
+ht-degree: 34%
 ---
 # Requisitos do encaminhamento pelo lado do servidor
 
@@ -48,7 +48,7 @@ O encaminhamento pelo lado do servidor funciona com o [Analytics](https://www.ad
 
 ## Requisitos de serviço
 
-O encaminhamento pelo lado do servidor requer o [Serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home). O Serviço de identidade fornece uma ID universal que identifica visitantes do site em todas as soluções da CX Enterprise. Você precisa implementar o serviço de ID para que o encaminhamento pelo lado do servidor funcione.
+O encaminhamento pelo lado do servidor requer o [Serviço de ID do Visitante](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home). O Serviço de ID de visitante fornece uma ID universal que identifica visitantes do site em todas as soluções da CX Enterprise. É necessário implementar o Serviço de ID de visitante para que o encaminhamento pelo lado do servidor funcione.
 
 ## Versões de código
 
@@ -63,4 +63,4 @@ O encaminhamento pelo lado do servidor exige a versão 1.5 (ou mais recente) das
 Qualquer ferramenta que monitora as solicitações HTTP feitas por um navegador pode mostrar o número da versão do seu código AppMeasurement e Visitor API. O `AppMeasurement_Module_AudienceManagement.js` não contém ou retorna uma ID de versão. Os exemplos a seguir mostram a aparência das IDs de versão para os códigos `AppMeasurement.js` e `VisitorAPI.js`.
 
 * `AppMeasurement.js`: A versão aparece na URL da solicitação após o tipo de resposta, como `/b/ss/examplersid/1/JS-X.X.X/s234234238479`. [Ferramentas de depuração](/help/implement/validate/debugging.md) que decodificam solicitações podem usar um rótulo diferente, mas o valor sempre segue o padrão `JS-X.X.X`, onde `X` é um número de versão.
-* `VisitorAPI.js`: Procure o parâmetro `d_visid_ver`. Ele mostrará o serviço de ID de visitante como este: `d_visid_ver: 1.5.5`. O código da API de visitante anterior à versão 1.5.2 não incluía um número de versão. Você provavelmente está usando uma biblioteca de código mais antiga (e precisa atualizar) se os resultados do monitoramento não retornarem um número de versão.
+* `VisitorAPI.js`: Procure o parâmetro `d_visid_ver`. Ele mostrará o Serviço de ID de Visitante como este: `d_visid_ver: 1.5.5`. O código da API de visitante anterior à versão 1.5.2 não incluía um número de versão. Você provavelmente está usando uma biblioteca de código mais antiga (e precisa atualizar) se os resultados do monitoramento não retornarem um número de versão.

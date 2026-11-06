@@ -33,16 +33,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '314'
 ht-degree: 13%
 ---
 # Motivo da desativação do rastreamento
 
 >[!BEGINSHADEBOX]
 
-*Esta página se refere à [dimensão](overview.md) que permite ver o impacto potencial dos dados ao habilitar determinadas configurações do Conjunto de Relatórios. Não está relacionado ao [Serviço de Opt-in da Adobe Experience Cloud ID](https://experienceleague.adobe.com/pt-br/docs/id-service/using/implementation/opt-in-service/optin-overview).*
+*Esta página se refere à [dimensão](overview.md) que permite ver o impacto potencial dos dados ao habilitar determinadas configurações do Conjunto de Relatórios. Não está relacionado ao Serviço de ID do Visitante [Serviço de Opt-in](https://experienceleague.adobe.com/pt-br/docs/id-service/using/implementation/opt-in-service/optin-overview).*
 
 >[!ENDSHADEBOX]
 
