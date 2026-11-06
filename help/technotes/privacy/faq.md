@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2094'
 ht-degree: 85%
 ---
 # Perguntas frequentes sobre privacidade no Adobe Analytics
@@ -87,11 +87,11 @@ Para obter mais informações sobre rótulos de governança de dados, consulte [
 
 Normalmente, os clientes do Analytics configuram alguns conjuntos de relatórios de teste para verificar a funcionalidade antes que ela seja disponibilizada para o público em geral. Sites ou aplicativos em pré-produção enviam dados a esses conjuntos de relatórios de teste/desenvolvimento/controle de qualidade para avaliar o funcionamento do código quando este for lançado, antes que o tráfego real seja enviado para os conjuntos de relatórios de produção.
 
-No entanto, com uma configuração normal, o processamento de solicitação do GDPR não pode ser testado primeiro nesses conjuntos de relatórios de teste, antes de aplicar solicitações a conjuntos de relatórios de produção. Isso ocorre porque uma solicitação de Privacidade de dados é aplicada automaticamente a todos os conjuntos de relatórios na organização da CX Enterprise, que geralmente engloba todos os conjuntos de relatórios da sua empresa.
+No entanto, com uma configuração normal, o processamento de solicitação do GDPR não pode ser testado primeiro nesses conjuntos de relatórios de teste, antes de aplicar solicitações a conjuntos de relatórios de produção. Isso ocorre porque uma solicitação de Privacidade de dados é aplicada automaticamente a todos os conjuntos de relatórios na organização da Adobe, que geralmente engloba todos os conjuntos de relatórios da sua empresa.
 
 Ainda assim, há algumas maneiras de testar o processamento da privacidade de dados antes de aplicá-la a todos os seus conjuntos de relatórios:
 
-* Uma opção é configurar uma organização da CX Enterprise separada que contenha somente conjuntos de relatórios de teste. Use essa organização da CX Enterprise para realizar testes de Privacidade de dados e sua organização normal da CX Enterprise para o processamento da Privacidade de dados.
+* Uma opção é configurar uma organização separada que contenha apenas conjuntos de relatórios de teste. Use essa organização para testar a Privacidade de dados e sua organização normal para o processamento da Privacidade de dados.
 
 * Outra opção é atribuir namespaces diferentes a IDs nos conjuntos de relatórios de teste, os quais devem se diferenciar daqueles em seus conjuntos de relatórios de produção. Por exemplo, você pode adicionar prefixos “qa-” a cada namespace nos conjuntos de relatórios de teste. Ao enviar solicitações de Privacidade de dados com apenas namespaces com o prefixo &quot;qa&quot;, essas solicitações só são executadas em relação aos conjuntos de relatórios de teste. Posteriormente, quando você enviava solicitações sem o prefixo &quot;qa&quot;, elas eram aplicadas aos conjuntos de relatórios de produção. **Esta é a abordagem recomendada, a menos que você use os namespaces `visitorId`, AAID, ECID ou `customVisitorId`. Esses namespaces são codificados e não é possível especificar nomes alternativos para eles em seus conjuntos de relatórios de teste.**
 
@@ -105,7 +105,7 @@ Para obter uma apresentação passo a passo de preparação das regras da privac
 
 +++ **Como os controladores de dados devem lidar com o consentimento relacionado ao engajamento do usuário?**
 
-O RGPD e a CCPA são boas oportunidades para reconsiderar suas estratégias e práticas de gerenciamento de consentimento. Isso inclui determinar quando o consentimento é necessário e pensar na proposta de valor para o usuário. Considere a proposta de valor para a privacidade do cliente, que pode ajudar a impulsionar a conversão e a fidelidade. O espaço de gerenciamento de consentimento (por exemplo, ferramentas, padrões, práticas recomendadas) está evoluindo rapidamente e é uma área a ser observada. Para minimizar o impacto no engajamento do usuário, os controladores devem trabalhar com os fornecedores neste espaço, bem como com seus consultores jurídicos, para garantir que estejam seguindo as leis e orientações emergentes sobre consentimento e cookies. Uma boa estratégia é considerar a “privacidade experiencial” usando uma experiência sobre a marca que seja contextualmente relevante e que defina a proposta de valor de suas atividades de coleta de dados.
+O RGPD e a CCPA são boas oportunidades para reconsiderar suas estratégias e práticas de gerenciamento de consentimento. Isso inclui determinar quando o consentimento é necessário e pensar na proposta de valor para o usuário. Considere a proposta de valor para a privacidade do consumidor, que pode ajudar a impulsionar a conversão e a fidelidade. O espaço de gerenciamento de consentimento (por exemplo, ferramentas, padrões, práticas recomendadas) está evoluindo rapidamente e é uma área a ser observada. Para minimizar o impacto no engajamento do usuário, os controladores devem trabalhar com os fornecedores neste espaço, bem como com seus consultores jurídicos, para garantir que estejam seguindo as leis e orientações emergentes sobre consentimento e cookies. Uma boa estratégia é considerar a “privacidade experiencial” usando uma experiência sobre a marca que seja contextualmente relevante e que defina a proposta de valor de suas atividades de coleta de dados.
 
 Como controlador de dados, você é responsável por obter o consentimento explícito de seus titulares de dados antes de coletar dados sobre eles (possivelmente incluindo dados do Adobe Analytics) e por implementar um [mecanismo de recusa](https://www.adobe.com/br/privacy/opt-out.html#customeruse) no seu site. Isso permite que seus titulares de dados optem por não participar da coleta de dados futura da Adobe CX Enterprise.
 

@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 50%
+source-wordcount: '306'
+ht-degree: 46%
 ---
 # Diferenças na contagem de visitantes
 
@@ -46,11 +46,11 @@ As métricas de visitante são:
  <tbody> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=pt-BR"  > Adobe Audience Manager: População Total De Segmentos</a> </p> </td> 
-   <td colname="col3"> <p>Contagem de dispositivos (Experience Cloud IDs) que eram membros de seu segmento durante o período de lookback. </p> </td> 
+   <td colname="col3"> <p>Contagem de dispositivos (ECIDs) que eram membros do seu segmento durante o período de pesquisa. </p> </td>
   </tr> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=pt-BR"  > Adobe Audience Manager: preenchimento de segmentos em tempo real</a> </p> </td> 
-   <td colname="col3"> <p>Contagem de dispositivos (Experience Cloud IDs) que eram membros do seu segmento e atingiram suas propriedades durante o período de pesquisa. </p> </td> 
+   <td colname="col3"> <p>Contagem de dispositivos (ECIDs) que eram membros do seu segmento e atingiram suas propriedades durante o período de pesquisa. </p> </td>
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics: visitantes únicos </p> </td> 
@@ -58,7 +58,7 @@ As métricas de visitante são:
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics: visitantes com Experience Cloud ID </p> </td> 
-   <td colname="col3"> <p>Mostra o número de visitantes únicos com uma Experience Cloud ID que atingiram suas propriedades durante a janela de relatórios. </p> </td> 
+   <td colname="col3"> <p>Mostra o número de visitantes únicos com uma ECID que acessaram suas propriedades durante a janela de relatórios. </p> </td>
   </tr> 
  </tbody> 
 </table>

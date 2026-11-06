@@ -1,6 +1,6 @@
 ---
 title: ID de visitante da Experience Cloud
-description: A Experience Cloud ID (ECID) do visitante, disponível no Data Warehouse.
+description: A ECID do visitante, disponível no Data Warehouse.
 feature: Dimensions
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 18%
+source-wordcount: '154'
+ht-degree: 19%
 ---
 # ID de visitante da Experience Cloud
 
@@ -40,12 +40,12 @@ A [dimensão](overview.md) da &#39;ID de visitante da Experience Cloud&#39; forn
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão requer uma implementação que use o Serviço de ID de visitante (VisitorAPI) ou o Serviço de identidade da Experience Platform. Corresponde à coluna `mcvisid` nos feeds de dados. Consulte [Referência da coluna de dados](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) para obter mais informações.
+Essa dimensão requer uma implementação que use o Serviço de ID de visitante (VisitorAPI) ou o Web SDK. Corresponde à coluna `mcvisid` nos feeds de dados. Consulte [Referência da coluna de dados](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) para obter mais informações.
 
 | Propriedade | Valor |
 | --- | --- |
 | **Variável do AppMeasurement** | Nenhum (definido pelo Serviço de ID de visitante da Adobe) |
-| **Web SDK / campo XDM** | Nenhum (definido pelo serviço de identidade da Experience Platform) |
+| **Web SDK / campo XDM** | Nenhum (definido pela Edge Network) |
 | **Parâmetro de consulta** | [`mid`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Marca XML** | [`<marketingCloudVisitorId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite de bytes** | N/D |

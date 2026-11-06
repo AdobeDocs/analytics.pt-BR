@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1119'
 ht-degree: 14%
 ---
 # Perguntas frequentes
@@ -155,7 +155,7 @@ Sim. Na configuração de destino do Adobe Audience Manager, você verá apenas 
 
 +++ Por que não consigo ativar certos conjuntos de relatórios para SSF no Analytics Admin?
 
-Somente conjuntos mapeados para sua Organização CX Enterprise podem ser habilitados.
+Somente conjuntos mapeados para sua organização da Adobe podem ser habilitados.
 
 Para obter mais perguntas frequentes sobre esse tópico, consulte [Perguntas frequentes sobre o encaminhamento pelo lado do servidor](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md).
 

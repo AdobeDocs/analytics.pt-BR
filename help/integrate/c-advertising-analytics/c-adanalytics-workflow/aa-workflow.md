@@ -31,20 +31,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 42%
+ht-degree: 35%
 ---
 # Visão geral do fluxo de trabalho
 
 O fluxo de trabalho de configuração do Advertising Analytics consiste nas seguintes etapas:
 
 <!--
->[!VIDEO](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
 -->
 
-1. [Habilitar relatórios do Advertising Analytics por conjunto de relatórios](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Habilite os relatórios do [!UICONTROL Advertising Analytics] para conjuntos de relatórios habilitados pela Experience Cloud.
+1. [Habilitar relatórios do Advertising Analytics por conjunto de relatórios](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Habilita a geração de relatórios do [!UICONTROL Advertising Analytics] para conjuntos de relatórios habilitados para CX-Enterprise.
 2. [Configurar uma conta do Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md). Configuração nas Ferramentas administrativas do Analytics.
 3. [Relatório de dados de publicidade no Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md). Os dados de pesquisa são extraídos dos mecanismos de pesquisa por volta das 6h00 no fuso horário de seu data center do Adobe Analytics. Os dados do Adobe Advertising são coletados e inseridos no conjunto de relatórios. Em seguida, é convertido no fuso horário do conjunto de relatórios como parte da inserção de dados no Analytics. Os relatórios estão disponíveis no Analysis Workspace (modelo de Pesquisa de desempenho pago), Report Builder e na API de relatórios do Analytics.
 4. [Gerenciar contas publicitárias](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md). É possível verificar o status da conta, além de editar/pausar contas.

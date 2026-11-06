@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 33%
+source-wordcount: '247'
+ht-degree: 17%
 ---
 # Como verificar a implementação do encaminhamento pelo lado do servidor
 
@@ -50,7 +50,7 @@ Para verificar o status do encaminhamento pelo lado do servidor:
 
 >[!CAUTION]
 >
->Se a resposta contiver o par de valores `"status":"SUCCESS"` ou uma imagem 2 x 2, o encaminhamento pelo lado do servidor não será configurado corretamente. Verifique se o serviço de identidade foi implantado corretamente, se você implantou o módulo App Measurement, se o conjunto de relatórios aplicável foi mapeado para a ID da organização correto e se o encaminhamento do lado do servidor foi habilitado nas ferramentas administrativas do Analytics.v
+>Se a resposta contiver o par de valores `"status":"SUCCESS"` ou uma imagem 2 x 2, o encaminhamento pelo lado do servidor não será configurado corretamente. Certifique-se de que o Serviço de ID do visitante foi devidamente implantado, que você implantou o módulo App Measurement, que o conjunto de relatórios aplicável foi mapeado para a ID de organização correta e que o encaminhamento pelo lado do servidor foi habilitado nas Ferramentas administrativas do Analytics.
 
 >[!MORELIKETHIS]
 >

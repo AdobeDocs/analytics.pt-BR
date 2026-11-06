@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 11%
+ht-degree: 10%
 ---
 # Visão geral do Audience Analytics
 
@@ -52,7 +52,7 @@ Com a integração do Audience Analytics em vigor, é possível incorporar dados
 
 >[!BEGINSHADEBOX]
 
-Assista a ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/integrations/audience-manager/audience-analytics-integrate-aam-segments-into-analytics){target="_blank"} para ver um vídeo de demonstração.
+Assista a ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/audience-manager/audience-analytics-integrate-aam-segments-into-analytics){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -85,8 +85,8 @@ Verifique se os seguintes pré-requisitos estão em vigor:
 
 * Você é um cliente da Audience Manager e da Adobe Analytics.
 * Você é um administrador do Audience Manager.
-* Você está usando o Serviço de identidade v1.5 ou posterior.
-* Conjuntos de relatórios do Adobe Audience Manager e do Adobe Analytics são mapeados para a mesma organização da CX Enterprise.
+* Você está usando o Serviço de ID de visitante v1.5 ou posterior.
+* Conjuntos de relatórios do Adobe Audience Manager e do Adobe Analytics são mapeados para a mesma organização da Adobe.
 * Você usa [encaminhamento pelo lado do servidor](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) e implantou o [módulo de Gerenciamento de público-alvo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=pt-BR) (sem código DIL) - AppMeasurement 1.5 ou posterior.
 
 Esses pré-requisitos estão descritos no [Fluxo de trabalho do Audience Analytics](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).

@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '616'
 ht-degree: 92%
 ---
 # Política de retenção de dados
@@ -63,7 +63,7 @@ Quando os dados excederem sua política de retenção de dados, a Adobe mantém 
 
 ## Exibir/gerenciar a política atual de retenção de dados
 
-A caixa de diálogo Governança de dados em [!UICONTROL Ferramentas do] administrador fornecem uma visão geral de quais conjuntos de relatórios foram configurados para governança de dados. Também indica se eles foram mapeados para uma organização da CX Enterprise e se uma política de retenção de dados está em vigor para este conjunto de relatórios.
+A caixa de diálogo Governança de dados em [!UICONTROL Ferramentas do] administrador fornecem uma visão geral de quais conjuntos de relatórios foram configurados para governança de dados. Também indica se eles foram mapeados para uma organização da Adobe e se uma política de retenção de dados está em vigor para este conjunto de relatórios.
 
 ## Perguntas frequentes
 

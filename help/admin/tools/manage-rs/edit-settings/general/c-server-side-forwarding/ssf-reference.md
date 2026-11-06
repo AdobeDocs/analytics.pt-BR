@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 89%
+source-wordcount: '559'
+ht-degree: 88%
 ---
 # Referência de dados e de código do encaminhamento pelo lado do servidor
 
@@ -50,7 +50,7 @@ Parâmetros com o prefixo `d_*` identificam pares de valores-chave especiais em 
 | `d_rs` | (É definido com encaminhamento pelo lado do servidor baseado em servidor de rastreamento/legado) <br>Definido como conjuntos de relatórios enviados para o Analytics com o hit. |
 | `d_dst_filter` | (É definido com o encaminhamento pelo lado do servidor baseado em conjunto de relatórios) <br>Definido como IDs do conjunto de relatórios enviadas para o Analytics com o hit. |
 | `d_dst` | Defina `d_dst=1`  <br>se a solicitação ao Analytics estiver esperando que o conteúdo sobre o destino seja retornado para o cliente. |
-| `d_mid` | A Experience Cloud ID enviada ao Analytics. |
+| `d_mid` | A ECID é transmitida para o Analytics. |
 
 ## Cabeçalhos HTTP {#section_0549705E76004F9585224AEF872066C0}
 

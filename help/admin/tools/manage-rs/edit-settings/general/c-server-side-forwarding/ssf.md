@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 59%
+source-wordcount: '888'
+ht-degree: 51%
 ---
 # Visão geral do encaminhamento pelo lado do servidor
 
@@ -59,14 +59,14 @@ O encaminhamento pelo lado do servidor aprimora a coleta de dados porque:
 
 Para entender onde sua organização está em termos de implementação do encaminhamento pelo lado do servidor, passe por essas etapas de validação:
 
-## ![step1_icon.png imagem](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) Verificar implementação do serviço ECID
+## ![step1_icon.png imagem](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) Verificar implementação do Serviço de ID do visitante
 
-Verifique se o serviço da Experience Cloud ID (ECID) está implementado, ao inspecionar a [solicitação de rastreamento do Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=pt-BR).
+Verifique se o Serviço de ID de visitante está implementado, ao inspecionar a [solicitação de rastreamento do Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=pt-BR).
 
-Na guia Solicitação, verifique se um valor de ECID está definido. Isso indica que o Serviço de identidade está implementado corretamente, o que é um pré-requisito para o encaminhamento pelo lado do servidor.
+Na guia Solicitação, verifique se um valor de ECID está definido. Isso informa que o Serviço de ID do visitante está implementado corretamente, o que é um pré-requisito para o encaminhamento pelo lado do servidor.
 
 * Se você encontrar um valor ECID, avance para a etapa 2.
-* Se você não vir um valor de ECID, [implemente o Serviço de identidade](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=pt-BR) antes de prosseguir para a etapa 2.
+* Se você não vir um valor de ECID, [implemente o Serviço de ID de Visitante](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=pt-BR) antes de prosseguir para a etapa 2.
 
 ## ![step2_icon.png imagem](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) Verificar a versão de implementação do encaminhamento pelo lado do servidor
 

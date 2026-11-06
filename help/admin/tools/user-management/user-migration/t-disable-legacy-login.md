@@ -20,18 +20,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 185
+source-wordcount: '185'
 ht-degree: 52%
-
 ---
-
 # Desabilitar logons herdados
 
 Saiba como desativar logons herdados para usuários do Analytics.
 
-Depois que os usuários migrarem do sistema de gerenciamento de usuários herdado do Analytics para o Adobe Admin Console, você poderá desativar os logons herdados. A desativação de logons herdados redireciona os usuários para o login do CX Enterprise se eles tentarem usar o login herdado.
+Depois que os usuários migrarem do sistema de gerenciamento de usuários herdado do Analytics para o Adobe Admin Console, você poderá desativar os logons herdados. A desativação de logons herdados redireciona os usuários para o logon da CX Enterprise se eles tentarem usar o logon herdado.
 
 1. Abra a ferramenta de Migração em **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Migração de ID de usuário]**.
 1. Na seção [!DNL User Information], localize o domínio que contém os usuários com os quais deseja trabalhar e clique em **[!UICONTROL Selecionar usuários]**.
@@ -44,4 +42,4 @@ Depois que os usuários migrarem do sistema de gerenciamento de usuários herdad
 
    Desativar o login herdado indica quais dos seus usuários podem continuar usando o nome de usuário e a senha herdada de [!DNL my.omniture.com].
 
-   Não é possível desabilitar logons herdados para um usuário que ainda não foi migrado. Depois de desativado, o usuário deve usar a Experience Cloud ID para fazer logon e acessar o Analytics.
+   Não é possível desabilitar logons herdados para um usuário que ainda não foi migrado. Depois de desativado, o usuário deve usar as credenciais do CX Enterprise para fazer logon e acessar o Analytics.

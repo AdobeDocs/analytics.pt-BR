@@ -1,6 +1,6 @@
 ---
 title: Pessoas com Experience Cloud ID
-description: O número de pessoas na Análise entre dispositivos que têm um Experience Cloud ID.
+description: O número de pessoas na Análise entre dispositivos que têm uma ECID.
 feature: Metrics
 exl-id: 072e7d2b-3a08-49c6-a892-4cea2cc10159
 TQID: https://experienceleague.adobe.com/w85poHKHnDYQ0iTItr2r26q1aRpN50AsdYzg6v82Jpk
@@ -18,21 +18,19 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 151
-ht-degree: 58%
-
+source-wordcount: '146'
+ht-degree: 28%
 ---
-
 # Pessoas com Experience Cloud ID
 
-&quot;Pessoas com Experience Cloud ID&quot; é uma métrica da [Análise entre dispositivos](../cda/overview.md) que mostra o número de [Pessoas](people.md) identificadas pela Adobe usando o [Serviço de ID de Visitante](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home) ou o [Serviço de Identidade da Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home).
+&quot;Pessoas com Experience Cloud ID&quot; é uma métrica da [Análise entre dispositivos](../cda/overview.md) que mostra o número de [Pessoas](people.md) identificadas pela Adobe usando o [Serviço de ID de Visitante](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home) ou o [Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview).
 
 ## Como essa métrica é calculada
 
-Considerando cada [Pessoas](people.md) (identificadas ou não identificadas), esta [métrica](overview.md) aumenta se a ocorrência contiver a cadeia de caracteres de consulta `mid` (com base no cookie [`s_ecid`](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/cookies/analytics)).
+Considerando cada [Pessoas](people.md) (identificadas ou não identificadas), esta [métrica](overview.md) aumenta se a ocorrência contiver a cadeia de caracteres de consulta `mid` (com base no cookie [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)).
 
 Você pode criar a métrica calculada `[People with ECID] ÷ [People]` para obter a porcentagem de visitantes do site usando o serviço de ID.
 
-Consulte a métrica equivalente não CDA [Visitantes com Experience Cloud ID](visitors-with-ecid.md) para obter mais informações sobre a importância da Experience Cloud ID e depurar sua configuração.
+Consulte a métrica equivalente não CDA [Visitantes com Experience Cloud ID](visitors-with-ecid.md) para obter mais informações sobre a importância da ECID e depurar sua configuração.

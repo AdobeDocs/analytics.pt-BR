@@ -22,13 +22,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: '432'
 ht-degree: 44%
-
 ---
-
 # Visualizar uso do conjunto de relatórios
 
 A guia de Uso de conjuntos de relatórios proporciona dados de uso do servidor referentes a cada conjunto de relatórios em todas as empresas de Logon vinculadas à sua empresa de Faturamento, para o período de uso atual.
@@ -37,11 +35,11 @@ A guia de Uso de conjuntos de relatórios proporciona dados de uso do servidor r
 
 >[!IMPORTANT]
 >
->Se um conjunto de relatórios não estiver vinculado a uma organização da CX Enterprise, os respectivos dados de uso não serão refletidos neste painel. Além disso, uma ID de cobrança pode estar vinculada a várias organizações corporativas CX; nem sempre há uma relação 1:1 entre uma organização e uma ID de cobrança.
+>Se um conjunto de relatórios não estiver vinculado a uma organização da Adobe, os respectivos dados de uso não serão refletidos neste painel. Além disso, uma ID de cobrança pode estar vinculada a várias organizações; nem sempre há uma relação 1:1 entre uma organização e uma ID de cobrança.
 
 O painel de Uso do conjunto de relatórios
 
-* Mostra o uso de chamadas do servidor do período de uso atual (Todas as chamadas, Primárias, Secundárias, Primárias móveis, Secundárias móveis) para cada conjunto de relatórios na sua organização CX Enterprise.
+* Mostra o uso de chamadas do servidor do período de uso atual (Todas as chamadas, Primárias, Secundárias, Primárias móveis, Secundárias móveis) para cada conjunto de relatórios na organização.
 * Mostra o percentual de uso geral por categoria de chamada de servidor.
 * É atualizado diariamente.
 * É baixável.
