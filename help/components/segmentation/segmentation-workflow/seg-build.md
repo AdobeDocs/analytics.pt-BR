@@ -24,9 +24,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
+source-git-commit: 7932703bb459e84628099858c62d3be0392a7cf8
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2120'
 ht-degree: 70%
 ---
 # Criar segmentos
@@ -94,6 +94,10 @@ Você pode configurar o tipo e o escopo da sua definição:
 
 É sempre possível alterar essas configurações posteriormente.
 
+>[!NOTE]
+>
+>A interface do construtor de segmentos não oferece suporte a todas as definições de segmento criadas por meio da [API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/segments/#create-a-segment). Esta página pode carregar sem sucesso ou gerar erros para esses segmentos.
+
 ### Componentes
 
 Uma parte essencial da construção da definição do segmento é usar dimensões, métricas, segmentos existentes e intervalos de datas. Todos esses componentes estão disponíveis no painel de componentes no Construtor de segmentos.
@@ -115,7 +119,6 @@ Para adicionar um componente:
 
    Esta opção é exibida somente quando a [!UICONTROL **Pessoa**] é selecionada como o escopo (contêiner) da sua definição no menu suspenso **[!UICONTROL Incluir]** ou **[!UICONTROL Excluir]**.
 
-   **OBSERVAÇÃO**: esta funcionalidade está na fase de Teste Limitado da versão e pode ainda não estar disponível em seu ambiente. Essa observação será removida quando a funcionalidade estiver em disponibilidade geral. Para obter informações sobre o processo de lançamento do Customer Journey Analytics, consulte [versões de recursos do Adobe Analytics](/help/release-notes/releases.md).
 
 1. (Opcional) Modifique o operador padrão. Por exemplo, de **[!UICONTROL é igual a]** para **[!UICONTROL é igual a qualquer um entre]**. Consulte [Operadores](../seg-reference/seg-operators.md) para obter uma visão geral detalhada dos operadores disponíveis.
 

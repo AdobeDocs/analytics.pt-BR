@@ -19,12 +19,16 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 12464bdfe5e8bf2b7b0d253a27b5ad248716731f
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 38%
+source-wordcount: '317'
+ht-degree: 36%
 ---
 # Atribuição algorítmica
+
+>[!NOTE]
+>
+>Você deve ter o pacote **Ultimate** para usar a funcionalidade descrita nesta seção. Entre em contato com o administrador se não tiver certeza de qual pacote do Adobe Analytics você tem.
 
 O [modelo de atribuição](models.md) algorítmica no Analysis Workspace difere de outros modelos na medida em que usa técnicas estatísticas para alocar crédito entre os itens de dimensão em seu relatório ou tabela de forma livre. Como todos os outros modelos de atribuição no Analysis Workspace, a atribuição algorítmica pode ser usada em qualquer dimensão ou métrica. A atribuição algorítmica suporta segmentação ilimitada e detalhamentos e distribui 100% das conversões para uma ou mais dimensões na tabela (também conhecida como atribuição &quot;fracional&quot;).
 
@@ -38,7 +42,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Atribuiçã
 
 O algoritmo usado para atribuição é baseado no Harsanyi Dividend da teoria dos jogos cooperativos. O dividendo de Harsanyi é uma generalização da solução de valor de Shapley (batizada de Lloyd Shapley, economista vencedor do Nobel) para distribuir crédito entre os jogadores em um jogo com contribuições desiguais para o resultado.
 
-Em um nível alto, o cálculo de atribuição do crédito de conversão para cada ponto de contato considera cada um dos pontos de contato de marketing em uma janela de pesquisa como uma coalizão de jogadores. Para essa coalizão de jogadores, um superávit deve ser distribuído de forma equitativa. A distribuição excedente de cada coalizão é determinada a partir do excedente que cada subcoalizão criou recursivamente anteriormente.
+O cálculo de atribuição do crédito de conversão para cada ponto de contato considera cada um dos pontos de contato de marketing em uma janela de pesquisa como uma coligação de jogadores. Para essa coalizão de jogadores, um superávit deve ser distribuído de forma equitativa. A distribuição excedente de cada coalizão é determinada a partir do excedente que cada subcoalizão criou recursivamente anteriormente.
 
 Para obter mais detalhes, consulte os documentos originais de John Harsanyi e Lloyd Shapley:
 
