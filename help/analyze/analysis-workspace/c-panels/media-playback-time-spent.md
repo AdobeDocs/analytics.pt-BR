@@ -28,13 +28,11 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 1197
-ht-degree: 84%
-
+source-wordcount: '1197'
+ht-degree: 83%
 ---
-
 # Painel de tempo gasto com a reprodução da mídia {#media-playback-time-spent-panel}
 
 <!-- markdownlint-disable MD034 -->
@@ -51,14 +49,14 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaplaybacktimespent_panel"
 >title="Tempo gasto com a reprodução da mídia"
->abstract="Analise o consumo de vídeo ao longo do tempo, selecione diferentes granularidades, faça detalhamentos e comparações.<br/><br/>**Granularidade**: selecione o período para visualizar os espectadores simultâneos.<br/>**Números de resumo do painel (opcional)**: opção para mostrar números de resumo com detalhes de data ou hora para cada linha. O máximo mostra detalhes do tempo de pico de reprodução gasto. O mínimo mostra detalhes para o vale. A soma mostra detalhes sobre a soma total do tempo gasto com a reprodução.<br/>**Detalhamento de série (opcional)**: divide a visualização por segmentos, dimensões, itens de dimensão ou intervalos de datas. Visualize até 10 linhas por vez. Os detalhamentos são limitados a um único nível.<br/>**Formato de hora**: opção para mostrar o formato de hora das visualizações em horas ou minutos."
+>abstract="Analise o consumo de vídeo ao longo do tempo, selecione diferentes granularidades, faça detalhamentos e comparações.<br/><br/>**Granularidade**: selecione o período para visualizar os espectadores simultâneos.<br/>**Números de resumo do painel (opcional)**: opção para mostrar números de resumo com detalhes de data ou hora para cada linha. Maximum mostrará detalhes sobre o tempo de pico gasto com a reprodução. O mínimo mostra detalhes para o vale. A soma mostra detalhes sobre a soma total do tempo gasto com a reprodução.<br/>**Detalhamento de série (opcional)**: detalhe a visualização por segmentos, dimensões, itens de dimensão ou intervalos de datas. Visualize até 10 linhas por vez. Os detalhamentos são limitados a um único nível.<br/>**Formato de hora**: opção para mostrar o formato de hora das visualizações em horas ou minutos."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Este artigo documenta o painel Tempo gasto com a reprodução da mídia no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte o [painel Tempo gasto com a reprodução da mídia](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)) da versão_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo documenta o painel Tempo gasto com a reprodução da mídia no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte o [painel Tempo gasto com a reprodução da mídia](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)) da versão_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -84,7 +82,7 @@ O tempo gasto com a reprodução pode ajudar a entender:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Painel de tempo gasto com a reprodução de mídia](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Painel de tempo gasto com a reprodução de mídia](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -171,7 +169,7 @@ Playback Time Spent can help you understand:
 
 Following is a video overview of this panel:
 
->[!VIDEO](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel)
 
 ## Use the Media Playback Time Spent panel
 

@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 88%
+source-wordcount: '624'
+ht-degree: 84%
 ---
 # Código de rastreamento
 
@@ -45,7 +45,7 @@ O AppMeasurement coleta esses dados usando a variável [`campaign`](/help/imple
 | Propriedade | Valor |
 | --- | --- |
 | **Variável do AppMeasurement** | [`campaign`](/help/implement/vars/page-vars/campaign.md) |
-| **Web SDK / campo XDM** | [`marketing.trackingCode`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
+| **Web SDK / campo XDM** | [`marketing.trackingCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
 | **Parâmetro de consulta** | [`v0`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Marca XML** | [`<campaign>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite de bytes** | 255 bytes |
@@ -88,7 +88,7 @@ Os canais de marketing têm um período de expiração do engajamento do visitan
 3. Três semanas depois, eles voltam sem um código de rastreamento ou canal de marketing e depois saem novamente.
 4. Mais duas semanas depois (cinco semanas após a visita inicial), eles voltam sem um código de rastreamento ou canal de marketing e, em seguida, fazem uma compra.
 
-O usuário acabou fazendo uma compra depois de 30 dias, mas nunca ficou inativo por mais de 30 dias. Nesse caso, seria possível visualizar a receita atribuída ao canal de marketing Códigos de rastreamento, mas não para a dimensão Código de rastreamento.
+O usuário acabou fazendo uma compra depois de 30 dias, mas nunca ficou inativo por mais de 30 dias. Nesse caso, você veria a receita atribuída ao canal de marketing Códigos de rastreamento, mas não à própria dimensão Código de rastreamento.
 
 
 

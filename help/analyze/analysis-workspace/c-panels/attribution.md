@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Customer engagement
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 91%
+ht-degree: 89%
 ---
 # Painel de atribuição {#attribution-panel}
 
@@ -54,14 +54,14 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"
 >title="Painel de atribuição"
->abstract="Compare e visualize modelos de atribuição rapidamente usando qualquer dimensão e métrica de conversão.<br/><br/>**Parâmetros &#x200B;**<br/>**Canal**<br/> A dimensão à qual atribuir. Essa dimensão pode usar canais de marketing, campanhas ou qualquer outra dimensão.<br/>**Modelos**<br/> O modelo determina como o crédito é atribuído aos pontos de contato.<br/>**Janela de pesquisa**<br/> Essa configuração determina a janela de atribuição de dados que será aplicada a cada conversão."
+>abstract="Compare e visualize modelos de atribuição rapidamente usando qualquer dimensão e métrica de conversão.<br/><br/>**Parâmetros **<br/>**Canal**<br/> A dimensão à qual atribuir. Essa dimensão pode usar canais de marketing, campanhas ou qualquer outra dimensão.<br/>**Modelos**<br/> O modelo determina como o crédito é atribuído aos pontos de contato.<br/>**Janela de pesquisa**<br/> Essa configuração determina a janela de atribuição de dados que será aplicada a cada conversão."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Painel do Attribution IQ"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Este artigo documenta o Painel de atribuição no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte o [Painel de atribuição](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/panels/attribution) da versão_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo documenta o Painel de atribuição no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte o [Painel de atribuição](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/panels/attribution) da versão_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -108,7 +108,7 @@ O painel **[!UICONTROL Atribuição]** retorna um rico conjunto de dados e vis
 
 ### Visualizações de atribuição
 
-As visualizações a seguir fazem parte do resultado do painel.
+As visualizações a seguir fazem parte da saída do painel.
 
 * **Métrica total**: o número total de conversões que ocorreram ao longo da janela de tempo do relatório e são atribuídas à dimensão selecionada.
 * **Barra de comparação de atribuição**: compara visualmente as conversões atribuídas em cada um dos itens da dimensão selecionada. Cada cor da barra representa um modelo de atribuição distinto.
@@ -144,7 +144,7 @@ As visualizações a seguir fazem parte do resultado do painel.
 
 The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
 
->[!VIDEO](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-the-attribution-iq-panel)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-the-attribution-iq-panel)
 
 ## Create an attribution panel
 

@@ -67,13 +67,11 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 1699
+source-wordcount: '1699'
 ht-degree: 98%
-
 ---
-
 # Introdução para administradores, analistas, usuários finais e desenvolvedores
 
 Há quatro tipos de usuários do Adobe Analytics em uma organização típica:
@@ -156,7 +154,7 @@ Os administradores do Analytics devem conhecer os seguintes recursos disponívei
 | Tarefa | Uso pretendido | Mais informações |
 |---------|----------|---------|
 | Gerenciador de atividades de relatórios | O Gerenciador de atividades de relatórios permite ver a capacidade de gerar relatórios para cada conjunto de relatórios na sua organização. Esse dispositivo oferece visibilidade detalhada do consumo de relatórios e ajuda a diagnosticar e corrigir problemas de capacidade facilmente durante os horários de pico de relatórios. | [Gerenciador de atividades de relatórios](/help/admin/tools/reporting-activity-manager/reporting-activity.md) |
-| Uso de chamadas do servidor | Uma chamada de servidor, também conhecida como “ocorrência” ou uma “solicitação de imagem”, é uma instância na qual os dados são enviados para os servidores da Adobe para processamento. Um painel de Uso de chamadas do servidor que monitora seus dados de consumo de chamadas do servidor e os compara ao limite contratual está disponível. É possível configurar alertas para evitar excessos. | [Visão geral do uso de Chamadas do servidor](/help/admin/tools/server-call-usage/overage-overview.md) |
+| Uso de chamadas do servidor | Uma chamada de servidor, também conhecida como “hit” ou “solicitação de imagem”, é uma instância na qual os dados são enviados para os servidores da Adobe para processamento. Um painel de Uso de chamadas do servidor que monitora seus dados de consumo de chamadas do servidor e os compara ao limite contratual está disponível. É possível configurar alertas para evitar excessos. | [Visão geral do uso de Chamadas do servidor](/help/admin/tools/server-call-usage/overage-overview.md) |
 | Arquivos de log | Os arquivos de log ajudam a identificar quando os usuários fazem logon, suas atividades, acessos, conjuntos de relatórios e alterações de administrador. | [Logs](/help/admin/tools/logs.md) |
 
 {style="table-layout:auto"}

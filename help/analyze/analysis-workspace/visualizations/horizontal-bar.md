@@ -24,18 +24,16 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 205
-ht-degree: 71%
-
+source-wordcount: '215'
+ht-degree: 65%
 ---
-
 # Barra horizontal (empilhada)
 
 >[!BEGINSHADEBOX]
 
-_Este artigo documenta a barra horizontal e as visualizações de barra horizontal empilhada no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Barra horizontal e barra horizontal empilhada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar) para a versão_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo documenta a barra horizontal e as visualizações de barra horizontal empilhada no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Barra horizontal e barra horizontal empilhada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar) para a versão_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -52,7 +50,7 @@ A visualização da barra horizontal tem uma opção padrão e empilhada.
 
 <!-- markdownlint-enable MD034 -->
 
-A visualização ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Barra horizontal]** mostra barras horizontais que representam vários valores em uma ou mais métricas.
+A visualização ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Horizontal bar]** mostra barras horizontais que representam vários valores de uma ou mais métricas.
 
 ![Barra horizontal mostrando métricas incluindo exibições de página, velocidade de página, visitas, entradas e saídas.](assets/horizontal-bar.png)
 

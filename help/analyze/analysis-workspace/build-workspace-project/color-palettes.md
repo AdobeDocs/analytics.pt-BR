@@ -18,13 +18,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 216
-ht-degree: 86%
-
+source-wordcount: '216'
+ht-degree: 82%
 ---
-
 # Paletas de cores de visualização {#visualization-color-palette}
 
 <!-- markdownlint-disable MD034 -->
@@ -48,7 +46,7 @@ ht-degree: 86%
 Lembre-se:
 
 * Há seis paletas de cores predefinidas para escolher. A paleta padrão e a segunda listada foram otimizadas para obter o melhor contraste e são mais acessíveis para daltônicos.
-* As outras paletas foram otimizadas para aprimorar a harmonia de cores.
+* As outras paletas foram otimizadas para harmonia de cores.
 
 ## Para alterar a paleta de cores:
 
@@ -85,7 +83,7 @@ Keep in mind:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using a custom color palette](https://video.tv.adobe.com/v/30812?captions=por_br&quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using a custom color palette](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

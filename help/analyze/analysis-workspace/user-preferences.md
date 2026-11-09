@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '3534'
-ht-degree: 93%
+ht-degree: 92%
 ---
 # Preferências do usuário
 
@@ -59,7 +59,7 @@ Você pode gerenciar as configurações do Analysis Workspace e seus componentes
 
 >[!BEGINSHADEBOX]
 
-Confira ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gerenciar preferências](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"} para assistir a um vídeo de demonstração.
+Confira ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gerenciar preferências](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -142,7 +142,7 @@ Clique nos títulos de preferência vinculados para obter mais informações e c
 <!--
 >[!IMPORTANT]
 >
->You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/browser-language) for the logged in user.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
 -->
 
@@ -198,7 +198,7 @@ Clique nos títulos da seção vinculada para obter mais informações e context
 | | Mostrar totais gerais | Este total representa todos os hits coletados, às vezes chamado de *total do conjunto de relatórios*. Quando um segmento é aplicado no nível do painel ou na tabela de forma livre, esse total é ajustado para refletir todos os hits que correspondem aos critérios do segmento. O total geral não é compatível com tabelas e detalhamentos com [linhas estáticas](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
 | | Mostrar minigráfico | Mostrar ou ocultar gráficos de linha na parte inferior do gráfico. Quando oculta, a legenda será alterada para não mais fazer referência visual às linhas. |
 | | Número | Determina se uma célula exibe ou oculta o valor numérico da métrica. Por exemplo, se a métrica for visualizações de página, o valor numérico será o número de visualizações de página para o item da linha. |
-| | Porcentagem | Determina se uma célula exibe ou oculta o valor percentual para a métrica. Por exemplo, se a métrica for “visualizações de página”, o valor percentual será o número de visualizações de página do item da linha dividido pelo total de visualizações de página da coluna.  Observação: para ser mais preciso, às vezes são mostradas porcentagens maiores que 100%. O limite superior é movido para 1.000% para garantir que as colunas possam aumentar em largura. |
+| | Porcentagem | Determina se uma célula exibe ou oculta o valor percentual para a métrica. Por exemplo, se a métrica for “visualizações de página”, o valor percentual será o número de visualizações de página do item da linha dividido pelo total de visualizações de página da coluna.  Observação: para ser mais preciso: porcentagens maiores que 100% às vezes são mostradas. O limite superior é movido para 1.000% para garantir que as colunas possam aumentar em largura. |
 | | Mostrar anomalias | Determina se a detecção de anomalias é executada nos valores desta coluna. |
 | | Interpretar o zero como valor inexistente | Para células com valor 0, determina se exibirá um 0 ou uma célula em branco. Isso é útil para observar dados diários de um mês que ainda não tenha terminado.  Em vez de mostrar 0 para as datas futuras, pode-se exibir células em branco. Os gráficos também respeitam essa configuração (ou seja, eles não mostram uma linha ou barra com valores zero quando essa configuração está marcada). |
 | | Histórico | Determina se uma célula exibe ou oculta todas as formatações de célula, incluindo o gráfico de barras e a formatação condicional <ul><li>Gráfico de barras</li> Um gráfico de barras horizontais representando o valor da célula em relação ao total da coluna. <li>Formatação condicional</li>Para obter mais informações sobre formatação condicional, consulte “Formatação condicional” em [Configurações de coluna](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)</ul> |
@@ -267,7 +267,7 @@ Clique nos títulos da seção vinculada para obter mais informações e context
 | **Gráficos empilhados** | | |
 | | 100% empilhada | Essa configuração de visualizações de área empilhada, barra empilhada ou barra horizontal empilhada transforma o gráfico em uma visualização “100% empilhada”. <p>Para obter mais informações, consulte [Barra e barras empilhadas](/help/analyze/analysis-workspace/visualizations/bar.md).</p> |
 | **[Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md)** | | |
-| | Número de grupos | Escolha o número de intervalos de dados (grupos) na visualização. O número máximo de grupos é 50. <p>Para obter mais informações, consulte [Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md).</p> |
+| | Número de buckets | Escolha o número de intervalos de dados (buckets) na visualização. O número máximo de buckets é 50. <p>Para obter mais informações, consulte [Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md).</p> |
 | | Método de contagem | Escolha entre as seguintes opções: <ul><li>Ocorrência</li><li>Visita</li><li>Visitante</li></ul> <p>Por exemplo, quando usado com visualizações de página, você pode escolher visualizações de página por visitante, por visita ou por hit. Para Hit, “Ocorrências” é usado como a métrica do eixo “y” na tabela de forma livre.</p> |
 | **[Mapa](/help/analyze/analysis-workspace/visualizations/map-visualization.md)** | | |
 | | Dimensão da plotagem | <ul><li>Latitude/longitude móvel</li><li>Dimensão geográfica</li></ul> |

@@ -44,10 +44,10 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '1728'
-ht-degree: 96%
+ht-degree: 95%
 ---
 # Perguntas frequentes
 
@@ -59,7 +59,7 @@ Você pode usar uma visualização de [!UICONTROL Fluxo] com a dimensão Tipo de
 
 1. Faça logon no Adobe Analytics e crie um novo projeto em branco da Workspace.
 2. Clique na guia Visualizações à esquerda e arraste uma visualização de Fluxo para a tela à direita.
-3. Clique na guia Componentes à esquerda e arraste a dimensão “Tipo de dispositivo móvel” para o local central chamado “Dimensão ou item”.
+3. Clique na guia Componentes à esquerda e arraste a dimensão &quot;Tipo de dispositivo móvel&quot; para o local central chamado &quot;Dimension ou item&quot;.
 4. Este relatório de fluxo é interativo. Clique em qualquer um dos valores para expandir os fluxos para páginas subsequentes ou anteriores. Use o menu de clique com o botão direito do mouse para expandir ou recolher colunas. Dimensões diferentes também podem ser usadas no mesmo relatório de fluxo.
 
 +++

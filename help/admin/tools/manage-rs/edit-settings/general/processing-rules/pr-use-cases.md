@@ -25,13 +25,11 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: '832'
 ht-degree: 21%
-
 ---
-
 # Casos de uso de regras de processamento
 
 Os aplicativos de como você pode usar as regras de processamento em sua organização são abrangentes. As seções a seguir detalham algumas maneiras comuns de usá-las a seu favor.
@@ -49,7 +47,7 @@ O exemplo a seguir pega a variável de dados de contexto `search_term` e coloca 
 | Conjunto de regras | Valor |
 | --- | --- |
 | Condição | `search_term` (Dados de contexto) está definido |
-| Ação | [!UICONTROL Substituir o valor de &#x200B;] eVar3 por `search_term` (Dados de contexto) |
+| Ação | [!UICONTROL Substituir o valor de ] eVar3 por `search_term` (Dados de contexto) |
 
 ![Captura de tela da interface de regras de processamento mostrando o uso de uma variável de dados de contexto](assets/set-context-data.png)
 
@@ -59,9 +57,9 @@ O exemplo a seguir preenche várias variáveis com variáveis de dados de contex
 
 | Conjunto de regras | Valor |
 | --- | --- |
-| Ação | [!UICONTROL Substituir o valor de &#x200B;] eVar55 por `spa.billing_customer_name` (Dados de contexto) |
-| Ação | [!UICONTROL Substituir o valor de &#x200B;] Prop7 por `testhierarchy` (Dados de contexto), se `testhierarchy` (Dados de contexto) estiver definido |
-| Ação | [!UICONTROL Substituir o valor de &#x200B;] eVar8 por `spa.ims_org` (Dados de contexto) |
+| Ação | [!UICONTROL Substituir o valor de ] eVar55 por `spa.billing_customer_name` (Dados de contexto) |
+| Ação | [!UICONTROL Substituir o valor de ] Prop7 por `testhierarchy` (Dados de contexto), se `testhierarchy` (Dados de contexto) estiver definido |
+| Ação | [!UICONTROL Substituir o valor de ] eVar8 por `spa.ims_org` (Dados de contexto) |
 
 ![Captura de tela da interface de regras de processamento mostrando como definir condicionalmente um valor](assets/add-conditional.png)
 
@@ -128,7 +126,7 @@ Você pode usar a opção de concatenar para preencher valores combinando outros
 | Conjunto de regras | Valor |
 | --- | --- |
 | Condição | Nenhum (Sempre executar) |
-| Ação | [!UICONTROL Substituir o valor de &#x200B;] eVar1 por [!UICONTROL Valor Concatenado] Categoria + Nome da Página |
+| Ação | [!UICONTROL Substituir o valor de ] eVar1 por [!UICONTROL Valor Concatenado] Categoria + Nome da Página |
 
 ![Captura de tela da interface de regras de processamento mostrando um valor concatenado](assets/add-subcategory-using-concat.png)
 
@@ -149,7 +147,7 @@ A Adobe recomenda usar a opção de correspondência mais restritiva possível p
 
 +++
 
-+++Remover um evento de uma ocorrência
++++Remover um evento de um hit
 
 Você pode remover ou descartar um evento específico de uma ocorrência usando regras de processamento sem alterar a implementação do. Se você definir o evento com o valor personalizado `0`, o evento não contará.
 

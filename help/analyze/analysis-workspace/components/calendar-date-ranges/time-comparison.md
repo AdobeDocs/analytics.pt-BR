@@ -27,10 +27,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 71%
+ht-degree: 70%
 ---
 # Comparação de datas
 
@@ -94,7 +94,7 @@ Agora é possível adicionar um período a cada coluna na tabela. Isso permite a
 
 1. O período é inserido acima da coluna selecionada:
 
-   ![Tabela de forma livre com as ocorrências do período atual do calendário e do mês anterior.](assets/add-time-period-column2.png)
+   ![Tabela de forma livre que mostra as Ocorrências do período atual do calendário e do mês anterior.](assets/add-time-period-column2.png)
 
 1. É possível adicionar quantas colunas desejar, assim como misturar e correlacionar diferentes intervalos de data:
 
@@ -128,7 +128,7 @@ Date comparison in Analysis Workspace lets you take any column containing a date
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

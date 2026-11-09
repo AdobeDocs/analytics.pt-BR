@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 95%
@@ -49,7 +49,7 @@ Os recursos a seguir ajudam você a entender o fluxo de trabalho básico de obte
 * [Práticas recomendadas de feed de dados](/help/export/analytics-data-feed/data-feeds-best-practices.md): práticas recomendadas para criar e gerenciar feeds de dados.
 * [Criar um feed de dados](create-feed.md): Detalhes técnicos para criar um feed de dados, explicando campos individuais com mais detalhes
 * [Gerenciar feeds de dados](df-manage-feeds.md): Saiba mais sobre como navegar na interface do feed de dados
-* [Conteúdo do feed de dados](c-df-contents/datafeeds-contents.md): entenda o que está dentro do arquivo compactado<!-- Is this still the output users can download from the destination? I aske Jun. -->
+* [Conteúdo do feed de dados](c-df-contents/datafeeds-contents.md): entenda o que está dentro do arquivo compactado<!-- Is this still the output users can download from the destination? I asked Jun. -->
 * [Definições de coluna de dados](c-df-contents/datafeeds-reference.md): uma lista abrangente de todas as colunas disponíveis.
 
 >[!BEGINSHADEBOX]
@@ -62,6 +62,6 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navegar pel
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Localizar a ID do feed de dados](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"} para assistir um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Localizar a ID do feed de dados](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"} para assistir um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
