@@ -26,13 +26,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: '822'
 ht-degree: 4%
-
 ---
-
 # Regras de processamento de canal de marketing
 
 _Esta página se refere às regras de processamento que atribuem um canal de marketing a uma ocorrência. Consulte [Regras de processamento](../general/processing-rules/pr-overview.md) para obter o recurso que permite ajustar como os dados são coletados._
@@ -102,6 +100,6 @@ As seguintes opções estão disponíveis ao definir as condições da regra.
 
 **As variáveis de conversão** permitem que você especifique um eVar personalizado, um operador correspondente e um valor a ser procurado.
 
-| Condição da variável de conversão | Descrição |
+| Condição de variável de conversa | Descrição |
 |---|---|
 | **eVar 1-250** | A dimensão [eVar](/help/components/dimensions/evar.md) associada. |

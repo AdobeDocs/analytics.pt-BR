@@ -1,5 +1,5 @@
 ---
-description: Como visualizar os níveis de acesso a pacotes e recursos do Adobe Analytics aos quais sua empresa tem direito.
+description: Como visualizar o nível de acesso a pacotes e recursos do Adobe Analytics aos quais sua empresa tem direito.
 title: Níveis de acesso a recursos
 feature: Company Settings
 exl-id: 9aca4a61-d9a6-4ba1-863c-2686b73f381e
@@ -22,13 +22,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 82
-ht-degree: 100%
-
+source-wordcount: '81'
+ht-degree: 76%
 ---
-
 # Níveis de acesso a recursos
 
 **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Configurações da empresa]** > **[!UICONTROL Exibir níveis de acesso a recursos]**

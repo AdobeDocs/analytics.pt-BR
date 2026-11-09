@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1507'
 ht-degree: 68%
 ---
 # Perguntas frequentes sobre feeds de dados
@@ -123,7 +123,7 @@ Depois de verificar/corrigir o problema de entrega, execute novamente o processo
 
 O caso de uso comum da Amazon S3 é que o proprietário da conta da Amazon Web Services (AWS) cria um bucket e, em seguida, cria um usuário com permissões para criar objetos nele, além de fornecer credenciais para esse usuário. Nesse caso, os objetos de um usuário pertencem à mesma conta, e o proprietário da conta tem controle total implícito sobre o objeto (leitura, exclusão etc). Esse processo é semelhante ao modo como a entrega por FTP funciona.
 
-O AWS também possibilita que um usuário crie objetos em um compartimento que pertence a uma conta de usuário diferente. Por exemplo, se dois usuários do AWS, o usuário A e usuário B, não pertencem à mesma conta do AWS, mas desejam criar objetos em outros buckets. Se o usuário A cria um bucket e dá a ele o nome de &quot;bucketA&quot;, ele pode criar uma política de bucket que permite explicitamente que o usuário B crie objetos no bucketA, mesmo que não seja o proprietário do bucket. Essa política pode ser vantajosa porque não exige que o usuário A e o usuário B troquem credenciais. Em vez disso, o usuárioB fornece ao usuárioA o número da conta, e o usuárioA cria uma política de bucket que essencialmente diz “permitir que o usuárioB crie objetos do bucketA”.
+O AWS também possibilita que um usuário crie objetos em um bucket que pertence a uma conta de usuário diferente. Por exemplo, se dois usuários do AWS, o usuário A e usuário B, não pertencem à mesma conta do AWS, mas desejam criar objetos em outros buckets. Se o usuário A cria um bucket e dá a ele o nome de &quot;bucketA&quot;, ele pode criar uma política de bucket que permite explicitamente que o usuário B crie objetos no bucketA, mesmo que não seja o proprietário do bucket. Essa política pode ser vantajosa porque não exige que o usuário A e o usuário B troquem credenciais. Em vez disso, o usuárioB fornece ao usuárioA o número da conta, e o usuárioA cria uma política de bucket que essencialmente diz “permitir que o usuárioB crie objetos do bucketA”.
 
 No entanto, objetos não herdam permissões do bucket primário. Portanto, se o usuário B faz o upload de um objeto para o bucket do usuário A, o usuário B ainda &quot;possui&quot; esse objeto e, por padrão, o usuário A não recebe permissão para esse objeto, embora o usuário A seja o proprietário do bucket. O usuárioB deve conceder permissões para o usuárioA, pois o primeiro ainda é o proprietário do objeto. Para conceder essa permissão, o usuário B deve fazer upload do objeto com uma ACL BucketOwnerFullControl, que especifica que o proprietário do bucket (usuário A) recebe permissões totais para o objeto (leitura, gravação, exclusão etc), mesmo que o objeto seja &quot;pertencente&quot; ao usuário B.
 

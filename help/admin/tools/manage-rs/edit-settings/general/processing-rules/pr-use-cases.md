@@ -25,13 +25,11 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: '832'
 ht-degree: 21%
-
 ---
-
 # Casos de uso de regras de processamento
 
 Os aplicativos de como você pode usar as regras de processamento em sua organização são abrangentes. As seções a seguir detalham algumas maneiras comuns de usá-las a seu favor.
@@ -149,7 +147,7 @@ A Adobe recomenda usar a opção de correspondência mais restritiva possível p
 
 +++
 
-+++Remover um evento de uma ocorrência
++++Remover um evento de um hit
 
 Você pode remover ou descartar um evento específico de uma ocorrência usando regras de processamento sem alterar a implementação do. Se você definir o evento com o valor personalizado `0`, o evento não contará.
 

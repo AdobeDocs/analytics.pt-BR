@@ -33,10 +33,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 25%
+source-wordcount: '1130'
+ht-degree: 24%
 ---
 # Baixar projetos e dados
 
@@ -49,7 +49,7 @@ Métodos adicionais para exportar dados do Adobe Analytics estão descritos no [
 
 ## Baixar um projeto como um arquivo PDF ou CSV
 
-![O menu suspenso “Projeto”, com as opções de “Baixar CSV” e “Baixar PDF” realçadas.](assets/download-project.png)
+![O menu suspenso Projeto com as opções Baixar CSV e Baixar PDF realçadas.](assets/download-project.png)
 
 ### Baixar um projeto como um arquivo PDF
 

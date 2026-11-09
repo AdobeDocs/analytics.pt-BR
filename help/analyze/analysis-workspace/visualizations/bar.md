@@ -24,13 +24,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 222
-ht-degree: 77%
-
+source-wordcount: '222'
+ht-degree: 71%
 ---
-
 # Barra (empilhada)
 
 >[!BEGINSHADEBOX]
@@ -55,7 +53,7 @@ A visualização de barra tem uma opção padrão e uma opção empilhada.
 
 A visualização de ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Barra]** mostra barras verticais que representam vários valores em uma ou mais métricas.
 
-![Visualização de barra vertical, mostrando várias métricas, incluindo visualizações da página, visitas, entradas e saídas.](assets/bar.png)
+![Visualização de barra vertical mostrando várias métricas, incluindo Exibições de página, Visitas, Entradas e Saídas.](assets/bar.png)
 
 Um menu suspenso de granularidade nas configurações de visualização permite alterar uma visualização de tendências (por exemplo, linha, barra) de diária para semanal, mensal etc.
 

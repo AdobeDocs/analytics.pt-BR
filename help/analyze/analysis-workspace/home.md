@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '1422'
-ht-degree: 96%
+ht-degree: 94%
 ---
 # Visão geral do Analysis Workspace {#analysis-workspace-overview}
 
@@ -86,7 +86,7 @@ Os principais recursos do Analysis Workspace estão disponíveis por meio do pai
 
 ## Menu
 
-A maior parte das funcionalidades do Analysis Workspace está disponível por meio do recurso de arrastar e soltar e por meio de menus de contexto em painéis, visualizações e componentes.
+A maior parte da funcionalidade do Analysis Workspace está disponível por meio de arrastar e soltar e por meio de menus de contexto em painéis, visualizações e componentes.
 
 As funcionalidades também estão disponíveis por meio do menu do espaço de trabalho e das teclas de atalho. As teclas de atalho diferem dependendo do sistema operacional em que seu navegador está sendo executado. Consulte as tabelas abaixo para obter uma visão geral.
 

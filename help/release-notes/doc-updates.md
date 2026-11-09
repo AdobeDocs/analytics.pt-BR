@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 464a88e60a47759383c89b312ce4db5f4aad311d
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '7790'
+source-wordcount: '7789'
 ht-degree: 88%
 ---
 # Atualizações de documentação técnica do Adobe Analytics
@@ -206,7 +206,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | **Setembro de 2023** | |
 | Estrutura de artigos atualizada para o painel Tempo gasto com reprodução de mídia | A pasta chamada Tempo gasto com reprodução de mídia foi removida e seu conteúdo foi combinado em um único artigo: [Painel Tempo gasto com reprodução de mídia](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Essa alteração está mais de acordo com a documentação de outros painéis.</p> |
 | Melhorias na introdução ao conteúdo | Foram adicionadas informações descrevendo as principais tarefas e recursos de introdução para administradores, analistas, usuários finais e desenvolvedores. Os seguintes novos artigos já estão disponíveis: <ul><li>[Introdução (por função)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Noções básicas da interface do Analytics](/help/analyze/get-started/analytics-interface.md)<li>[Casos de uso](/help/analyze/get-started/use-cases.md)</li></ul> |
-| Melhorias na documentação de relatórios da Coleção de mídia de streaming | Parte do conteúdo foi reorganizada na seção Relatórios do guia da Coleção de mídia de streaming, incluindo a consolidação da documentação da API em sua própria seção e o ajuste da ordem de alguns artigos. |
+| Melhorias na documentação de relatórios da Coleção de mídia de streaming | Reorganizado parte do conteúdo na seção Relatórios do guia Coleção de mídia de streaming, incluindo a consolidação da documentação da API em sua própria seção e o ajuste da ordem de alguns artigos. |
 | **Agosto de 2023** | |
 | Esclarecimento sobre o feed de dados | [A definição de datas inicial e final](/help/export/analytics-data-feed/create-feed.md) foi atualizada para esclarecer que, ao processar feeds de dados para dados históricos, é possível definir a data inicial como qualquer data no passado em que dados estivam sendo coletados. |
 | Manuseio de dados da rede de borda da Adobe Experience Platform | Adição de conteúdo sobre como o Adobe Analytics [lida com dados da rede de borda](../implement/aep-edge/overview.md). |
@@ -240,7 +240,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | **Abril de 2023** | |
 | Transferir ativos de usuários e definir expirações de conta | Foram adicionadas informações sobre como [transferir ativos de usuários e definir expirações de conta](/help/admin/tools/user-management/users-assets.md). |
 | 2 novos guias de ponto de acesso para a API 2.0 do Adobe Analytics | <ul><li>[API de dimensões do Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API de métricas do Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
-| Segmentos do projeto (segmentos rápidos e ad hoc) | A documentação sobre segmentos de projeto foi simplificada e as informações duplicadas foram removidas. As etapas para criar segmentos ad hoc agora estão combinadas com as etapas de [criação de segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
+| Segmentos do projeto (segmentos rápidos e ad hoc) | Documentação simplificada sobre segmentos do projeto e remoção de informações duplicadas. As etapas para criar segmentos ad hoc agora estão combinadas com as etapas de [criação de segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
 | Pesquisas dinâmicas | Foram adicionadas mais informações sobre [pesquisas dinâmicas](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md). Anteriormente, só haviam informações sobre atributos móveis, que são apenas um dos vários tipos de pesquisas dinâmicas. |
 | **Março de 2023** | |
 | Suporte do SDK da Web para o Activity Map | Atualizado [Implementar Adobe Analytics](/help/implement/home.md). |

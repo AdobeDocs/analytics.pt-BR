@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 89%
+ht-degree: 87%
 ---
 # Implementação com Instant Articles do Facebook
 
@@ -48,7 +48,7 @@ O fluxo de trabalho abrangente para implementar o Adobe Analytics é o seguinte:
 1. Crie uma página `stats.html`. Programe esta página para obter parâmetros da cadeia de caracteres de consulta do URL e atribuir cada parâmetro a uma variável do Analytics
 1. Hospede a página `stats.html` no servidor da Web
 1. Implemente o Analytics no Instant Article do Facebook fazendo referência ao arquivo `stats.html` em um iframe
-1. Incluir parâmetros de cadeia de caracteres de consulta no atributo `src` do iframe
+1. Incluir parâmetros da cadeia de caracteres de consulta no atributo do iframe `src`
 
 ### Etapa 1: criar uma página `stats.html`
 
