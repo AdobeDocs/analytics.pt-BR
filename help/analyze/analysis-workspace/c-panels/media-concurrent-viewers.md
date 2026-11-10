@@ -34,11 +34,9 @@ topic_v2:
     internal-label: Troubleshooting
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1264
+source-wordcount: '1268'
 ht-degree: 87%
-
 ---
-
 # Painel de visualizadores simultâneos de mídia {#media-concurrent-viewers-panel}
 
 <!-- markdownlint-disable MD034 -->
@@ -55,7 +53,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_panel"
 >title="Visualizadores simultâneos de mídia"
->abstract="Analise espectadores simultâneos ao longo do tempo, visualize o pico de simultaneidade ou faça detalhamentos e comparações.<br/><br>**Granularidade**: selecione o período para visualizar os espectadores simultâneos.<br/>**Números de resumo do painel**:<br/>opção para mostrar números de resumo com detalhes de data ou hora para cada linha. O máximo mostra detalhes para a simultaneidade de pico. O mínimo mostra detalhes para o vale.<br/>**Detalhamento de série (opcional)**: divide a visualização por segmentos, dimensões, itens de dimensão ou intervalos de datas. Visualize até 10 linhas por vez. Os detalhamentos são limitados a um único nível."
+>abstract="Analise espectadores simultâneos ao longo do tempo, visualize o pico de simultaneidade ou faça detalhamentos e comparações.<br/><br>**Granularidade**: selecione o período para visualizar os espectadores simultâneos.<br/>**Números de resumo do painel**:<br/>opção para mostrar números de resumo com detalhes de data ou hora para cada linha. O máximo mostra detalhes para a simultaneidade de pico. O mínimo mostra detalhes para o vale.<br/>**Detalhamento de série (opcional)**: detalhe a visualização por segmentos, dimensões, itens de dimensão ou intervalos de datas. Visualize até 10 linhas por vez. Os detalhamentos são limitados a um único nível."
 
 <!-- markdownlint-enable MD034 -->
 
