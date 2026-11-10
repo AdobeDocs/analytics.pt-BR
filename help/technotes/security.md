@@ -23,15 +23,15 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 31%
+ht-degree: 28%
 ---
 # Recursos de segurança do Adobe Analytics
 
-A Adobe segue processos e controles de segurança estabelecidos para cumprir padrões, regulamentos e certificações aceitos pelo setor. Consulte [Segurança do Adobe](https://www.adobe.com/br/trust/security.html) para obter mais informações sobre as práticas de segurança da Adobe para toda a empresa.
+A Adobe segue processos e controles de segurança estabelecidos para cumprir padrões, regulamentos e certificações aceitos pelo setor. Consulte [Segurança do Adobe](https://www.adobe.com/trust/security.html) para obter mais informações sobre as práticas de segurança da Adobe para toda a empresa.
 
 Informações sobre práticas específicas do Adobe Analytics estão disponíveis na [visão geral de segurança do Adobe Analytics](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf). Ele descreve os processos seguidos em arquitetura, autenticação, data centers, rede e pessoal.
 
-Consulte o [Programa de divulgação de vulnerabilidade de serviços da Web da Adobe](https://hackerone.com/adobe) no HackerOne se você encontrar uma vulnerabilidade para relatar sobre qualquer produto da Adobe, incluindo o Adobe Analytics.
+Consulte o [Programa de Recompensa de Bugs da Adobe](https://www.adobe.com/trust/security/bug-bounty.html) se você encontrar uma vulnerabilidade para relatar sobre qualquer produto da Adobe, incluindo o Adobe Analytics.
