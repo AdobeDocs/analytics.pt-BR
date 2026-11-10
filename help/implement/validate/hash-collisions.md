@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 5%
 ---
 # Colisões de hash
@@ -64,7 +64,7 @@ As colisões de hash não podem ser totalmente eliminadas, mas seu impacto nos r
 * **Alterar intervalo de datas**: as tabelas de hash mudam a cada mês. Alterar o intervalo de datas para abranger outro mês pode dar a cada valor hashes diferentes que não colidem. Normalmente, é a maneira mais rápida de eliminar uma anomalia visível de um relatório específico.
 * **Reduza o número de valores únicos**: você pode ajustar sua implementação ou usar [Regras de processamento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) para ajudar a reduzir o número de valores únicos que uma dimensão coleta. Por exemplo, se a dimensão coletar um URL, você poderá remover cadeias de caracteres de consulta ou protocolo.
 * **Usar [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) ou [Feeds de Dados](/help/export/analytics-data-feed/data-feed-overview.md)**: essas ferramentas não dependem de tabelas de hash.
-* **Mover para [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=pt-BR)**: o Customer Journey Analytics não tem camada de hash e [não tem limites de cardinalidade em dimensões](https://experienceleague.adobe.com/docs/analytics-platform/using/components/dimensions/high-cardinality.html). Considere mudar para este produto se as colisões de hash ou o [[!UICONTROL Tráfego baixo]](/help/technotes/low-traffic.md) afetarem frequentemente seus relatórios.
+* **Mover para [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=pt-BR)**: o Customer Journey Analytics não tem camada de hash e [não tem limites de cardinalidade em dimensões](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/dimensions/high-cardinality). Considere mudar para este produto se as colisões de hash ou o [[!UICONTROL Tráfego baixo]](/help/technotes/low-traffic.md) afetarem frequentemente seus relatórios.
 
 >[!MORELIKETHIS]
 >

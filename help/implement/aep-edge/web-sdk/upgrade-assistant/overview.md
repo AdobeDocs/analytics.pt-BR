@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '532'
 ht-degree: 3%
 ---
 # Assistente de atualização do Web SDK
@@ -71,7 +71,7 @@ Antes de criar uma migração, verifique se você tem:
 
 * As [permissões](#permissions) que o assistente de atualização requer.
 * Uma propriedade de tags que usa a extensão Adobe Analytics.
-* Uma biblioteca nessa propriedade que contém a implementação que você deseja migrar. A biblioteca pode estar em qualquer estado, incluindo publicada. Consulte [Bibliotecas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/publishing/libraries) no guia do usuário de marcas.
+* Uma biblioteca nessa propriedade que contém a implementação que você deseja migrar. A biblioteca pode estar em qualquer estado, incluindo publicada. Consulte [Bibliotecas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/publish/libraries) no guia do usuário de marcas.
 
 ### Permissões {#permissions}
 
@@ -81,6 +81,6 @@ O assistente de atualização requer o seguinte acesso. Trabalhe com o administr
 | --- | --- |
 | [Permissões da Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL Visualizar esquemas]</li><li>[!UICONTROL Gerenciar esquemas]</li><li>[!UICONTROL Visualizar conjuntos de dados]</li><li>[!UICONTROL Gerenciar conjuntos de dados]</li><li>[!UICONTROL Exibir namespaces de identidade]</li></ul> |
 | Acesso ao produto | <ul><li>Coleção de dados (tags)</li><li>Adobe Analytics</li></ul> |
-| [Direitos de marcas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/administration/user-permissions) | [!UICONTROL Gerenciar propriedades] |
+| [Direitos de marcas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/admin/user-permissions) | [!UICONTROL Gerenciar propriedades] |
 
 Quando estiver pronto, [crie uma migração](manager.md#create).
