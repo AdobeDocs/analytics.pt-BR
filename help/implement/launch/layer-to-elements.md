@@ -45,7 +45,7 @@ Depois que sua organização tiver estabelecido e implementado uma camada de dad
 
 [Elementos de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=pt-BR) são componentes na Coleção de dados da Adobe Experience Platform que você pode usar na ferramenta. Você pode atribuir valores variáveis na extensão do Adobe Analytics usando elementos de dados.
 
-As etapas a seguir usam a [extensão da Camada de Dados do Cliente Adobe](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/overview), que deve ser instalada na propriedade da marca.
+As etapas a seguir usam a [extensão da Camada de Dados do Cliente Adobe](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/client-data-layer/overview), que deve ser instalada na propriedade da marca.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Selecione a propriedade de tag desejada.
