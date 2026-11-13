@@ -1,6 +1,6 @@
 ---
 title: Criar uma camada de dados
-description: Saiba o que é uma camada de dados na implementação do Analytics e como ela pode ser usada para mapear variáveis no Adobe Analytics.
+description: Saiba como uma camada de dados suporta a implementação do Analytics, por que a Adobe recomenda a Camada de dados do cliente Adobe e como ler valores da camada de dados com cada método de implementação.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 role: Admin, Developer, Leader
@@ -34,46 +34,105 @@ topic_v2:
     internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 100%
+source-wordcount: '1063'
+ht-degree: 7%
 ---
 # Criar uma camada de dados
 
-Uma camada de dados é uma estrutura de objetos JavaScript no site que contém os valores de variável utilizados na implementação do Analytics. Isso permite maior controle e manutenção simplificada ao atribuir valores às variáveis do Analytics.
+Uma camada de dados é uma estrutura do JavaScript no site que expõe os dados coletados pela implementação do Analytics, como nomes de página, detalhes do produto e IDs do pedido. O código do site grava na camada de dados e a implementação lê a partir dela para definir variáveis do Analytics. Como sua implementação não depende do HTML da página, você pode reprojetar seu site sem interromper a coleta de dados.
 
 ## Pré-requisitos
 
-[Criar um documento de design de solução](solution-design.md) - É importante que sua organização se alinhe aos requisitos de rastreamento. Esteja preparado com um documento de design de solução antes de entrar em contato com as equipes de desenvolvimento em sua organização.
+[Criar um documento de design de solução](solution-design.md): é importante que sua organização se alinhe aos requisitos de rastreamento. Esteja preparado com um documento de design de solução antes de entrar em contato com as equipes de desenvolvimento em sua organização. Os dados exigidos pelo design da solução determinam o que a camada de dados contém.
 
-## Fluxo de trabalho
+## Escolha uma especificação de camada de dados {#specifications}
+
+A Adobe recomenda a [Adobe Client Data Layer](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview) (ACDL) para implementações novas ou reestruturadas. ACDL é uma biblioteca JavaScript de código aberto que fornece ao seu site uma maneira padrão de enviar dados e eventos para uma matriz global `adobeDataLayer`. Tags, o Web SDK e o AppMeasurement podem ler a partir delas, e os Componentes principais do Adobe Experience Manager podem preenchê-las automaticamente.
+
+Sua organização pode usar outras especificações, como a [CEDDL (Camada de Dados Digitais da Experiência do Cliente](https://www.w3.org/2013/12/ceddl-201312.pdf)), que armazena dados em um objeto global `digitalData` ou em uma especificação personalizada. O mais importante é que sua organização se alinhe a uma especificação que atenda às suas necessidades.
+
+A tabela a seguir compara o ACDL com camadas de dados baseadas em objetos, como o CEDDL:
+
+| | Camada de Dados de Clientes Adobe (`adobeDataLayer`) | Camada de dados baseada em objetos, como CEDDL (`digitalData`) |
+| --- | --- | --- |
+| Como o código do site grava dados | Objetos de push: `adobeDataLayer.push({ page: { name: "Home" } })` | Define propriedades: `digitalData.page.pageInfo.pageName = "Home"` |
+| Como a implementação lê um valor | `adobeDataLayer.getState("page.name")` ou um elemento de dados **estado calculado da camada de dados** da extensão de marca da Camada de Dados do Cliente Adobe | `digitalData.page.pageInfo.pageName` ou um elemento de dados da **Variável JavaScript** da extensão de tag principal |
+| Como a implementação sabe que os dados estão prontos | O código do site envia um evento por push, como `{ event: "page view" }`, e sua implementação o escuta. Os ouvintes também são executados para eventos que foram enviados antes de serem adicionados. | Sua implementação deve ler o objeto depois que o código do site terminar de preenchê-lo, por exemplo, usando uma regra de Chamada direta. |
+
+## Exemplo de camada de dados {#example}
+
+A ACDL não requer uma estrutura de dados específica. Projete a estrutura em torno do documento de design da solução e documente-a para todos que gravem ou leem na camada de dados. Os exemplos neste guia usam a seguinte estrutura.
+
+Quando uma página é carregada, o código do site envia os dados da página e um evento de exibição de página:
+
+```js
+window.adobeDataLayer = window.adobeDataLayer || [];
+window.adobeDataLayer.push({
+  event: "page view",
+  page: {
+    name: "Home",
+    section: "Products",
+    url: "https://example.com/products",
+    referrer: "https://example.com/"
+  }
+});
+```
+
+Quando um visitante conclui uma compra, o código do site envia os detalhes do pedido e um evento de compra:
+
+```js
+window.adobeDataLayer.push({
+  event: "purchase",
+  transaction: { id: "ABC123" },
+  products: [
+    { name: "Example product", category: "Example category", quantity: 1, price: 25 }
+  ]
+});
+```
+
+A ACDL mescla cada push em um único objeto chamado estado calculado, que é lido pela implementação. Os objetos de evento informam a implementação quando lê-la. Consulte [Dados e o estado calculado](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/concepts/computed-state) e [Eventos](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/concepts/events).
+
+## Fluxo de trabalho {#workflow}
 
 A implementação do Adobe Analytics usando uma camada de dados geralmente segue estas etapas:
 
-1. **Trabalhar com a equipe de desenvolvimento do site para implementar uma camada de dados**: a equipe de desenvolvimento do site é responsável principalmente por garantir que o objeto da camada de dados seja preenchido com valores corretos. Consulte esta página com a equipe de desenvolvimento do site para garantir que as expectativas estejam alinhadas entre as equipes.
+1. **Trabalhe com a equipe de desenvolvimento do site para implementar uma camada de dados**: a equipe de desenvolvimento do site é responsável principalmente por garantir que a camada de dados contenha valores corretos. Consulte esta página com a equipe de desenvolvimento do site para garantir que as expectativas estejam alinhadas entre as equipes. Consulte [Instalar a Camada de Dados de Clientes Adobe](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/install).
+1. **Valide sua camada de dados usando um console do navegador**: abra o console de desenvolvedor do navegador, o que você pode fazer na maioria dos navegadores com a chave `F12`. Execute `adobeDataLayer.getState()` para ver o estado calculado, ou `adobeDataLayer.getState("page.name")` para ver um único valor. Consulte [Verificar a instalação](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/install#verify).
+1. **Conectar a camada de dados ao Adobe Analytics**: essa etapa varia de acordo com o método de implementação de sua organização. Consulte [Conectar a camada de dados ao Adobe Analytics](#connect).
 
-   >[!NOTE]
-   >
-   >As especificações recomendadas da camada de dados da Adobe são opcionais. Se já tiver uma camada de dados, ou optar por não seguir as especificações da Adobe, certifique-se de que sua organização se alinha a qual especificação seguir.
+## Conectar a camada de dados ao Adobe Analytics {#connect}
 
-1. **Validar a camada de dados usando um console do navegador**: depois que uma camada de dados é criada, você pode validar se ela está funcionando usando qualquer console de desenvolvedor do navegador. Abra o console do desenvolvedor na maioria dos navegadores usando a tecla `F12`. Um exemplo de valor de variável seria `adobeDataLayer.page.title`.
-1. **Usar a coleção de dados da Adobe Experience Platform para mapear objetos de camada de dados para elementos de dados**: essa etapa varia de acordo com o método de implementação de sua organização:
-   * **Se estiver utilizando o SDK da Web**: mapeie os objetos da camada de dados desejados para os campos XDM desejados no Adobe Experience Platform Edge. Consulte [Mapeamento de variáveis XDM do Analytics](../aep-edge/xdm-var-mapping.md) para determinar o mapeamento de camada de dados desejado.
-   * **Se estiver utilizando a extensão do Analytics**: crie elementos de dados em Tags, na Coleção de dados da Adobe Experience Platform, e atribua-os aos objetos da camada de dados desejados. Em seguida, na extensão do Analytics, atribua cada elemento de dados à variável adequada do Analytics.
+A tabela a seguir mostra como cada método de implementação lê a Camada de dados de clientes Adobe:
 
-## Especificações
+| Método de implementação | Como ler a camada de dados | Mais informações |
+| --- | --- | --- |
+| Extensão da tag do SDK da web | Acione regras com o evento **push de camada de dados** da extensão de Camada de Dados do Cliente Adobe. Mapeie os valores da camada de dados para campos XDM ou para o objeto `data` com a ação **Atualizar variável** do Web SDK e envie-os com a ação **Enviar evento**. | [Enviar dados da Camada de Dados de Clientes Adobe com a Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk), [mapeamento do campo de objeto XDM](../aep-edge/xdm-var-mapping.md) e [mapeamento do campo de objeto de dados](../aep-edge/data-var-mapping.md) |
+| Biblioteca JavaScript do Web SDK | Analise eventos de camada de dados com `addEventListener()` e defina campos XDM ou `data` a partir da camada de dados ao chamar `sendEvent`. | [Enviar dados da Camada de Dados de Clientes Adobe com a Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk), [mapeamento do campo de objeto XDM](../aep-edge/xdm-var-mapping.md) e [mapeamento do campo de objeto de dados](../aep-edge/data-var-mapping.md) |
+| Extensão do Analytics | Acione regras com o evento de **push de camada de dados** e crie elementos de dados de **estado computado da camada de dados** a partir da extensão de Camada de Dados de Clientes Adobe. Atribua os elementos de dados às variáveis do Analytics na ação **Definir variáveis** e envie os dados com a ação **Enviar sinal**. | [Mapear objetos de camada de dados para elementos de dados](../launch/layer-to-elements.md) e [Mapear elementos de dados para variáveis do Analytics](../launch/elements-to-variable.md) |
+| AppMeasurement | Leia os valores com `getState()` depois que o ACDL for carregado e chame `s.t()`. | [Ler a camada de dados com o AppMeasurement](#appmeasurement) |
 
-A Adobe recomenda a utilização da variável [Camada de dados do cliente Adobe](https://github.com/adobe/adobe-client-data-layer/wiki) para implementações novas ou reestruturadas.
+### Ler a camada de dados com o AppMeasurement {#appmeasurement}
 
-Sua organização pode usar outras especificações de camada de dados, como a [Camada de dados digitais da experiência do cliente](https://www.w3.org/2013/12/ceddl-201312.pdf), ou mesmo outra especificação personalizada. Alinhar a uma camada de dados consistente que atenda às necessidades de sua organização é o mais importante.
+A ACDL adiciona seu método `getState()` à matriz `adobeDataLayer` quando a biblioteca é carregada. Para verificar se a biblioteca foi carregada e se o estado calculado inclui os dados mais recentes, leia os valores dentro de um ouvinte de eventos:
 
-As camadas de dados são extensíveis; se você tiver requisitos específicos da organização, poderá incluir objetos na camada de dados para acomodar essas necessidades.
+```js
+window.adobeDataLayer = window.adobeDataLayer || [];
+window.adobeDataLayer.push(function(dl) {
+  dl.addEventListener("page view", function(event) {
+    s.pageName = dl.getState("page.name");
+    s.channel = dl.getState("page.section");
+    s.t();
+  });
+});
+```
 
-## Configuração de valores da camada de dados
+O ouvinte é executado uma vez para cada evento `page view`, incluindo eventos que foram enviados por push antes de o ouvinte ser adicionado. As páginas de variáveis neste guia, como [`pageName`](../vars/page-vars/pagename.md), mostram como ler valores individuais com `getState()`. Use esses exemplos dentro de um ouvinte como este ou no editor de código personalizado de uma regra de extensão do Analytics que um evento de **push de camada de dados** aciona.
 
-As camadas de dados normalmente são geradas no lado do servidor, referenciando os mesmos objetos usados para criar o conteúdo do site. Estabeleça a camada de dados do site com base nos requisitos de rastreamento definidos no [documento de design de solução](solution-design.md) da organização.
+Se sua implementação enviar mais de uma ocorrência por página, como em um aplicativo de página única, use [`clearVars()`](../vars/functions/clearvars.md) para que os valores de uma ocorrência não persistam para a próxima.
 
 ## Próximas etapas
 
-[Mapear objetos de camada de dados para elementos de dados](../launch/layer-to-elements.md): use a camada de dados do site no Adobe Experience Platform.
+* [Mapear objetos de camada de dados para elementos de dados](../launch/layer-to-elements.md): use a camada de dados do site nas marcas Adobe Experience Platform.
+* [Documentação da Camada de Dados de Clientes Adobe](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview): saiba mais sobre cada método, evento e prática recomendada ACDL.

@@ -26,13 +26,11 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: 1731
-ht-degree: 6%
-
+source-wordcount: '1728'
+ht-degree: 7%
 ---
-
 # Migração da extensão de tag do Adobe Analytics para a extensão de tag da Web SDK
 
 Esse caminho de implementação envolve uma abordagem de migração metódica para mover da extensão de tag da Adobe Analytics para a extensão de tag da Web SDK. Outros caminhos de implementação são abordados em páginas separadas:
@@ -106,7 +104,7 @@ O elemento de dados do objeto de dados fornece uma estrutura intuitiva para conf
 1. Na navegação à esquerda da interface de tags, selecione **[!UICONTROL Elementos de Dados]**.
 1. Selecione **[!UICONTROL Adicionar elemento de dados]**
 1. Atribua ao elemento de dados as seguintes configurações:
-   * [!UICONTROL Nome]: qualquer item desejado, como &quot;Camada de dados&quot; ou &quot;Objeto de dados&quot;
+   * [!UICONTROL Nome]: qualquer coisa que você desejar, como &quot;Objeto de dados&quot;
    * [!UICONTROL Extensão]: [!UICONTROL Adobe Experience Platform Web SDK]
    * [!UICONTROL Tipo de Elemento de Dados]: [!UICONTROL Variável]
    * As caixas de seleção podem permanecer como estão

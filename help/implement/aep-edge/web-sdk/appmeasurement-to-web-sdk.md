@@ -26,13 +26,11 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: 1434
+source-wordcount: '1475'
 ht-degree: 9%
-
 ---
-
 # Migração do AppMeasurement para o Web SDK
 
 Esse caminho de implementação envolve uma abordagem de migração metódica para mover de uma implementação do AppMeasurement para uma implementação da biblioteca JavaScript do Web SDK. Outros caminhos de implementação são abordados em páginas separadas:
@@ -85,9 +83,9 @@ Referencie a versão mais recente de `alloy.js` para que suas chamadas de métod
 
 +++**3. Configurar o Web SDK**
 
-Configure sua implementação para apontar para a sequência de dados criada na etapa anterior usando o comando [`configure`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/overview) do Web SDK. O comando `configure` deve ser definido em todas as páginas, para que você possa incluí-lo junto com o código de instalação da biblioteca.
+Configure sua implementação para apontar para a sequência de dados criada na etapa anterior usando o comando [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) do Web SDK. O comando `configure` deve ser definido em todas as páginas, para que você possa incluí-lo junto com o código de instalação da biblioteca.
 
-Use as propriedades [`datastreamId`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/datastreamid) e [`orgId`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/orgid) no comando `configure` do Web SDK:
+Use as propriedades [`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid) e [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) no comando `configure` do Web SDK:
 
 * Defina o `datastreamId` com a ID de sequência de dados recuperada da etapa anterior.
 * Defina o `orgId` para a organização IMS da sua organização.
@@ -99,13 +97,13 @@ alloy("configure", {
 });
 ```
 
-Opcionalmente, é possível definir outras propriedades no comando [`configure`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/overview), dependendo dos requisitos de implementação da organização.
+Opcionalmente, é possível definir outras propriedades no comando [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview), dependendo dos requisitos de implementação da organização.
 
 +++
 
 +++**4. Atualizar lógica de código para usar uma carga JSON**
 
-Altere a implementação do Analytics para que ela não dependa do objeto `AppMeasurement.js` ou `s`. Em vez disso, defina as variáveis em um objeto JavaScript formatado corretamente, que é convertido em um objeto JSON quando enviado para o Adobe. Ter uma [camada de dados](../../prepare/data-layer.md) no site ajuda muito na definição de valores, pois você pode continuar fazendo referência a esses mesmos valores.
+Altere a implementação do Analytics para que ela não dependa do objeto `AppMeasurement.js` ou `s`. Em vez disso, defina as variáveis em um objeto JavaScript formatado corretamente, que é convertido em um objeto JSON quando enviado para o Adobe. Ter uma [camada de dados](../../prepare/data-layer.md) no site ajuda muito na definição de valores, pois você pode continuar fazendo referência a esses mesmos valores. Se o site usa a Camada de Dados de Clientes Adobe, consulte [Enviar dados da Camada de Dados de Clientes Adobe com o Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk) para saber como ler valores da camada de dados quando você chamar `sendEvent`.
 
 Para enviar dados para o Adobe Analytics, a carga do Web SDK deve usar `data.__adobe.analytics` com todas as variáveis de análise definidas neste objeto. As variáveis nesse objeto compartilham nomes e formatos idênticos aos das correspondentes variáveis do AppMeasurement. Por exemplo, se você definir a variável `products`, não a divida em objetos individuais, como faria com o XDM. Em vez disso, inclua-o como uma cadeia de caracteres exatamente é se você definir a variável `s.products`:
 
@@ -140,7 +138,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
 
 +++**5. Atualizar chamadas de método para usar o Web SDK**
 
-Atualize todas as instâncias nas quais você chama [`s.t()`](../../vars/functions/t-method.md) e [`s.tl()`](../../vars/functions/tl-method.md), substituindo-as pelo comando [`sendEvent`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/sendevent/overview). Há três cenários a serem considerados:
+Atualize todas as instâncias nas quais você chama [`s.t()`](../../vars/functions/t-method.md) e [`s.tl()`](../../vars/functions/tl-method.md), substituindo-as pelo comando [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview). Há três cenários a serem considerados:
 
 * **Rastreamento de exibição de página**: substitua a chamada de rastreamento de exibição de página pelo comando `sendEvent` do Web SDK:
 
@@ -152,7 +150,7 @@ Atualize todas as instâncias nas quais você chama [`s.t()`](../../vars/functio
   alloy("sendEvent", dataObj);
   ```
 
-* **Rastreamento automático de links**: a propriedade de configuração [`clickCollectionEnabled`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) está habilitada por padrão. Ela define automaticamente as variáveis de rastreamento de link corretas para enviar dados ao Adobe Analytics. Para desabilitar o rastreamento automático de links, defina esta propriedade como `false` no comando [`configure`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/overview).
+* **Rastreamento automático de links**: a propriedade de configuração [`clickCollectionEnabled`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) está habilitada por padrão. Ela define automaticamente as variáveis de rastreamento de link corretas para enviar dados ao Adobe Analytics. Para desabilitar o rastreamento automático de links, defina esta propriedade como `false` no comando [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview).
 
 * **Rastreamento manual de links**: o Web SDK não tem comandos separados entre chamadas pageview e não pageview. Forneça essa distinção no objeto de carga.
 

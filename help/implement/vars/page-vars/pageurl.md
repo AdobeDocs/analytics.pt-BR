@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 84%
+source-wordcount: '329'
+ht-degree: 77%
 ---
 # pageURL
 
@@ -80,8 +80,8 @@ Se você deseja usar o URL da página como uma dimensão nos relatórios, consid
 s.eVar1 = window.location.hostname + window.location.pathname;
 ```
 
-Se estiver usando a `digitalData` [camada de dados](../../prepare/data-layer.md):
+Se você usar a [Camada de Dados de Clientes Adobe](../../prepare/data-layer.md), leia o valor com `getState()`. Consulte [Ler a camada de dados com o AppMeasurement](../../prepare/data-layer.md#appmeasurement) para saber quando chamá-la.
 
 ```js
-s.pageURL = digitalData.page.pageInfo.destinationURL;
+s.pageURL = adobeDataLayer.getState("page.url");
 ```

@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 93%
+source-wordcount: '407'
+ht-degree: 46%
 ---
 # Mapear objetos de camada de dados para elementos de dados
 
@@ -45,17 +45,25 @@ Depois que sua organização tiver estabelecido e implementado uma camada de dad
 
 [Elementos de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=pt-BR) são componentes na Coleção de dados da Adobe Experience Platform que você pode usar na ferramenta. Você pode atribuir valores variáveis na extensão do Adobe Analytics usando elementos de dados.
 
+As etapas a seguir usam a [extensão da Camada de Dados do Cliente Adobe](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/overview), que deve ser instalada na propriedade da marca.
+
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
-1. Clique na propriedade de tag desejada.
-1. Clique na guia **[!UICONTROL Elementos de dados]** e, em seguida, clique em **[!UICONTROL Adicionar elemento de dados]**.
+1. Selecione a propriedade de tag desejada.
+1. Selecione a guia **[!UICONTROL Elementos de Dados]** e selecione **[!UICONTROL Adicionar Elemento de Dados]**.
 
    ![criar elemento de dados](assets/createelement.png)
 
-1. Insira um nome para o elemento de dados. Pode ser um rótulo simples que corresponde a uma variável JavaScript na camada de dados que você deseja rastrear.
-1. Na lista suspensa **[!UICONTROL Extensão]**, selecione **[!UICONTROL Principal]**.
-1. Na lista suspensa **[!UICONTROL Tipo de elemento de dados]**, selecione **[!UICONTROL Variável do JavaScript]**. Um campo de texto é exibido à direita, permitindo que você insira a variável JavaScript para mapear para esse elemento de dados.
-1. Insira a variável Javascript desejada, normalmente na camada de dados. Por exemplo, se a camada de dados da sua organização corresponder muito à prática recomendada pela Adobe, um valor pode ser `digitalData.page.pageInfo.pageName`. Você pode usar o console do navegador para validar a sintaxe e os valores da variável JavaScript.
-1. Clique em **[!UICONTROL Salvar]**.
+1. Insira um nome para o elemento de dados, como `Page name`.
+1. Na lista suspensa **[!UICONTROL Extensão]**, selecione **[!UICONTROL Camada de dados de clientes Adobe]**.
+1. Na lista suspensa **[!UICONTROL Tipo de Elemento de Dados]**, selecione **[!UICONTROL Estado computado da camada de dados]**.
+1. Em **[!UICONTROL Valor de retorno]**, selecione **[!UICONTROL Caminho específico]** e insira o caminho para o valor na camada de dados, como `page.name`. Para validar um caminho, execute `adobeDataLayer.getState("page.name")` no console do navegador.
+1. Selecione **[!UICONTROL Salvar]**.
+
+Use esses elementos de dados em regras que o evento de push da camada de dados **[!UICONTROL da extensão aciona, para que a camada de dados tenha carregado e contenha os dados do push.]** Consulte [Tipos de elementos de dados](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state).
+
+### Camadas de dados baseadas em objetos {#object-based}
+
+Se sua camada de dados for um objeto JavaScript, como um objeto CEDDL `digitalData`, use o tipo de elemento de dados **[!UICONTROL Variável JavaScript]** da extensão **[!UICONTROL Core]**. Digite o caminho para o valor, como `digitalData.page.pageInfo.pageName`. Esse tipo de elemento de dados não pode ler a Camada de dados de clientes Adobe, que armazena seus dados em um estado calculado em vez de em propriedades de objeto.
 
 ## Próximas etapas
 

@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 85%
+source-wordcount: '318'
+ht-degree: 78%
 ---
 # referenciador
 
@@ -71,10 +71,10 @@ A variável `s.referrer` é uma string que contém o URL da página anterior. Es
 s.referrer = "https://example.com";
 ```
 
-Se estiver usando a `digitalData` [camada de dados](../../prepare/data-layer.md):
+Se você usar a [Camada de Dados de Clientes Adobe](../../prepare/data-layer.md), leia o valor com `getState()`. Consulte [Ler a camada de dados com o AppMeasurement](../../prepare/data-layer.md#appmeasurement) para saber quando chamá-la.
 
 ```js
-s.referrer = digitalData.page.pageInfo.referringURL;
+s.referrer = adobeDataLayer.getState("page.referrer");
 ```
 
 >[!CAUTION]
