@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 85%
 ---
 # Visão geral de variáveis, funções, métodos e plug-ins
 
@@ -58,8 +58,8 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuraç
 
 As bibliotecas do AppMeasurement publicadas pelo Adobe Analytics seguem uma ordem específica ao enviar dados à Adobe. Se você executar essas tarefas fora de ordem, os dados poderão ficar incompletos.
 
-1. Se o site usar uma camada de dados, verifique se todas as variáveis aplicáveis foram preenchidas primeiro. Por exemplo, preencha o `adobeDataLayer.page.title` com o título da página. Consulte [Camada de dados](../prepare/data-layer.md) para obter mais informações.
-2. Use a camada de dados para preencher as variáveis do Analytics. <br/>Se você usar tags na Adobe Experience Platform, essa tarefa será realizada usando elementos de dados entre elas. Os elementos de dados são preenchidos com valores da camada de dados. Por exemplo, o elemento de dados `Page Title` obtém o valor da variável de camada de dados `adobeDataLayer.page.title`. <br/>Em seguida, você pode usar o elemento de dados para preencher as variáveis do Analytics. Por exemplo, `eVar4` obtém o valor do elemento de dados `Page Title`. <br/>Consulte [Elementos de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=pt-BR), [Mapear objetos de camada de dados para elementos de dados](../launch/layer-to-elements.md) e [Mapear elementos de dados de tag para variáveis do Analytics](../launch/elements-to-variable.md) para obter mais informações.
+1. Se o site usar uma camada de dados, verifique se todas as variáveis aplicáveis foram preenchidas primeiro. Por exemplo, com a [Camada de Dados de Clientes Adobe](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview), o código do site envia o nome da página com `adobeDataLayer.push({ page: { name: "Home" } })`. Consulte [Camada de dados](../prepare/data-layer.md) para obter mais informações.
+2. Use a camada de dados para preencher as variáveis do Analytics. <br/>Se você usar tags na Adobe Experience Platform, essa tarefa será realizada usando elementos de dados entre elas. Os elementos de dados são preenchidos com valores da camada de dados. Por exemplo, o elemento de dados `Page name` obtém o valor no caminho `page.name` na camada de dados, usando o tipo de elemento de dados [Estado computado](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state) da extensão da Camada de Dados do Cliente Adobe. <br/>Em seguida, você pode usar o elemento de dados para preencher as variáveis do Analytics. Por exemplo, `eVar4` obtém o valor do elemento de dados `Page name`. <br/>Consulte [Elementos de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=pt-BR), [Mapear objetos de camada de dados para elementos de dados](../launch/layer-to-elements.md) e [Mapear elementos de dados de tag para variáveis do Analytics](../launch/elements-to-variable.md) para obter mais informações.
 3. Por fim, chame a função de rastreamento. A maioria das bibliotecas do AppMeasurement usam o método `t()`, no entanto, alguns SDKs móveis usam `track()`. Quando a função de rastreamento é chamada, todas as variáveis compatíveis definidas no objeto do Analytics são enviadas à Adobe na forma de uma solicitação de imagem.
 
 ## Caracteres inválidos

@@ -26,13 +26,11 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: 1434
+source-wordcount: '1475'
 ht-degree: 9%
-
 ---
-
 # Migração do AppMeasurement para o Web SDK
 
 Esse caminho de implementação envolve uma abordagem de migração metódica para mover de uma implementação do AppMeasurement para uma implementação da biblioteca JavaScript do Web SDK. Outros caminhos de implementação são abordados em páginas separadas:
@@ -105,7 +103,7 @@ Opcionalmente, é possível definir outras propriedades no comando [`configure`]
 
 +++**4. Atualizar lógica de código para usar uma carga JSON**
 
-Altere a implementação do Analytics para que ela não dependa do objeto `AppMeasurement.js` ou `s`. Em vez disso, defina as variáveis em um objeto JavaScript formatado corretamente, que é convertido em um objeto JSON quando enviado para o Adobe. Ter uma [camada de dados](../../prepare/data-layer.md) no site ajuda muito na definição de valores, pois você pode continuar fazendo referência a esses mesmos valores.
+Altere a implementação do Analytics para que ela não dependa do objeto `AppMeasurement.js` ou `s`. Em vez disso, defina as variáveis em um objeto JavaScript formatado corretamente, que é convertido em um objeto JSON quando enviado para o Adobe. Ter uma [camada de dados](../../prepare/data-layer.md) no site ajuda muito na definição de valores, pois você pode continuar fazendo referência a esses mesmos valores. Se o site usa a Camada de Dados de Clientes Adobe, consulte [Enviar dados da Camada de Dados de Clientes Adobe com o Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk) para saber como ler valores da camada de dados quando você chamar `sendEvent`.
 
 Para enviar dados para o Adobe Analytics, a carga do Web SDK deve usar `data.__adobe.analytics` com todas as variáveis de análise definidas neste objeto. As variáveis nesse objeto compartilham nomes e formatos idênticos aos das correspondentes variáveis do AppMeasurement. Por exemplo, se você definir a variável `products`, não a divida em objetos individuais, como faria com o XDM. Em vez disso, inclua-o como uma cadeia de caracteres exatamente é se você definir a variável `s.products`:
 
