@@ -59,7 +59,7 @@ As etapas a seguir usam a [extensão da Camada de Dados do Cliente Adobe](https:
 1. Em **[!UICONTROL Valor de retorno]**, selecione **[!UICONTROL Caminho específico]** e insira o caminho para o valor na camada de dados, como `page.name`. Para validar um caminho, execute `adobeDataLayer.getState("page.name")` no console do navegador.
 1. Selecione **[!UICONTROL Salvar]**.
 
-Use esses elementos de dados em regras que o evento de push da camada de dados **[!UICONTROL da extensão aciona, para que a camada de dados tenha carregado e contenha os dados do push.]** Consulte [Tipos de elementos de dados](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state).
+Use esses elementos de dados em regras que o evento de push da camada de dados **[!UICONTROL da extensão aciona, para que a camada de dados tenha carregado e contenha os dados do push.]** Consulte [Tipos de elementos de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state).
 
 ### Camadas de dados baseadas em objetos {#object-based}
 
