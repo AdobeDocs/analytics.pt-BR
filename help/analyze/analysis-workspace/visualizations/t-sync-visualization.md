@@ -25,7 +25,7 @@ role_v2:
 source-git-commit: 19e31fec475abe3805e2637949dc86171123c210
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 18%
+ht-degree: 22%
 ---
 # Gerenciar fontes de dados {#manage-data-sources}
 
@@ -37,7 +37,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_lockselection_showtable"
 >title="Mostrar tabela"
->abstract="Selecionar **[!UICONTROL Mostrar tabela]** gera uma nova fonte de dados para a visualização atual, separada da fonte de dados original."
+>abstract="Selecione a opção **[!UICONTROL Mostrar tabela]** para gerar uma nova fonte de dados para a visualização atual, separada da fonte de dados original."
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_showtable"
@@ -66,7 +66,7 @@ Managing a data source lets you show the data source or lock the selection. Thes
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data source settings](https://video.tv.adobe.com/v/30853?captions=por_br&quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data source settings](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
