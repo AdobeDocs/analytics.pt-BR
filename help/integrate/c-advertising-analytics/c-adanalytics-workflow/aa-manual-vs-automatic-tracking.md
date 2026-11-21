@@ -27,13 +27,11 @@ topic_v2:
     internal-label: Security
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 1f0522de93ef1abc183887d4dfad0465059ee48f
 workflow-type: tm+mt
-source-wordcount: 584
+source-wordcount: '588'
 ht-degree: 25%
-
 ---
-
 # Tipo de rastreamento
 
 O tipo de rastreamento determina como a implementação do Adobe Analytics rastreia os dados do mecanismo de pesquisa. Esse tipo de rastreamento é uma etapa necessária para aumentar os dados do Adobe Analytics corretamente com os dados do mecanismo de pesquisa.
@@ -82,7 +80,7 @@ s_kwcid=AL!
 <b><Advertising Analytics ID></b>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-![Google](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
+![Código de rastreamento da campanha do Google Ads](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-tracking.png)
 
 Exemplos de códigos de rastreamento em vários formatos de modelo de rastreamento:
 
